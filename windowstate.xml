@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<windowstate version="3.3">
+	<window data="" class="WS" pos="1271,667,1471,817" />
+	<window data="" class="chat" pos="15,1013,676,1363" />
+	<window data="" class="library" pos="1021,467,1721,1017" />
+	<window data="" class="lightingselection" pos="1288,512,1453,972" />
+	<window data="" class="moduleselection" pos="1021,477,1721,1007" />
+	<window data="" class="tokenbag" pos="1684,864,2184,1364" />
+	<window data="battle" class="masterindex" pos="2197,3,2647,453" />
+	<window data="battle.id-00001" class="battle" pos="1196,542,1546,942" />
+	<window data="calendar" class="calendar" pos="1444,524,2099,1024" />
+	<window data="charsheet.id-00001" class="charsheet" pos="1108,458,1633,1026" />
+	<window data="class" class="masterindex" pos="1146,517,1596,967" />
+	<window data="currencies" class="currencylist" pos="1196,567,1546,917" />
+	<window data="effects" class="effectlist" pos="1196,567,1736,1107" />
+	<window data="encounter" class="masterindex" pos="340,127,1440,993" />
+	<window data="encounter.id-00001" class="encounter" pos="1171,417,1571,1067" />
+	<window data="encounter.id-00002" class="encounter" pos="1171,417,1571,1067" />
+	<window data="encounter.id-00003" class="encounter" pos="1102,440,1502,1090" />
+	<window data="encounter.id-00004" class="encounter" pos="1218,440,1618,1090" />
+	<window data="encounter.id-00005" class="encounter" pos="1102,440,1502,1090" />
+	<window data="encounter.id-00006" class="encounter" pos="1218,440,1618,1090" />
+	<window data="encounter.id-00007" class="encounter" pos="1102,440,1502,1090" />
+	<window data="feat" class="masterindex" pos="1874,94,2324,544" />
+	<window data="feat.id-00001" class="referencefeat" pos="1420,519,1820,869" />
+	<window data="feat.id-00002" class="referencefeat" pos="1171,567,1571,917" />
+	<window data="image" class="masterindex" pos="5,10,595,547" />
+	<window data="image.hawk@Pathfinder Bestiary" class="imagewindow" pos="1116,546,1625,939" />
+	<window data="image.hobgoblin@Pathfinder Bestiary" class="imagewindow" pos="1161,402,1581,1082" />
+	<window data="image.id-00001" class="imagewindow" pos="777,314,1965,1207" />
+	<window data="image.id-00003" class="imagewindow" pos="270,486,1385,1368" />
+	<window data="image.id-00005" class="imagewindow" pos="720,0,2021,1485" />
+	<window data="image.id-00006" class="imagewindow" pos="777,314,1965,1207" />
+	<window data="image.id-00008@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
+	<window data="image.id-00009@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
+	<window data="image.id-00010" class="imagewindow" pos="1110,499,1632,1022" />
+	<window data="image.id-00010@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
+	<window data="image.id-00012@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
+	<window data="image.id-00013@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
+	<window data="image.id-00014" class="imagewindow" pos="1187,449,1554,1071" />
+	<window data="image.id-00014@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
+	<window data="image.id-00015" class="imagewindow" pos="1133,526,1608,958" />
+	<window data="image.id-00015@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
+	<window data="image.id-00016@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
+	<window data="image.id-00017@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
+	<window data="image.stirge@Pathfinder Bestiary" class="imagewindow" pos="632,683,1211,1344" />
+	<window data="item" class="masterindex" pos="1435,757,1885,1207" />
+	<window data="languages" class="languagelist" pos="1196,567,1546,917" />
+	<window data="lists.monsterfeats@Pathfinder Bestiary" class="referenceindexsorted" pos="914,92,1264,542" />
+	<window data="lists.universalmonsterrules@Pathfinder Bestiary" class="referenceindexsorted" pos="440,130,790,580" />
+	<window data="notes" class="masterindex" pos="1077,759,1527,1209" />
+	<window data="notes.id-00001" class="note" pos="1750,694,2100,1044" />
+	<window data="notes.id-00003" class="note" pos="1675,430,2143,932" />
+	<window data="notes.id-00004" class="note" pos="1127,465,1477,815" />
+	<window data="notes.id-00005" class="note" pos="1657,483,2007,833" />
+	<window data="notes.id-00006" class="note" pos="1196,567,1840,1286" />
+	<window data="npc" class="masterindex" pos="893,559,1343,1009" />
+	<window data="npc.id-00001" class="npc" pos="570,361,1020,911" />
+	<window data="npc.id-00002" class="npc" pos="1060,797,1510,1347" />
+	<window data="npc.id-00002.specialabilities.attach-ex" class="referenceclassability" pos="1171,567,1660,985" />
+	<window data="npc.id-00002.specialabilities.blooddrain-ex" class="referenceclassability" pos="1171,567,1571,917" />
+	<window data="npc.id-00004" class="npc" pos="605,759,1055,1309" />
+	<window data="npc.id-00005" class="npc" pos="716,225,1166,775" />
+	<window data="npc.id-00006" class="npc" pos="1126,662,1576,1212" />
+	<window data="npc.id-00007" class="npc" pos="710,491,1606,1189" />
+	<window data="npc.id-00008" class="npc" pos="910,427,1563,1192" />
+	<window data="npc.id-00009" class="npc" pos="1560,405,2010,955" />
+	<window data="npc.id-00011" class="npc" pos="1599,255,2406,1052" />
+	<window data="npc.id-00013" class="npc" pos="990,560,1440,1110" />
+	<window data="npclists.images@Pathfinder Bestiary" class="referenceindex" pos="1196,517,1546,967" />
+	<window data="npclists.npc-a-z@Pathfinder Bestiary" class="reference_colindex" pos="1146,517,1596,967" />
+	<window data="npclists.npcs@Pathfinder Bestiary" class="referenceindex" pos="1009,776,1359,1226" />
+	<window data="quest" class="masterindex" pos="2196,450,2646,900" />
+	<window data="reference.feats.powerattack@Pathfinder Core Rules" class="referencefeat" pos="1171,567,1571,917" />
+	<window data="reference.imagedata.img_kiramortheforestshadowjpg@Pathfinder Core Rules" class="imagewindow" pos="1100,300,1642,1185" />
+	<window data="reference.npcdata.angelsolar@Pathfinder Bestiary" class="npc" pos="1146,467,1596,1017" />
+	<window data="reference.npcdata.snakeconstrictor@Pathfinder Bestiary" class="npc" pos="1046,649,1496,1199" />
+	<window data="reference.npcdata.stirge@Pathfinder Bestiary" class="npc" pos="1163,717,1613,1267" />
+	<window data="reference.refmanualindex@Pathfinder Core Rules" class="reference_manual" pos="896,417,1846,1067" />
+	<window data="reference.universalmonsterrules.grab@Pathfinder Bestiary" class="referenceclassability" pos="1171,567,1571,917" />
+	<window data="reference.universalmonsterrules.hardness@Pathfinder Bestiary" class="referenceclassability" pos="390,601,790,951" />
+	<window data="reference.universalmonsterrules.poison@Pathfinder Bestiary" class="referenceclassability" pos="1171,567,1571,917" />
+	<window data="reference.universalmonsterrules.swallowwhole@Pathfinder Bestiary" class="referenceclassability" pos="895,563,1295,913" />
+	<window data="specialability" class="masterindex" pos="1146,517,1596,967" />
+	<window data="storytemplate" class="masterindex" pos="1039,314,1489,764" />
+	<window data="storytemplate.id-00001" class="storytemplate" pos="1171,417,1571,1067" />
+	<window data="storytemplate.id-00003" class="storytemplate" pos="1589,63,1989,713" />
+	<window data="tables" class="masterindex" pos="1774,901,2224,1351" />
+	<window data="tables.id-00001" class="table" pos="1171,542,1611,1136" />
+	<window data="treasureparcels" class="masterindex" pos="2209,896,2659,1346" />
+
+</windowstate>

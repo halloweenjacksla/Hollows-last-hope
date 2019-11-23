@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.3" release="1|3.5E:17|CoreRPG:4" integrity="4fd5c7637781773cfc3b1cf542432af6e2606be7">
+	<encounter>
+		<category name="Well Met in Kith'takharos Events &#38; Descriptions" baseicon="1" decalicon="1">
+			<id-00002>
+				<text type="formattedtext">
+					<p><b>Linked Items.</b></p>
+					<linklist>
+						<link class="imagewindow" recordname="image.id-00008@Well Met in Kith'takharos">Map: Kith'takharos Village</link>
+						<link class="imagewindow" recordname="image.id-00010@Well Met in Kith'takharos">Image: Kith'takharos Laws</link>
+					</linklist>
+					<p><b>Trigger. </b>The characters arrive in Kith'takharos.</p>
+					<p>The characters reach Kith'takharos by boat from the Karkalin River. All locations in the swamp are linked by water, and travel by boat provides the fastest and most direct method of completing all but the shortest journeys. On the other hand, overland travel follows circuitous routes along paths that must be hacked from the dense foliage. Few honest travelers choose overland routes. Characters arriving overland may be viewed with suspicion as possible poachers or some other sort of criminal.</p>
+					<p>If the characters arrive as a group, Dorian Orsova greets them at the docks. He knows the difference between an adventurer and a dockhand, and he likes to make sure adventurers know the laws, since they are the ones most likely to cause real trouble around town. In Dorian's experience, adventurers are strong-willed souls who sometimes resist following laws, or like to devise their own interpretation of the laws.</p>
+					<frame>A well-dressed man of middle age intercepts you as you step off the dock.</frame>
+					<frame>&#34;Good day. I am Dorian Orsova and I represent Lady Salmissra's government. It is my responsibility to acquaint you with the laws of Kith&#146;takharos.&#34;</frame>
+					<frame>He points out a wooden sign posted near the dock. Similar signs are posted at intervals along the shore.</frame>
+					<frame>Dorian stands beside one sign and puts a finger on each item as he reads.</frame>
+					<frame>&#34;One. Theft is illegal.</frame>
+					<frame>&#34;Two. Murder or attempted murder without fair cause is illegal.</frame>
+					<frame>&#34;Three. Swamp plants are illegal to harvest, process, or transport without the written permission of Lady Salmissra.</frame>
+					<frame>&#34;Four. Any activity that threatens the security or lawful government of Kith'takharos is Treason and punishable by death. Do you understand these laws?&#34;</frame>
+					<p>Once the characters have agreed, Dorian bids them farewell.</p>
+					<frame>&#34;Very well, then. We will hold you to that. Enjoy your stay in Kith'takharos.&#34;</frame>
+					<frame>He strides away, walking along the shore past the other docks.</frame>
+				</text>
+			</id-00002>
+			<id-00003>
+				<text type="formattedtext">
+					<p><b>Linked Items.</b></p>
+					<linklist>
+						<link class="imagewindow" recordname="image.id-00008@Well Met in Kith'takharos">Map: Kith'takharos Village</link>
+						<link class="imagewindow" recordname="image.id-00009@Well Met in Kith'takharos">Image: Koran Thelig on the Big Water</link>
+						<link class="encounter" recordname="encounter.id-00004@Well Met in Kith'takharos">Narrative 2: Koran Thelig Tells a Harrowing Tale of Exploration</link>
+					</linklist>
+					<p><b>Trigger. </b>An opportune time near the beginning of the adventure when the characters are exploring Kith'takharos.</p>
+					<p>This event is optional. If the Gamemaster is pressed for time, the event can be skipped without harming the adventure. However, should time allow, it provides another opportunity to develop the atmosphere of Kith'takharos and one of its colorful inhabitants. The event could even be used after the character's first return to Kith'takharos, especially if they have encountered but not defeated the dangers of the Blood Temple.</p>
+					<p>The event occurs near the docks, most likely at midmorning or late afternoon before the evening meal. The heat of the day either has not yet reached its peak, or is in decline. Show the Koran Thelig image.</p>
+					<frame>A tall man kneels on the shore before a crowd of children, relating a story with animated flourishes. His gold earring flashes in the sunlight. The children sit rapt and wide-eyed, an amazing feat that speaks well of the man's storytelling abilities. Smiling parents stand nearby.</frame>
+					<p>With practiced words, the famed explorer Koran Thelig relates a tale of danger and adventure. He has obviously recited the story before. His manner and choice of words suggests a dubious veracity, but the children are enthralled.</p>
+					<p>If the characters choose to stop and listen, place the narrative <i>Koran Thelig Tells a Harrowing Tale of Exploration </i>in the Fantasy Grounds chat window. The narrative describes a nighttime visit to the Blood Temple, a place the characters may encounter during the adventure. If the Gamemaster decides that the entire story would give away too much information, feel free to only read a portion, explaining that the characters encountered Koran near the end of the tale.</p>
+				</text>
+			</id-00003>
+			<id-00004>
+				<text type="formattedtext">
+					<frame>&#147;Gather round children, as I, Koran, relate what only I have seen. Well, at the least, seen and returned to tell the tale. On a dare it was that Dothar challenged me to cross the Big Water and enter the old temple. And that is not all, for I was required to bring back proof of my visit.</frame>
+					<frame>&#147;Ah, do not hide your eyes child. No need for fear. I stand before you, do I not? Of course I returned.</frame>
+					<frame>&#147;I chose my time well. Just after the spring floods, the mist was thick, with only my finely tuned senses to guide my skiff across miles of open water. The moon was many days away as I pushed from shore in the darkest night. So silent, I almost could not hear the water against the hull. That is, until I ate the P'keri. Ha-ha. Then, by the gods, my heartbeat was a roar in my ears.</frame>
+					<frame>&#147;Many hours passed, and I began to worry the P'keri would expire before I reached shore. But, by a most subtle amount, the sound of the water changed and I knew that high ground was near. My boat slid gently to a stop. Before leaping forward, I applied S'pal, should the danger prove excessive and a temporary retreat become necessary. Ho-ho, was I afraid? No time for such distractions. I realized in the moments before the S'pal took effect that the massive shadow looming through the fog must be the temple itself. The flooding had raised the water so that the structure was but a scant five yards from shore. Perhaps lucky for me were my boat to require my sudden attention.</frame>
+					<frame>&#147;Imagine creeping towards the ancient structure, an abandoned temple to some god, maybe even an evil god. Ha-ha, you cringe at the thought. How soon you forget that I yet stand before you. As the mist hid the mysteries within the temple, it cloaked my stealthy advance. The dim light drained all surfaces of color. The moss covered the walls in great patches, like some giant bruise or scab. I circled the entire building once before I entered. I wanted no surprises.</frame>
+					<frame>&#147;Ah, it was magnificent in its decadence and decay. Marble columns surrounded the main building, alas, many of them chipped and cracked. Intricate designs once decorated them, perhaps illustrating stories of long ago. But time and the weather have silenced the old voices. What have we lost? We may never know.</frame>
+					<frame>&#147;Why? Tales of the evil across the water frighten the children into obedience. Ho-ho, but might there not be truth in them? I know the truth, so listen carefully. I mounted the broad marble steps at the front of the temple. Cracked and slippery they were. The rear of the temple had sunk into the softer ground near the shore. This raised the front so that the first step was a little taller than the rest. I hopped up and entered the building, a simple structure of marble blocks.</frame>
+					<frame>&#147;I risked exposing a small light! This was a dare, and I, Koran, have never been bested in a dare. I told myself Dothar would not have the nerve to face me when I returned. Ha-ha! You have seen this is true. The main room smelled musty from sheltering years of decay. But it was also very clean, and that set me on edge. Two doorways stood on either side of a large stone block. A faint metallic odor suggested a particular origin to the dark stains upon it. Ah, dark places hold dark things, my children.</frame>
+					<frame>&#147;Yet I had found no proof of my visit. I slipped through one doorway into a hall. A curious chill emanated from one of the walls. Water droplets beaded on the stones and the floor was very slippery. I saw a doorway in the wall, and thought my proof might be close at hand. Well, the inside of that room was cold, cold as you have never known it, cold as only stories of the mountains tell. You have heard of the faraway white peaks? Ah-ha, that is caused by snow, but another form of water.</frame>
+					<frame>&#147;A small room, filled with this white snow. So cold that it hurt. Ah...but...I was not alone in this room. A man, of all things, was sitting in the corner. A very cold man, dusted with snow, staring at me with wide eyes, never blinking. Yes, lean closer children. Dead he was, dead as a young swamp dragon tangled in F'lunin. Hard too, so that when I tapped him it was like rapping on wood. He was dressed in fine clothes. Out on the river, I would take him for a merchant. Well, his days of money counting were over.</frame>
+					<frame>&#147;Now, I did not wish to load a dead merchant onto my boat. I looked around, and with my knife chipped away a large fragment of this snow. Where it touched my hand, it immediately melted and became water. So I dropped it and cut off an even larger piece so that it fell into my pouch. With luck, it would last the trip home. I moved quickly to my boat and pushed off into the concealing mist. Ah, to this day I marvel that I was not discovered by whatever creature makes use of the temple. My P'keri-heightened senses heard a faint buzzing once I had gained the benefit of some distance.</frame>
+					<frame>&#147;Was something following me? I'll never know. The source of the buzzing, I cannot guess.</frame>
+					<frame>&#147;But my prize! The precious snow lasted just long enough to seal my triumph over the boasts of Dothar. Ha! Over there, can you see him skulking in the shadows? He has not the heart to face me.</frame>
+					<frame>&#147;What? Of course I informed the Lady Salmissra. Perhaps you'd like to explore further? Ho-ho! I thought not.&#148;</frame>
+				</text>
+			</id-00004>
+			<id-00005>
+				<text type="formattedtext">
+					<p><b>Linked Items.</b></p>
+					<linklist>
+						<link class="imagewindow" recordname="image.id-00007@Well Met in Kith'takharos">Map: Player Kith'takharos Region</link>
+						<link class="imagewindow" recordname="image.id-00008@Well Met in Kith'takharos">Map: Kith'takharos Village</link>
+						<link class="imagewindow" recordname="image.id-00011@Well Met in Kith'takharos">Image: Meryl Dunestal</link>
+					</linklist>
+					<p><b>Trigger. </b>The characters have acquainted themselves with Kith'takharos and are considering their prospects for adventure.</p>
+					<p>Meryl Dunestal watches for potential employees among the new arrivals in Kith'takharos. He can spot an adventurer just as well as Dorian Orsova, and understands that he must enlist these people before their opinion of the Transit Guild is irrevocably tainted. But he must be careful, because only the densest characters will fail to notice the general dislike of the Transit Guild.</p>
+					<p>If the characters have already joined forces, Meryl will seek them out at an amenable location, perhaps the Sheltering Frond. If the characters are not yet working together, Meryl will approach them separately in much the same way. He will buy a round of drinks, being generous but not outrageously so. He wants to create good will but not seem desperate.</p>
+					<p>Now display the image of Meryl Dunestal. The following text assumes the characters are together, but can easily be adjusted if they are separate.</p>
+					<frame>A jaunty looking man wearing a neck-scarf pulls a chair up to your table.</frame>
+					<frame>&#34;A good day to you all. I am Meryl Dunestal and I represent a consortium of merchants called the Transit Guild. I have not seen you around Kith'takharos, but from your looks I think you are just the type of people I need. I would like to propose an offer of employment. Something interesting you might not otherwise find in Kith&#146;takharos.&#34;</frame>
+					<frame>He holds up a hand and shakes his head.</frame>
+					<frame>&#34;Worry not, I assure you the work violates no laws of Kith'takharos. I would, of course, never ask you to violate the laws. And you will be well paid, undoubtedly better than anything else you might find here. I think you deserve more than the humdrum life you will find in this small village.&#34;</frame>
+					<frame>After the last comment, he smiles and chuckles. His eyes focus on each of you in turn.</frame>
+					<frame>&#34;One more thing. I must tell you that speed matters. A man's life may hang in the balance, so I need a quick decision.&#34;</frame>
+					<p>Meryl flatters with ease, and will employ whatever compliments seem necessary without going completely over the top. He will pick up a reasonable bar tab. If the characters immediately ask for details about the job, he promises more information at a formal meeting.</p>
+					<frame>I would rather not speak of the particulars here, but in private at our Guild House. Perhaps later this afternoon? I will make sure the guards let you in.</frame>
+					<p>If the characters accept, he invites them to a conference at the Transit Guild House at their earliest convenience. The following text describes their arrival at some later time. If they would rather accompany Meryl to the Guild House now, the text must be adjusted.</p>
+					<frame>As you pass through the western gate of the Transit Guild compound, guards intercept you and guide you to the Guild House. The thick stone walls act as shade and insulation, keeping the interior cool compared to the outdoors. Sounds are muted; exotic rugs cover the stone floors. Meryl waits in a large conference room furnished with a polished wooden table and plush chairs. He stands as you enter and waves off the guards.</frame>
+					<frame>&#34;Welcome. Would you like some refreshments? Water? Wine? Big Water Stout? Perhaps some dried spicy fish?&#34;</frame>
+					<p>Meryl provides any reasonable refreshment. Then, if the characters do not already know one another, he makes proper introductions before continuing.</p>
+					<frame>Meryl clears his throat,&#34;Well, let us begin our business. One of my men, Almus Rundarig, is a week overdue from an exploration on the eastern shore of the Big Water. This is most unusual for a man of his talents. I believe that he encountered some sort of trouble. I would like you to find him, or to at least learn his fate. He was investigating a rumored freshwater spring across the Big Water with an eye towards constructing a collection point for swamp plant shipments.&#148;</frame>
+					<frame>&#147;I will provide you the services of a skiff and enough supplies for five days. Food, water, rope, poles for moving the boat.&#34; Meryl laughs. &#34;However, I'm afraid you must return the skiff after the job has been completed. Almus intended to land at a placed called Stonefall Point. I don't know exactly where he planned to go from there, since I'm not an explorer, heaven's no, but just a humble administrator. But I can provide a map to guide you.&#34;</frame>
+					<frame>Meryl pulls a page from a sheaf of papers and slides it to the center of the table.</frame>
+					<frame>&#34;There you are. You may keep it.&#34;</frame>
+					<p>Show the Player Kith'takharos Region Map. Meryl continues while the characters examine the map.</p>
+					<frame>&#34;Your base pay will be twenty-five gold each for learning whether Almus is dead or alive. You will be paid when the mission is complete. I'm afraid that possession of our supplies and boat must be sufficient guarantee of our good will. There are also opportunities for substantial bonuses, especially if you manage to rescue Almus. And remember, the Transit Guild knows how to show gratitude. There is always work available for dependable men. I wish you success and recommend you leave first thing in the morning from our dock.&#34;</frame>
+					<p>The following list describes the rewards each character will receive for various tasks. Multiple tasks can be completed for a cumulative reward. Meryl relishes haggling, and will respect the characters all the more should they bargain with him. A good effort will increase the reward amounts by up to 25%. Although he will not admit it until the characters return, Meryl will pay them even if they fail, as long as he believes they made an honest attempt. After all, he may need adventurers for other jobs in the future.</p>
+					<frame>Return with Almus alive: 100 Gold</frame>
+					<frame>Return with Almus' body: 50 Gold</frame>
+					<frame>Return with proof of Almus' fate: 25 Gold</frame>
+					<frame>Marking Almus' route on the map: 25 Gold</frame>
+					<frame>Return without proof but with a convincing story of Almus&#146; fate: 15 Gold</frame>
+					<frame>Return with no proof or convincing story: 5 Gold</frame>
+					<frame>Return with proof of Almus' fate within 5 days: 10 Gold</frame>
+					<frame>Retrieve Almus&#146; boat: 15 Gold</frame>
+					<p>While Meryl does not lie to the characters, he does not reveal the entire truth. If the Gamemaster wants to introduce politics into the adventure, here is where it begins. For example, the characters may threaten to inform the Order of the Jade Leaf of the mission.</p>
+					<frame>Meryl smiles. &#34;Please, inform them as much as you'd like. Then return to complete the mission or I'll hire someone else to find Almus. The Order will not find him for me.&#34;</frame>
+					<p>The characters may also wonder why the Transit Guild would worry about swamp plant collection points or freshwater springs; after all, isn't that the Order's job? Here are some possible responses to those questions.</p>
+					<frame>&#34;Fresh water is like gold out here. It benefits both the Guild and the Order if the harvesting can be made more safe. We all make more money with this spring found.&#34;</frame>
+					<frame>&#34;Certainly, the Order knows the location of many springs, but perhaps not this spring in particular. I had hoped to provide a pleasant surprise by sending Almus in search of it.&#34;</frame>
+					<frame>&#34;I will tell you. What is good for Kith'takharos is good for us. The more swamp plants that are collected, the more money we all make. And, I hope that such a gesture will help the strained relations we have with the Order. It's no secret the Transit Guild is not loved in Kith'takharos.&#34;</frame>
+					<p>Finally, have Meryl once more caution the characters about obeying all Kith'takharos laws, emphasizing that many men have been tempted to poach swamp plants because the potential rewards are so great. He wants to plant a seed that implies those rewards could be supplied by the Transit Guild, yet without a blatant admission. And he will pay them if he can get away with it. The Gamemaster must be a keen judge of the characters here, and tailor the message to them.</p>
+					<frame>&#34;Again, I advise you to avoid all contact with the valuable swamp plants. Although certain unscrupulous men might pay much for them, it is not worth the cost to you.&#34;</frame>
+				</text>
+			</id-00005>
+			<id-00006>
+				<text type="formattedtext">
+					<p>Once the characters accept Meryl Dunestal's job offer, place the following text in the Fantasy Grounds chat window when they are ready to leave Kith'takharos. The narrative assumes the characters begin their journey in the morning, as Mery suggested.</p>
+					<p>In addition, it may be useful to display the Flat Bottom Skiff image and ask the players to arrange their characters within the boat. Even though the journey holds no danger, such a request should grab the players' attention and increase the tension.</p>
+					<linklist>
+						<link class="imagewindow" recordname="image.id-00012@Well Met in Kith'takharos">Image: Flat Bottom Skiff</link>
+						<link class="item" recordname="item.id-00002@Well Met in Kith'takharos">Item: Flat Bottom Skiff</link>
+					</linklist>
+					<frame>Based on the map Meryl gave you, Stonefall Point lay across ten miles of open water. Meryl recommended you skirt the northern edge of the Big Water, and that seems an excellent suggestion, even though it adds at least two or three miles to the journey. Poling a skiff across open water, especially with inexperienced navigators, leaves no margin for error. You could land north or south of Stonefall Point and have no clue which direction you should travel.</frame>
+					<frame>At daybreak, you assemble near the Guild's docks. Meryl emerges from the dense fog and greets you, pointing out the boat he promised, stocked with provisions and extra poles. He urges that you begin before the heat of the day grows unbearable.</frame>
+					<frame>You embark and quickly experience the deceptive art of boat poling. While the boat moves forward without difficulty, the bow often refuses to point straight ahead. After a few hundred yards, you drop your preconceptions and let the bow face where it will. The awkward orientation does not seem to hinder your progress.</frame>
+					<frame>The stone bridge looms ahead through the fog. As you pass under the moldy stones, a man carrying a reed basket stops and glares at you. He even crosses the span to watch you drift away.</frame>
+					<frame>Boat and foot traffic grow as you navigate the narrow channels into open water. The people of Kith'takharos rise early. By the time you reach the Big Water, you have grown comfortable poling the boat. Above, the haze transforms the sun into an orange blob low in the eastern sky.</frame>
+					<frame>The entire morning you pole east and slightly north, following the contours of the land. Within a couple of hours, the fog burns away, and you almost yearn for its return, wondering whether Meryl provided enough water. Your pores are spouts that spew streams of sweat in response to the slightest movement. Insects land on any exposed skin and get stuck in the moisture. A gritty coating of tiny carcasses soon covers your skin.</frame>
+					<frame>Still, by early afternoon your course has definitely turned south. More than once, a splash draws your eyes toward shore, and a series of ripples betrays some submerged animal. Hours of strange sounds without visible danger put you on edge and drive the point home: every bit of success or failure depends on your actions alone. Should you perish, perhaps no one will ever find your corpses.</frame>
+					<frame>In late afternoon, the sun descends and the heat has lessened. You cross a short stretch of open water and follow the coast south. Perhaps two hours of light remain when you sight the tumbled pinkish columns Meryl called Stonefall Point. A cluster of three or four stone pillars climb from the irregular marshy border that separates dry land from the Big Water. Each one leans at a different angle, and none rise higher than ten feet. They would be minor ruins in Kith'takharos, perhaps not worth a mention on a tour of the village. But here, they stand out starkly as the sole sign of civilization.</frame>
+					<frame>You pole back and forth across this stretch of shore for many minutes and find no sign of Almus. You almost wonder whether he came here at all. Then, you notice a slight disturbance just south of the columns, a branch cocked at a vaguely unnatural angle. And once you glide to the branch and push it aside, you see a concealed boat much like your own, with Transit Guild markings on the bow.</frame>
+					<frame>Almus almost fooled you. He definitely knew what he was about. You clear the brush, and find the boat in good shape. The poles are stowed neatly, as well as extra rope and a sheathed knife. Almus must have made it at least this far without mishap. Yet, from the fresh growth around the boat, no one has been here in a few days.</frame>
+					<frame>Now that you know where to look, you discover Almus' trail heading inland on a southern course.</frame>
+				</text>
+			</id-00006>
+			<id-00007>
+				<text type="formattedtext">
+					<p><b>Linked Items.</b></p>
+					<linklist>
+						<link class="imagewindow" recordname="image.id-00007@Well Met in Kith'takharos">Map: Player Kith'takharos Region</link>
+						<link class="imagewindow" recordname="image.id-00015@Well Met in Kith'takharos">Tactical Map: Stonefall Point</link>
+						<link class="imagewindow" recordname="image.id-00012@Well Met in Kith'takharos">Image: Flat Bottom Skiff</link>
+						<link class="imagewindow" recordname="image.id-00014@Well Met in Kith'takharos">Image: Stonefall Point</link>
+						<link class="npc" recordname="npc.id-00001@Well Met in Kith'takharos">Creature: Carnivorous Lizard</link>
+						<link class="item" recordname="item.id-00002@Well Met in Kith'takharos">Item: Flat Bottom Skiff</link>
+					</linklist>
+					<p><b>Trigger. </b>The <i>Crossing the Big Water </i>narrative has been completed.</p>
+					<p>This event raises the characters' awareness of danger in the swamp. It should put them on their guard, and also give them some practice working together under stress. Finally, the event should keep the adventure from getting boring, since there may otherwise be an extended period without any conflict.</p>
+					<p>The Gamemaster may omit this event without harming the adventure if such a conflict is unneeded or time is short. With minor changes, the event could even be used at a different point in the adventure.</p>
+					<p>Assume the characters have found Almus' trail near the water at Stonefall Point and show the Stonefall Point image. They must follow the trail to continue with the adventure, so it is natural they will first stow their skiff. Learn exactly how they wish to do this, and if the measures are reasonable, assume they do a competent job.</p>
+					<frame>Almus' crude trail begins just a few yards inland from his boat. The foliage was obviously cut to clear the way. Branches and leaves already overgrow the trail, and within a couple of weeks it should vanish.</frame>
+					<p>When the characters are ready to follow the trail, a Carnivorous Lizard bursts from the foliage. The lizard will attack the character nearest the water, as this makes it easier for the lizard to retreat into the water. Should a single lizard pose an inadequate challenge, consider adding a second lizard that flanks the characters once they are engaged.</p>
+					<p><i>Any character who fails a DC 15 Spot check is surprised.</i></p>
+					<p>The lizard will attempt to flee if near death. It desires easy meat, not a quick demise, and the characters are more capable than most swamp inhabitants. But the encounter should get their blood up.</p>
+				</text>
+			</id-00007>
+			<id-00008>
+				<text type="formattedtext">
+					<p><b>Linked Items.</b></p>
+					<linklist>
+						<link class="imagewindow" recordname="image.id-00006@Well Met in Kith'takharos">Map: GM Kith'takharos Region</link>
+						<link class="npc" recordname="npc.id-00002@Well Met in Kith'takharos">NPC: Swamp Man Scout</link>
+					</linklist>
+					<p><b>Trigger. </b>The characters are following Almus' trail, but have not yet reached the freshwater spring.</p>
+					<p>This event introduces the Swamp Men to the adventure. The Swamp Men are reptilian humanoids indigenous to the swamp. They seldom disturb the people of Kith'takharos unless provoked, and then they will aggressively defend their territory. Although everyone in Kith'takharos knows the Swamp Men exist, few have had dealings with them, and the Swamp Men remain mysterious.</p>
+					<p>The encounter is not designed to provoke combat. Rather, it foreshadows possible later interactions with the Swamp Men should the characters continue with Kith'takharos based adventures. The Gamemaster may omit this event without harming the adventure if such an interaction is not desired or time is short. With minor changes, the event could even be used at a different point in the adventure.</p>
+					<p>Even if the Swamp Men never appear in other adventures, this event can add tension and atmosphere to the current adventure. There is nothing like potential danger to keep characters focused.</p>
+					<p>Begin the event at some location between the boat and the freshwater spring. One of the characters notices movement in the foliage to the east. Game mechanics need not be used to spot the movement; after all, the whole point of the event is that someone sees it.</p>
+					<frame>Perhaps twenty or thirty yards into the thick brush on your left, three creatures parallel your path. You soon realize that the creatures are humanoid, with greenish skin and a long tail. The creatures carry spears, although they make no threatening move.</frame>
+					<p>These are Swamp Man scouts, performing the task of any competent scout. Their purpose is observation, not conflict. If the characters move closer, the scouts pull back. Once the characters approach the freshwater spring, the Swamp Men melt away; they will not go near the Blood Temple. However, if the characters attack or stray too far east from Almus' trail, the Swamp Men will defend themselves and the approaches to their territory.</p>
+					<p>If a scuffle ensues, at least one Swamp Man will attempt to flee and warn his people. Should that occur, the Swamp Men will send a reprisal expedition against the characters at some later point in the adventure. The size of that party should at least equal the number of characters.</p>
+					<p>Bold characters may instead attempt to speak with the Swamp Men and gain information about Almus. Stories circulate in Kith'takharos of explorers who have befriended Swamp Men, or even traded with them. Some Swamp Men will learn a few words of the common tongue. In fact, the famous Sarruk Urzy, consort of the first Lady Salmissra, befriended the Bright Water tribe of Swamp Men.</p>
+					<p>The Gamemaster must decide whether any of these Swamp Men speak the character's language. If so, the Swamp Men will probably allow friendly advances. With the proper inducements, they may even provide information about Almus; however, they will not speak of the Blood Temple. The following examples illustrate how the Swamp Men speak and what they might say to the characters. Remember that the stilted speech does not imply the Swamp Men are stupid.</p>
+					<frame>The Swamp Men talk amongst themselves for a couple of minutes. Then one turns to you and steps forward. It speaks in heavily accented Common. &#34;Thin Skin. What you want?&#34;</frame>
+					<frame>&#34;Why I tell? Our land. Our rules.&#34;</frame>
+					<frame>&#34;Wise Thin Skin offer gift.&#34;</frame>
+					<frame>&#34;Blade. Give blade. Shining metal.&#34;</frame>
+					<frame>The Swamp Man points South. &#34;Man go there. Man no hurt. To bubbling water. No leave trail. Our land.&#34;</frame>
+					<p>As mentioned earlier, this event should build tension, introduce the Swamp Men as more than just mindless enemies, and possibly show that there are consequences for foolish actions.</p>
+				</text>
+			</id-00008>
+			<id-00009>
+				<text type="formattedtext">
+					<p><b>Linked Items.</b></p>
+					<linklist>
+						<link class="imagewindow" recordname="image.id-00006@Well Met in Kith'takharos">Map: GM Kith'takharos Region</link>
+						<link class="imagewindow" recordname="image.id-00004@Well Met in Kith'takharos">Image: F'maso Plant</link>
+					</linklist>
+					<p><b>Trigger. </b>Almus' trail reaches a freshwater spring.</p>
+					<p>If the characters did not provoke the Swamp Men, the scouts have vanished into the swamp. Now the characters encounter a clearing with a freshwater spring.</p>
+					<frame>Almus' trail enters a small clearing about seven feet wide. At the center of the clearing, a pool bubbles up from somewhere below.</frame>
+					<p>No more than three feet across and a few feet deep, the freshwater spring tastes cool compared to the moist heat of the swamp, and almost sweet. Any character competent in wilderness knowledge suspects that animals would drink here.</p>
+					<p>If the characters lack curative magic, or the Gamemaster just wants to add an interesting element to the adventure, give the water some healing properties. This will also give the characters a sense of accomplishment and reward should they examine and drink the water.</p>
+					<p>The Gamemaster now has a choice. If the story will include Almus' search for valuable swamp plants, introduce the information on F'maso from the next paragraph. Otherwise, the adventure remains focused on exploration and discovery.</p>
+					<p>A character who understands the swamps around Kith'takharos may notice clusters of F'maso growing near the edge of the clearing. If this happens, show the F'maso Plant image. Such a discovery would be of interest to both the Order of the Jade Leaf and the Transit Guild. Almus pulled out a patch of F'maso and planned on returning the sample to Meryl.</p>
+					<p>Regardless of whether the F'maso is mentioned, the characters discover the following information if they search the clearing.</p>
+					<frame>Chaotic patterns of boot prints surround the spring. Most have been eroded by the weather and the passage of small animals, but the patterns suggest that there may have been a scuffle at the spring. Closer examination distinguishes two types of boot prints, one larger and heavier than the other. You recognize that the lighter prints belong to Almus.</frame>
+					<p>If the Gamemaster has added the political angle, note that a few F'maso plants were ground into the boot prints during the struggle.</p>
+					<p>If the characters closely examine the spring, provide the following information.</p>
+					<frame>In shallow water near the edge of the spring, a distorted shape gleams in the light: a fine steel hunting knife. The initials AR are engraved near the pommel. If this knife belonged to Almus, you think it unlikely he would have dropped such a weapon on purpose.</frame>
+					<p>Indeed, further searching reveals a trail followed by the heavier boot prints.</p>
+					<frame>This trail has been formed by regular use, and obviously was not cut by Almus. It leaves the clearing and heads West.</frame>
+					<p>The Blood Priest encountered Almus at the spring and knocked him unconscious. The priest then carried the explorer back to the Blood Temple and placed him in the cold room.</p>
+				</text>
+			</id-00009>
+			<id-00010>
+				<text type="formattedtext">
+					<p><b>Linked Items.</b></p>
+					<linklist>
+						<link class="imagewindow" recordname="image.id-00006@Well Met in Kith'takharos">Map: GM Kith'takharos Region</link>
+						<link class="imagewindow" recordname="image.id-00001@Well Met in Kith'takharos">Image: Abrupt Warning</link>
+					</linklist>
+					<p><b>Trigger. </b>The characters follow the Blood Priest&#146;s trail from the freshwater spring.</p>
+					<p>The characters have no difficulty following the trail west from the freshwater spring. Deep footprints and numerous broken branches indicate the traveler made no effort to hide his tracks. Then, about a half mile from the Blood Temple, the trail turns into a true path. The packed ground holds abundant boot prints and obviously sees regular traffic.</p>
+					<p>Most likely, the characters will now show more caution. They may move off the path but remain within sight of it. As long as the characters can view the path, they will get the full effect of this event.</p>
+					<frame>Rounding a bend in the path, you behold a terrifying sight. Some object has been attached to a tall tree on the right side of the path, a few feet off the ground. The object resembles a monstrous humanoid.</frame>
+					<p>Now display the Abrupt Warning Image.</p>
+					<frame>Seconds pass before you realize that the creature must have been a Swamp Man. The corpse has been aligned along the trunk of a tree, the upper torso and legs wrapped with vines to hold them fast. Both the feet and tail dangle above the ground. All moisture has been removed from the body, leaving a desiccated husk.</frame>
+					<frame>The lips are pulled back from a wide, grinning mouth filled with yellowed teeth. Eyeless sockets gape wide. He wears the remnants of armor or a tunic.</frame>
+					<p>The Swamp Man has been transformed into a marker or a warning, or both. The scene should engender immediate paranoia in the characters. Closer examination does not reveal the method of desiccation, except that it probably was not natural. If the characters get creative and cut the Swamp Man down with the intention of returning the body to the Swamp Men, an entirely new adventure may result.</p>
+					<p>The Blood Priest put up these warnings to keep away the Swamp Men, and they work quite well for that purpose. If the Blood Priest succeeds in slaying any of the characters, he may place them upon the tree.</p>
+				</text>
+			</id-00010>
+			<id-00011>
+				<text type="formattedtext">
+					<p><b>Linked Items.</b></p>
+					<linklist>
+						<link class="imagewindow" recordname="image.id-00016@Well Met in Kith'takharos">Floor Plan: GM Blood Temple</link>
+						<link class="imagewindow" recordname="image.id-00017@Well Met in Kith'takharos">Floor Plan: Player Old Temple</link>
+						<link class="imagewindow" recordname="image.id-00002@Well Met in Kith'takharos">Image: Cold Room</link>
+						<link class="encounter" recordname="encounter.id-00014@Well Met in Kith'takharos">Place Description: Blood Temple</link>
+					</linklist>
+					<p><b>Trigger. </b>During the exploration of the Blood Temple, the characters reach the Cold Room.</p>
+					<p>When the characters reach the Slippery Hall, provide the description included with the Blood Temple.</p>
+					<p><i>Anyone stepping upon the slippery area must make a DC 13 Reflex Save or fall. The save must be repeated each round the person remains within the slippery area. A successful save also means that the person can move through the area at half normal speed. The saves should be adjusted for interesting methods of improving traction.</i></p>
+					<p>When the characters reach the Cold Room, provide the Cold Room Image and the Cold Room description included with the Blood Temple.</p>
+					<p><i>The Cold Room radiates strong Transmutation magic. The magic is distributed throughout the entire room and not restricted to any particular location. Lingering in the room invites cold damage. It is suggested that the Gamemaster use the following simple system to determine the amount of damage. This simplicity has the benefit of reducing the number of die rolls and relegating all die rolls to the Gamemaster.</i></p>
+					<p><i>After 2 rounds in the Cold Room, a character has a 50% chance each round of taking 1 Hit Point of cold damage. At the discretion of the Gamemaster, very warm clothing or protective magic can ameliorate the damage by reducing its frequency. For example, the odds might change to a 50% chance every third round of taking 1 Hit Point of cold damage.</i></p>
+					<p>If the characters only desire proof of Almus' demise, they might remove his gold ring. The characters must first inspect Almus well enough to notice the ring, and then chip the ice from his finger to remove the ring (or just break off the frozen finger). However, the characters have little time. They do not realize it, but the next event, <i>Blood Mosquitoes, </i>automatically triggers if they spend too long in the temple.</p>
+					<p>Should the characters decide they wish to remove Almus, be aware that the time required will almost certainly trigger the <i>Blood Mosquitoes </i>event. He is stuck fast to the floor and walls, so that both brute force and ingenuity may be needed to free him. The Gamemaster must adjudicate these efforts, as there is no way to determine ahead of time how the characters will proceed. Some possible methods include the following.</p>
+					<list>
+						<li>Chip Almus out of the ice. This would probably require at least 10-20 minutes to do a poor job, and twice as long to do it right. In a poor job, a limb might shatter or crack.</li>
+						<li>Break him out by wrenching him from the ice. This will be very difficult and virtually impossible for all but the strongest people.</li>
+						<li>Pour a warm liquid over him to momentarily melt the ice. However, the water will quickly refreeze due to the magic of the Cold Room, so speed is essential.</li>
+						<li>Some other creative method.</li>
+					</list>
+				</text>
+			</id-00011>
+			<id-00012>
+				<text type="formattedtext">
+					<p><b>Linked Items.</b></p>
+					<linklist>
+						<link class="imagewindow" recordname="image.id-00016@Well Met in Kith'takharos">Floor Plan: GM Blood Temple</link>
+						<link class="imagewindow" recordname="image.id-00017@Well Met in Kith'takharos">Floor plan: Player Old Temple</link>
+						<link class="imagewindow" recordname="image.id-00005@Well Met in Kith'takharos">Image: Blood Mosquito</link>
+						<link class="encounter" recordname="encounter.id-00014@Well Met in Kith'takharos">Place description: Blood Temple</link>
+						<link class="npc" recordname="npc.id-00004@Well Met in Kith'takharos">NPC: Blood Priest</link>
+						<link class="npc" recordname="npc.id-00003@Well Met in Kith'takharos">Creature: Blood Mosquito</link>
+						<link class="item" recordname="item.id-00001@Well Met in Kith'takharos">Item: Staff of Sharing</link>
+					</linklist>
+					<p><b>Trigger. </b>Once the characters enter the Blood Temple and reach the Cold Room, they remain long enough to encounter a swarm of Blood Mosquitoes.</p>
+					<p>The countdown for this event begins when the characters enter the Slippery Hall. If possible, the Gamemaster should have game time and real time correspond. Then, a real clock could be used rather than guessing the amount of time required for the character's actions.</p>
+					<p>Five minutes after the characters enter the Slippery Hall, a swarm of Blood Mosquitoes tasked with guarding the Blood Temple approaches at full speed. Provide the following information.</p>
+					<frame>You hear a buzzing from the direction of the Big Water. Such buzzing has been common since you entered the swamp, and indicates nearby insects. However, this particular buzzing is somewhat louder than common insects and quickly grows louder.</frame>
+					<p>Ten to fifteen seconds after the characters first hear the buzzing, the Blood Mosquitoes reach the Slippery Hall. Now show the Blood Mosquito Image. The swarm contains a number of mosquitoes that equals the number of characters, plus two. Thus, if there are four characters, there will be six mosquitoes. The Blood Mosquitoes attack until destroyed, and will pursue fleeing characters.</p>
+					<p>If the characters run away, the mosquitoes will pursue up to one mile from the Blood Temple. Enterprising characters might instead jump into the Big Water and attempt to hide underwater. The Blood Mosquitoes will hover over submerged characters for at least two minutes before giving up the chase.</p>
+					<p>If the characters elude the mosquitoes, but still return to the temple, reset the countdown at two minutes instead of five minutes. Then the original swarm reappears.</p>
+					<p>Finally, if the characters defeat the first swarm and remain at the Blood Temple, begin the countdown for a second swarm at two minutes. This swarm will also contain a number of mosquitoes that equals the number of characters, plus two.</p>
+					<p>Should the characters defeat both Blood Mosquito swarms and still remain at the temple, the Blood Priest appears in five minutes to deal with them. If that occurs, read the following description.</p>
+					<frame>A man strides forward with sure steps. Short, stocky, and overweight, greasy black hair frames a round face. At first he does not appear formidable, but his piercing green eyes blaze with a mad light, and he almost mesmerizes you with his gaze.</frame>
+					<frame>He carries a staff of polished wood and wears a rusty chain shirt. A cape of some animal hide flows down his back. A necklace of bones clacks against the links of his armor.</frame>
+					<frame>His smile holds no warmth. His voice contains an unsettling mixture of ecstasy and malice.</frame>
+					<frame>&#147;He has brought you to me. We will share this moment.&#148;</frame>
+					<frame>He points the staff at you.</frame>
+					<p>Now the Blood Priest uses the <i>Share Pain </i>power of the Staff of Sharing against one of the characters. If a character affected by <i>Share Pain </i>is near death, the Blood Priest welcomes the opportunity to finish off the victim by harming himself. He will also want at least one or two of them alive as future sacrifices to his Dark God.</p>
+					<p>The priest's appearance should be a very unlikely event, because the group may be destroyed. The Gamemaster must not be constrained by this event as it is written, and keep the health of the campaign in mind as the event unfolds. If the Blood Priest does arrive, the Gamemaster must be creative to preserve the adventure and campaign without killing all the characters. For example, perhaps the surviving characters have an opportunity to escape while the Blood Priest removes the heart from a slain companion.</p>
+					<p>The Blood Priest puts the Blood Temple and the Blood Mosquitoes in context, providing a better understanding of the overall encounter. Characters who find <i>Well Met in Kith'takharos </i>challenging are not ready for such a powerful foe. However, the Blood Priest's existence sets the stage for later Kith'takharos adventures.</p>
+				</text>
+			</id-00012>
+			<id-00013>
+				<text type="formattedtext">
+					<p><b>Linked Items.</b></p>
+					<linklist>
+						<link class="imagewindow" recordname="image.id-00006@Well Met in Kith'takharos">Map: GM Kith'takharos Region</link>
+						<link class="imagewindow" recordname="image.id-00008@Well Met in Kith'takharos">Map: Kith'takharos Village</link>
+						<link class="imagewindow" recordname="image.id-00012@Well Met in Kith'takharos">Image: Flat Bottom Skiff</link>
+						<link class="npc" recordname="npc.id-00005@Well Met in Kith'takharos">NPC: Jade Leaf Scout</link>
+						<link class="item" recordname="item.id-00002@Well Met in Kith'takharos">Item: Flat Bottom Skiff</link>
+					</linklist>
+					<p><b>Trigger. </b>The characters have completed their mission for Meryl Dunestal and return to Kith&#146;takharos.</p>
+					<p>Assuming the characters survive their experiences at the Blood Temple, they will likely return to Stonefall Point and collect their swamp boat. The trip from Stonefall Point to Kith'takharos will consume most of a day if they retrace their outbound route.</p>
+					<p>The characters may also decide to retrieve Almus' boat. They can pole it back to Kith'takharos if they have sufficient personnel, or could tie it to their own boat for a tow, although that will increase the trip time by 50%.</p>
+					<p>If the Gamemaster introduced a political aspect to the adventure at the freshwater spring, the return to Kith'takharos has a potential for danger. As mentioned in the event <i>Dorian Orsova Lays Down the Law, </i>Dorian takes a particular interest in adventurers. He understands the reasons they journey to Kith'takharos, and will sometimes search them when they return from an exploration, especially if they are working for the Transit Guild.</p>
+					<p>Suspicion of the characters will be even greater should they return overland. Why might this occur? If the characters harvested any F'maso and wish to hide it from the Order of the Jade Leaf, entering town by land may seem a more stealthy approach. However, Jade Leaf patrols could intercept them, and if this occurred, the characters would most certainly be searched.</p>
+					<p>Characters found carrying F'maso will be arrested and punished. If they give up without a struggle, Lady Salmissra will merely levy fines or community service for a first offense. Should they harm or kill any Jade Leaf Scouts, the punishment will be more severe, and could include execution by F'lunin. The Order of the Jade Leaf will expend significant resources to apprehend the murderer of one of its own.</p>
+					<p>When the characters reach the Transit Guild House, they are immediately shown to the conference room. Regardless of whether or not the characters were successful, Meryl greets them warmly and accepts any proof they might have of Almus' demise. If they found Almus, but brought back no proof, Meryl may still believe a convincing story. He will then say a few words about the better qualities of Almus before asking for a mission synopsis.</p>
+					<p>Meryl will carefully debrief the characters, asking for minute details about every aspect of the search for Almus. In particular, he wants the following information. Note that this list assumes the characters mentioned these items in their story. The characters also may not know the answers.</p>
+					<list>
+						<li>What sort of plant life was found at the freshwater spring? Was any of it unusual? Was it uncommonly fecund? Meryl wants to learn whether any valuable plants might grow at the spring.</li>
+						<li>Was the Cold Room in the temple magical? If so, what kind of magic? Meryl has hopes of gaining that magic for the Transit Guild.</li>
+						<li>Did the Swamp Men make any overtly aggressive moves? Meryl finds this information interesting, but also wants to throw off suspicion of his earlier questions. He will draw out this question so that it seems most important.</li>
+					</list>
+					<p>Meryl again stresses that the Transit Guild knows how to show gratitude and that there may be future work available for dependable men. He promises to put the characters first on his list.</p>
+				</text>
+			</id-00013>
+			<id-00014>
+				<text type="formattedtext">
+					<p>The temple has existed as long as the Swamp Men or the people of Kith'takharos can remember. Just by being old and mysterious, the structure acquired a reputation as an evil place. These beliefs were mere superstition until the Blood Priest arrived in the swamp ten years ago. Then the tales became literally true, and since that time only one man has visited the temple and survived: the Kith'takharos explorer Koran Thelig.</p>
+					<p>Based on Koran's descriptions, the archaeologist Yavanna Culand suspects that the Harlass Orn did not build the temple. Even the Blood Priest does not understand the purpose of the temple before its consecration to his Dark God.</p>
+					<p>For most of the year, the Blood Temple sits only a few yards from the Big Water. During the rainy season, the water laps at the base of the temple. The periodic softening of the soil has undermined the structure so that the portion nearer the water has sunk more than two feet into the ground, while the opposite side has raised a lesser amount.</p>
+					<p>The Blood Priest clears the plant life surrounding the temple. Only short grasses grow within this area. A well-used path enters the clearing at the front of the temple.</p>
+					<p>There are two Blood Temple floor plans. The first, titled Blood Temple, is intended for the Gamemaster and includes a legend. The second, titled Old Temple, has no legend and can be shown to the characters. Note that the characters will not recognize the true name of the structure.</p>
+					<linklist>
+						<link class="imagewindow" recordname="image.id-00016@Well Met in Kith'takharos">Floor Plan: GM Blood Temple</link>
+						<link class="imagewindow" recordname="image.id-00017@Well Met in Kith'takharos">Floor Plan: Player Old Temple</link>
+					</linklist>
+					<h>1. Approach</h>
+					<frame>The trail debouches into a clearing, and a discolored structure rises from the damp ground fifteen yards away. Constructed of a reddish marble shot through with streaks of white, the blocks are cracked, chipped, and stained by moss and mold. A short flight of stone steps wraps around the building. A row of marble columns across the front obscures an opening in the wall behind. The roof, also comprised of the reddish marble, begins twelve feet above the top of the steps and slopes upward to a peak above the columns. Intricate carvings once curved around the columns and along the walls, but these have long since faded to incomprehension.</frame>
+					<frame>The structure shows no obvious damage besides the wear of weather and age. Still, something about it seems strange. The entire building tilts slightly backward so that the first step has risen, adding a hop or a short climb to reach the level of the columns.</frame>
+					<p>The rear of the temple rests upon soggy ground near the water, and is much more difficult to negotiate than the front. Land movement will be slowed as described in the following section.</p>
+					<frame>As you traverse the perimeter from front to rear, the soil becomes progressively more waterlogged. Soon, each footstep sinks to your ankle or calf, accompanied by the sound of displaced water as the ground compresses. The muck closes around your feet, holding them fast until you wrench them from the ground. The earth releases your foot with a pop, leaving a small hole that slowly fills with oozing mud.</frame>
+					<h>2. Front Steps</h>
+					<p>Patches of moss cover the steps. Fog, dew, and frequent thunderstorms dampen the moss so that the footing is often treacherous. During the day, the steps usually dry out under the sun. Because the rear of the temple has sunk into the ground, the first step is about three feet high, while the others are a more manageable twelve to eighteen inches.</p>
+					<h>3. Blood Altar</h>
+					<linklist>
+						<link class="imagewindow" recordname="image.id-00013@Well Met in Kith'takharos">Image: Blood Altar</link>
+					</linklist>
+					<frame>A block of plain stone sits centered between two open doorways. About ten feet wide, seven feet deep, and three feet high, the block&#146;s rough surface represents a stark contrast to the beauty of the surrounding stonework. Black splotches spread across the top and down the sides. A strong metallic scent fills the air near the block, obvious to any fighting man as the smell of dried blood.</frame>
+					<p>The Blood Priest removes the hearts of his victims upon the Blood Altar.</p>
+					<h>4. Empty Room</h>
+					<frame>This empty room runs about thirty feet in length and fifteen feet in width, with identical open doorways at either end.</frame>
+					<h>5. Slippery Hall</h>
+					<p>The following description assumes a vantage point in the doorway to the west of the Blood Altar.</p>
+					<frame>A wide hallway extends about thirty feet. Two open doorways gape along the right side of the hallway, as well as another at the far end. A thin, chill fog drifts from the second doorway on the right. Outside that door, the floor gleams with a coating of ice. The ice spreads out in a rough semicircle up to five feet from the doorway.</frame>
+					<h>6. Foul Lair</h>
+					<frame>The room reeks with the smell of urine and unwashed flesh. A foul bedroll rests against the south wall, and a pile of tattered clothing lay in the southeast corner.</frame>
+					<p>The Blood Priest sleeps in this room. He hides a rusty hunting knife beneath the bedroll, the blade brown with dried blood. The evil nature of his sacrifices has tainted the knife until it emanates a residual evil.</p>
+					<p>Inspection of the clothing pile reveals a motley array of mismatched tunics, breeches, and underclothes. The sizes vary widely enough that the same person could not wear them all. These were collected from the Blood Priest's victims.</p>
+					<h>7. Cold Room</h>
+					<p>The Cold Room contains a powerful magic that maintains a constant temperature below freezing.</p>
+					<linklist>
+						<link class="imagewindow" recordname="image.id-00002@Well Met in Kith'takharos">Image: Cold Room</link>
+					</linklist>
+					<frame>Ice coats the walls, floor, and ceiling, dotted with patches of snow. The room temperature must be well below freezing, despite exposure to the swamp heat through an open doorway. A man sheathed in ice sits with his back against the far wall. Although the ice distorts his features, the man's face clearly shows surprise. He wears exploring clothes, a short sword at his waist, and green leather armor. Except for being frozen, he appears uninjured. This man fits the description of Almus Rundarig.</frame>
+					<p>Almus also wears a gold band on one finger. The ice obscures the ring from a casual inspection.</p>
+					<h>8. Breezeway</h>
+					<frame>This room contains two southern doorways that lead into the structure&#146;s interior. Other doorways open to the shore and to rooms enclosed by columns.</frame>
+					<h>9. West Entrance</h>
+					<frame>Slim marble columns frame three sides of this small room. A single doorway opens to the east.</frame>
+					<h>10. Open Columns</h>
+					<frame>Large columns line the perimeter of this spacious area. A single doorway opens to the west.</frame>
+				</text>
+			</id-00014>
+			<id-00018>
+				<text type="formattedtext">
+					<p>Begin the adventure by placing the following text in the Fantasy Grounds chat window.</p>
+					<frame>The large, flat-bottomed cargo boat maneuvers for a wide turn around a thin jut of land. Trees and brush overgrow the banks of the miniature peninsula, blocking your view as effectively as a stone wall. Ahead, the narrow channel opens so wide that you cannot see the opposite shore. This must be the 'Big Water' you heard the polemen talking about.</frame>
+					<frame>And above, the sun blazes, igniting the beads of sweat that roll down your skin. The humid air almost sears your lungs. You wish the morning fog would return for at least a few hours.</frame>
+					<frame>As the skiff clears the finger of land, your view resembles the drawing of a window blind. From right to left, the foliage moves across the pane of your eyes, opening them to perhaps the oddest sight you have ever seen: a village in the middle of the swamp, a place of bustling enterprise in the midst of a most inhospitable environment.</frame>
+					<frame>Scores of people swarm over the shoreline. Many more move on the wide road that runs straight and true up a gentle hillside. The road begins behind a stone lighthouse at the water's edge. Then it spans a stone bridge and extends no more than a mile to a keep, a magnificent stone structure with a gate and guard towers.</frame>
+					<frame>Near the water, the wooden buildings sit atop stilts, and are often a little ramshackle. Closer to the keep, some buildings acquire stone foundations, or are even constructed entirely of stone.</frame>
+					<frame>So these are the Swamp Harvesters, the ignorant savages of the Karkalin River marshlands? They don't appear so primitive from this perspective. How could they transport so much stone into a swamp? Kings could go broke financing such a venture. Those plants they gather must be every bit as valuable as you have heard.</frame>
+					<frame>Docks line the shore, crowded with moored swamp boats. Laborers wrestle cargo between the boats and two-wheeled carts. Your boat angles toward a section of docks fronting an open-air market. You hear a sea of voices now, a background hum from which you can discern no individual words.</frame>
+					<frame>You are less than a hundred yards away. The smell of cooking food and unusual spices brushes your nose. Your stomach rumbles in response.</frame>
+					<frame>Beside the lighthouse, a man stands on a pile of rocks, gesticulating and speaking to a small crowd. You observe further contrasts between the swamp and the outside world. These people wear fewer clothes: loose-fitting garments, wide-brimmed hats, open footwear. The heat and moist air create an altogether different world.</frame>
+					<frame>The boat glides along the dock. The polemen smartly steer between two other craft. Dockworkers catch the ropes and tie off the boat. You step onto the dock, startled by the sudden lack of motion beneath your feet. Kith'takharos lay before you.</frame>
+				</text>
+			</id-00018>
+			<id-00022>
+				<text type="formattedtext">
+					<linklist>
+						<link class="imagewindow" recordname="image.id-00005@Well Met in Kith'takharos">Image: Blood Mosquito</link>
+						<link class="npc" recordname="npc.id-00003@Well Met in Kith'takharos">Blood Mosquito Creature Sheet</link>
+					</linklist>
+					<p><i>Almus Rundarig dropped to his knees and plunged his head into the freshwater spring. He gulped mouthfuls of water until his stomach hurt, not caring that he also consumed particles of mud or pieces of plants. The water was clean and relatively cool; that was all that mattered.</i></p>
+					<p><i>A muffled buzzing intruded on his bliss. Almus ignored the sound. It really didn&#146;t matter what he did, the insects would sting him anyway. Right now, he just wanted to enjoy a few seconds without sweat running into his eyes.</i></p>
+					<p><i>Then a sharp pain pierced his left shoulder. Almus vaulted backwards, on his feet in an instant, right hand reaching</i></p>
+					<p><i>for his sword. It felt like someone had stabbed him with a knife and hadn&#146;t pulled out the blade. He instinctively grabbed at the wound and jerked his head around to see the weapon. A long tube protruded from his shoulder, and just above it, two faceted eyes glittered in the sunlight.</i></p>
+					<p><i>The facets reflected a hundred sword arms arcing towards the creature&#146;s body.</i></p>
+					<p>&#151;The explorer <b>Almus Rundarig </b>encounters a Blood Mosquito.</p>
+					<p>Blood Mosquitoes average two feet in length, with all the parts of a normal mosquito correspondingly enhanced: six legs ending in pincers, three body segments, a large proboscis for piercing the skin and drinking blood, a pair of scaled wings, two antenna, and two multi-faceted eyes. The pincers cling to almost any surface in any orientation, while the wings possess a gyroscopic capability that allows the Blood Mosquito to hover in place or change its orientation and direction of flight in an instant. The multi-faceted eyes prevent the Blood Mosquito from being easily surprised.</p>
+					<p>The humid heat of the swamp provides a perfect breeding ground for the Blood Mosquito. It seeks blood, preferably of humanoids, and attacks prey in swarms of up to eight insects, buzzing around the unfortunate victim in a shifting cloud. Swarms are vicious and unrelenting, and will chase prey for miles. A swarm breaks off pursuit only when killed or sated by consuming sufficient quantities of blood.</p>
+					<p>The Blood Mosquito attacks by gripping the victim with its pincers and piercing the skin with its proboscis. The insect drinks blood until sated and then flies off to digest its meal and lay eggs. Unlike the anesthetized sting of normal mosquitoes, the Blood Mosquito proboscis causes great pain.</p>
+				</text>
+			</id-00022>
+			<id-00023>
+				<text type="formattedtext">
+					<linklist>
+						<link class="npc" recordname="npc.id-00001@Well Met in Kith'takharos">Carnivorous Lizard Creature Sheet</link>
+					</linklist>
+					<p><i>The lizard lunged, and the rat darted under a bush. The rodent ran until its lungs burst, then stopped at the base of a tree, ready to flee if the lizard reappeared. It never saw the second lizard waiting behind the tree, and was soon too tired for an escape.</i></p>
+					<p>&#151;A unfortunate rat encounters a pair of <b>Carnivorous Lizards.</b></p>
+					<p>A typical Carnivorous Lizard measures four feet in length, with mottled green or brown skin. Although the Carnivorous Lizard is amphibious and requires regular immersion in water, it prefers hunting on land. In fact, compared to most lizards, the creature is an inept swimmer and climber.</p>
+					<p>The Carnivorous Lizard, as its name implies, prefers meat. It usually hunts rodents and large insects, but will eat any meat it can bring down. The creature is very clever, and often hunts in breeding pairs. When hunting in pairs, the lizards will apply rudimentary tactics, flanking opponents or drawing one away in a diversion. If possible, the Carnivorous Lizard will flee a superior foe rather than fight to the death.</p>
+				</text>
+			</id-00023>
+			<id-00024>
+				<text type="formattedtext">
+					<linklist>
+						<link class="npc" recordname="npc.id-00004@Well Met in Kith'takharos">Blood Priest Character Sheet</link>
+					</linklist>
+					<p><i>&#147;I am not mad. They say that I am mad, but they are wrong. They say many things, they do. But they do not know. They do not understand. I serve a higher purpose that they cannot comprehend. I do not listen to them.</i></p>
+					<p><i>&#147;It began, yes it did, many years ago. A long, long time ago. I was unenlightened. I had not seen my true calling. I do not wish to think of this any more. Why do they make me think about this?</i></p>
+					<p><i>&#147;Yes, yes. Then it happened. He came to me. He opened my eyes. I saw then. My higher purpose in life. Everything made sense to me. I knew what I must do. I knew that I must come here, and be a faithful servant to my master. My glorious, powerful master. He is my strength. I am his right hand. They do not know. They think I am mad. But he knows that I am not.</i></p>
+					<p><i>&#147;Oh, I remember well the first creature I sacrificed for my master. The green man had come too close to my home. This beautiful temple to my master. He wanted to become a sacrifice for my master. That is why he came. He succumbed to the power given me by my master. I took him. That is all. My master allowed me to keep his covering to help me remember my purpose. And these bones, too. I wear the green man&#146;s bones around my neck. He was strong. I shattered his bones with a powerful spell. I do not like to use that spell, but the green man asked for the pain.</i></p>
+					<p><i>&#147;I remind myself of my purpose. As if I needed to be reminded. I do not, for I am not mad. Although they say I am, they are wrong. They do not know.</i></p>
+					<p><i>&#147;Now, I continue my work. I strive to satisfy my master. He likes pain. He likes rage. I like pain. I like rage. I am his right hand. He gives me power to inflict pain. I inflict pain. It is my purpose. I understand. They do not. I work as hard as I can to achieve my purpose. Some will always come to help me. They will feel pain. I will inflict it. I will nurture it. My master will be pleased. He will give me more power.</i></p>
+					<p><i>&#147;He already has. See this nice staff he gave to me? He rewards my faithfulness. Another had it before me. I can feel his presence in it. But he was unworthy. I am better than he. I serve the master better. I inflict more pain. I understand. I have the higher purpose. I am the master&#146;s right hand.</i></p>
+					<p><i>&#147;They say that I am mad. But I am not. They do not understand. I do. They will understand, for I will help them. I will show them pain. I will show them suffering. Then they will understand, and my master will be pleased.&#148;</i></p>
+					<p>&#151;Mutterings of the <b>Blood Priest.</b></p>
+					<p>The Blood Priest wandered into the Karkalin River swamps almost a decade ago. At that time he was just a disturbed acolyte of the Dark God, following an impulse he did not understand. His god masked him from the sailors, merchants, and Swamp Harvesters as he left the Karkalin River and penetrated the swamp.</p>
+					<p>The Blood Priest inhabits the Blood Temple. His only companions are swarms of Blood Mosquitoes. He spends much time talking to himself, alternately whispering and shouting a stream of irrational mutterings about the fates of those who stray near the temple and of fictitious foes who do not appreciate his purpose.</p>
+					<p>Although the temple is remote, explorers, merchants, and other folk somehow stumble across it. The Blood Priest welcomes them as gifts from his god and uses the Staff of Sharing to grant them the gift of pain. His god gave him the staff before the Blood Priest killed his first victim: a Swamp Man whose skin he fashioned into a cape. The Blood Priest stores his victims in the Cold Room until the time of sacrifice, when he cuts out the heart upon the Blood Altar.</p>
+					<p>Though he wields a fearsome power, the Blood Priest does not appear formidable at first glance. Short, stocky, and overweight, greasy black hair frames a round face. But his piercing green eyes blaze with the light of a mad and relentless purpose, almost powerful enough to mesmerize with his gaze.</p>
+					<p>The Blood Priest wears a rusty chain shirt. The Swamp Man cape flows down his back. A necklace of bones from that same Swamp Man clacks against the links of his armor when he strides through the jungle searching for victims. He seldom loosens his grip upon the Staff of Sharing, even clutching it to his chest as he sleeps.</p>
+				</text>
+			</id-00024>
+			<id-00025>
+				<text type="formattedtext">
+					<linklist>
+						<link class="npc" recordname="npc.id-00005@Well Met in Kith'takharos">Jade Leaf Scout Character Sheet</link>
+					</linklist>
+					<p>A scout for the Order of the Jade Leaf learns both martial skills and woodcraft. With equal facility, he can live off the land or fight. The people of Kith&#146;takharos are proud of these men, and always show them the greatest courtesy and respect.</p>
+					<p>Scouts are trained to patrol in teams of three or four, and to communicate with team members through signs and whistles. A typical mission has a scout team patrol a designated area, searching for swamp plant poachers and helping any inhabitants in need. When approaching suspected poachers, a scout will first request that all weapons be dropped. Then he will perform a search, arresting anyone found with contraband. Should the poacher resist or prove dangerous, one scout will return to Kith&#146;takharos for reinforcements.</p>
+				</text>
+			</id-00025>
+			<id-00026>
+				<text type="formattedtext">
+					<linklist>
+						<link class="npc" recordname="npc.id-00002@Well Met in Kith'takharos">Swamp Man Scout Character Sheet</link>
+					</linklist>
+					<p>The Swamp Man Scout stands between six and seven feet tall with a powerful tail about half his height in length. This tail aids in balance, making the Swamp Man difficult to trip or otherwise knock down. Swamp Man skin is dull green and covered with small scales. The Swamp Man can hold his breath for twice as long as the common races.</p>
+					<p>Scouts travel in groups of two or three along the periphery of a tribe's domain. They seldom attack unless an intruder has entered their lands and committed violence, preferring to warn off rather than kill. However, should a patrol be attacked, one member always flees to report, and a reprisal raid will soon be launched.</p>
+				</text>
+			</id-00026>
+		</category>
+		<category name="Well Met in Kith'takharos Legal, Hooks, &#38; Afterward" baseicon="1" decalicon="2">
+			<id-00015>
+				<text type="formattedtext">
+					<p>OPEN GAME LICENSE Version 1.0a</p>
+					<p>The following text is the property of Wizards of the Coast, Inc. and is Copyright 2000 Wizards of the Coast, Inc (&#147;Wizards&#148;). All Rights Reserved.</p>
+					<p>1. Definitions: (a)&#148;Contributors&#148; means the copyright and/or trademark owners who have contributed Open Game Content; (b)&#148;Derivative Material&#148; means copyrighted material including derivative works and translations (including into other computer languages), potation, modification, correction, addition, extension, upgrade, improvement, compilation, abridgment or other form in which an existing work may be recast, transformed or adapted; (c) &#147;Distribute&#148; means to reproduce, license, rent, lease, sell, broadcast, publicly display, transmit or otherwise distribute; (d)&#148;Open Game Content&#148; means the game mechanic and includes the methods, procedures, processes and routines to the extent such content does not embody the Product Identity and is an enhancement over the prior art and any additional content clearly identified as Open Game Content by the Contributor, and means any work covered by this License, including translations and derivative works under copyright law, but specifically excludes Product Identity. (e) &#147;Product Identity&#148; means product and product line names, logos and identifying marks including trade dress; artifacts; creatures characters; stories, storylines, plots, thematic elements, dialogue, incidents, language, artwork, symbols, designs, depictions, likenesses, formats, poses, concepts, themes and graphic, photographic and other visual or audio representations; names and descriptions of characters, spells, enchantments, personalities, teams, personas, likenesses and special abilities; places, locations, environments, creatures, equipment, magical or supernatural abilities or effects, logos, symbols, or graphic designs; and any other trademark or registered trademark clearly identified as Product identity by the owner of the Product Identity, and which specifically excludes the Open Game Content; (f) &#147;Trademark&#148; means the logos, names, mark, sign, motto, designs that are used by a Contributor to identify itself or its products or the associated products contributed to the Open Game License by the Contributor (g) &#147;Use&#148;, &#147;Used&#148; or &#147;Using&#148; means to use, Distribute, copy, edit, format, modify, translate and otherwise create Derivative Material of Open Game Content. (h) &#147;You&#148; or &#147;Your&#148; means the licensee in terms of this agreement.</p>
+					<p>2. The License: This License applies to any Open Game Content that contains a notice indicating that the Open Game Content may only be Used under and in terms of this License. You must affix such a notice to any Open Game Content that you Use. No terms may be added to or subtracted from this License except as described by the License itself. No other terms or conditions may be applied to any Open Game Content distributed using this License.</p>
+					<p>3.Offer and Acceptance: By Using the Open Game Content You indicate Your acceptance of the terms of this License.</p>
+					<p>4. Grant and Consideration: In consideration for agreeing to use this License, the Contributors grant You a perpetual, worldwide, royalty-free, non-exclusive license with the exact terms of this License to Use, the Open Game Content.</p>
+					<p>5.Representation of Authority to Contribute: If You are contributing original material as Open Game Content, You represent that Your Contributions are Your original creation and/or You have sufficient rights to grant the rights conveyed by this License.</p>
+					<p>6.Notice of License Copyright: You must update the COPYRIGHT NOTICE portion of this License to include the exact text of the COPYRIGHT NOTICE of any Open Game Content You are copying, modifying or distributing, and You must add the title, the copyright date, and the copyright holder&#146;s name to the COPYRIGHT NOTICE of any original Open Game Content you Distribute.</p>
+					<p>7. Use of Product Identity: You agree not to Use any Product Identity, including as an indication as to compatibility, except as expressly licensed in another, independent Agreement with the owner of each element of that Product Identity. You agree not to indicate compatibility or co-adaptability with any Trademark or Registered Trademark in conjunction with a work containing Open Game Content except as expressly licensed in another, independent Agreement with the owner of such Trademark or Registered Trademark. The use of any Product Identity in Open Game Content does not constitute a challenge to the ownership of that Product Identity. The owner of any Product Identity used in Open Game Content shall retain all rights, title and interest in and to that Product Identity.</p>
+					<p>8. Identification: If you distribute Open Game Content You must clearly indicate which portions of the work that you are distributing are Open Game Content.</p>
+					<p>9. Updating the License: Wizards or its designated Agents may publish updated versions of this License. You may use any authorized version of this License to copy, modify and distribute any Open Game Content originally distributed under any version of this License.</p>
+					<p>10. Copy of this License: You MUST include a copy of this License with every copy of the Open Game Content You Distribute.</p>
+					<p>11. Use of Contributor Credits: You may not market or advertise the Open Game Content using the name of any Contributor unless You have written permission from the Contributor to do so.</p>
+					<p>12. Inability to Comply: If it is impossible for You to comply with any of the terms of this License with respect to some or all of the Open Game Content due to statute, judicial order, or governmental regulation then You may not Use any Open Game Material so affected.</p>
+					<p>13. Termination: This License will terminate automatically if You fail to comply with all terms herein and fail to cure such breach within 30 days of becoming aware of the breach. All sublicenses shall survive the termination of this License.</p>
+					<p>14. Reformation: If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable.</p>
+					<p>15. COPYRIGHT NOTICE</p>
+					<p>Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.</p>
+				</text>
+			</id-00015>
+			<id-00016>
+				<text type="formattedtext">
+					<h>Well Met in Kith'takharos</h>
+					<p>An OGL 3.5 Adventure for 4-6 Characters of First or Second Level</p>
+					<p>Copyright 2009, White Haired Man, LLC.</p>
+					<p><b>Author: </b>Dave Przybyla</p>
+					<p><b>Electronic Design: </b>Dave Przybyla</p>
+					<p><b>Cover Artist: </b>Michael Galligan</p>
+					<p><b>Interior Artists: </b>Devin Night, Michael Galligan, Tyler Galligan</p>
+					<p><b>Cartography: </b>Michael Galligan</p>
+					<p><b>Special Thanks: </b>Four Ugly Monsters, Smiteworks &#38; Playtesters: Band of the Nine Towers, Steve Lafountain, Devin Night, Joshuha Owen, and Tim Strong.</p>
+					<p><b>Dungeons &#38; Dragons and Wizards of the Coast </b>are registered trademarks of Wizards of the Coast, Inc. and are used with permission. A copy of this License can be found at www.wizards.com. (C) 2008 White Haired Man, LLC. All Rights Reserved. Open Content: Only materials indicated in Section 15 of the Open Gaming License (OGL) story page are considered Open Content. All other content is Product Identity and copyrighted by White Haired Man, LLC. Do not distribute without permission.</p>
+					<p><b>Well Met in Kith'takharos (Fantasy Grounds II Version) </b>by White Haired Man, LLC, (C) 2009, ALL RIGHTS RESERVED. The adventure format, programming code, and presentation is copyrighted by White Haired Man, LLC. Redistribution either by print or electronic means is strictly prohibited. For more settings and adventures please visit our web site at www.whitehairedman.com.</p>
+					<p><b>Fantasy Grounds II </b>is a trademark of SmiteWorks USA Inc. (C) 2009 SmiteWorks USA Inc. ALL RIGHTS RESERVED. Visit the Fantasy Grounds web site at www.fantasygrounds.com for additional product information.</p>
+					<linklist>
+						<link class="encounter" recordname="encounter.id-00015@Well Met in Kith'takharos"><b>OGL Statement</b></link>
+					</linklist>
+				</text>
+			</id-00016>
+			<id-00017>
+				<text type="formattedtext">
+					<p>The adventure has been completed, and the characters have lived or died. Either way, assuming there has not been a player mutiny, the Gamemaster must think about the next adventure.</p>
+					<p><i>Well Met in Kith'takharos </i>can be considered successful if at least some of the characters returned from the Blood Temple. Survival begets continuity and an opportunity to introduce further Kith'takharos adventures. Assuming the campaign will continue in Kith'takharos, how should the Gamemaster proceed?</p>
+					<p>First, examine the character's standing with the dominant political factions in Kith'takharos: the Order of the Jade Leaf and the Transit Guild. Even if the characters engaged in no overt political acts, these organizations noticed them. If the characters did not harm either faction, both organizations may attempt to recruit them in the future. On the other hand, if the characters broke Kith'takharos laws or harmed the Order of the Jade Leaf, the people of Kith'takharos may very well shun them and the Transit Guild could become a haven of acceptance and employment.</p>
+					<p>An obvious next step would be another Kith'takharos adventure from White Haired Man. Alternatively, Meryl Dunestal or Dorian Orsova might hire the characters for a return to the Blood Temple. In particular, Dorian would be disturbed that such a foul place exists on the doorstep to Kith'takharos. If the characters all died, this would be an ideal opportunity to have Meryl or Dorian hire a new set of characters to investigate the temple. Just be careful about bringing in the Blood Priest before the characters have a reasonable chance to defeat him.</p>
+					<p>Kith'takharos offers other options for characters that have become familiar with the swamp during <i>Well Met in Kith'takharos. </i>Here are two quick adventure ideas that could provide enjoyment between more substantial endeavors. Either of these could be completed within a game session or added as an additional goal in a longer adventure.</p>
+					<p>1. Patrol the Kith'takharos area for the Order of the Jade Leaf. During the patrol, the characters encounter swamp plant poachers or Swamp Man scouts. Add more spice with a night patrol.</p>
+					<p>2. Yavanna Culand has devised a new method of estimating the location of valuable swamp plants. Dorian hires the characters to test her theory. Perhaps Yavanna employs some magical device and Meryl hires another group of adventurers to steal it.</p>
+				</text>
+			</id-00017>
+			<id-00020>
+				<text type="formattedtext">
+					<p><b>1. Shore Leave. </b>The characters sign on as common laborers or guards for a merchant ship. The ship anchors outside the swamp and the cargo is transferred to swamp boats for passage to Kith&#146;takharos. Of course, the characters accompany this final leg of the journey. Once the boats reached Kith&#146;takharos and the cargo is unloaded, all hands are granted a day or two of shore leave before the return trip.</p>
+					<p>The characters get roaring drunk or otherwise indisposed and miss the proverbial boat out of town. Meryl Dunestal arrives and offers a livelihood. He assigns the characters to his staff and then orders them out after Almus. Although heavy-handed, this approach generates interesting friction between Meryl and the characters.</p>
+					<p><b>2. Job Hunting. </b>The characters are hired by the Transit Guild to work with Meryl Dunestal. They will acquire the baggage of unpopularity that accrues to the Transit Guild. A hard up adventurer taking a job with Meryl is one thing, entering the swamp as Transit Guild employees is entirely another. This offers many interesting roleplaying opportunities in Kith&#146;takharos.</p>
+					<p>A more difficult approach has Dorian Orsova hiring the characters. There are at least two possibilities. First, the characters enter the swamp in the good graces of the Order of the Jade Leaf. This completely turns around <i>Well Met in Kith&#146;takharos. </i>Dorian hires the characters because he suspects Meryl Dunestal and Almus Rundarig of shady dealings. As an unknown group of outsiders, the characters can take care of the problem without alerting Meryl Dunestal to Dorian&#146;s concern. Dorian meets the characters in disguise and sends them after Almus as supposed free agents.</p>
+					<p>Second, Dorian allows Meryl Dunestal to hire the characters. He then speaks with the characters, perhaps in disguise, and convinces them to also work for him. This paints the Transit Guild as the bad guys and the Order of the Jade Leaf as the good guys, and essentially turns the characters into &#145;double agents.&#146; The characters would report to Dorian on Meryl&#146;s activities regarding Almus Rundarig Particularly inventive characters might even try to play the Order of the Jade Leaf and the Transit Guild against one another.</p>
+					<p><b>3. Magical Remedy. </b>One of the characters, a relative, a friend, or just someone willing to pay a lot of money, needs an herbal remedy for a deadly disease. The remedy can only be found in Kith&#146;takharos. So the characters arrive already on a mission, and somehow this mission must mesh with <i>Well Met in Kith&#146;takharos.</i></p>
+					<p>This option connects with the previous hook if Meryl or Dorian promises the herbs as payment for completing one job. However, unless one of the characters needs the remedy, this hook has the potential weakness of getting the characters in and out of the swamp with no reason to linger for further adventure.</p>
+				</text>
+			</id-00020>
+		</category>
+		<category name="Well Met in Kith'takharos Main" baseicon="1" decalicon="0">
+			<id-00001>
+				<text type="formattedtext">
+					<p><b>Why Does This Adventure Exist?</b></p>
+					<p>The creative personnel of White Haired Man have been Gamemasters for many years. We have experienced the pressure of developing new campaign material every week. Like many other Gamemasters, we have also wished for a little help every now and then. But we generally did not want our whole campaign planned out for us, because we already had a developed campaign world. White Haired Man was created to provide this type of help.</p>
+					<p>We offer small-scale settings and adventures that can be easily introduced into a campaign and reduce the Gamemaster&#146;s preparation time. Our settings do not force the Gamemaster to rework an existing campaign setting. Our work also reflects the roleplaying styles we enjoy: a low level of magic, high drama, intense roleplaying opportunities, and realistic consequences for character actions. We must stay true to the types of adventures that generate our passion for roleplaying, and hope that others will be equally as excited.</p>
+					<p>The settings themselves are available for free on the White Haired Man web site ( <u>www.whitehairedman.com </u>) in a rules agnostic format. That is, the free setting contains no rules that tie it to a particular game system. On the other hand, the adventures created for the settings comprise our core products, and do contain the information necessary to run the adventure in a particular game system. Each setting will include a number of adventures. While the adventures are designed to follow one another in a series, most of them can also stand alone if the Gamemaster desires. <i>Well Met in Kith&#146;takharos </i>is the first adventure for the Kith&#146;takharos setting.</p>
+					<linklist>
+						<link class="imagewindow" recordname="image.id-00003@Well Met in Kith'takharos">Well Met in Kith'takharos Cover</link>
+					</linklist>
+					<p><b>Adventure Design</b></p>
+					<p>Our adventure format facilitates our goals. We divide the adventure into discrete components, and each component has a purpose. We are very careful to segregate game mechanics from the rest of the adventure. We believe that game mechanics seldom, if ever, need be interspersed with descriptions. This increases portability, but also emphasizes that game mechanics are really a minor ingredient of a good adventure. Good adventures transcend game mechanics.</p>
+					<p>A typical White Haired Man adventure contains the following components. Each adventure may also have additional elements that don't fit into neat categories, and these will vary for each adventure.</p>
+					<p><i>Introduction. </i>The introduction gives an overview of the adventure and any adventure background not found in the setting. It may also describe themes or overarching goals that connect the particular adventure to other adventures.</p>
+					<p><i>Place Descriptions. </i>The descriptions detail substantive locations where the characters can interact with the setting. Other minor locations may be briefly described in events.</p>
+					<p><i>Events. </i>An event encompasses a description of some minor location or circumstance where there is an important character interaction with the environment. Characters make decisions in events. Events include a description of various options open to the characters and how the setting might respond. In some cases, we will describe alternatives for the Gamemaster so that the event can be used to shorten or expand the adventure. We write events as one Gamemaster to another. Events may include game mechanics, and these will clearly be marked.</p>
+					<p><i>Narratives. </i>Many adventures have potentially boring sections where the characters travel from one place to another, or perform some other mundane task with little or no interesting interaction with the environment. These can become dead spots in an adventure where the action can bog down. The narrative provides a bridge that spans these sections without forcing the characters into a particular course of action. If a narrative occurs, the characters have already chosen to do something, and the narrative just describes how it happens. The Gamemaster reads the narrative to the players or places it in the Fantasy Grounds chat window.</p>
+					<p><i>Bridges. </i>Sometimes significant time or distance separates events and narratives. The characters will, of course, fill the time, but there will be no scripted interactions with the environment. For example, there may be two events that occur in a city, separated by a few days of game time. The characters will be active during those days even if there are no specific events. The Gamemaster must use knowledge of the setting to determine how the environment will react to character actions. We will point out such situations, and offer the Gamemaster suggestions on how to &#34;bridge&#34; the gap between the events or narratives.</p>
+					<p><i>Creatures, Items, and NPCs. </i>Game mechanics are necessary here. But we are careful to keep the mechanics separate from the description of each creature, item, or non-player character (NPC).</p>
+					<p><i>Graphics. </i>There are four types of graphics: floor plans, geographical maps, tactical maps, and images. Floor plans and geographical maps are self-explanatory. Tactical maps show an area in which conflict is likely but for which there is no floor plan. Images are drawings shown to the players at important moments in the adventure, to give a better or more dramatic illustration of something the characters encounter.</p>
+					<linklist>
+						<link class="encounter" recordname="encounter.id-00016@Well Met in Kith'takharos"><b>Credits</b></link>
+					</linklist>
+				</text>
+			</id-00001>
+			<id-00019>
+				<text type="formattedtext">
+					<p><b>How to Use This Adventure</b></p>
+					<p>Events and narratives comprise the adventure core and appear below in the order they will most likely occur. Each event includes a list of &#147;linked items,&#148; which are any creatures, graphics, items, NPCs, and places required to complete the event. The events also include a &#147;trigger,&#148; a description of the circumstances that cause the event. The Gamemaster should become familiar with the events and narratives before running the adventure, and adjust them to best fit the needs of the particular group of players.</p>
+					<p>This adventure begins with the narrative <i>Arrival in Kith&#146;takharos. </i>Start the adventure by placing this narrative in the Fantasy Grounds chat window. The narrative assumes the characters arrive together in Kith&#146;takharos on a swamp boat.The event <i>Dorian Orsova Lays Down the Law </i>immediately follows <i>Arrival in Kith&#146;takharos, </i>and so on with the subsequent events and narratives. The <i>Afterward </i>describes some options for further adventure once <i>Well Met in Kith'takharos </i>has been completed.</p>
+					<linklist>
+						<link class="encounter" recordname="encounter.id-00018@Well Met in Kith'takharos">Narrative 1: Arrival in Kith'takharos</link>
+						<link class="encounter" recordname="encounter.id-00002@Well Met in Kith'takharos">Event 1: Dorian Orsova Lays Down the Law</link>
+						<link class="encounter" recordname="encounter.id-00003@Well Met in Kith'takharos">Event 2: Koran Thelig Tells a Story</link>
+					</linklist>
+					<p><b>Bridge. </b>Before Meryl Dunestal approaches the characters with a job offer, they may spend some time sightseeing in Kith'takharos. Use the Kith'takharos Village Map, as well as the people and places described in the Kith'takharos setting, to mediate this initial exploration.</p>
+					<linklist>
+						<link class="encounter" recordname="encounter.id-00005@Well Met in Kith'takharos">Event 3: Job Offer</link>
+						<link class="encounter" recordname="encounter.id-00006@Well Met in Kith'takharos">Narrative 3: Crossing the Big Water</link>
+						<link class="encounter" recordname="encounter.id-00007@Well Met in Kith'takharos">Event 4: Attack at the Boat</link>
+						<link class="encounter" recordname="encounter.id-00008@Well Met in Kith'takharos">Event 5: Tracked by the Swamp Men</link>
+						<link class="encounter" recordname="encounter.id-00009@Well Met in Kith'takharos">Event 6: The Freshwater Spring</link>
+						<link class="encounter" recordname="encounter.id-00010@Well Met in Kith'takharos">Event 7: Abrupt Warning</link>
+					</linklist>
+					<p><b>Bridge. </b>After encountering the Swamp Man corpse in Event 7, the characters will find the Blood Temple and begin exploration. Until the characters reach the Cold Room and Event 8, the Gamemaster must craft the initial encounter with the Blood Temple based on the descriptions included in the adventure.</p>
+					<linklist>
+						<link class="encounter" recordname="encounter.id-00014@Well Met in Kith'takharos">Place Description: Blood Temple</link>
+					</linklist>
+					<p>Significant portions of the Blood Temple description can easily be inserted into the Fantasy Grounds chat window.</p>
+					<linklist>
+						<link class="encounter" recordname="encounter.id-00011@Well Met in Kith'takharos">Event 8: Cold Room</link>
+						<link class="encounter" recordname="encounter.id-00012@Well Met in Kith'takharos">Event 9: Blood Mosquitoes!</link>
+						<link class="encounter" recordname="encounter.id-00013@Well Met in Kith'takharos">Event 10: Return to Kith'takharos</link>
+						<link class="encounter" recordname="encounter.id-00017@Well Met in Kith'takharos">Afterward</link>
+					</linklist>
+				</text>
+			</id-00019>
+			<id-00021>
+				<text type="formattedtext">
+					<p>The Gamemaster should become familiar with the Kith&#146;takharos setting before using <i>Well Met in Kith&#146;takharos. </i>The Kith'takharos setting is available for free on the White Haired Man web site (www.whitehairedman.com). A Fantasy Grounds II module of the Kith'takharos setting is also available, and includes all Kith'takharos information from the web site, plus game mechanics for creatures, NPC's and swamp plants, as well as additional graphics.</p>
+					<p><b>Adventure Background</b></p>
+					<p>The Transit Guild, a consortium of powerful merchants, acquired a monopoly on all swamp plant products leaving Kith&#146;takharos. Such a lucrative arrangement necessitated the establishment of a permanent guild house in Kith&#146;takharos.</p>
+					<p>Meryl Dunestal runs the guild house. Ostensibly, he facilitates the exchange of swamp plant products between the Order of the Jade Leaf and Transit Guild merchants. In practice, he delegates most of these day-to-day tasks to competent subordinates. Meryl also has more important and shadowy responsibilities: he works to secure a total monopoly of all phases of swamp plant production. To do this, he must discover the sources of the plants.</p>
+					<p>The Order of the Jade Leaf protects swamp plant harvesting and processing against outside interference. Swamp plants are the foundation of Kith&#146;takharos&#146; prosperity and freedom. The Order and the Transit Guild play a subtle game where each side maneuvers to thwart the other without crossing a blatant line of law or morality.</p>
+					<p>Meryl has great latitude in the completion of his mission. He most recently sent the explorer Almus Rundarig across the Big Water to a rumored freshwater spring. Meryl suspects that some property of the region&#146;s springs promotes the growth of the valuable plants.</p>
+					<p>Almus understood that no Kith&#146;takharos laws should be broken during the exploration. Yet Meryl always offers such admonitions, and still makes it clear that breaking the law and getting away with it could be quite profitable. Of course, Meryl would never be implicated should Almus be caught.</p>
+					<p>Almus has not returned and is now a week overdue. Meryl needs to learn what happened to the man.</p>
+					<p>The Gamemaster must decide whether to introduce Kith&#146;takharos politics. Without a political aspect, the adventure will still be an enjoyable exploration mission. The events <i>The Freshwater Spring, Job Offer, </i>and <i>Return to Kith&#146;takharos </i>explicitly add to the political story, and the political portions of the events are clearly indicated.</p>
+					<p><b>Adventure Goals and Outline</b></p>
+					<p><i>Well Met in Kith&#146;takharos </i>has been designed for four to six characters of First and Second Levels. The adventure has three main goals. First, the characters should discover that the swamp is dangerous, and learn respect for this environment. Second, the Swamp Men are introduced. They are not necessarily foes, but do foreshadow potential interactions in later adventures. Third, the characters should acquire a basic sense of Kith&#146;takharos politics, and perhaps gain the good will or animosity of Order of the Jade Leaf or the Transit Guild.</p>
+					<p><i>Well Met in Kith&#146;takharos </i>has the following adventure outline.</p>
+					<p>1. The characters arrive in Kith&#146;takharos and experience the local color. If the Gamemaster needs assistance in determining why the characters journey to Kith&#146;takharos, the Adventure Hooks section contains a number of ideas.</p>
+					<linklist>
+						<link class="encounter" recordname="encounter.id-00020@Well Met in Kith'takharos">Adventure Hooks</link>
+					</linklist>
+					<p>2. Meryl Dunestal approaches the characters with the intent of hiring them to find the lost explorer Almus Rundarig.</p>
+					<p>3. The characters accept the job, cross the Big Water by boat, and reach Stonefall Point.</p>
+					<p>4. They discover Almus&#146; trail and follow it, encountering a Swamp Man patrol along the way.</p>
+					<p>5. The trail reaches a freshwater spring, where the characters find another trail that heads toward the Blood Temple.</p>
+					<p>6. The characters encounter a gruesome warning: a corpse tied to a tree.</p>
+					<p>7. They reach the Blood Temple, explore it, and find Almus in the Cold Room.</p>
+					<p>8. If the characters dally at the temple, they are attacked by Blood Mosquitoes.</p>
+					<p>9. The characters return to Kith&#146;takharos and receive their reward from Meryl Dunestal.</p>
+				</text>
+			</id-00021>
+		</category>
+	</encounter>
+</root>

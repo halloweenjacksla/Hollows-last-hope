@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.3" release="1|3.5E:17|CoreRPG:4">
+	<battle>
+	</battle>
+	<calendar>
+		<public />
+	</calendar>
+	<charsheet>
+	</charsheet>
+	<class>
+	</class>
+	<combattracker>
+		<public />
+	</combattracker>
+	<currencies>
+		<public />
+		<id-00001>
+			<public />
+			<name type="string">PP</name>
+		</id-00001>
+		<id-00002>
+			<public />
+			<name type="string">GP</name>
+		</id-00002>
+		<id-00003>
+			<public />
+			<name type="string">SP</name>
+		</id-00003>
+		<id-00004>
+			<public />
+			<name type="string">CP</name>
+		</id-00004>
+	</currencies>
+	<effects>
+		<public />
+	</effects>
+	<encounter>
+		<category name="Hollow's Last Hope" baseicon="0" decalicon="0">
+			<id-00001>
+				<name type="string">For GM's</name>
+				<text type="formattedtext">
+					<linklist>
+						<link class="imagewindow" recordname="image.id-00005">Hollows Last Hope</link>
+					</linklist>
+					<p>Hollow&#146;s Last Hope is a wilderness and dungeon adventure designed for four 1stlevel characters. Characters who successfully complete this adventure should reach 2nd level by its conclusion. This adventure can be used as a prequel to the GameMastery Module D1: Crown of the Kobold King.</p>
+					<p>This module is a combination of wilderness exploration through the Darkmoon Vale and dungeon delving in the surface ruins of an ancient dwarven monastery. Since time is a factor, Game Masters (GMs) should familiarize themselves with the rules for overland travel before beginning this module.</p>
+					<h>Adventure Summary</h>
+					<p>Charged by herbalist Laurel to cure the afflicted town, the PCs venture into Darkmoon Vale to secure the ingredients required to cure Falcon&#146;s Hollow of the blackscour taint. Along their path, the PCs encounter numerous forest denizens, hints of growing dangers within the woodlands, and the ruins of a dilapidated dwarven holding&#151;the domain of a ferocious, bestial master.</p>
+					<p></p>
+					<p></p>
+					<linklist>
+						<link class="note" recordname="notes.id-00004">Before The Kobold King</link>
+						<link class="encounter" recordname="encounter.id-00003">Introduction</link>
+						<link class="encounter" recordname="encounter.id-00004">The Affliction</link>
+						<link class="encounter" recordname="encounter.id-00005">Part 1: An Elusive Antidote</link>
+						<link class="encounter" recordname="encounter.id-00006">Roots and Remedies</link>
+						<link class="encounter" recordname="encounter.id-00007">Roots and Remedies ( Laurel Q&#38;A )</link>
+					</linklist>
+				</text>
+			</id-00001>
+			<id-00002>
+				<name type="string">Adventure Background</name>
+				<text type="formattedtext">
+					<p>In the past week, numerous residents of Falcon&#146;s Hollow have fallen ill, each suffering from the same hacking affliction. Local remedies prove as useless as prayers at the Church of Iomedae, goddess of valor, justice, and honor, and already at least one town elder has been claimed by the wheezing death.</p>
+					<p>Fortunately for Falcon&#146;s Hollow, a canny local herbalist named Laurel has traced the source of the malady to Brookman&#146;s well, a small spring on the edge of town, and a rare fungus called blackscour. By banning the use of the spring, the town constabulary hopes to prevent further infection, but such measures offer little respite to those already afflicted.</p>
+					<p>While Laurel has attempted numerous treatments, she has been unable to cure the disease. She lacks the reagents to brew one last unusual medicine, though all the necessary elements can be found within nearby Darkmoon Vale. Thus far, though, no townsfolk have dared to venture into the wooded reaches and secure the ingredients for this potential cure.</p>
+				</text>
+			</id-00002>
+			<id-00003>
+				<locked type="number">1</locked>
+				<name type="string">Introduction</name>
+				<text type="formattedtext">
+					<p>Any number of events might draw the PCs to the small trade town of Falcon&#146;s Hollow. Merchant caravans regularly travel here from any number of points abroad, trading for the rare darkwood that grows so abundantly in Darkmoon Vale, and potentially bringing exotic individuals to town as guards or paying travelers. Alternatively, characters might be long-time residents of Falcon&#146;s Hollow, young or adventurous souls seeking excitement and opportunity beyond the lumber mills and town&#146;s petty intrigues. Local residents might already know one another as friends or relations, or they might encounter one another as they&#146;re individually drawn to seek a cure for the town&#146;s affliction (likely either in line at Roots and Remedies or at Laurel&#146;s suggestion of cooperation).</p>
+					<p>If the PCs need encouragement to become involved in the plot of the adventure, a friend, relative, or possibly one of the PCs themselves might come down with blackscour taint. Alternatively, both herbalist Laurel and Sheriff Baleson could put out calls for assistance, drawing on PCs&#146; specific talents, which might lead the PCs to learn of Laurel&#146;s more unusual cure.</p>
+					<p>When you&#146;re ready to begin the adventure, read or paraphrase the following to the players.</p>
+					<frame>Perched at the edge of civilized lands, the small town of Falcon&#146;s Hollow has always had to rely on itself to solve its problems. Meanwhile, the uncaring lumber barons squeeze the common folk for every last copper, deaf to their pleas. Now the hacking coughs of the sick are heard throughout town. The plague has come to Falcon&#146;s Hollow and the town&#146;s leaders can&#146;t be bothered to stop it.</frame>
+					<p><b>The Town of Falcon&#146;s Hollow</b></p>
+					<linklist>
+						<link class="note" recordname="notes.id-00003">Falcons Hollow Note</link>
+						<link class="imagewindow" recordname="image.id-00003">Falcons Hollow Map</link>
+					</linklist>
+					<p>A rough community wholly owned by the local Lumber Consortium, Falcon&#146;s Hollow rests on the edge of Darkmoon Vale, a blunt, sawdust-choked stop on a winding trade route. Home to fewer than 1,500 humans and a smattering of other races, most of the townsfolk care only for the paltry coins paid for their backbreaking work and what simple comforts they can buy. A few, however, understand that what&#146;s bad for one is bad for all, and so the community thrives on a tenacious mix of greed, debauchery, and stubborn self-reliance.</p>
+					<linklist>
+						<link class="encounter" recordname="encounter.id-00004">The Affliction</link>
+					</linklist>
+				</text>
+			</id-00003>
+			<id-00004>
+				<name type="string">The Affliction</name>
+				<text type="formattedtext">
+					<p>The Affliction At the start of this adventure, several dozen people in Falcon&#146;s Hollow have contracted a fungal disease called blackscour taint. While the malady is not exceptionally deadly, poor conditions and a general lack of supplies mean that many of the sick&#151;especially the elderly and young&#151;face mortal consequences. Slowly deteriorating, most of the afflicted can hang on for several more days, but already the weakest have succumbed, with their number growing daily. Blackscour taint is an ingested disease with an incubation period of 1d3 days. The disease deals 1d2 points of Constitution damage and is resisted with a DC 14 Fortitude save. Those who are infected develop a hacking cough that quickly turns bloody if the disease is allowed to progress. For the first two days from the start of the adventure, 1d4 townsfolk die from blackscour taint every day. On the third day, 2d4 townsfolk die, then 3d4 on the fourth day, with the death toll increasing an additional 1d4 every day until a total of forty villagers have perished. If the PCs have acquaintances or loved ones afflicted by blackscour taint (and who lack full NPC statistics), roll 4d10 for each noteworthy relation. If the PCs do not return to town with a cure for the disease by the time the death toll reaches the NPC&#146;s number, the specified character dies. Once forty townsfolk die from blackscour taint, the malady has run its course, killing all those unable to overcome the disease on their own. If the PCs take up the search for a cure and fail to return to Falcon&#146;s Hollow by this time, they are widely shunned and blamed by many for the deaths of their loved ones.</p>
+					<linklist>
+						<link class="encounter" recordname="encounter.id-00005">Part 1: An Elusive Antidote</link>
+					</linklist>
+				</text>
+			</id-00004>
+			<id-00005>
+				<name type="string">Part 1: An Elusive Antidote</name>
+				<text type="formattedtext">
+					<p>Falcon&#146;s Hollow has few clerics, and only <b>Lady Cirthana </b>(LG female cleric 2 of Iomedae) shows any interest in stopping the illness and she lacks the ability to cure diseases. Since few townsfolk trust her, most lay their medical concerns at the feet of the local herbalist, a tough woman named <b>Laurel </b>(NG female human expert 3), whose income stems as much from her sale of snake oils and aphrodisiacs as from questionable cure-alls and bitter teas. As quick to suggest expensive remedies as she is to remind angry buyers that she is not, in fact, a physician, Laurel does her best to help those who come to her in need, but her tight income, need to survive, and pride prevent her from admitting failure.</p>
+					<p>In treating the blackscour taint, as in most cases, Laurel has turned to her grandmother&#146;s tome of recipes, cures, and spells for aid. Although the book contains no actual magic, it holds the rooted wisdom of generations of Laurel&#146;s family, including the teachings of the Witch of Darkmoon Vale, Ulizmila, from whom Laurel&#146;s grandmother learned in exchange for her sight. There&#146;s one last treatment from the cultic appendices of the tome&#151;scribed in a hand that is not Laurel&#146;s grandmother&#146;s&#151;that the herbalist has yet to try, as she lacks three of the most important ingredients and would rather do what she can for the sick with what she knows than chase a fanciful salvation.</p>
+					<p>How the PCs come to entreat Laurel for aid is largely up to the GM. A <b>DC 10 Knowledge (local) </b>check or merely inquiring with any of the families of the afflicted reveals that Laurel is aiding the families of the sick as best she can&#151;although her proscriptions are little more than bed rest and a pungent black urdroot tea. Nearly anyone in town can direct the PCs to Laurel&#146;s shop, the unmistakably named Roots and Remedies. The line stemming from Laurel&#146;s shop makes a useful first-time meeting place for unacquainted PCs.</p>
+					<linklist>
+						<link class="encounter" recordname="encounter.id-00006">Roots and Remedies</link>
+						<link class="encounter" recordname="encounter.id-00007">Roots and Remedies ( Laurel Q&#38;A )</link>
+					</linklist>
+				</text>
+			</id-00005>
+			<id-00006>
+				<name type="string">Roots and Remedies</name>
+				<text type="formattedtext">
+					<frame>Creeping ivy and full window boxes cover the fa&#231;ade of the rugged-looking, two-story shop bearing the faded sign &#147;Roots and Remedies.&#148; A line of twenty-some somber townsfolk&#151;some with pale, wheezing children, others seeming to be precipitously near tears&#151;stretches from the open door.</frame>
+					<p>Laurel&#146;s shop has been besieged since the outbreak of blackscour taint, both by the afflicted and their families and by hypochondriacs of all stripes. While she tries to help those with legitimate concerns as best she can, she has no qualms in selling the deluded her most expensive balms.</p>
+					<p>Unless the PCs attempt to bypass the line&#151;an act that might touch off a small, hacking riot&#151;it takes nearly an hour to reach the door of Roots and Remedies. Once inside, the clutter and disrepair of the shop shows the recent traffic, and Laurel visibly overworks herself at the store&#146;s rear, brewing remedies for the ill.</p>
+					<frame>The smell of burnt earth and spicy incense chokes the air of the cramped, mud-tracked shop. Bunches of dried herbs hang from the ceiling, along with dangling pots, presses, alchemical apparatuses, and glassware of more arcane purposes. Pouches of rare plants, jars of colored glass, and all manner of dried, preserved, and jellied animal parts fill high shelves and tables doing double duty as displays and workspaces. In the shop&#146;s rear, a rail-thin woman with severe-looking spectacles and hair pulled back tightly busies herself between an overpacked rack of herbs, a table covered in stray powders and measuring equipment, and a pot loudly bubbling over with thick gray froth. Over the din of her work and without looking up, the woman impatiently shouts, &#147;And what&#146;s your problem?&#148;</frame>
+					<p>The PCs are free to converse with Laurel as they please and she can tell them anything they need to know about the blackscour outbreak, how many people are afflicted, and&#151;especially&#151;how it&#146;s not her job to treat every cut and scabbed knee the daft people of Falcon&#146;s Hollow come crying to her about.</p>
+					<p>Initially dismissive if the PCs don&#146;t present themselves as customers or capable assistants, she eventually comes around and tells the PCs what she knows about the taint. Even if the PCs seem honestly willing to help, she might not even think to mention the untried medicine until the characters are about to walk out the door, calling them back at the last moment.</p>
+					<p>While conversing with Laurel, she answers some of the most likely questions as follows:</p>
+					<linklist>
+						<link class="imagewindow" recordname="image.id-00012">Laurel</link>
+						<link class="encounter" recordname="encounter.id-00007">Roots and Remedies ( Laurel Q&#38;A )</link>
+					</linklist>
+				</text>
+			</id-00006>
+			<id-00007>
+				<locked type="number">1</locked>
+				<name type="string">Roots and Remedies ( Laurel Q&#38;A )</name>
+				<text type="formattedtext">
+					<p><b>What is blackscour?</b></p>
+					<frame>&#147;Just a fungus that&#146;s not good for anything. Hard, bitter, and sharp, it likes the water and gets you sick if you drink it down. Never heard of it growing around these parts, though, until now.&#148;</frame>
+					<p><b>What is blackscour taint?</b></p>
+					<frame>&#147;It&#146;s a sickness, almost like any other, but you get the mold growing in you. It starts eating away in your chest and belly and is damned determined to stay. Your body near turns itself insideout trying to hack the stuff up, but all that does is cuts your guts up&#133; bad.&#148;</frame>
+					<p><b>How many townsfolk have blackscour taint?</b></p>
+					<frame>&#147;More than thirty, honestly, though at least three times that thinks they&#146;ve got it.&#148;</frame>
+					<p><b>Is there any cure?</b></p>
+					<frame>&#147;Not around here. I&#146;ll get these folks what I can and we&#146;ll see what good it does.&#148;</frame>
+					<p><b>There&#146;s another medicine?</b></p>
+					<frame>&#147;My grandmother&#146;s book has a brew in it that says its good for this kind of thing. A weird concoction that sounds more like hoojoo than real medicine.&#148;</frame>
+					<p><b>What&#146;s in this medicine?</b></p>
+					<frame>&#147;Some rare roots and concentrations, most of which I have here, but there&#146;s three I don&#146;t. Elderwood moss, which I&#146;ve never heard of, but granny says the stuff only grows on the oldest tree in a forest. A specially pickled root called rat&#146;s tail, again, sounds like hoojoo to me. And seven ironbloom mushrooms, stunty little things that only grow in dark places thick with metal, a favorite among dwarves, or so I hear.&#148;</frame>
+					<p><b>Do you know where we could find these ingredients?</b></p>
+					<frame>&#147;Well, for the elderwood mold, there&#146;s gotta be an oldest tree in the vale. Damned if I know where it is, though. &#147;The rat&#146;s tail and mushrooms are even longer shots. Way north, toward the mountains, people say there used to live a bunch of dwarves. They&#146;re not there anymore, but I&#146;d bet their forges are. If you can find ironbloom anywhere around here, that&#146;d be your best bet. &#147;As for the rat&#146;s tail, who knows? Well. Actually. Ulizmila, the witch that lives deep in the woods might. She&#146;s a crafty, mean thing that knows all sorts of strangeness. She might even have one. I don&#146;t know what she might want for it, but I doubt it&#146;d come cheap. My grandmother traded her sight to the old crone for a few pages of what she knew, and that was years and years back, and I don&#146;t know a soul who got any nicer as they got older.&#148;</frame>
+					<p><b>How much time do we have to get the ingredients?</b></p>
+					<p>&#147;None! Folks are dying every day! All we can hope to do now is treat who we can and hope to save the gravedigger some work.&#148;</p>
+					<p><b>Can you pay us for finding these ingredients? [Outraged]</b></p>
+					<frame>&#147;Pay you!? I&#146;ll pay you in&#133;! Well, I suppose I&#146;m not doing all this for free either. If nothing else, this whole thing&#146;s been good for business. How about this, you come back with everything I need to brew the medicine and I&#146;ll cut you in: thirty gold each. Fair?&#148;</frame>
+					<p>She can be bargained up to 45 gp each with a successful DC 15 Diplomacy check. Although Laurel has an idea of where the ingredients for her medicine might be found, she&#146;s never set foot beyond the fringes of Darkmoon Vale and honestly has no idea where the locations she mentions are. If the PCs seem committed to searching, she suggests they head to the Consortium Lumber Camp to the east and look for Milon Rhoddam&#151; the most experienced woodsman in the Lumber Consortium.</p>
+				</text>
+			</id-00007>
+		</category>
+	</encounter>
+	<image>
+		<category name="Hollow's Last Hope" baseicon="0" decalicon="0">
+			<id-00001>
+				<image type="image">
+					<bitmap>images/Dark Moon Vale Map(DM).jpg</bitmap>
+				</image>
+				<name type="string">Dark Moon Vale Map(DM)</name>
+			</id-00001>
+			<id-00002>
+				<image type="image">
+					<bitmap>images/Droskars Crucible.jpg</bitmap>
+				</image>
+				<name type="string">Droskars Crucible</name>
+			</id-00002>
+			<id-00003>
+				<image type="image">
+					<bitmap>images/Falcons Hollow.jpg</bitmap>
+				</image>
+				<name type="string">Falcons Hollow</name>
+				<nonid_name type="string">FAlcons Hollow Locations</nonid_name>
+			</id-00003>
+			<id-00004>
+				<image type="image">
+					<bitmap>images/Graypelt.jpg</bitmap>
+				</image>
+				<name type="string">Graypelt</name>
+			</id-00004>
+			<id-00005>
+				<image type="image">
+					<bitmap>images/Hollows Last Hope.jpg</bitmap>
+				</image>
+				<name type="string">Hollows Last Hope</name>
+			</id-00005>
+			<id-00006>
+				<image type="image">
+					<bitmap>images/Dark Moon Vale Map(PC).jpg</bitmap>
+				</image>
+				<isidentified type="number">1</isidentified>
+				<name type="string">Dark Moon Vale Map(PC)</name>
+				<nonid_name type="string">Falcons Hollow Environs</nonid_name>
+			</id-00006>
+			<id-00007>
+				<image type="image">
+					<bitmap>images/Monastery.jpg</bitmap>
+				</image>
+				<name type="string">Monastery</name>
+			</id-00007>
+			<id-00008>
+				<image type="image">
+					<bitmap>images/Ring Of Torag.jpg</bitmap>
+				</image>
+				<name type="string">Ring Of Torag</name>
+			</id-00008>
+			<id-00009>
+				<image type="image">
+					<bitmap>images/SoulSpeaker.jpg</bitmap>
+				</image>
+				<name type="string">SoulSpeaker</name>
+			</id-00009>
+			<id-00010>
+				<image type="image">
+					<bitmap>images/tatzlwyrm.jpg</bitmap>
+				</image>
+				<name type="string">tatzlwyrm</name>
+			</id-00010>
+			<id-00011>
+				<image type="image">
+					<bitmap>images/Lady Cirthana.jpg</bitmap>
+				</image>
+				<name type="string">Lady Cirthana</name>
+			</id-00011>
+			<id-00012>
+				<image type="image">
+					<bitmap>images/Laurel.jpg</bitmap>
+				</image>
+				<name type="string">Laurel</name>
+			</id-00012>
+			<id-00013>
+				<image type="image">
+					<bitmap>images/Droskars Crucible(PC).jpg</bitmap>
+				</image>
+				<name type="string">Droskars Crucible(PC)</name>
+			</id-00013>
+		</category>
+	</image>
+	<item>
+	</item>
+	<languages>
+		<public />
+		<id-00001>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Aquan</name>
+		</id-00001>
+		<id-00002>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Orc</name>
+		</id-00002>
+		<id-00003>
+			<public />
+			<font type="string">Celestial</font>
+			<name type="string">Celestial</name>
+		</id-00003>
+		<id-00004>
+			<public />
+			<font type="string">Infernal</font>
+			<name type="string">Infernal</name>
+		</id-00004>
+		<id-00005>
+			<public />
+			<name type="string">Gnoll</name>
+		</id-00005>
+		<id-00006>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Elven</name>
+		</id-00006>
+		<id-00007>
+			<public />
+			<font type="string">Draconic</font>
+			<name type="string">Ignan</name>
+		</id-00007>
+		<id-00008>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Undercommon</name>
+		</id-00008>
+		<id-00009>
+			<public />
+			<font type="string">Draconic</font>
+			<name type="string">Draconic</name>
+		</id-00009>
+		<id-00010>
+			<public />
+			<font type="string">Infernal</font>
+			<name type="string">Abyssal</name>
+		</id-00010>
+		<id-00011>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Sylvan</name>
+		</id-00011>
+		<id-00012>
+			<public />
+			<name type="string">Aklo</name>
+		</id-00012>
+		<id-00013>
+			<public />
+			<name type="string">Common</name>
+		</id-00013>
+		<id-00014>
+			<public />
+			<name type="string">Vishkanya</name>
+		</id-00014>
+		<id-00015>
+			<public />
+			<name type="string">Vanaran</name>
+		</id-00015>
+		<id-00016>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Gnome</name>
+		</id-00016>
+		<id-00017>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Dwarven</name>
+		</id-00017>
+		<id-00018>
+			<public />
+			<name type="string">Grippli</name>
+		</id-00018>
+		<id-00019>
+			<public />
+			<name type="string">Catfolk</name>
+		</id-00019>
+		<id-00020>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Terran</name>
+		</id-00020>
+		<id-00021>
+			<public />
+			<name type="string">Halfling</name>
+		</id-00021>
+		<id-00022>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Goblin</name>
+		</id-00022>
+		<id-00023>
+			<public />
+			<font type="string">Dwarven</font>
+			<name type="string">Giant</name>
+		</id-00023>
+		<id-00024>
+			<public />
+			<font type="string">Draconic</font>
+			<name type="string">Auran</name>
+		</id-00024>
+		<id-00025>
+			<public />
+			<font type="string">Elven</font>
+			<name type="string">Druidic</name>
+		</id-00025>
+	</languages>
+	<library>
+	</library>
+	<modifiers>
+		<public />
+	</modifiers>
+	<notes>
+		<id-00001>
+			<name type="string">Pathfinder chronicals Falcons Hollow</name>
+			<text type="formattedtext">
+				<p>The small village of Falcon&#146;s Hollow is a wild place. Nestled in the shadow of Droskar&#146;s Crag, the people of Falcon&#146;s Hollow are hearty and stern. Theirs is a life of hardships, broken only occasionally by a handful of festivals and the infrequent merchant caravan. They face constant adversity from both the wilderness and the wiles of man. Wolves nip at their heels and cutpurses ply at their pockets. It is a testament to their strength that they even manage to survive at all. &#151;Pathfinder Chronicles</p>
+			</text>
+		</id-00001>
+		<id-00003>
+			<locked type="number">1</locked>
+			<name type="string">Falcons Hollow Note</name>
+			<text type="formattedtext">
+				<p><b>Town </b>nonstandard (Lumber Consortium);</p>
+				<p><b>AL </b>NE</p>
+				<p><b>GP Limit </b>1,500 gp;</p>
+				<p><b>Assets </b>40,550 gp</p>
+				<p><b>DEMOGRAPHICS</b></p>
+				<p><b>Population </b>1,400</p>
+				<p><b>Type </b>isolated (human 94%, halfling 3%, half-elf 1%, elf 1%, other 1% )</p>
+				<p><b>AUTHORITY FIGURES</b></p>
+				<p><b>Gavel Thuldrin Kreed </b>, LE male human expert 3/ rogue 4 (Gavel of the Lumber Consortium), <b>Magistrate Vamros Harg </b>, NE male halfling aristocrat 2/sorcerer 5 (Magistrate-Elect), <b>Sheriff Deldrin Baleson </b>, LN male halfelf expert 3/fighter 3 (Sheriff of Darkmoon Vale), <b>Boss Payden &#147;Pay Day&#148; Teedum </b>, LE male human monk 2/fighter 3 (Overboss of the Lumber Consortium).</p>
+				<p></p>
+				<linklist>
+					<link class="imagewindow" recordname="image.id-00003">Falcons Hollow Map</link>
+				</linklist>
+			</text>
+		</id-00003>
+		<id-00004>
+			<locked type="number">1</locked>
+			<name type="string">Before The Kobold King</name>
+			<text type="formattedtext">
+				<p>Aside from being its own adventure, <i>Hollow&#146;s Last Hope </i>works well as a prelude to GameMastery Module <i>D1: Crown of the Kobold King </i>. GMs interested in running this adventure as part of <i>Crown of the Kobold King </i>can remove all elements of the disease afflicting Falcon&#146;s Hollow and instead use the encounters in Darkmoon Vale and in the ruins above the kobolds&#146; lair as supplementary encounters. Containing its own complete adventure and extensive details on the town of Falcon&#146;s Hollow, Nicolas Logue&#146;s <i>Crown of the Kobold King</i></p>
+			</text>
+		</id-00004>
+		<id-00006>
+			<locked type="number">1</locked>
+			<name type="string">Mapping the Vale</name>
+			<text type="formattedtext">
+				<p>At some point, the PCs are going to need to determine where in Darkmoon Vale to search for the ingredients to create Laurel&#146;s cure. Of greatest interest are: Ulizmila&#146;s hut, the oldest tree in the vale, and the dwarven ruins. PCs familiar with the area might be able to make the following Knowledge checks to know where these sites lie. If they lack these skills, the PCs can question Milon Rhoddam at the Consortium Lumber Camp.</p>
+				<p><b>Location Knowledge Check and DC</b></p>
+				<p>Ulizmila&#146;s Hut Geography DC 16, Local DC 20</p>
+				<p>Eldest Tree Geography DC 20, Nature DC 24</p>
+				<p>Dwarven Monastary Geography DC 16, Local DC 20</p>
+			</text>
+		</id-00006>
+	</notes>
+	<npc>
+	</npc>
+	<options>
+		<public />
+		<REVL type="string">on</REVL>
+		<TBOX type="string">on</TBOX>
+		<TNAM type="string">tooltip</TNAM>
+	</options>
+	<partysheet>
+		<public />
+	</partysheet>
+	<quest>
+	</quest>
+	<storytemplate>
+	</storytemplate>
+	<tables>
+	</tables>
+	<treasureparcels>
+	</treasureparcels>
+	<windowsaver>
+		<id-00018>
+			<masterindex type="string">image</masterindex>
+		</id-00018>
+		<id-00019>
+			<masterindex type="string">tables</masterindex>
+		</id-00019>
+		<id-00020>
+			<masterindex type="string">encounter</masterindex>
+		</id-00020>
+		<id-00021>
+			<masterindex type="string">quest</masterindex>
+		</id-00021>
+		<id-00023>
+			<masterindex type="string">battle</masterindex>
+		</id-00023>
+		<id-00024>
+			<masterindex type="string">item</masterindex>
+		</id-00024>
+		<id-00025>
+			<masterindex type="string">treasureparcels</masterindex>
+		</id-00025>
+		<id-00026>
+			<masterindex type="string">class</masterindex>
+		</id-00026>
+	</windowsaver>
+	<windowsaverdesktop>
+	</windowsaverdesktop>
+</root>

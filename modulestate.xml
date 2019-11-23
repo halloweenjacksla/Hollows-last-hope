@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<modulestate version="3.3">
+	<module name="3.5E Basic Rules">
+		<allow />
+	</module>
+	<module name="3.5E Spells">
+		<allow />
+	</module>
+	<module name="Calendars">
+		<loaded />
+	</module>
+	<module name="FG Battle Maps">
+		<loaded />
+	</module>
+	<module name="Letter Tokens">
+		<loaded />
+	</module>
+	<module name="PFRPG Basic Rules">
+		<allow />
+	</module>
+	<module name="PFRPG Spells">
+		<allow />
+	</module>
+	<module name="Pathfinder Bestiary">
+		<loaded />
+	</module>
+	<module name="Pathfinder Core Rules">
+		<loaded />
+		<allow />
+	</module>
+	<module name="Pathfinder RPG - Ultimate Magic">
+		<allow />
+	</module>
+</modulestate>
