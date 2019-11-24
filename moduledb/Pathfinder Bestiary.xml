@@ -4,14 +4,11 @@
 		<category name="Pathfinder Bestiary" baseicon="0" decalicon="0">
 			<npcdata>
 				<category name="Pathfinder Bestiary" baseicon="0" decalicon="0">
-					<snakeconstrictor>
-						<spelldisplaymode type="string">action</spelldisplaymode>
-					</snakeconstrictor>
-					<stirge>
+					<kobold>
 						<spelldisplaymode type="string">action</spelldisplaymode>
 						<category name="Pathfinder Bestiary" baseicon="0" decalicon="0">
 						</category>
-					</stirge>
+					</kobold>
 				</category>
 			</npcdata>
 		</category>
