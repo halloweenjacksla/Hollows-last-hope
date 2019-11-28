@@ -1,18 +1,36 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <windowstate version="3.3">
 	<window data="" class="WS" pos="1271,667,1471,817" />
-	<window data="" class="chat" pos="15,1013,676,1363" />
-	<window data="" class="library" pos="1208,553,1908,1103" />
+	<window data="" class="chat" pos="15,592,676,942" />
+	<window data="" class="library" pos="340,543,1040,1093" />
 	<window data="" class="lightingselection" pos="1288,512,1453,972" />
 	<window data="" class="moduleselection" pos="1021,477,1721,1007" />
 	<window data="" class="tokenbag" pos="1684,864,2184,1364" />
-	<window data="battle" class="masterindex" pos="2197,3,2647,453" />
+	<window data="battle" class="masterindex" pos="2182,475,2632,925" />
+	<window data="battle.id-00001" class="battle" pos="1517,250,1867,650" />
+	<window data="battle.id-00002" class="battle" pos="1196,542,1546,942" />
+	<window data="battle.id-00003" class="battle" pos="1196,542,1546,942" />
+	<window data="battle.id-00004" class="battle" pos="1196,542,1546,942" />
+	<window data="battle.id-00005" class="battle" pos="1573,461,1923,861" />
+	<window data="battle.id-00006" class="battle" pos="1196,542,1546,942" />
+	<window data="battle.id-00007" class="battle" pos="1196,542,1546,942" />
+	<window data="battle.id-00008" class="battle" pos="1196,542,1546,942" />
+	<window data="battle.id-00009" class="battle" pos="1196,542,1546,942" />
+	<window data="battle.id-00010" class="battle" pos="1196,542,1546,942" />
+	<window data="battle.id-00011" class="battle" pos="956,84,1306,484" />
+	<window data="battle.id-00012" class="battle" pos="1196,542,1546,942" />
+	<window data="battle.id-00013" class="battle" pos="1196,542,1546,942" />
+	<window data="battle.id-00014" class="battle" pos="1196,542,1546,942" />
+	<window data="battle.id-00015" class="battle" pos="1196,542,1546,942" />
+	<window data="battle.id-00016" class="battle" pos="1196,542,1546,942" />
+	<window data="battle.id-00017" class="battle" pos="1196,542,1546,942" />
+	<window data="battle.id-00018" class="battle" pos="1196,542,1546,942" />
 	<window data="calendar" class="calendar" pos="1444,524,2099,1024" />
 	<window data="charsheet.id-00001" class="charsheet" pos="1108,458,1633,1026" />
 	<window data="class" class="masterindex" pos="1146,517,1596,967" />
 	<window data="currencies" class="currencylist" pos="1196,567,1546,917" />
 	<window data="effects" class="effectlist" pos="1196,567,1736,1107" />
-	<window data="encounter" class="masterindex" pos="611,74,1252,1041" />
+	<window data="encounter" class="masterindex" pos="459,291,1100,1258" />
 	<window data="encounter.id-00001" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00002" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00003" class="encounter" pos="1171,417,1571,1067" />
@@ -23,10 +41,12 @@
 	<window data="encounter.id-00008" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00009" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00010" class="encounter" pos="1171,417,1571,1067" />
-	<window data="encounter.id-00011" class="encounter" pos="1019,426,1619,1194" />
+	<window data="encounter.id-00011" class="encounter" pos="1171,417,1571,1067" />
+	<window data="encounter.id-00012" class="encounter" pos="1171,417,1571,1067" />
+	<window data="encounter.id-00013" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00014" class="encounter" pos="1171,417,1571,1067" />
-	<window data="encounter.id-00015" class="encounter" pos="1019,426,1619,1194" />
-	<window data="encounter.id-00016" class="encounter" pos="44,486,644,1254" />
+	<window data="encounter.id-00015" class="encounter" pos="1171,417,1571,1067" />
+	<window data="encounter.id-00016" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00017" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00018" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00019" class="encounter" pos="1171,417,1571,1067" />
@@ -57,6 +77,11 @@
 	<window data="encounter.id-00044" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00045" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00046" class="encounter" pos="1171,417,1571,1067" />
+	<window data="encounter.id-00047" class="encounter" pos="1171,417,1571,1067" />
+	<window data="encounter.id-00048" class="encounter" pos="1171,417,1571,1067" />
+	<window data="encounter.id-00049" class="encounter" pos="1171,417,1571,1067" />
+	<window data="encounter.id-00053" class="encounter" pos="1171,417,1571,1067" />
+	<window data="encounter.id-00057" class="encounter" pos="1171,417,1571,1067" />
 	<window data="feat" class="masterindex" pos="1874,94,2324,544" />
 	<window data="feat.id-00001" class="referencefeat" pos="1420,519,1820,869" />
 	<window data="feat.id-00002" class="referencefeat" pos="1171,567,1571,917" />
@@ -67,6 +92,7 @@
 	<window data="image.id-00003" class="imagewindow" pos="270,486,1385,1368" />
 	<window data="image.id-00005" class="imagewindow" pos="720,0,2021,1485" />
 	<window data="image.id-00006" class="imagewindow" pos="777,314,1965,1207" />
+	<window data="image.id-00007" class="imagewindow" pos="717,292,2024,1193" />
 	<window data="image.id-00008" class="imagewindow" pos="1168,455,1574,1030" />
 	<window data="image.id-00008@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
 	<window data="image.id-00009" class="imagewindow" pos="1151,196,1591,1289" />
@@ -82,13 +108,23 @@
 	<window data="image.id-00016@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
 	<window data="image.id-00017@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
 	<window data="image.stirge@Pathfinder Bestiary" class="imagewindow" pos="632,683,1211,1344" />
-	<window data="item" class="masterindex" pos="2206,902,2656,1352" />
+	<window data="item" class="masterindex" pos="1748,910,2198,1360" />
 	<window data="item.id-00001" class="item" pos="1196,542,1546,942" />
 	<window data="item.id-00002" class="item" pos="1196,542,1546,942" />
 	<window data="item.id-00003" class="item" pos="792,482,1142,882" />
 	<window data="item.id-00004" class="item" pos="1196,542,1546,942" />
 	<window data="item.id-00005" class="item" pos="1196,542,1546,942" />
 	<window data="item.id-00006" class="item" pos="1693,365,2043,765" />
+	<window data="item.id-00009" class="item" pos="1196,542,1546,942" />
+	<window data="item.id-00013" class="item" pos="1782,573,2132,973" />
+	<window data="item.id-00014" class="item" pos="1196,542,1616,1016" />
+	<window data="item.id-00015" class="item" pos="1196,542,1546,942" />
+	<window data="item.id-00017" class="item" pos="1196,542,1546,942" />
+	<window data="item.id-00018" class="item" pos="1579,151,1929,551" />
+	<window data="item.id-00019" class="item" pos="1196,542,1546,942" />
+	<window data="item.id-00020" class="item" pos="1541,162,2086,820" />
+	<window data="item.id-00021" class="item" pos="1196,542,1729,1017" />
+	<window data="item.id-00022" class="item" pos="1196,542,1546,942" />
 	<window data="languages" class="languagelist" pos="1196,567,1546,917" />
 	<window data="lists.monsterfeats@Pathfinder Bestiary" class="referenceindexsorted" pos="914,92,1264,542" />
 	<window data="lists.universalmonsterrules@Pathfinder Bestiary" class="referenceindexsorted" pos="440,130,790,580" />
@@ -98,7 +134,7 @@
 	<window data="notes.id-00004" class="note" pos="1127,465,1477,815" />
 	<window data="notes.id-00005" class="note" pos="1657,483,2007,833" />
 	<window data="notes.id-00006" class="note" pos="1196,567,1840,1286" />
-	<window data="npc" class="masterindex" pos="1763,458,2213,908" />
+	<window data="npc" class="masterindex" pos="1747,471,2197,921" />
 	<window data="npc.id-00001" class="npc" pos="570,361,1020,911" />
 	<window data="npc.id-00002" class="npc" pos="1060,797,1510,1347" />
 	<window data="npc.id-00002.specialabilities.attach-ex" class="referenceclassability" pos="1171,567,1660,985" />
@@ -110,13 +146,18 @@
 	<window data="npc.id-00007" class="npc" pos="710,491,1606,1189" />
 	<window data="npc.id-00008" class="npc" pos="910,427,1563,1192" />
 	<window data="npc.id-00009" class="npc" pos="1560,405,2010,955" />
+	<window data="npc.id-00010" class="npc" pos="878,754,1328,1304" />
 	<window data="npc.id-00011" class="npc" pos="1599,255,2406,1052" />
-	<window data="npc.id-00012" class="npc" pos="691,475,1141,1025" />
+	<window data="npc.id-00012" class="npc" pos="811,653,1261,1203" />
 	<window data="npc.id-00013" class="npc" pos="990,560,1440,1110" />
+	<window data="npc.id-00014" class="npc" pos="1146,467,1596,1017" />
+	<window data="npc.id-00015" class="npc" pos="1146,467,1596,1017" />
+	<window data="npc.id-00018" class="npc" pos="1146,467,1596,1017" />
 	<window data="npclists.images@Pathfinder Bestiary" class="referenceindex" pos="1196,517,1546,967" />
 	<window data="npclists.npc-a-z@Pathfinder Bestiary" class="reference_colindex" pos="1146,517,1596,967" />
 	<window data="npclists.npcs@Pathfinder Bestiary" class="referenceindex" pos="1009,776,1359,1226" />
-	<window data="quest" class="masterindex" pos="2196,450,2646,900" />
+	<window data="quest" class="masterindex" pos="797,450,1247,900" />
+	<window data="reference.armor.hide@Pathfinder Core Rules" class="referencearmor" pos="1171,567,1571,917" />
 	<window data="reference.classlists._index_@Pathfinder Core Rules" class="reference_colindex" pos="1146,517,1596,967" />
 	<window data="reference.feats.powerattack@Pathfinder Core Rules" class="referencefeat" pos="1171,567,1571,917" />
 	<window data="reference.imagedata.img_kiramortheforestshadowjpg@Pathfinder Core Rules" class="imagewindow" pos="1100,300,1642,1185" />
@@ -129,11 +170,30 @@
 	<window data="reference.universalmonsterrules.hardness@Pathfinder Bestiary" class="referenceclassability" pos="390,601,790,951" />
 	<window data="reference.universalmonsterrules.poison@Pathfinder Bestiary" class="referenceclassability" pos="1171,567,1571,917" />
 	<window data="reference.universalmonsterrules.swallowwhole@Pathfinder Bestiary" class="referenceclassability" pos="895,563,1295,913" />
+	<window data="reference.weapon.crossbowbolts10@Pathfinder Core Rules" class="referenceweapon" pos="1171,567,1571,917" />
+	<window data="reference.weapon.lightcrossbow@Pathfinder Core Rules" class="referenceweapon" pos="1171,567,1571,917" />
+	<window data="reference.weapon.screamingbolt@Pathfinder Core Rules" class="referenceweapon" pos="663,432,1063,782" />
+	<window data="reference.weapon.slayingarrowgreater@Pathfinder Core Rules" class="referenceweapon" pos="1171,567,1571,917" />
+	<window data="reference.weapon.sleeparrow@Pathfinder Core Rules" class="referenceweapon" pos="1171,567,1571,917" />
 	<window data="specialability" class="masterindex" pos="1146,517,1596,967" />
-	<window data="storytemplate" class="masterindex" pos="1289,171,1739,621" />
+	<window data="storytemplate" class="masterindex" pos="797,171,1247,621" />
 	<window data="storytemplate.id-00003" class="storytemplate" pos="1589,63,1989,713" />
-	<window data="tables" class="masterindex" pos="1774,901,2224,1351" />
-	<window data="tables.id-00001" class="table" pos="1345,783,1785,1377" />
-	<window data="treasureparcels" class="masterindex" pos="2209,896,2659,1346" />
+	<window data="tables" class="masterindex" pos="2194,26,2644,476" />
+	<window data="tables.id-00001" class="table" pos="805,453,1240,1081" />
+	<window data="treasureparcels" class="masterindex" pos="2186,910,2636,1360" />
+	<window data="treasureparcels.id-00001" class="treasureparcel" pos="1121,567,1621,917" />
+	<window data="treasureparcels.id-00002" class="treasureparcel" pos="1121,567,1621,917" />
+	<window data="treasureparcels.id-00003" class="treasureparcel" pos="1121,567,1621,917" />
+	<window data="treasureparcels.id-00003.itemlist.id-00003" class="item" pos="1196,542,1546,942" />
+	<window data="treasureparcels.id-00004" class="treasureparcel" pos="1121,567,1621,917" />
+	<window data="treasureparcels.id-00005" class="treasureparcel" pos="1121,567,1621,917" />
+	<window data="treasureparcels.id-00006" class="treasureparcel" pos="1121,567,1621,917" />
+	<window data="treasureparcels.id-00007" class="treasureparcel" pos="1567,270,2067,620" />
+	<window data="treasureparcels.id-00008" class="treasureparcel" pos="1121,567,1621,917" />
+	<window data="treasureparcels.id-00009" class="treasureparcel" pos="1121,567,1621,917" />
+	<window data="treasureparcels.id-00010" class="treasureparcel" pos="1121,567,1621,917" />
+	<window data="treasureparcels.id-00010.itemlist.id-00002" class="item" pos="1196,542,1546,942" />
+	<window data="treasureparcels.id-00011" class="treasureparcel" pos="1516,267,2016,617" />
+	<window data="treasureparcels.id-00012" class="treasureparcel" pos="994,896,1494,1246" />
 
 </windowstate>

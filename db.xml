@@ -1,6 +1,557 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <root version="3.3" release="1|3.5E:17|CoreRPG:4">
 	<battle>
+		<id-00001>
+			<exp type="number">400</exp>
+			<level type="number">1</level>
+			<locked type="number">1</locked>
+			<name type="string">02.00h Hunter's Snare</name>
+			<npclist>
+				<id-00001>
+					<count type="number">1</count>
+					<isidentified type="number">1</isidentified>
+					<link type="windowreference">
+						<class>npc</class>
+						<recordname>npc.id-00001</recordname>
+					</link>
+					<maplink>
+						<id-00001>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00001>
+					</maplink>
+					<name type="string">Pit trap</name>
+					<token type="token">tokens/Medium/t.png@Letter Tokens</token>
+				</id-00001>
+			</npclist>
+		</id-00001>
+		<id-00002>
+			<exp type="number">600</exp>
+			<level type="number">2</level>
+			<locked type="number">1</locked>
+			<name type="string">02.00i Giant Moorsnake</name>
+			<npclist>
+				<id-00001>
+					<count type="number">1</count>
+					<link type="windowreference">
+						<class>npc</class>
+						<recordname>npc.id-00004</recordname>
+					</link>
+					<maplink>
+						<id-00001>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00001>
+					</maplink>
+					<name type="string">Snake, Giant Moor</name>
+					<token type="token">campaign/tokens/giant_moorsnake.png</token>
+				</id-00001>
+			</npclist>
+		</id-00002>
+		<id-00003>
+			<exp type="number">800</exp>
+			<level type="number">3</level>
+			<locked type="number">1</locked>
+			<name type="string">03.01 Wolves</name>
+			<npclist>
+				<id-00001>
+					<count type="number">2</count>
+					<faction type="string">foe</faction>
+					<link type="windowreference">
+						<class>npc</class>
+						<recordname>npc.id-00010</recordname>
+					</link>
+					<maplink>
+						<id-00001>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00001>
+						<id-00002>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00002>
+					</maplink>
+					<name type="string">Wolf</name>
+					<token type="token">tokens/Wolf.png@Pathfinder Bestiary</token>
+				</id-00001>
+			</npclist>
+		</id-00003>
+		<id-00004>
+			<exp type="number">200</exp>
+			<level type="number">0.5</level>
+			<locked type="number">1</locked>
+			<name type="string">02.02 Bait</name>
+			<npclist>
+				<id-00001>
+					<count type="number">1</count>
+					<faction type="string">foe</faction>
+					<isidentified type="number">0</isidentified>
+					<link type="windowreference">
+						<class>npc</class>
+						<recordname>npc.id-00005</recordname>
+					</link>
+					<maplink>
+						<id-00001>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00001>
+					</maplink>
+					<name type="string">Grung Knifetongue</name>
+					<token type="token">tokens/Hobgoblin.png@Pathfinder Bestiary</token>
+				</id-00001>
+			</npclist>
+		</id-00004>
+		<id-00005>
+			<exp type="number">600</exp>
+			<level type="number">2</level>
+			<locked type="number">1</locked>
+			<name type="string">02.03 The Forest Elder</name>
+			<npclist>
+				<id-00001>
+					<count type="number">1</count>
+					<link type="windowreference">
+						<class>npc</class>
+						<recordname>npc.id-00007</recordname>
+					</link>
+					<maplink>
+						<id-00001>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00001>
+					</maplink>
+					<name type="string">Tatzlwyrm</name>
+					<token type="token">campaign/tokens/tatzlwyrm.png</token>
+				</id-00001>
+			</npclist>
+		</id-00005>
+		<id-00006>
+			<exp type="number">600</exp>
+			<level type="number">2</level>
+			<locked type="number">1</locked>
+			<name type="string">02.04 The Hag-Haunted Hollow</name>
+			<npclist>
+				<id-00001>
+					<count type="number">1</count>
+					<link type="windowreference">
+						<class>npc</class>
+						<recordname>npc.id-00008</recordname>
+					</link>
+					<maplink>
+						<id-00001>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00001>
+					</maplink>
+					<name type="string">Ulizmila's Cauldron</name>
+					<token type="token">tokens/Medium/c.png@Letter Tokens</token>
+				</id-00001>
+			</npclist>
+		</id-00006>
+		<id-00007>
+			<exp type="number">400</exp>
+			<level type="number">1</level>
+			<locked type="number">1</locked>
+			<name type="string">03.03 Watchtower</name>
+			<npclist>
+				<id-00001>
+					<count type="number">1</count>
+					<link type="windowreference">
+						<class>npc</class>
+						<recordname>npc.id-00014</recordname>
+					</link>
+					<maplink>
+						<id-00001>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00001>
+					</maplink>
+					<name type="string">Spider, Giant</name>
+					<token type="token">tokens/Spider, Giant.png@Pathfinder Bestiary</token>
+				</id-00001>
+			</npclist>
+		</id-00007>
+		<id-00008>
+			<exp type="number">400</exp>
+			<level type="number">1</level>
+			<locked type="number">1</locked>
+			<name type="string">03.07 Pit Trap</name>
+			<npclist>
+				<id-00001>
+					<count type="number">1</count>
+					<isidentified type="number">1</isidentified>
+					<link type="windowreference">
+						<class>npc</class>
+						<recordname>npc.id-00001</recordname>
+					</link>
+					<maplink>
+						<id-00001>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00001>
+					</maplink>
+					<name type="string">Pit trap</name>
+					<token type="token">tokens/Medium/t.png@Letter Tokens</token>
+				</id-00001>
+			</npclist>
+		</id-00008>
+		<id-00009>
+			<exp type="number">600</exp>
+			<level type="number">2</level>
+			<locked type="number">1</locked>
+			<name type="string">03.08 Gurtlekep's Room</name>
+			<npclist>
+				<id-00001>
+					<count type="number">1</count>
+					<faction type="string">foe</faction>
+					<link type="windowreference">
+						<class>npc</class>
+						<recordname>npc.id-00011</recordname>
+					</link>
+					<maplink>
+						<id-00001>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00001>
+					</maplink>
+					<name type="string">Gurtlekep</name>
+					<token type="token">tokens/Kobold.png@Pathfinder Bestiary</token>
+				</id-00001>
+			</npclist>
+		</id-00009>
+		<id-00010>
+			<exp type="number">0</exp>
+			<level type="number">0</level>
+			<locked type="number">1</locked>
+			<name type="string">03.09 Ruined Library</name>
+			<npclist>
+				<id-00001>
+					<count type="number">1</count>
+					<isidentified type="number">0</isidentified>
+					<link type="windowreference">
+						<class>npc</class>
+						<recordname>npc.id-00015</recordname>
+					</link>
+					<maplink>
+						<id-00001>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00001>
+					</maplink>
+					<name type="string">Fungus Hazard</name>
+					<token type="token">tokens/Medium/h.png@Letter Tokens</token>
+				</id-00001>
+			</npclist>
+		</id-00010>
+		<id-00011>
+			<exp type="number">800</exp>
+			<level type="number">3</level>
+			<locked type="number">1</locked>
+			<name type="string">03.10 Desecrated Shrine</name>
+			<npclist>
+				<id-00001>
+					<count type="number">2</count>
+					<faction type="string">foe</faction>
+					<link type="windowreference">
+						<class>npc</class>
+						<recordname>npc.id-00016</recordname>
+					</link>
+					<maplink>
+						<id-00001>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00001>
+						<id-00002>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00002>
+					</maplink>
+					<name type="string">Darkmantle</name>
+					<token type="token">tokens/Darkmantle.png@Pathfinder Bestiary</token>
+				</id-00001>
+			</npclist>
+		</id-00011>
+		<id-00012>
+			<exp type="number">600</exp>
+			<level type="number">2</level>
+			<locked type="number">1</locked>
+			<name type="string">03.12 Infested Ruins</name>
+			<npclist>
+				<id-00001>
+					<count type="number">1</count>
+					<link type="windowreference">
+						<class>npc</class>
+						<recordname>npc.id-00017</recordname>
+					</link>
+					<maplink>
+						<id-00001>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00001>
+					</maplink>
+					<name type="string">Bat Swarm</name>
+					<token type="token">tokens/Bat Swarm.png@Pathfinder Bestiary</token>
+				</id-00001>
+			</npclist>
+		</id-00012>
+		<id-00013>
+			<exp type="number">405</exp>
+			<level type="number">2</level>
+			<locked type="number">1</locked>
+			<name type="string">03.13 Secret Prison</name>
+			<npclist>
+				<id-00001>
+					<count type="number">3</count>
+					<faction type="string">foe</faction>
+					<link type="windowreference">
+						<class>npc</class>
+						<recordname>npc.id-00018</recordname>
+					</link>
+					<maplink>
+						<id-00001>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00001>
+						<id-00002>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00002>
+						<id-00003>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00003>
+					</maplink>
+					<name type="string">Dwarven Skeleton</name>
+					<token type="token">tokens/Skeleton.png@Pathfinder Bestiary</token>
+				</id-00001>
+			</npclist>
+		</id-00013>
+		<id-00014>
+			<exp type="number">800</exp>
+			<level type="number">3</level>
+			<locked type="number">1</locked>
+			<name type="string">03.15 Wolves</name>
+			<npclist>
+				<id-00001>
+					<count type="number">2</count>
+					<faction type="string">foe</faction>
+					<link type="windowreference">
+						<class>npc</class>
+						<recordname>npc.id-00010</recordname>
+					</link>
+					<maplink>
+						<id-00001>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00001>
+						<id-00002>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00002>
+					</maplink>
+					<name type="string">Wolf</name>
+					<token type="token">tokens/Wolf.png@Pathfinder Bestiary</token>
+				</id-00001>
+			</npclist>
+		</id-00014>
+		<id-00015>
+			<exp type="number">800</exp>
+			<level type="number">3</level>
+			<locked type="number">1</locked>
+			<name type="string">03.16 Greypelt's Chamber</name>
+			<npclist>
+				<id-00001>
+					<count type="number">1</count>
+					<faction type="string">foe</faction>
+					<isidentified type="number">0</isidentified>
+					<link type="windowreference">
+						<class>npc</class>
+						<recordname>npc.id-00013</recordname>
+					</link>
+					<maplink>
+						<id-00001>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00001>
+					</maplink>
+					<name type="string">Greypelt</name>
+					<token type="token">campaign/tokens/greypelt.png</token>
+				</id-00001>
+			</npclist>
+		</id-00015>
+		<id-00016>
+			<exp type="number">200</exp>
+			<level type="number">0.5</level>
+			<locked type="number">1</locked>
+			<name type="string">02.00f Kobold Shaman</name>
+			<npclist>
+				<id-00001>
+					<count type="number">1</count>
+					<faction type="string">neutral</faction>
+					<isidentified type="number">0</isidentified>
+					<link type="windowreference">
+						<class>npc</class>
+						<recordname>npc.id-00003</recordname>
+					</link>
+					<maplink>
+						<id-00001>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00001>
+					</maplink>
+					<name type="string">Kolmokmurk</name>
+					<token type="token">tokens/Kobold.png@Pathfinder Bestiary</token>
+				</id-00001>
+			</npclist>
+		</id-00016>
+		<id-00017>
+			<exp type="number">200</exp>
+			<level type="number">0.5</level>
+			<locked type="number">1</locked>
+			<name type="string">02.00g Giant Mosquito</name>
+			<npclist>
+				<id-00001>
+					<count type="number">1</count>
+					<faction type="string">foe</faction>
+					<isidentified type="number">1</isidentified>
+					<link type="windowreference">
+						<class>npc</class>
+						<recordname>npc.id-00002</recordname>
+					</link>
+					<maplink>
+						<id-00001>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00001>
+					</maplink>
+					<name type="string">Giant Mosquito</name>
+					<token type="token">campaign/tokens/giantmosquito.png</token>
+				</id-00001>
+			</npclist>
+		</id-00017>
+		<id-00018>
+			<exp type="number">800</exp>
+			<level type="number">3</level>
+			<locked type="number">1</locked>
+			<name type="string">02.00j Wolves</name>
+			<npclist>
+				<id-00001>
+					<count type="number">2</count>
+					<faction type="string">foe</faction>
+					<link type="windowreference">
+						<class>npc</class>
+						<recordname>npc.id-00010</recordname>
+					</link>
+					<maplink>
+						<id-00001>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00001>
+						<id-00002>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00002>
+					</maplink>
+					<name type="string">Wolf</name>
+					<token type="token">tokens/Wolf.png@Pathfinder Bestiary</token>
+				</id-00001>
+			</npclist>
+		</id-00018>
 	</battle>
 	<calendar>
 		<public />
@@ -169,8 +720,8 @@
 					<linklist>
 						<link class="imagewindow" recordname="image.id-00005">Hollows Last Hope</link>
 					</linklist>
-					<p><i>Hollow&#146;s Last Hope</i> is a wilderness and dungeon adventure designed for four 1stlevel characters. Characters who successfully complete this adventure should reach 2nd level by its conclusion. This adventure can be used as a prequel to the<i> GameMastery Module D1: Crown of the Kobold King</i>.</p>
-					<p>  This module is a combination of wilderness exploration through the Darkmoon Vale and dungeon delving in the surface ruins of an ancient dwarven monastery. Since time is a factor, Game Masters (GMs) should familiarize themselves with the rules for overland travel before beginning this module.</p>
+					<p><i>Hollow&#146;s Last Hope </i>is a wilderness and dungeon adventure designed for four 1stlevel characters. Characters who successfully complete this adventure should reach 2nd level by its conclusion. This adventure can be used as a prequel to the <i>GameMastery Module D1: Crown of the Kobold King </i>.</p>
+					<p>This module is a combination of wilderness exploration through the Darkmoon Vale and dungeon delving in the surface ruins of an ancient dwarven monastery. Since time is a factor, Game Masters (GMs) should familiarize themselves with the rules for overland travel before beginning this module.</p>
 					<linklist>
 						<link class="imagewindow" recordname="image.id-00001">Dark Moon Vale Map(DM)</link>
 						<link class="imagewindow" recordname="image.id-00002">Droskars Crucible</link>
@@ -181,8 +732,8 @@
 				<locked type="number">1</locked>
 				<name type="string">00.01 Pathfinder Chronicles</name>
 				<text type="formattedtext">
-					<p>  The small village of Falcon&#146;s Hollow is a wild place. Nestled in the shadow of Droskar&#146;s Crag, the people of Falcon&#146;s Hollow are hearty and stern. Theirs is a life of hardships, broken only occasionally by a handful of festivals and the infrequent merchant caravan. </p>
-					<p>  They face constant adversity from both the wilderness and the wiles of man. Wolves nip at their heels and cutpurses ply at their pockets. It is a testament to their strength that they even manage to survive at all. </p>
+					<p>The small village of Falcon&#146;s Hollow is a wild place. Nestled in the shadow of Droskar&#146;s Crag, the people of Falcon&#146;s Hollow are hearty and stern. Theirs is a life of hardships, broken only occasionally by a handful of festivals and the infrequent merchant caravan.</p>
+					<p>They face constant adversity from both the wilderness and the wiles of man. Wolves nip at their heels and cutpurses ply at their pockets. It is a testament to their strength that they even manage to survive at all.</p>
 					<p>&#151;Pathfinder Chronicles</p>
 				</text>
 			</id-00002>
@@ -190,9 +741,9 @@
 				<locked type="number">1</locked>
 				<name type="string">00.02 Adventure Background</name>
 				<text type="formattedtext">
-					<p>  In the past week, numerous residents of Falcon&#146;s Hollow have fallen ill, each suffering from the same hacking affliction. Local remedies prove as useless as prayers at the Church of Iomedae, goddess of valor, justice, and honor, and already at least one town elder has been claimed by the wheezing death. </p>
-					<p>  Fortunately for Falcon&#146;s Hollow, a canny local herbalist named Laurel has traced the source of the malady to Brookman&#146;s well, a small spring on the edge of town, and a rare fungus called blackscour. By banning the use of the spring, the town constabulary hopes to prevent further infection, but such measures offer little respite to those already afflicted. </p>
-					<p>  While Laurel has attempted numerous treatments, she has been unable to cure the disease. She lacks the reagents to brew one last unusual medicine, though all the necessary elements can be found within nearby Darkmoon Vale. Thus far, though, no townsfolk have dared to venture into the wooded reaches and secure the ingredients for this potential cure.</p>
+					<p>In the past week, numerous residents of Falcon&#146;s Hollow have fallen ill, each suffering from the same hacking affliction. Local remedies prove as useless as prayers at the Church of Iomedae, goddess of valor, justice, and honor, and already at least one town elder has been claimed by the wheezing death.</p>
+					<p>Fortunately for Falcon&#146;s Hollow, a canny local herbalist named Laurel has traced the source of the malady to Brookman&#146;s well, a small spring on the edge of town, and a rare fungus called blackscour. By banning the use of the spring, the town constabulary hopes to prevent further infection, but such measures offer little respite to those already afflicted.</p>
+					<p>While Laurel has attempted numerous treatments, she has been unable to cure the disease. She lacks the reagents to brew one last unusual medicine, though all the necessary elements can be found within nearby Darkmoon Vale. Thus far, though, no townsfolk have dared to venture into the wooded reaches and secure the ingredients for this potential cure.</p>
 				</text>
 			</id-00003>
 			<id-00004>
@@ -206,9 +757,9 @@
 				<locked type="number">1</locked>
 				<name type="string">00.04 Introduction</name>
 				<text type="formattedtext">
-					<p>Any number of events might draw the PCs to the small trade town of Falcon&#146;s Hollow. Merchant caravans regularly travel here from any number of points abroad, trading for the rare darkwood that grows so abundantly in Darkmoon Vale, and potentially bringing exotic individuals to town as guards or paying travelers. Alternatively, characters might be long-time residents of Falcon&#146;s Hollow, young or adventurous souls seeking excitement and opportunity beyond the lumber mills and town&#146;s petty intrigues. Local residents might already know one another as friends or relations, or they might encounter one another as they&#146;re individually drawn to seek a cure for the town&#146;s affliction (likely either in line at Roots and Remedies or at Laurel&#146;s suggestion of cooperation). </p>
-					<p>  If the PCs need encouragement to become involved in the plot of the adventure, a friend, relative, or possibly one of the PCs themselves might come down with blackscour taint. Alternatively, both herbalist Laurel and Sheriff Baleson could put out calls for assistance, drawing on PCs&#146; specific talents, which might lead the PCs to learn of Laurel&#146;s more unusual cure. </p>
-					<p>  When you&#146;re ready to begin the adventure, read or paraphrase the following to the players. </p>
+					<p>Any number of events might draw the PCs to the small trade town of Falcon&#146;s Hollow. Merchant caravans regularly travel here from any number of points abroad, trading for the rare darkwood that grows so abundantly in Darkmoon Vale, and potentially bringing exotic individuals to town as guards or paying travelers. Alternatively, characters might be long-time residents of Falcon&#146;s Hollow, young or adventurous souls seeking excitement and opportunity beyond the lumber mills and town&#146;s petty intrigues. Local residents might already know one another as friends or relations, or they might encounter one another as they&#146;re individually drawn to seek a cure for the town&#146;s affliction (likely either in line at Roots and Remedies or at Laurel&#146;s suggestion of cooperation).</p>
+					<p>If the PCs need encouragement to become involved in the plot of the adventure, a friend, relative, or possibly one of the PCs themselves might come down with blackscour taint. Alternatively, both herbalist Laurel and Sheriff Baleson could put out calls for assistance, drawing on PCs&#146; specific talents, which might lead the PCs to learn of Laurel&#146;s more unusual cure.</p>
+					<p>When you&#146;re ready to begin the adventure, read or paraphrase the following to the players.</p>
 					<frame>Perched at the edge of civilized lands, the small town of Falcon&#146;s Hollow has always had to rely on itself to solve its problems. Meanwhile, the uncaring lumber barons squeeze the common folk for every last copper, deaf to their pleas. Now the hacking coughs of the sick are heard throughout town. The plague has come to Falcon&#146;s Hollow and the town&#146;s leaders can&#146;t be bothered to stop it.</frame>
 				</text>
 			</id-00005>
@@ -217,7 +768,7 @@
 				<name type="string">00.05 The Town of Falcon's Hollow</name>
 				<text type="formattedtext">
 					<h>The Town of Falcon&#146;s Hollow</h>
-					<p> A rough community wholly owned by the local Lumber Consortium, Falcon&#146;s Hollow rests on the edge of Darkmoon Vale, a blunt, sawdust-choked stop on a winding trade route. Home to fewer than 1,500 humans and a smattering of other races, most of the townsfolk care only for the paltry coins paid for their backbreaking work and what simple comforts they can buy. A few, however, understand that what&#146;s bad for one is bad for all, and so the community thrives on a tenacious mix of greed, debauchery, and stubborn self-reliance.</p>
+					<p>A rough community wholly owned by the local Lumber Consortium, Falcon&#146;s Hollow rests on the edge of Darkmoon Vale, a blunt, sawdust-choked stop on a winding trade route. Home to fewer than 1,500 humans and a smattering of other races, most of the townsfolk care only for the paltry coins paid for their backbreaking work and what simple comforts they can buy. A few, however, understand that what&#146;s bad for one is bad for all, and so the community thrives on a tenacious mix of greed, debauchery, and stubborn self-reliance.</p>
 					<h>Falcon&#146;s Hollow</h>
 					<p>Town nonstandard (Lumber Consortium); AL NE</p>
 					<p>GP Limit 1,500 gp; Assets 40,550 gp</p>
@@ -225,10 +776,10 @@
 					<p>Population 1,400</p>
 					<p>Type isolated (human 94%, halfling 3%, half-elf 1%, elf 1%, other 1% )</p>
 					<p><b>AUTHORITY FIGURES</b></p>
-					<p><b>Gavel Thuldrin Kreed</b>, LE male human expert 3/ rogue 4 (Gavel of the Lumber Consortium),</p>
-					<p><b>Magistrate Vamros Harg</b>, NE male halfling aristocrat 2/sorcerer 5 (Magistrate-Elect), </p>
-					<p><b>Sheriff Deldrin Baleson</b>, LN male halfelf expert 3/fighter 3 (Sheriff of Darkmoon Vale), </p>
-					<p><b>Boss Payden &#147;Pay Day&#148; Teedum</b>, LE male human monk 2/fighter 3 (Overboss of the Lumber Consortium).</p>
+					<p><b>Gavel Thuldrin Kreed </b>, LE male human expert 3/ rogue 4 (Gavel of the Lumber Consortium),</p>
+					<p><b>Magistrate Vamros Harg </b>, NE male halfling aristocrat 2/sorcerer 5 (Magistrate-Elect),</p>
+					<p><b>Sheriff Deldrin Baleson </b>, LN male halfelf expert 3/fighter 3 (Sheriff of Darkmoon Vale),</p>
+					<p><b>Boss Payden &#147;Pay Day&#148; Teedum </b>, LE male human monk 2/fighter 3 (Overboss of the Lumber Consortium).</p>
 				</text>
 			</id-00006>
 			<id-00007>
@@ -242,79 +793,115 @@
 				<locked type="number">1</locked>
 				<name type="string">00.07 The Affliction</name>
 				<text type="formattedtext">
-					<p>At the start of this adventure, several dozen people in Falcon&#146;s Hollow have contracted a fungal disease called blackscour taint. While the malady is not exceptionally deadly, poor conditions and a general lack of supplies mean that many of the sick&#151;especially the elderly and young&#151;face mortal consequences. Slowly deteriorating, most of the afflicted can hang on for several more days, but already the weakest have succumbed, with their number growing daily. </p>
-					<p>  Blackscour taint is an ingested disease with an incubation period of 1d3 days. The disease deals 1d2 points of Constitution damage and is resisted with a DC 14 Fortitude save. Those who are infected develop a hacking cough that quickly turns bloody if the disease is allowed to progress. </p>
-					<p>  For the first two days from the start of the adventure, 1d4 townsfolk die from blackscour taint every day. On the third day, 2d4 townsfolk die, then 3d4 on the fourth day, with the death toll increasing an additional 1d4 every day until a total of forty villagers have perished. If the PCs have acquaintances or loved ones afflicted by blackscour taint (and who lack full NPC statistics), roll 4d10 for each noteworthy relation. If the PCs do not return to town with a cure for the disease by the time the death toll reaches the NPC&#146;s number, the specified character dies. </p>
-					<p>  Once forty townsfolk die from blackscour taint, the malady has run its course, killing all those unable to overcome the disease on their own. If the PCs take up the search for a cure and fail to return to Falcon&#146;s Hollow by this time, they are widely shunned and blamed by many for the deaths of their loved ones.</p>
+					<p>At the start of this adventure, several dozen people in Falcon&#146;s Hollow have contracted a fungal disease called blackscour taint. While the malady is not exceptionally deadly, poor conditions and a general lack of supplies mean that many of the sick&#151;especially the elderly and young&#151;face mortal consequences. Slowly deteriorating, most of the afflicted can hang on for several more days, but already the weakest have succumbed, with their number growing daily.</p>
+					<p>Blackscour taint is an ingested disease with an incubation period of 1d3 days. The disease deals 1d2 points of Constitution damage and is resisted with a DC 14 Fortitude save. Those who are infected develop a hacking cough that quickly turns bloody if the disease is allowed to progress.</p>
+					<p>For the first two days from the start of the adventure, 1d4 townsfolk die from blackscour taint every day. On the third day, 2d4 townsfolk die, then 3d4 on the fourth day, with the death toll increasing an additional 1d4 every day until a total of forty villagers have perished. If the PCs have acquaintances or loved ones afflicted by blackscour taint (and who lack full NPC statistics), roll 4d10 for each noteworthy relation. If the PCs do not return to town with a cure for the disease by the time the death toll reaches the NPC&#146;s number, the specified character dies.</p>
+					<p>Once forty townsfolk die from blackscour taint, the malady has run its course, killing all those unable to overcome the disease on their own. If the PCs take up the search for a cure and fail to return to Falcon&#146;s Hollow by this time, they are widely shunned and blamed by many for the deaths of their loved ones.</p>
 				</text>
 			</id-00008>
 			<id-00009>
 				<name type="string">01.00 An Elusive Antidote</name>
 				<text type="formattedtext">
-					<p>  Falcon&#146;s Hollow has few clerics, and only Lady Cirthana (LG female cleric 2 of Iomedae) shows any interest in stopping the illness and she lacks the ability to cure diseases. Since few townsfolk trust her, most lay their medical concerns at the feet of the local herbalist, a tough woman named Laurel (NG female human expert 3), whose income stems as much from her sale of snake oils and aphrodisiacs as from questionable cure-alls and bitter teas. As quick to suggest expensive remedies as she is to remind angry buyers that she is not, in fact, a physician, Laurel does her best to help those who come to her in need, but her tight income, need to survive, and pride prevent her from admitting failure. </p>
-					<p>  In treating the blackscour taint, as in most cases, Laurel has turned to her grandmother&#146;s tome of recipes, cures, and spells for aid. Although the book contains no actual magic, it holds the rooted wisdom of generations of Laurel&#146;s family, including the teachings of the Witch of Darkmoon Vale, Ulizmila, from whom Laurel&#146;s grandmother learned in exchange for her sight. There&#146;s one last treatment from the cultic appendices of the tome&#151;scribed in a hand that is not Laurel&#146;s grandmother&#146;s&#151;that the herbalist has yet to try, as she lacks three of the most important ingredients and would rather do what she can for the sick with what she knows than chase a fanciful salvation. </p>
-					<p>  How the PCs come to entreat Laurel for aid is largely up to the GM. A DC 10 Knowledge (local) check or merely inquiring with any of the families of the afflicted reveals that Laurel is aiding the families of the sick as best she can&#151;although her proscriptions are little more than bed rest and a pungent black urdroot tea. Nearly anyone in town can direct the PCs to Laurel&#146;s shop, the unmistakably named Roots and Remedies. The line stemming from Laurel&#146;s shop makes a useful first-time meeting place for unacquainted PCs.</p>
+					<p>Falcon&#146;s Hollow has few clerics, and only Lady Cirthana (LG female cleric 2 of Iomedae) shows any interest in stopping the illness and she lacks the ability to cure diseases. Since few townsfolk trust her, most lay their medical concerns at the feet of the local herbalist, a tough woman named Laurel (NG female human expert 3), whose income stems as much from her sale of snake oils and aphrodisiacs as from questionable cure-alls and bitter teas. As quick to suggest expensive remedies as she is to remind angry buyers that she is not, in fact, a physician, Laurel does her best to help those who come to her in need, but her tight income, need to survive, and pride prevent her from admitting failure.</p>
+					<p>In treating the blackscour taint, as in most cases, Laurel has turned to her grandmother&#146;s tome of recipes, cures, and spells for aid. Although the book contains no actual magic, it holds the rooted wisdom of generations of Laurel&#146;s family, including the teachings of the Witch of Darkmoon Vale, Ulizmila, from whom Laurel&#146;s grandmother learned in exchange for her sight. There&#146;s one last treatment from the cultic appendices of the tome&#151;scribed in a hand that is not Laurel&#146;s grandmother&#146;s&#151;that the herbalist has yet to try, as she lacks three of the most important ingredients and would rather do what she can for the sick with what she knows than chase a fanciful salvation.</p>
+					<p>How the PCs come to entreat Laurel for aid is largely up to the GM. A DC 10 Knowledge (local) check or merely inquiring with any of the families of the afflicted reveals that Laurel is aiding the families of the sick as best she can&#151;although her proscriptions are little more than bed rest and a pungent black urdroot tea. Nearly anyone in town can direct the PCs to Laurel&#146;s shop, the unmistakably named Roots and Remedies. The line stemming from Laurel&#146;s shop makes a useful first-time meeting place for unacquainted PCs.</p>
 				</text>
 			</id-00009>
 			<id-00010>
 				<name type="string">01.01 Roots and Remedies</name>
 				<text type="formattedtext">
-					<frame>Creeping ivy and full window boxes cover the fa&#231;ade of the rugged-looking, two-story shop bearing the faded sign &#147;Roots and Remedies.&#148; A line of twenty-some somber townsfolk&#151;some with pale, wheezing children, others seeming to be precipitously near tears&#151;stretches from the open door. </frame>
-					<p></p>
-					<p>  Laurel&#146;s shop has been besieged since the outbreak of blackscour taint, both by the afflicted and their families and by hypochondriacs of all stripes. While she tries to help those with legitimate concerns as best she can, she has no qualms in selling the deluded her most expensive balms. </p>
-					<p>  Unless the PCs attempt to bypass the line&#151;an act that might touch off a small, hacking riot&#151;it takes nearly an hour to reach the door of Roots and Remedies. Once inside, the clutter and disrepair of the shop shows the recent traffic, and Laurel visibly overworks herself at the store&#146;s rear, brewing remedies for the ill.</p>
+					<frame>Creeping ivy and full window boxes cover the fa&#231;ade of the rugged-looking, two-story shop bearing the faded sign &#147;Roots and Remedies.&#148; A line of twenty-some somber townsfolk&#151;some with pale, wheezing children, others seeming to be precipitously near tears&#151;stretches from the open door.</frame>
+					<linklist>
+						<link class="imagewindow" recordname="image.id-00012">Laurel</link>
+					</linklist>
+					<p>Laurel&#146;s shop has been besieged since the outbreak of blackscour taint, both by the afflicted and their families and by hypochondriacs of all stripes. While she tries to help those with legitimate concerns as best she can, she has no qualms in selling the deluded her most expensive balms.</p>
+					<p>Unless the PCs attempt to bypass the line&#151;an act that might touch off a small, hacking riot&#151;it takes nearly an hour to reach the door of Roots and Remedies. Once inside, the clutter and disrepair of the shop shows the recent traffic, and Laurel visibly overworks herself at the store&#146;s rear, brewing remedies for the ill.</p>
 					<p></p>
 					<frame>The smell of burnt earth and spicy incense chokes the air of the cramped, mud-tracked shop. Bunches of dried herbs hang from the ceiling, along with dangling pots, presses, alchemical apparatuses, and glassware of more arcane purposes. Pouches of rare plants, jars of colored glass, and all manner of dried, preserved, and jellied animal parts fill high shelves and tables doing double duty as displays and workspaces. In the shop&#146;s rear, a rail-thin woman with severe-looking spectacles and hair pulled back tightly busies herself between an overpacked rack of herbs, a table covered in stray powders and measuring equipment, and a pot loudly bubbling over with thick gray froth. Over the din of her work and without looking up, the woman impatiently shouts, &#147;And what&#146;s your problem?&#148;</frame>
-					<p>  The PCs are free to converse with Laurel as they please and she can tell them anything they need to know about the blackscour outbreak, how many people are afflicted, and&#151;especially&#151;how it&#146;s not her job to treat every cut and scabbed knee the daft people of Falcon&#146;s Hollow come crying to her about. </p>
-					<p>  Initially dismissive if the PCs don&#146;t present themselves as customers or capable assistants, she eventually comes around and tells the PCs what she knows about the taint. Even if the PCs seem honestly willing to help, she might not even think to mention the untried medicine until the characters are about to walk out the door, calling them back at the last moment. </p>
-					<p>  While conversing with Laurel, she answers some of the most likely questions as follows:</p>
+					<p>The PCs are free to converse with Laurel as they please and she can tell them anything they need to know about the blackscour outbreak, how many people are afflicted, and&#151;especially&#151;how it&#146;s not her job to treat every cut and scabbed knee the daft people of Falcon&#146;s Hollow come crying to her about.</p>
+					<p>Initially dismissive if the PCs don&#146;t present themselves as customers or capable assistants, she eventually comes around and tells the PCs what she knows about the taint. Even if the PCs seem honestly willing to help, she might not even think to mention the untried medicine until the characters are about to walk out the door, calling them back at the last moment.</p>
+					<p>While conversing with Laurel, she answers some of the most likely questions as follows:</p>
 					<linklist>
-						<link class="encounter" recordname="encounter.id-00011"><b>01.02 Laurel Q&#38;A</b></link></linklist>
+						<link class="encounter" recordname="encounter.id-00011"><b>01.02 Laurel Q&#38;A</b></link>
+					</linklist>
 				</text>
 			</id-00010>
 			<id-00011>
 				<name type="string">01.02 Laurel Q&#38;A</name>
 				<text type="formattedtext">
 					<p><b>What is blackscour</b></p>
-					<frame> &#147;Just a fungus that&#146;s not good for anything. Hard, bitter, and sharp, it likes the water and gets you sick if you drink it down. Never heard of it growing around these parts, though, until now.&#148; </frame>
+					<frame>&#147;Just a fungus that&#146;s not good for anything. Hard, bitter, and sharp, it likes the water and gets you sick if you drink it down. Never heard of it growing around these parts, though, until now.&#148;</frame>
 					<p><b>What is blackscour taint</b></p>
-					<frame> &#147;It&#146;s a sickness, almost like any other, but you get the mold growing in you. It starts eating away in your chest and belly and is damned determined to stay. Your body near turns itself insideout trying to hack the stuff up, but all that does is cuts your guts up&#133; bad.&#148; </frame>
+					<frame>&#147;It&#146;s a sickness, almost like any other, but you get the mold growing in you. It starts eating away in your chest and belly and is damned determined to stay. Your body near turns itself insideout trying to hack the stuff up, but all that does is cuts your guts up&#133; bad.&#148;</frame>
 					<p><b>How many townsfolk have blackscour taint</b></p>
-					<frame> &#147;More than thirty, honestly, though at least three times that thinks they&#146;ve got it.&#148; </frame>
+					<frame>&#147;More than thirty, honestly, though at least three times that thinks they&#146;ve got it.&#148;</frame>
 					<p><b>Is there any cure</b></p>
-					<frame> &#147;Not around here. I&#146;ll get these folks what I can and we&#146;ll see what good it does.&#148; </frame>
+					<frame>&#147;Not around here. I&#146;ll get these folks what I can and we&#146;ll see what good it does.&#148;</frame>
 					<p><b>There&#146;s another medicine</b></p>
-					<frame> &#147;My grandmother&#146;s book has a brew in it that says its good for this kind of thing. A weird concoction that sounds more like hoojoo than real medicine.&#148; </frame>
+					<frame>&#147;My grandmother&#146;s book has a brew in it that says its good for this kind of thing. A weird concoction that sounds more like hoojoo than real medicine.&#148;</frame>
 					<p><b>What&#146;s in this medicine</b></p>
-					<frame> &#147;Some rare roots and concentrations, most of which I have here, but there&#146;s three I don&#146;t. Elderwood moss, which I&#146;ve never heard of, but granny says the stuff only grows on the oldest tree in a forest. A specially pickled root called rat&#146;s tail, again, sounds like hoojoo to me. And seven ironbloom mushrooms, stunty little things that only grow in dark places thick with metal, a favorite among dwarves, or so I hear.&#148; </frame>
+					<frame>&#147;Some rare roots and concentrations, most of which I have here, but there&#146;s three I don&#146;t. Elderwood moss, which I&#146;ve never heard of, but granny says the stuff only grows on the oldest tree in a forest. A specially pickled root called rat&#146;s tail, again, sounds like hoojoo to me. And seven ironbloom mushrooms, stunty little things that only grow in dark places thick with metal, a favorite among dwarves, or so I hear.&#148;</frame>
 					<p><b>Do you know where we could find these ingredients</b></p>
-					<frame> &#147;Well, for the elderwood mold, there&#146;s gotta be an oldest tree in the vale. Damned if I know where it is, though. &#147;The rat&#146;s tail and mushrooms are even longer shots. Way north, toward the mountains, people say there used to live a bunch of dwarves. They&#146;re not there anymore, but I&#146;d bet their forges are. If you can find ironbloom anywhere around here, that&#146;d be your best bet. &#147;As for the rat&#146;s tail, who knows? Well. Actually. Ulizmila, the witch that lives deep in the woods might. She&#146;s a crafty, mean thing that knows all sorts of strangeness. She might even have one. I don&#146;t know what she might want for it, but I doubt it&#146;d come cheap. My grandmother traded her sight to the old crone for a few pages of what she knew, and that was years and years back, and I don&#146;t know a soul who got any nicer as they got older.&#148; </frame>
+					<frame>&#147;Well, for the elderwood mold, there&#146;s gotta be an oldest tree in the vale. Damned if I know where it is, though. &#147;The rat&#146;s tail and mushrooms are even longer shots. Way north, toward the mountains, people say there used to live a bunch of dwarves. They&#146;re not there anymore, but I&#146;d bet their forges are. If you can find ironbloom anywhere around here, that&#146;d be your best bet. &#147;As for the rat&#146;s tail, who knows? Well. Actually. Ulizmila, the witch that lives deep in the woods might. She&#146;s a crafty, mean thing that knows all sorts of strangeness. She might even have one. I don&#146;t know what she might want for it, but I doubt it&#146;d come cheap. My grandmother traded her sight to the old crone for a few pages of what she knew, and that was years and years back, and I don&#146;t know a soul who got any nicer as they got older.&#148;</frame>
 					<p><b>How much time do we have to get the ingredients?</b></p>
 					<frame>&#147;None! Folks are dying every day! All we can hope to do now is treat who we can and hope to save the gravedigger some work.&#148;</frame>
 					<p><b>Can you pay us for finding these ingredients</b></p>
-					<frame> [Outraged] &#147;Pay you!? I&#146;ll pay you in&#133;! Well, I suppose I&#146;m not doing all this for free either. If nothing else, this whole thing&#146;s been good for business. How about this, you come back with everything I need to brew the medicine and I&#146;ll cut you in: thirty gold each. Fair?&#148; </frame>
-					<p>  She can be bargained up to 45 gp each with a successful DC 15 Diplomacy check. </p>
-					<p>  Although Laurel has an idea of where the ingredients for her medicine might be found, she&#146;s never set foot beyond the fringes of Darkmoon Vale and honestly has no idea where the locations she mentions are. If the PCs seem committed to searching, she suggests they head to the Consortium Lumber Camp to the east and look for <b>Milon Rhoddam </b>&#151; the most experienced woodsman in the Lumber Consortium.</p>
+					<frame>[Outraged] &#147;Pay you!? I&#146;ll pay you in&#133;! Well, I suppose I&#146;m not doing all this for free either. If nothing else, this whole thing&#146;s been good for business. How about this, you come back with everything I need to brew the medicine and I&#146;ll cut you in: thirty gold each. Fair?&#148;</frame>
+					<p>She can be bargained up to 45 gp each with a successful DC 15 Diplomacy check.</p>
+					<p>Although Laurel has an idea of where the ingredients for her medicine might be found, she&#146;s never set foot beyond the fringes of Darkmoon Vale and honestly has no idea where the locations she mentions are. If the PCs seem committed to searching, she suggests they head to the Consortium Lumber Camp to the east and look for <b>Milon Rhoddam </b>&#151; the most experienced woodsman in the Lumber Consortium.</p>
 				</text>
 			</id-00011>
+			<id-00012>
+				<locked type="number">1</locked>
+				<name type="string">02.00g ENC: Giant mosquito</name>
+				<text type="formattedtext">
+					<linklist>
+						<link class="npc" recordname="npc.id-00002">Giant Mosquito</link>
+					</linklist>
+					<p>A giant mosquito (with the same stats as a stirge) crosses the path of the PCs and attempts to soundlessly attach itself to the character walking in the rear. The disgusting insect flees if it takes any damage.</p>
+					<linklist>
+						<link class="battle" recordname="battle.id-00017">ENC: 02.00g Giant Mosquito</link>
+					</linklist>
+				</text>
+			</id-00012>
+			<id-00013>
+				<locked type="number">1</locked>
+				<name type="string">02.00h ENC: Hunter's Snare</name>
+				<text type="formattedtext">
+					<p>Grung Knifetongue laid a number of dangerous traps about the woods. Along an overgrown deer trail, he set a camouflaged pit trap, covered in leaves and supporting the form of a dead rabbit.</p>
+					<linklist>
+						<link class="battle" recordname="battle.id-00001">ENC: 02.00h Hunter's Snare</link>
+					</linklist>
+				</text>
+			</id-00013>
 			<id-00014>
+				<locked type="number">1</locked>
 				<name type="string">03.03 Watch Tower</name>
 				<text type="formattedtext">
+					<p>The door leading into this tower is stuck and requires a DC 13 Strength check to open and close. Atop the 30-foot-tall tower is an open trapdoor that leads into the interior.</p>
+					<frame>Thick webs cover much of the ancient crates and barrels stored inside the base of the tower. A rickety wooden staircase ascends along one wall to reach an open trapdoor above.</frame>
+					<p>The wooden staircase leading to the roof of the tower is not safe. Any Medium or larger creature that attempts to climb the stairs must make a DC 10 Balance skill check. Failing this check means that the character cannot ascend. Failing this check by 5 or more results in the staircase collapsing, dealing 2d6 points of damage to the unfortunate character.</p>
 					<p></p>
+					<p><b>Creatures </b>: A rather aggressive monstrous spider dwells in this room, making it one of the chambers that Graypelt avoids. The moment the door opens, the spider drops down to attack. Its webs allow it to move throughout the tower without using the stairs, but do not hinder the PCs movement .</p>
+					<p><b>Treasure </b>: While the supplies in most of the crates and barrels in this room have long since rotted away, one small crate contains a masterwork shortsword wrapped in oilcloth.</p>
+					<linklist>
+						<link class="battle" recordname="battle.id-00007">ENC: 03.03 Watchtower</link>
+						<link class="treasureparcel" recordname="treasureparcels.id-00004">Parcel: 03.03 Watchtower</link>
+					</linklist>
 				</text>
 			</id-00014>
 			<id-00015>
 				<name type="string">01.05 Mapping the vale</name>
 				<text type="formattedtext">
-					<p>At some point, the PCs are going to need to determine where in Darkmoon Vale to search for the ingredients to create Laurel&#146;s cure. Of greatest interest are: Ulizmila&#146;s hut, the oldest tree in the vale, and the dwarven ruins. PCs familiar with the area might be able to make the following Knowledge checks to know where these sites lie. If they lack these skills, the PCs can question <b>Milon Rhoddam</b> at the Consortium Lumber Camp.</p>
-					<p>               </p>
+					<p>At some point, the PCs are going to need to determine where in Darkmoon Vale to search for the ingredients to create Laurel&#146;s cure. Of greatest interest are: Ulizmila&#146;s hut, the oldest tree in the vale, and the dwarven ruins. PCs familiar with the area might be able to make the following Knowledge checks to know where these sites lie. If they lack these skills, the PCs can question <b>Milon Rhoddam </b>at the Consortium Lumber Camp.</p>
+					<p></p>
 					<table>
 						<tr>
-							<td>Location </td>
-							<td>  Knowledge Check and DC</td>
+							<td>Location</td>
+							<td>Knowledge Check and DC</td>
 						</tr>
 						<tr>
-							<td>Ulizmila&#146;s Hut                                      </td>
+							<td>Ulizmila&#146;s Hut</td>
 							<td>Geography DC 16, Local DC 20</td>
 						</tr>
 						<tr>
@@ -322,7 +909,7 @@
 							<td>Geography DC 20, Nature DC 24</td>
 						</tr>
 						<tr>
-							<td>Dwarven Monastery </td>
+							<td>Dwarven Monastery</td>
 							<td>Geography DC 16, Local DC 20</td>
 						</tr>
 					</table>
@@ -331,9 +918,9 @@
 			<id-00016>
 				<name type="string">02.00 Darkmoon Vale</name>
 				<text type="formattedtext">
-					<p>The PCs should be compelled to plot their own journey to and through Darkmoon Vale, choosing their path as they see fit. Unless a PC rolls high on a Knowledge (geography) or Knowledge (local) check, it&#146;s likely they&#146;ll need to make a stop at the Lumber Consortium&#146;s main camp (see the Mapping the Vale sidebar). </p>
-					<p>  The entire journey, from Falcon&#146;s Hollow to the lumber camp, to various forest locations and on to the old dwarven ruins, is just over 37 miles in length. Assuming the group moves at a speed of 30, the entire journey takes a little more than three days, plus any time spent exploring or days spent resting. This time increases to five days if the group&#146;s speed is 20. Crossing the water on the return trip cuts it down to only 22 miles but requires a treacherous swim or the construction of a crude raft. </p>
-					<p>  While the PCs are exploring the vale, roll on the following chart to generate a random encounter once per day.</p>
+					<p>The PCs should be compelled to plot their own journey to and through Darkmoon Vale, choosing their path as they see fit. Unless a PC rolls high on a Knowledge (geography) or Knowledge (local) check, it&#146;s likely they&#146;ll need to make a stop at the Lumber Consortium&#146;s main camp (see the Mapping the Vale sidebar).</p>
+					<p>The entire journey, from Falcon&#146;s Hollow to the lumber camp, to various forest locations and on to the old dwarven ruins, is just over 37 miles in length. Assuming the group moves at a speed of 30, the entire journey takes a little more than three days, plus any time spent exploring or days spent resting. This time increases to five days if the group&#146;s speed is 20. Crossing the water on the return trip cuts it down to only 22 miles but requires a treacherous swim or the construction of a crude raft.</p>
+					<p>While the PCs are exploring the vale, roll on the following chart to generate a random encounter once per day.</p>
 					<linklist>
 						<link class="table" recordname="tables.id-00001">Random Encounter In DarkMoon Vale</link>
 					</linklist>
@@ -342,159 +929,316 @@
 			<id-00017>
 				<name type="string">02.01 Lumber Constortium Camp</name>
 				<text type="formattedtext">
-					<p></p>
+					<frame>The Lumber Consortium Camp cuts an ugly scar of stumps into a dense stand of proud darkwood trees. Five sturdy-looking log buildings&#151; seemingly a bunkhouse, meal hall, office, barn, and smithy&#151;stand with numerous wide carts and sleds amid the sawdust-covered clearing.</frame>
+					<p>Owned and operated by the local Lumber Consortium, the camp appears as callous and unrelenting as the men who work it. Visitors without direct business with the camp foreman are typically sent packing by the first band of surly loggers (CN male human warrior 1/expert 1) they encounter. If the PCs come inquiring after woodsman Milon Rhoddam, their requests are ignored by the workers unless they succeed at a DC 16 Diplomacy or Intimidate check. PCs who inquire after the camp foreman, Jarlben Trookshavits, are taken to his filthy office, thickly decorated with taxidermies of fierce forest animals. The impatient foreman sends for Rhoddam if the PCs succeed at a DC 14 Diplomacy check or pay the man 5 gp.</p>
+					<p>Milon Rhoddam (N male human expert 2/ranger 2), a blunt, quiet man, is one of the most experienced wanderers and woodsmen in the region. His nephew has taken ill with blackscour taint and, if the PCs explain they&#146;re trying to find reagents to brew a cure, he gladly sketches them a rough map of the forest, marking the location of where he believes Ulizmila&#146;s hut, the oldest tree in the forest, and the dwarven ruins stand. Should more than thirty townsfolk die before the PCs return, Rhoddam&#146;s young nephew is among the dead, and the canny tracker holds them responsible, possibly seeking revenge at a future date.</p>
 				</text>
 			</id-00017>
 			<id-00018>
+				<locked type="number">1</locked>
 				<name type="string">02.02 Bait</name>
 				<text type="formattedtext">
+					<p>This encounter occurs the first time the characters draw near the river or lake. PCs passing near this area must make a DC 16 Listen check to hear an animal&#146;s whimpering a short distance away.</p>
+					<frame>Not far from the edge of the forest-shrouded lake, a fox with large ears and bright orange fur lies bleeding, its hindquarters caught fully in the jaws of a crude iron trap.</frame>
 					<p></p>
+					<p>Although the fox here has obviously been snared by a hunter&#146;s cruel trap, the beast&#146;s cries are part of a ploy meant to lure greater prey. The hobgoblin poacher Grung Knifetongue lies in wait, hoping the fox&#146;s cries attract a Darkmoon wolf, one of the giant moorsnakes from the lake, or other curious passersby, like the PCs.</p>
+					<p>The fox lies on the grassy shore of the lake or river, some 10 feet from the water and 20 feet from the forest. Knifetongue has set up his hiding spot 50 feet to the northeast of his trap, just within the trees.</p>
+					<p>PCs who attempt to remove the fox from the trap can do so by succeeding at a DC 14 Strength check. The pitiful animal puts up no resistance.</p>
+					<p>Creatures: Grung Knifetongue, a grayskinned hobgoblin with a prodigious cleft palate, lurks in the nearby tree line, watching over his catch with his bow and waiting for greater prey.</p>
+					<p>The fox is a Darkmoon firefoot, a species of fennec unique to this region (see <b>02.05 Forest Fauna </b>). The firefoot is badly injured, its hindquarters slashed by the hobgoblin&#146;s trap. If left alone, it dies in days. A character who saves and treats the fennec, though, can nurse it back to health in two weeks (or one week with a DC 14 Heal check). If the character attending to the firefoot has either wild empathy or succeeds at a DC 14 Handle Animal check, the fox remains with the PC after it is healed.</p>
+					<linklist>
+						<link class="battle" recordname="battle.id-00004">ENC: 02.02 Bait</link>
+						<link class="encounter" recordname="encounter.id-00039">02.05 Forest Fauna</link>
+					</linklist>
 				</text>
 			</id-00018>
 			<id-00019>
+				<locked type="number">1</locked>
 				<name type="string">02.03 The forest Elder</name>
 				<text type="formattedtext">
+					<frame>The dense trees and thick brush of the forest give way, parting seemingly in respect for the titanic darkwood tree that dominates this clearing. Several times taller than a temple minaret, in one direction the obviously ancient tree reaches into the sky with branches like a giant&#146;s arms, while in the other it plumbs the earth with roots thicker than a man&#146;s waist. Its limbs broad and strong, its bark thick and so richly colored as to almost be black, and its leaves the size of bucklers, the giant thing is less a tree and more a cathedral of boughs and branches.</frame>
 					<p></p>
+					<p>This elder darkwood tree is the most ancient of its kind in Darkmoon Vale. Said to have been carried as a sapling from the Hissing Jungle and planted here in the distant past by Deirzir, the Eagle of The First Way, himself, the druids that once guarded the forest claimed this darkwood to be the root from which all Darkmoon grew. The clearing is roughly ovular, 180 feet from north to south and 110 feet from west to east. The elder darkwood has a trunk 30 feet in diameter, with low, easy to climb branches (DC 12 Climb check) that extend 35 feet from the trunk in every direction. A persistent character could eventually scale the tree&#146;s nearly 300-foot height, gaining a commanding view of the entire forest. Any character who climbs the tree may make a DC 14 Spot check to notice three bodies hanging in the high limbs (see treasure). Despite its serene nature, the glade is not without danger. Creature: A rare dragonkin known as a tatzlwyrm makes its lair in the branches of the massive darkwood here.</p>
+					<linklist>
+						<link class="battle" recordname="battle.id-00005">ENC: 02.03 The Forest Elder</link>
+						<link class="treasureparcel" recordname="treasureparcels.id-00001">Parcel: 02.03 The Forest Elder</link>
+					</linklist>
 				</text>
 			</id-00019>
 			<id-00020>
+				<locked type="number">1</locked>
 				<name type="string">02.04 The Hag-Haunted Hollow</name>
 				<text type="formattedtext">
+					<frame>The sounds of the forest become suddenly distant as the trees part, opening into a small, almost perfectly circular glade. The nearest stands of pine, eyln, and darkwood&#151;all typically sturdy woods&#151;twist away from the clearing, as if bent by some impossibly strong wind or seemingly in an attempt to flee despite their paralyzed roots. At the glade&#146;s center squats an ugly cottage, little more than a pile of twigs, shoots, and ivy stacked upon mud walls. From the thatched roof dangle bundles of gnarled roots, old dried beast carcasses, and knucklebone bangles, all clattering together like gruesome wind chimes. A dozen small thatched fetishes&#151;each shaped like a tiny man, imp, or rearing serpent&#151;stand propped in the yard, keeping guard before a rickety plank door.</frame>
 					<p></p>
+					<p>Years ago this cottage was home to the witch Ulizmila, a wise woman, practitioner of the old ways, and local boogieman. While some said she was a monstrous hag and great, great granddaughter of Baba Yaga herself, the deathless Witch Queen of the North, others knew her as a harsh but wise sage willing to share her wisdom for strange and often morbid prices. Although her works still spoil in this glen, Ulizmila is long since gone.</p>
+					<p>This clearing is roughly 120 feet in diameter, with a dilapidated, circular, 15-foot cottage at its center. Fourteen unnerving but harmless 3-foot-tall scarecrow-like effigies are propped-up throughout the glade. Anyone who approaches the cottage can see that its moldering door has rotted off its hinges but still blocks the way within. Any character who makes a DC 10 Strength check can easily heft aside the barrier.</p>
+					<p>Inside, the cottage is dank, reeking, and filled with shadows. Haphazardly hung shelves line the walls, covered in all manner of clay jugs, clouded bottles, strangely cut rocks, rotted bunches of herbs, and a museum of other crude curios and remnants of a bone grinder&#146;s artifice. A rusted iron cauldron, with a mouth nearly 5 feet wide and a depth of at least 3 feet, dominates the hut&#146;s single room, its ash-covered surface shaped with a relief of capering fiends and leering devils. Across from the door, against the far walls, stands a highbacked chair made of wicker, the gigantic curved tusks of some monstrous beast, and thousands of human teeth. In the chair sits what looks like a corpse wrapped in filthy burial linens, its form padded with pungent herbs and sprouting patches of thick white mold. This ominous shape is actually only a bundle of branches, mud, and linen, left by Ulizmila to distract trespassers from her home&#146;s actual guardian, her pet cauldron.</p>
+					<linklist>
+						<link class="battle" recordname="battle.id-00006">ENC: 02.04 The Hag-Haunted Hollow</link>
+					</linklist>
+					<p>Due to the volume and disorganization of the cottage&#146;s contents, it takes 10 minutes and a DC 14 Search check to locate the rat&#146;s tail. Those who attempt to Search without touching any of the shelves&#146; contents&#151;thus avoiding activating the guardian cauldron&#151;can do so, but the Search then takes 20 minutes to perform. Besides the rat&#146;s tail, there are several other items of hidden value in the hut. Any character who spends a minute and succeeds at a DC 14 Appraise check uncovers statuettes and rare stones worth 30 gp. A character who makes a DC 14 Knowledge (arcana) check also uncovers a pouch containing essential salts useful in summoning a familiar. If burnt in such a summoning ritual, these minerals decrease the rite&#146;s required gp by half. Detect magic reveals a few traces of previously present magical auras, but the only magic item that remains here is a disgusting, shrunken head known as a soulspeaker.</p>
+					<linklist>
+						<link class="treasureparcel" recordname="treasureparcels.id-00002">Parcel: 02.04 The Hag-haunted Hollow</link>
+					</linklist>
 				</text>
 			</id-00020>
 			<id-00021>
+				<locked type="number">1</locked>
 				<name type="string">03.02 The Yard</name>
 				<text type="formattedtext">
-					<p></p>
+					<frame>Tall grasses and chunks of stone debris have all but overtaken this small yard. Off to one side, a wooden stable has collapsed into a mound of rotting timbers and moldy straw. The outer wall on the east side has also collapsed, leaving a ragged hole. Three doors exit into this yard&#151; a pair of double doors to the east, a single door to the north, and a lone door leading into the squat tower in the southeast corner.</frame>
+					<p>This yard was once used by the dwarves for physical training, but now it lies in ruin. Searching the tall grasses reveals a few interesting clues. A well hides in the northwest corner of the yard, with 10 feet of rope dangling into it. The water is more than 30 feet down and is brackish but potable. Lying next to the well is the body of an explorer who came here just one year ago. A DC 15 Heal check reveals that this explorer was devoured by a rather large animal. This explorer fell prey to Graypelt&#146;s hunger while trying to retrieve some water. The ruined stable hides a few ancient bones, but little else of value. A DC 10 Knowledge (nature) check reveals these to be the bones of a pony. Although the tall grasses obscure most trails, a DC 15 Survival check made by a character with the Track feat reveals faint signs that some creatures do enter the main building through the double doors. Some of these tracks look reptilian while others are clearly made by four-legged mammals. The reptilian trail always leads to the main entrance and then out into the wild while the mammal tracks leave by either the main entrance or through the hole in the eastern wall.</p>
+					<linklist>
+						<link class="treasureparcel" recordname="treasureparcels.id-00003">Parcel: 03.02 The Yard</link>
+					</linklist>
 				</text>
 			</id-00021>
 			<id-00022>
+				<locked type="number">1</locked>
 				<name type="string">03.00 The ruined Monastery</name>
 				<text type="formattedtext">
-					<p></p>
+					<p>After exploring Darkmoon Vale, only one ingredient remains to be found: ironbloom mushrooms. These small toadstools are known to be a dwarven delicacy, and while there are no dwarves living in the area, an old crumbling dwarven monastery sits at the foot of Droskar&#146;s Crag. As such, the PCs&#146; only hope of retrieving these mushrooms is to search the ruins on the other side of the Darkmoon Vale.</p>
+					<p>Unfortunately, predators and worse have taken up residence in the ruined building. One such beast, a rather old and powerful worg named Graypelt, has taken over a large portion of the surface ruins and finds the mushrooms to be a delicious treat. To save the people of Falcon&#146;s Hollow, the PCs must brave the ruins of the dwarven monastery and deal with Graypelt and his minions.</p>
+					<p>Unless otherwise noted, none of the chambers inside the monastery are lit. All of the rooms have 10-foot-tall ceilings at a minimum, but since most open up to the sloped roof above, many reach a height of up to 20 feet. The walls are all stone, with the interior walls being 1 foot thick and the exterior walls measuring at least 3 feet thick. All of the doors are strong wooden doors, and while many are swollen stuck, few are locked.</p>
+					<linklist>
+						<link class="imagewindow" recordname="image.id-00007">IMG: Monastery</link>
+						<link class="encounter" recordname="encounter.id-00057">03.00a Monastery History</link>
+					</linklist>
 				</text>
 			</id-00022>
 			<id-00023>
+				<locked type="number">1</locked>
 				<name type="string">03.01 Approching the ruins</name>
 				<text type="formattedtext">
+					<frame>Sitting squat at the foot of an imposing mountain, a ruined monastery comes into view between ancient gnarled trees. Made of simple stone blocks, worn smooth with the passage of time, the stout building is falling apart. Sections of the slanted shale roof have collapsed and portions of the outer wall have crumbled. Weeds and wild thorn plants run rampant across the field leading up to the place, leaving only the slightest indication of a path that ends at the ruined front doors. Beyond, an overgrown yard sits in shadow.</frame>
 					<p></p>
+					<p>The old path that leads up to the ruins ends about 50 feet from the monastery. Before entering the yard, the path passes between a pair of old stone statues. While one of them is little more than rubble, the other is relatively intact. The 5-foottall statue is incredibly worn but it can still be made out as a dwarf holding aloft a great stone hammer. Moss and creeper vines cover most of its surface. Removing the vines around the base uncovers an old dwarven inscription that reads &#147;All praise, [this part is defaced].&#148; Unfortunately, the missing name was scratched off a long time ago and is no longer legible. A DC 15 Knowledge (history) check notes that this statue is from the time of the last great dwarven kings, many centuries ago.</p>
+					<p><b>Creatures </b>: If the PCs approach the ruins during the day they find the surrounding area free of hazards. A few lone razorcrows roost atop the tower and caw at any who enter their domain. At night, however, a pair of Graypelt&#146;s wolf minions can be found wandering the area in search of an easy snack. These wolves do not sleep in the ruins during the day, as the other wolves do, and are only encountered outside at night.</p>
+					<linklist>
+						<link class="battle" recordname="battle.id-00003">ENC: 03.01 Wolves</link>
+					</linklist>
 				</text>
 			</id-00023>
 			<id-00024>
+				<locked type="number">1</locked>
 				<name type="string">03.04 Entry Hall</name>
 				<text type="formattedtext">
-					<p></p>
+					<frame>Beyond the double doors is a small dark hall. Littered with mounds of debris and a year&#146;s worth of dead leaves, it is clear that a narrow path winds inside.</frame>
+					<p>Both wolves and kobolds from down below occasionally use this chamber to enter or exit the monastery. A DC 20 Survival skill check made by a character with the Track feat reveals that most of the traffic through this area heads north. There is nothing of interest in the piles of dirt and leaves.</p>
 				</text>
 			</id-00024>
 			<id-00025>
+				<locked type="number">1</locked>
 				<name type="string">03.05 Waiting Room</name>
 				<text type="formattedtext">
-					<p></p>
+					<p>The door to this room is stuck and requires a DC 13 Strength check to open.</p>
+					<frame>With a loud crack, the door finally gives way and opens, shattering an ancient wooden chair propped against it on the other side. The room beyond is dark and smells deeply of dust and decay.</frame>
+					<p>This chamber was once used as a waiting room for the monastery&#146;s guests. When the end finally came for the dwarves, one of them went into this chamber and imbibed a great deal of poison. His mummified remains rest in the center of the chamber. Wearing the garb of a blacksmith, the dwarf has the shattered shards of a glass vial in one hand and a scrap of ancient parchment in the other. Written in dwarven, the parchment reads, &#147;Forgive me, dark father of the forge, my toils shall never be enough.&#148;</p>
+					<p><b>Treasure: </b>Tucked into the belt of the long-dead dwarf is a silver light hammer with a religious symbol carved into the head. The symbol can be identified with a DC 15 Knowledge (religion) skill check as that of Droskar, dwarven god of toil and suffering. The hammer is worth 21 gp, but to a collector it might be worth as much as 200 gp.</p>
+					<linklist>
+						<link class="treasureparcel" recordname="treasureparcels.id-00005">Parcel: 03.05 Waiting Room</link>
+					</linklist>
 				</text>
 			</id-00025>
 			<id-00026>
+				<locked type="number">1</locked>
 				<name type="string">03.06 Cloak Room</name>
 				<text type="formattedtext">
-					<p></p>
+					<p>This small chamber was used to store the traveling cloaks, coats, and hats of visitors to the monastery. Now only a few moth-eaten rags hang on the pegs and a single soiled hat rests on the table.</p>
+					<p><b>Treasure: </b>Hiding in the southeast corner of the room is a single ironbloom mushroom. While not enough to save the entire town, the lone mushroom is a promising start. The mushroom can be found with a DC 15 Search check.</p>
+					<linklist>
+						<link class="item" recordname="item.id-00005">Ironbloom Mushroom</link>
+					</linklist>
 				</text>
 			</id-00026>
 			<id-00027>
+				<locked type="number">1</locked>
 				<name type="string">03.07 Guest Quarters</name>
 				<text type="formattedtext">
-					<p></p>
+					<p>The door leading into this chamber from the hallway is locked. The device is quite ancient and easy to pick, requiring only a DC 20 Open Lock check.</p>
+					<frame>This small chamber appears to be some sort of sitting room, complete with a single table and a pair of chairs, both in relatively good condition. Resting atop the table is a half-eaten crow next to a crude knife and a cracked mug.</frame>
+					<p>This room is used by Gurtlekep, the kobold scout stationed up here on the surface, as a place to rest and take meals. Gurtlekep has prepared a relatively simple trap for anyone entering his room, as he is quite paranoid about the worg and his minions. The crow was the kobold&#146;s most recent meal and he is quite distressed if anyone disturbs his leftovers.</p>
+					<p><b>Trap: </b>A net strung up near the ceiling holds a number of stones and a small metal anvil, rigged to fall on anyone walking through the door without noticing the trip rope (the door opens out). Each character entering the room must make a DC 10 Reflex save or set off the trap. Those who make it do not necessarily notice the trap. If set off this trap not only harms intruders, but the noise also warns Gurtlekep (area 8) of their presence.</p>
+					<linklist>
+						<link class="battle" recordname="battle.id-00008">03.07 Pit Trap</link>
+					</linklist>
 				</text>
 			</id-00027>
 			<id-00028>
+				<locked type="number">1</locked>
 				<name type="string">03.08 Gurtlekep's Room</name>
 				<text type="formattedtext">
-					<p></p>
+					<frame>This small cramped chamber holds two beds (one of which is covered in bird bones), a small sack, and an array of old tools. The other bed looks recently slept in.</frame>
+					<p><b>Creature: </b>This chamber is the home of Gurtlekep, a kobold scout sent up from the dungeon below to keep a lookout on the surface. Gurtlekep is here sleeping during the day and is usually out roaming the halls of the monastery at night. If the PCs come here during the day, Gurtlekep is unprepared for them unless they set off the trap in area 7. If it is night, Gurtlekep can be found in area 11, keeping watch on the courtyard.</p>
+					<linklist>
+						<link class="battle" recordname="battle.id-00009">ENC: 03.08 Gurtlekep's Room</link>
+					</linklist>
+					<p><b>Treasure: </b>On the spare bed is a complete set of masterwork artisan&#146;s tools useful for making Craft (stonemasonry) skill checks. In addition, there is a small sack containing 62 gp in assorted coins and a single ruby gemstone worth 300 gp. Although not magical itself, the gemstone radiates faint conjuration magic if checked and is one of the missing stones from the altar in area 10.</p>
+					<linklist>
+						<link class="treasureparcel" recordname="treasureparcels.id-00007">Parcel: 03.08 Gurtlekep's Room</link>
+					</linklist>
 				</text>
 			</id-00028>
 			<id-00029>
+				<locked type="number">1</locked>
 				<name type="string">03.09 Ruined Library</name>
 				<text type="formattedtext">
-					<p></p>
+					<frame>The double doors leading into this chamber are shattered and broken, one of them lying on the floor. The room beyond is in an equal state of disrepair. What was once a library is now a shattered mess with one corner being completely collapsed and dominated by a wide pool of stagnant water. Thick fungus grows on most of the books that still remain on the shelves lining the walls.</frame>
+					<p>This room was once the library of the monastery, filled with books on dwarven lore and history. It has long since been plundered of nearly anything of value and fungus has claimed nearly all the books that remain.</p>
+					<p><b>Hazard: </b>The fungus that lines the shelves in this room is hazardous if disturbed. If any of the books are moved or destroyed the fungus lets off a puff of spores that acts like an inhaled poison affecting everyone within 10 feet (inhaled; DC 12; initial 1d2 Con, secondary 1d2 Con). In addition, anyone who takes damage from the spores has strange shadows and flittering movement appear in the corners of their vision causing them to take a &#150;2 penalty on Perception checks for 1 hour.</p>
+					<linklist>
+						<link class="battle" recordname="battle.id-00010">ENC: 03.09 Ruined Library</link>
+					</linklist>
+					<p><b>Treasure: </b>Atop one of the bookshelves is a single tome that has managed to avoid the destructive fungus. This book is written in Dwarven and contains hymns to Torag, the god venerated here before Droskar. The book is beautifully illuminated and is worth 100 gp, but might fetch as much as 300 gp if sold to a dwarven collector or cleric. Folded into the last page of the book is a scroll of spiritual weapon.</p>
+					<linklist>
+						<link class="treasureparcel" recordname="treasureparcels.id-00008">Parcel: 03.09 Ruined Library</link>
+					</linklist>
 				</text>
 			</id-00029>
 			<id-00030>
+				<locked type="number">1</locked>
 				<name type="string">03.10 Desecrated Shrine</name>
 				<text type="formattedtext">
+					<frame>Pews of darkwood lie tipped over and covered in dust on either side of this ancient shrine. At the far end sits a large ceremonial anvil, but its surface is defaced and ruined.</frame>
 					<p></p>
+					<p>This shrine was once dedicated to Torag, the god of the forge, but when the monastery turned to Droskar&#146;s worship, this chamber was defaced and left to rot. The anvil can be identified as an object devoted to Torag with a successful DC 10 Knowledge (religion) check. Of particular note is a space atop the altar containing five small depressions. These depressions once held five rubies. While most of these stones are long gone, one still remains and can be found among the other relics in Gurtlekep&#146;s room (area 8). If the ruby is placed in one of the depressions, a wave of positive energy washes out from the altar, hitting everyone in the room and causing an unearthly dwarven choir to spring up from the darkness before fading away. All creatures in the room receive the benefits of a cure light wounds spell and a gain +1 morale bonus on attack rolls for 1 hour. While this drains the ruby of its magic, it still retains its intrinsic value.</p>
+					<p><b>Creatures: </b>A pair of darkmantles has taken up residence in this chamber and roosts on the ceiling above.</p>
+					<linklist>
+						<link class="battle" recordname="battle.id-00011">ENC: 03.10 Desecrated Shrine</link>
+					</linklist>
 				</text>
 			</id-00030>
 			<id-00031>
+				<locked type="number">1</locked>
 				<name type="string">03.11 Hallway</name>
 				<text type="formattedtext">
-					<p></p>
+					<p>This long hallway ends with a ruined dwarven statue. Smashed long ago, the statue is barely recognizable as a dwarven monk. His stone hammer sits on the ground next to the shattered remains of his head.</p>
+					<p><b>Creatures: </b>If the PCs enter the ruins at night, Gurtlekep can be found here instead of his room in area 8. From this hallway he watches the courtyard for any sign of intruders. If he spots the PCs entering the monastery he rushes to warn Graypelt and his kobold brethren who live below (if you are using this adventure as a lead in to D1: Crown of the Kobold King). After raising the alarm, he silently stalks the PCs. He waits to strike until they are engaged with another foe, attacking until slain. See area 8 for Gurtlekep&#146;s statistics.</p>
+					<linklist>
+						<link class="battle" recordname="battle.id-00009">ENC: 03.08 Gurtlekep's Room</link>
+					</linklist>
 				</text>
 			</id-00031>
 			<id-00032>
+				<locked type="number">1</locked>
 				<name type="string">03.12 Infested Ruins</name>
 				<text type="formattedtext">
-					<p></p>
+					<frame>This chamber is entirely shattered, with much of the outer wall and ceiling completely crumbled.</frame>
+					<p>This chamber was once a study for the monks of the monastery. Today it is only home to a swarm of bats that roosts in the remnants of the ceiling above. Note that most of this room is difficult terrain due to the large chunks of stone and debris that litter the floor.</p>
+					<p><b>Creature: </b>The bat swarm that lives in this room is relatively harmless unless disturbed. If the PCs make any loud noise in the chamber (such as disturbing the rubble), the swarm descends to attack. The swarm can be spotted beforehand with a successful DC 15 Perception check.</p>
+					<linklist>
+						<link class="battle" recordname="battle.id-00012">ENC: 03.12 Infested Ruins</link>
+					</linklist>
 				</text>
 			</id-00032>
 			<id-00033>
+				<locked type="number">1</locked>
 				<name type="string">03.13 Armory</name>
 				<text type="formattedtext">
-					<p></p>
+					<frame>Old cobweb-covered racks and armor stands dominate much of this small chamber. What must have once been a well-tended armory is now devoid of arms and armor.</frame>
+					<p>This chamber was pillaged long ago by a group of explorers. A secret door is located in the northeast corner of the room. The secret door can be located with a successful DC 20 Search check.</p>
+					<p><b>Treasure: </b>In their haste, the explorers who looted this chamber knocked over one of the bolt cases, spilling its contents across the floor. They gathered up most of the bolts, but 4 of the +1 flaming bolts ended up underneath one of the racks and were never discovered. The bolts can be found with a DC 15 Search check or automatically with a detect magic spell or similar effect.</p>
+					<linklist>
+						<link class="treasureparcel" recordname="treasureparcels.id-00009">Parcel: 03.13 Armory</link>
+					</linklist>
 				</text>
 			</id-00033>
 			<id-00034>
+				<locked type="number">1</locked>
 				<name type="string">03.14 Secret Prison</name>
 				<text type="formattedtext">
-					<p></p>
+					<frame>The secret door swings open to reveal a short corridor with a wall of bars running down one side. Four rusted doors open in this wall into four cramped cells.</frame>
+					<p>This chamber was built after the monastery&#146;s conversion to the worship of Droskar. It was used to house all of the members who did not convert. These unfortunate dwarves were left here to die. The locks on the cell doors have rusted away, making them easy to open.</p>
+					<p><b>Creatures: </b>While all of the cells contain the bones of long-dead dwarves, three of them are actually skeletons that rise up to attack the characters as soon as they open any of the cell doors.</p>
+					<linklist>
+						<link class="battle" recordname="battle.id-00013">ENC: 03.13 Secret Prison</link>
+					</linklist>
+					<p><b>Treasure: </b>The only skeleton here that does not animate is from a dwarf that remained pious to Torag during his imprisonment. His skeleton lies in a peaceful posture on his simple straw cot. On one of his hands is the ring of Torag, an ancient magic item (see sidebar). Growing inside his ribcage is a pair of ironbloom mushrooms.</p>
+					<linklist>
+						<link class="treasureparcel" recordname="treasureparcels.id-00010">Parcel: 03.13 Secret Prison</link>
+					</linklist>
 				</text>
 			</id-00034>
 			<id-00035>
+				<locked type="number">1</locked>
 				<name type="string">03.15 Wolf Den</name>
 				<text type="formattedtext">
-					<p></p>
+					<frame>This small study looks like it has been lived in recently. Gnawed bones litter the floor and tufts of gray fur can be seen here and there. An old stone desk sits in the center of the chamber, scratched and cracked in many places. The stench of wet fur hangs heavy in the air.</frame>
+					<p>This was once the study of the high priest, where he wrote his upcoming sermons and met with foreign visitors. Today, it is the den of a pair of female wolves, the consorts of Graypelt.</p>
+					<p><b>Creatures: </b>The wolves usually sleep behind the desk during the day and are active at night. If Graypelt has been warned of intruders, these two wolves are sent out to find and kill them. In either case, the pair attacks the moment they spot intruders.</p>
+					<linklist>
+						<link class="battle" recordname="battle.id-00014">ENC: 03.15 Wolves</link>
+					</linklist>
 				</text>
 			</id-00035>
 			<id-00036>
 				<name type="string">03.16 Graypelt's Chamber</name>
 				<text type="formattedtext">
-					<p></p>
+					<frame>Gaping holes in the roof allow faint light to enter this ruined chamber. One of the stone columns that once supported the ceiling is toppled, its broken pieces littering the floor. A thick patch of black mushrooms hides in a nearby corner, giving the room an earthy scent that is barely noticeable above the stench of wet fur.</frame>
+					<p>This chamber is the home of Graypelt, the sinister worg who sees himself as the ruler of the surface ruins. Long before Graypelt came to this place, the dwarves used this chamber for storage, along with the basement below. When the dwarves turned to Droskar, the basement below was greatly expanded into a dungeon where the dwarves worshiped in secret. This dungeon is described in D1: Crown of the Kobold King. If you are using this adventure alone, the mushrooms are the sole reason the PCs have for coming here and the basement below is just a small empty chamber, save for cobwebs and dust.</p>
+					<p><b>Creatures </b>: Graypelt is a cunning foe and recognizes the PCs for a serious threat the moment they enter. With his consorts wounded or dead, he is cautious in dealing with the intruders. His first act is to spring up from out of hiding atop the ruined column, baring his teeth and making an Intimidate check to demoralize them. If the PCs move to attack, he speaks, demanding to know why they have disturbed his rest. If they tell him of their need, he lies to them and tells them he is willing to let them take the mushrooms (or let them go below if this module is being used as a prelude) if they assist him in ridding the monastery of some of the other monsters. Graypelt knows of all the creatures in the monastery except for the skeletons in area 14 and asks the PCs to slay the darkmantles. When they return from this task, he asks them to slay the bat swarm and then the spider in the tower. The worg hopes that by getting the PCs to fight these other monsters he can weaken them so he can easily defeat them when they finally return. Regardless of whether or not the PCs accept Graypelt&#146;s quest, he has no intention of allowing them to take his prized mushrooms and attacks the moment their guard is down.</p>
+					<linklist>
+						<link class="battle" recordname="battle.id-00015">ENC: 03.16 Greypelt's Chamber</link>
+					</linklist>
+					<p><b>Treasure:</b> Tucked behind the pillar are a few things of value hidden by Graypelt, including a bag with 354 gp, a masterwork light crossbow, a potion of bull&#146;s strength, and a wand of light (CL 1st, 28 charges). In the dark corner of the room grows a small patch of ironbloom mushrooms, six in all</p>
+					<linklist>
+						<link class="treasureparcel" recordname="treasureparcels.id-00011">Parcel: 03.16 Greypelt's Chamber</link>
+					</linklist>
 				</text>
 			</id-00036>
 			<id-00037>
+				<locked type="number">1</locked>
 				<name type="string">04.00 Conculsion</name>
 				<text type="formattedtext">
-					<p></p>
+					<p>After retrieving all the ingredients needed, the PCs can rush back to Falcon&#146;s Hollow without much delay. Laurel is glad to see them and immediately sets out to brew the remedy. By that same evening, many of the locals are well on their way to recovery. Laurel pays the characters their due and offers them a discount on any future services. Others in the town take notice of their heroics as well, including Boss Teedum. </p>
+					<p>  If this adventure was used as an introduction to D1: Crown of the Kobold King, the characters are free to explore deeper into the ruins beneath the monastery after dealing with Graypelt.</p>
 				</text>
 			</id-00037>
 			<id-00038>
 				<name type="string">05.00 Appendix</name>
 				<text type="formattedtext">
-					<p></p>
+					<p>This module presents a brand new monster, the tatzlwyrm, a smaller wingless cousin of true dragons.</p>
+					<p><b>Tatzlwyrm</b></p>
+					<p><i>Slithering like a large snake, this creature has the head of a dragon and a pair of clawed arms to help it move along and grasp prey. A sickly green mist wafts from its open maw.</i></p>
+					<linklist>
+						<link class="npc" recordname="npc.id-00007">Tatzlwyrm</link>
+					</linklist>
 				</text>
 			</id-00038>
 			<id-00039>
+				<locked type="number">1</locked>
 				<name type="string">02.05 Forest Fauna</name>
 				<text type="formattedtext">
-					<p></p>
+					<p>A number of unusual or unique creatures dwell in the region around Falcon&#146;s Hollow and in Darkmoon Vale. Listed here are but a few PCs might encounter along their travels. A DC 12 Knowledge (nature) check identifies any of these creatures.</p>
+					<p><b>Dunlied (Brush Colt): </b>A particularly stout breed of small-antlered deer, often trained by foresters as mounts (same stats as light horse).</p>
+					<p><b>Giant Moorsnake: </b>Gray and brown patterned aquatic snakes, skilled at hiding amid debris and floating foliage at the edges of rivers and lakes (same stats as constrictor snake).</p>
+					<p><b>Firefoot Fennec: </b>Small foxes with large ears and wispy patches of flame-colored fur around their paws (same stats as dog)</p>
+					<p><b>Razorcrow: </b>Over-large rooks with distinctive, jagged beaks and unkempt, oily black feathers (same stats as hawk).</p>
+					<p><b>Saingrist&#146;s Crawler: </b>A breed of angry red and black centipede capable of growing to monstrous size (same stats as any monstrous centipede). Their bites are said to burn like fire.</p>
+					<p><b>Slurk: </b>Disgusting, pale subterranean frogs that secrete powerful adhesives (see D1: Crown of the Kobold King).</p>
 				</text>
 			</id-00039>
 			<id-00040>
+				<locked type="number">1</locked>
 				<name type="string">05.01 The Tatzlwyrm</name>
 				<text type="formattedtext">
-					<p></p>
+					<h>THE TATZLWYRM</h>
+					<p>A creature of Austrian, Bavarian, and Swiss descent&#151;related to the German lindwurm or Scandinavian linnorm&#151;realworld Alpine legends describe the tatzlwyrm (&#147;clawed worm&#148; in German) as a giant salamander lacking rear legs and sometimes exhibiting a feline head. Widely believed in throughout the Middle Ages due to the proliferation of corroborating descriptions and, later, artistic depictions (though the verbal and illustrated reports hold little in common), even Marco Polo described the beast in the account of his travels, Il Milione. Although far less common than centuries ago, sightings of tatzlwyrms are still reported today.</p>
 				</text>
 			</id-00040>
 			<id-00041>
 				<locked type="number">1</locked>
 				<name type="string">02.00a ENC: Foul Tracks</name>
 				<text type="formattedtext">
-					<p>A <b>DC 18 Perception</b> check reveals a set of deep, goat-like tracks. A character with Track can determine that whatever made these depressions walks upright, and can easily follow them. The tracks only persist for approximately 50 feet before mysteriously disappearing.</p>
+					<p>A <b>DC 18 Perception </b>check reveals a set of deep, goat-like tracks. A character with Track can determine that whatever made these depressions walks upright, and can easily follow them. The tracks only persist for approximately 50 feet before mysteriously disappearing.</p>
 				</text>
 			</id-00041>
 			<id-00042>
 				<locked type="number">1</locked>
 				<name type="string">02.00b ENC: Dead Fey</name>
 				<text type="formattedtext">
-					<p>The PCs happen upon a dead tree streaked with multicolored fairy blood. Three sprite-like creatures, known as keld piskies, are pinned here, their exsanguinated bodies turned to gnarled wood. A <b>DC 16 Knowledge (nature)</b> check identifies these creatures, while a <b>DC 14 Knowledge (local)</b> check recalls dubious stories about fairy blood being used to turn lead into gold.</p>
+					<p>The PCs happen upon a dead tree streaked with multicolored fairy blood. Three sprite-like creatures, known as keld piskies, are pinned here, their exsanguinated bodies turned to gnarled wood. A <b>DC 16 Knowledge (nature) </b>check identifies these creatures, while a <b>DC 14 Knowledge (local) </b>check recalls dubious stories about fairy blood being used to turn lead into gold.</p>
 				</text>
 			</id-00042>
 			<id-00043>
@@ -510,24 +1254,56 @@
 				<text type="formattedtext">
 					<p>The undersides of several large rocks deep in the forest are covered in rare, glowing mold. A character who makes a <b>DC 16 Surviva</b>l check can harvest enough of the mold without destroying it to serve as a light source. Once removed from the rock, the mold continues to glow with the brightness of a torch for 3 days.</p>
 					<linklist>
-						<link class="item" recordname="item.id-00006">Glowmold</link>
+						<link class="treasureparcel" recordname="treasureparcels.id-00012">Parcel: 02.00d GlowMold</link>
 					</linklist>
+					<p></p>
 				</text>
 			</id-00044>
 			<id-00045>
 				<locked type="number">1</locked>
 				<name type="string">02.00e ENC: Wyvern Sighting</name>
 				<text type="formattedtext">
-					<p>Any character who makes a <b>DC 20 Perception</b> check notices an ominous shadow and looks up quickly enough to see a hunting blue wyvern soar low over the tree tops. Unless the PCs specifically (and especially loudly) attempt to attract its attention, the wyvern does not notice them.</p>
+					<p>Any character who makes a <b>DC 20 Perception </b>check notices an ominous shadow and looks up quickly enough to see a hunting blue wyvern soar low over the tree tops. Unless the PCs specifically (and especially loudly) attempt to attract its attention, the wyvern does not notice them.</p>
 				</text>
 			</id-00045>
 			<id-00046>
+				<locked type="number">1</locked>
 				<name type="string">02.00f ENC: Koblod Shaman</name>
 				<text type="formattedtext">
 					<p>Kolmokmurk was the former shaman of the kobolds who now lair beneath the dwarven monastery. He was exiled after he drank a potion that killed him and animated him as a zombie. The zombie kobold now wanders the forest, thoughtless and aimless, attended by Creeper, his dutiful rat familiar (who now lives in his skull). He wears a crude wood sign bearing the word &#147;shaman&#148; in Draconic.</p>
-					<p></p>
+					<linklist>
+						<link class="battle" recordname="battle.id-00016">ENC: 02.00f Kobold Shaman</link>
+					</linklist>
 				</text>
 			</id-00046>
+			<id-00047>
+				<locked type="number">1</locked>
+				<name type="string">02.00i ENC: Giant Moorsnake</name>
+				<text type="formattedtext">
+					<p>An ophidian predator crosses the path of the PCs (same stats as a constrictor snake). During the day, the moorsnake is too lethargic to attack and merely slithers away. At night, though, it might slip into camp and attempt to constrict a sleeping PC.</p>
+					<linklist>
+						<link class="battle" recordname="battle.id-00002">ENC: 02.00i Giant Moorsnake</link>
+					</linklist>
+				</text>
+			</id-00047>
+			<id-00048>
+				<locked type="number">1</locked>
+				<name type="string">02.00j ENC: Wolves</name>
+				<text type="formattedtext">
+					<p>Two wolves in the service of Graypelt (see Part 3) patrol the far reaches of their master&#146;s claimed territory. They viciously attack the PCs on sight, but both flee if either is reduced to fewer than half hit points, returning to the monastery to inform their worg master.</p>
+					<linklist>
+						<link class="battle" recordname="battle.id-00018">ENC: 02.00j Wolves</link>
+					</linklist>
+				</text>
+			</id-00048>
+			<id-00057>
+				<locked type="number">1</locked>
+				<name type="string">03.00a Monastery History</name>
+				<text type="formattedtext">
+					<p>What is not generally known to the people of Falcon&#146;s Hollow is that the dwarves of this monastery turned to depravity and evil long ago. During the fall of their people, these recluses turned to the worship of Droskar, a vile dwarven god of toil. Renaming their enclave Droskar&#146;s Crucible, the dwarves toiled until their end, leaving behind a ruined monastery and a sprawling dungeon underneath. Today, little on the surface shows any evidence of this vile worship, as the dwarves kept their true devotion a secret.</p>
+					<p>This adventure occurs entirely on the surface level. The dungeons immediately below are detailed in D1: Crown of the Kobold King. Even more insidiously, another foul presence has taken root in the deeper dungeon levels. The source of this evil and its greater plans are beyond the scope of this adventure.</p>
+				</text>
+			</id-00057>
 		</category>
 	</encounter>
 	<feat>
@@ -611,7 +1387,9 @@
 				<image type="image">
 					<bitmap>images/Monastery.jpg</bitmap>
 				</image>
+				<locked type="number">1</locked>
 				<name type="string">Monastery</name>
+				<nonid_name type="string">The Monastery</nonid_name>
 			</id-00007>
 			<id-00008>
 				<image type="image">
@@ -725,7 +1503,7 @@
 				<checkpenalty type="number">0</checkpenalty>
 				<cl type="number">0</cl>
 				<description type="formattedtext">
-					<p>A small patch of elderwood moss </p>
+					<p>A small patch of elderwood moss</p>
 				</description>
 				<locked type="number">1</locked>
 				<maxstatbonus type="number">0</maxstatbonus>
@@ -792,6 +1570,345 @@
 				<type type="string">mold</type>
 				<weight type="number">0</weight>
 			</id-00006>
+			<id-00007>
+				<bonus type="number">0</bonus>
+				<cl type="number">0</cl>
+				<cost type="string">30 gp</cost>
+				<critical type="string">x3</critical>
+				<damage type="string">1d6</damage>
+				<damagetype type="string">Piercing</damagetype>
+				<description type="formattedtext">
+					<p>A shortbow is made up of one piece of wood, about 3 feet in length. You need two hands to use a bow, regardless of its size. You can use a shortbow while mounted. If you have a penalty for low Strength, apply it to damage rolls when you use a shortbow. If you have a bonus for high Strength, you can apply it to damage rolls when you use a composite shortbow (see below), but not a regular shortbow.</p>
+				</description>
+				<isidentified type="number">1</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Shortbow</name>
+				<pfslegal type="string">True</pfslegal>
+				<properties type="string">-</properties>
+				<range type="number">60</range>
+				<slot type="string">Armor</slot>
+				<subtype type="string">Martial Ranged</subtype>
+				<type type="string">Weapon</type>
+				<weight type="number">2</weight>
+			</id-00007>
+			<id-00008>
+				<ac type="number">4</ac>
+				<bonus type="number">0</bonus>
+				<checkpenalty type="number">-3</checkpenalty>
+				<cl type="number">0</cl>
+				<cost type="string">15 gp</cost>
+				<description type="formattedtext">
+					<p>Hide armor is made up of the tanned and preserved skin of any thick-hided beast.</p>
+				</description>
+				<isidentified type="number">1</isidentified>
+				<locked type="number">1</locked>
+				<maxstatbonus type="number">4</maxstatbonus>
+				<name type="string">Hide</name>
+				<pfslegal type="string">True</pfslegal>
+				<properties type="string">-</properties>
+				<slot type="string">Armor</slot>
+				<speed20 type="number">15</speed20>
+				<speed30 type="number">20</speed30>
+				<spellfailure type="number">20</spellfailure>
+				<subtype type="string">Medium</subtype>
+				<type type="string">Armor</type>
+				<weight type="number">25</weight>
+			</id-00008>
+			<id-00009>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<checkpenalty type="number">0</checkpenalty>
+				<cl type="number">0</cl>
+				<cost type="string">5 GP</cost>
+				<description type="formattedtext">
+					<p></p>
+				</description>
+				<locked type="number">1</locked>
+				<maxstatbonus type="number">0</maxstatbonus>
+				<name type="string">Signet ring</name>
+				<nonidentified type="string">signet ring with the image of a flaming\nhawk</nonidentified>
+				<range type="number">0</range>
+				<speed20 type="number">0</speed20>
+				<speed30 type="number">0</speed30>
+				<spellfailure type="number">0</spellfailure>
+				<weight type="number">0</weight>
+			</id-00009>
+			<id-00010>
+				<cost type="string">5 sp</cost>
+				<description type="formattedtext">
+					<p>-</p>
+				</description>
+				<isidentified type="number">1</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Trail rations</name>
+				<pfslegal type="string">True</pfslegal>
+				<subtype type="string">Food Drink</subtype>
+				<type type="string">Goods and Services</type>
+				<weight type="number">1</weight>
+			</id-00010>
+			<id-00011>
+				<cost type="string">10 gp</cost>
+				<description type="formattedtext">
+					<p>This rope has 4 hit points and can be burst with a DC 24 Strength check.</p>
+				</description>
+				<isidentified type="number">1</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Rope (silk, 50 ft.)</name>
+				<pfslegal type="string">True</pfslegal>
+				<subtype type="string">Adventuring Gear</subtype>
+				<type type="string">Goods and Services</type>
+				<weight type="number">5</weight>
+			</id-00011>
+			<id-00012>
+				<cost type="string">30 gp</cost>
+				<description type="formattedtext">
+					<p>This kit contains lockpicks and other tools you need to use the Disable Device skill. Without these tools, you must use improvised tools, and you take a -2 circumstance penalty on Disable Device checks.</p>
+				</description>
+				<isidentified type="number">1</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Thieves' tools (common)</name>
+				<pfslegal type="string">True</pfslegal>
+				<subtype type="string">Tools</subtype>
+				<type type="string">Goods and Services</type>
+				<weight type="number">1</weight>
+			</id-00012>
+			<id-00013>
+				<ac type="number">0</ac>
+				<aura type="string">faint blue</aura>
+				<bonus type="number">0</bonus>
+				<checkpenalty type="number">0</checkpenalty>
+				<cl type="number">4</cl>
+				<cost type="string">300 Gp</cost>
+				<description type="formattedtext">
+					<p></p>
+				</description>
+				<isidentified type="number">0</isidentified>
+				<locked type="number">1</locked>
+				<maxstatbonus type="number">0</maxstatbonus>
+				<name type="string">Potion of cure light wounds</name>
+				<nonid_name type="string">A small blue vial</nonid_name>
+				<prerequisites type="string">Brew Potion</prerequisites>
+				<range type="number">0</range>
+				<speed20 type="number">0</speed20>
+				<speed30 type="number">0</speed30>
+				<spellfailure type="number">0</spellfailure>
+				<type type="string">potion</type>
+				<weight type="number">0</weight>
+			</id-00013>
+			<id-00014>
+				<ac type="number">0</ac>
+				<bonus type="number">1</bonus>
+				<checkpenalty type="number">0</checkpenalty>
+				<cl type="number">0</cl>
+				<cost type="string">10 gp</cost>
+				<critical type="string">19-20/x2</critical>
+				<damage type="string">1d6</damage>
+				<damagetype type="string">Piercing</damagetype>
+				<description type="formattedtext">
+					<p>This sword is about 2 feet in length.</p>
+				</description>
+				<isidentified type="number">0</isidentified>
+				<locked type="number">1</locked>
+				<maxstatbonus type="number">0</maxstatbonus>
+				<name type="string">Masterwork Short sword</name>
+				<nonid_name type="string">Fine Short sword</nonid_name>
+				<pfslegal type="string">True</pfslegal>
+				<range type="number">0</range>
+				<slot type="string">Armor</slot>
+				<speed20 type="number">0</speed20>
+				<speed30 type="number">0</speed30>
+				<spellfailure type="number">0</spellfailure>
+				<subtype type="string">Martial Light Melee</subtype>
+				<type type="string">Weapon</type>
+				<weight type="number">2</weight>
+			</id-00014>
+			<id-00015>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<checkpenalty type="number">0</checkpenalty>
+				<cl type="number">0</cl>
+				<cost type="string">21 gp</cost>
+				<critical type="string">x2</critical>
+				<damage type="string">1d4</damage>
+				<damagetype type="string">Bludgeoning</damagetype>
+				<description type="formattedtext">
+					<p>silver light hammer with a religious symbol carved into the head.</p>
+				</description>
+				<isidentified type="number">1</isidentified>
+				<locked type="number">1</locked>
+				<maxstatbonus type="number">0</maxstatbonus>
+				<name type="string">Silver Light hammer</name>
+				<nonidentified type="string">Symbol of Droskar, dwarven god of toil and\nsuffering</nonidentified>
+				<pfslegal type="string">True</pfslegal>
+				<properties type="string">-</properties>
+				<range type="number">20</range>
+				<slot type="string">Armor</slot>
+				<speed20 type="number">0</speed20>
+				<speed30 type="number">0</speed30>
+				<spellfailure type="number">0</spellfailure>
+				<subtype type="string">Martial Light Melee</subtype>
+				<type type="string">Weapon</type>
+				<weight type="number">2</weight>
+			</id-00015>
+			<id-00016>
+				<cost type="string">55 gp</cost>
+				<description type="formattedtext">
+					<p>These tools serve the same purpose as artisan's tools, but masterwork artisan's tools are the perfect tools for the job, so you get a +2 circumstance bonus on Craft checks made with them.</p>
+				</description>
+				<isidentified type="number">1</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Artisan's tools (masterwork)</name>
+				<pfslegal type="string">True</pfslegal>
+				<subtype type="string">Tools</subtype>
+				<type type="string">Goods and Services</type>
+				<weight type="number">5</weight>
+			</id-00016>
+			<id-00017>
+				<ac type="number">0</ac>
+				<aura type="string">faint conjuration</aura>
+				<bonus type="number">0</bonus>
+				<checkpenalty type="number">0</checkpenalty>
+				<cl type="number">0</cl>
+				<cost type="string">300 gp</cost>
+				<description type="formattedtext">
+					<p></p>
+				</description>
+				<locked type="number">1</locked>
+				<maxstatbonus type="number">0</maxstatbonus>
+				<name type="string">Ruby</name>
+				<nonid_name type="string">Ruby</nonid_name>
+				<range type="number">0</range>
+				<speed20 type="number">0</speed20>
+				<speed30 type="number">0</speed30>
+				<spellfailure type="number">0</spellfailure>
+				<type type="string">Gem</type>
+				<weight type="number">0</weight>
+			</id-00017>
+			<id-00018>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<checkpenalty type="number">0</checkpenalty>
+				<cl type="number">0</cl>
+				<cost type="string">100 GP</cost>
+				<description type="formattedtext">
+					<p></p>
+				</description>
+				<locked type="number">1</locked>
+				<maxstatbonus type="number">0</maxstatbonus>
+				<name type="string">Hymns of Torag</name>
+				<nonidentified type="string">This book is written in Dwarven. Worth more to a collector</nonidentified>
+				<range type="number">0</range>
+				<speed20 type="number">0</speed20>
+				<speed30 type="number">0</speed30>
+				<spellfailure type="number">0</spellfailure>
+				<type type="string">Book</type>
+				<weight type="number">0</weight>
+			</id-00018>
+			<id-00019>
+				<ac type="number">0</ac>
+				<aura type="string">faint evocation</aura>
+				<bonus type="number">0</bonus>
+				<checkpenalty type="number">0</checkpenalty>
+				<cl type="number">3</cl>
+				<cost type="string">1 gp</cost>
+				<critical type="string">20</critical>
+				<damage type="string">-</damage>
+				<damagetype type="string">Piercing</damagetype>
+				<description type="formattedtext">
+					<p>1d6 fire damage on successfull hit.</p>
+					<p>A crossbow bolt used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (crit &#215;2). Bolts come in a case or quiver that holds 10 bolts (or 5, for a repeating crossbow).</p>
+				</description>
+				<isidentified type="number">0</isidentified>
+				<locked type="number">1</locked>
+				<maxstatbonus type="number">0</maxstatbonus>
+				<name type="string">Flaming Bolt</name>
+				<nonid_name type="string">Crossbow bolt</nonid_name>
+				<pfslegal type="string">True</pfslegal>
+				<prerequisites type="string">Craft Magic Arms and Armor, flame shield, flame strike, or fireball</prerequisites>
+				<properties type="string">-</properties>
+				<range type="number">0</range>
+				<slot type="string">Armor</slot>
+				<speed20 type="number">0</speed20>
+				<speed30 type="number">0</speed30>
+				<spellfailure type="number">0</spellfailure>
+				<type type="string">Ammo</type>
+				<weight type="number">0</weight>
+			</id-00019>
+			<id-00020>
+				<ac type="number">0</ac>
+				<bonus type="number">1</bonus>
+				<checkpenalty type="number">0</checkpenalty>
+				<cl type="number">0</cl>
+				<cost type="string">35 gp</cost>
+				<critical type="string">19-20/x2</critical>
+				<damage type="string">1d8</damage>
+				<damagetype type="string">Piercing</damagetype>
+				<description type="formattedtext">
+					<p>Masterwork +1 attack</p>
+					<p>You draw a light crossbow back by pulling a lever. Loading a light crossbow is a move action that provokes attacks of opportunity.</p>
+					<p>Normally, operating a light crossbow requires two hands. However, you can shoot, but not load, a light crossbow with one hand at a -2 penalty on attack rolls. You can shoot a light crossbow with each hand, but you take a penalty on attack rolls as if attacking with two light weapons. This penalty is cumulative with the penalty for one-handed firing.</p>
+				</description>
+				<isidentified type="number">1</isidentified>
+				<locked type="number">1</locked>
+				<maxstatbonus type="number">0</maxstatbonus>
+				<name type="string">Masterwork Light crossbow</name>
+				<nonid_name type="string">Fine crossbow</nonid_name>
+				<pfslegal type="string">True</pfslegal>
+				<properties type="string">-</properties>
+				<range type="number">80</range>
+				<slot type="string">Armor</slot>
+				<speed20 type="number">0</speed20>
+				<speed30 type="number">0</speed30>
+				<spellfailure type="number">0</spellfailure>
+				<subtype type="string">Simple Ranged</subtype>
+				<type type="string">Weapon</type>
+				<weight type="number">4</weight>
+			</id-00020>
+			<id-00021>
+				<ac type="number">0</ac>
+				<aura type="string">faint transmutation</aura>
+				<bonus type="number">0</bonus>
+				<checkpenalty type="number">0</checkpenalty>
+				<cl type="number">3</cl>
+				<cost type="string">300gp</cost>
+				<description type="formattedtext">
+					<p>+4 to str 3/min</p>
+				</description>
+				<isidentified type="number">0</isidentified>
+				<locked type="number">1</locked>
+				<maxstatbonus type="number">0</maxstatbonus>
+				<name type="string">Potion of Bull Strength</name>
+				<nonid_name type="string">Light brown vial</nonid_name>
+				<prerequisites type="string">Brew Potion, bull strength</prerequisites>
+				<range type="number">0</range>
+				<speed20 type="number">0</speed20>
+				<speed30 type="number">0</speed30>
+				<spellfailure type="number">0</spellfailure>
+				<type type="string">potion</type>
+				<weight type="number">0</weight>
+			</id-00021>
+			<id-00022>
+				<ac type="number">0</ac>
+				<aura type="string">Faint Evocation</aura>
+				<bonus type="number">0</bonus>
+				<checkpenalty type="number">0</checkpenalty>
+				<cl type="number">1</cl>
+				<description type="formattedtext">
+					<p>28 charges 10 minutes/level</p>
+				</description>
+				<isidentified type="number">0</isidentified>
+				<locked type="number">1</locked>
+				<maxstatbonus type="number">0</maxstatbonus>
+				<name type="string">Wand of Light</name>
+				<nonid_name type="string">Unknown Wand</nonid_name>
+				<nonidentified type="string">Has a faded inscription in Dwarven</nonidentified>
+				<prerequisites type="string">Craft Wand, Light</prerequisites>
+				<range type="number">0</range>
+				<speed20 type="number">0</speed20>
+				<speed30 type="number">0</speed30>
+				<spellfailure type="number">0</spellfailure>
+				<weight type="number">0</weight>
+			</id-00022>
 		</category>
 	</item>
 	<languages>
@@ -1104,6 +2221,7 @@
 				<init type="number">0</init>
 				<intelligence type="number">0</intelligence>
 				<isidentified type="number">0</isidentified>
+				<locked type="number">1</locked>
 				<name type="string">Kolmokmurk</name>
 				<nonid_name type="string">Zombie, Kobold Shaman</nonid_name>
 				<reflexsave type="number">0</reflexsave>
@@ -1114,8 +2232,9 @@
 				<spelldisplaymode type="string">action</spelldisplaymode>
 				<strength type="number">11</strength>
 				<text type="formattedtext">
+					<p></p>
 				</text>
-				<token type="token"></token>
+				<token type="token">tokens/Kobold.png@Pathfinder Bestiary</token>
 				<type type="string">Undead</type>
 				<willsave type="number">3</willsave>
 				<wisdom type="number">10</wisdom>
@@ -1447,6 +2566,61 @@
 				<willsave type="number">0</willsave>
 				<wisdom type="number">10</wisdom>
 			</id-00009>
+			<id-00010>
+				<ac type="string">14, touch 12, flat-footed 12 (+2 Dex, +2 natural)</ac>
+				<alignment type="string">N</alignment>
+				<atk type="string">bite +2 (1d6+1 plus trip)</atk>
+				<babgrp type="string">Base Atk +1; CMB +2; CMD 14 (18 vs. trip)</babgrp>
+				<charisma type="number">6</charisma>
+				<constitution type="number">15</constitution>
+				<cr type="number">1</cr>
+				<dexterity type="number">15</dexterity>
+				<environment type="string">cold or temperate forests</environment>
+				<feats type="string">Skill Focus (Perception)</feats>
+				<fortitudesave type="number">5</fortitudesave>
+				<fullatk type="string">bite +2 (1d6+1 plus trip)</fullatk>
+				<hd type="string">2d8+4</hd>
+				<hp type="number">13</hp>
+				<init type="number">2</init>
+				<intelligence type="number">2</intelligence>
+				<librarylink type="windowreference">
+					<class>npc</class>
+					<recordname>..</recordname>
+				</librarylink>
+				<locked type="number">1</locked>
+				<name type="string">Wolf</name>
+				<organization type="string">solitary, pair, or pack (3-12)</organization>
+				<reflexsave type="number">5</reflexsave>
+				<senses type="string">low-light vision, scent; Perception +8</senses>
+				<skills type="string">Perception +8, Stealth +6, Survival +1 (+5 scent tracking); Racial Modifiers +4 Survival when tracking by scent</skills>
+				<spacereach type="string">5ft./5ft.</spacereach>
+				<speed type="string">50 ft.</speed>
+				<spelldisplaymode type="string">action</spelldisplaymode>
+				<strength type="number">13</strength>
+				<text type="formattedtext">
+					<linklist>
+						<link class="imagewindow" recordname="image.wolf@Pathfinder Bestiary">Wolf Image</link>
+					</linklist>
+					<frame>This powerful canine watches its prey with piercing yellow eyes, darting its tongue across sharp white teeth.</frame>
+					<h>Other Abilities**</h>
+					<linklist>
+						<link class="referenceclassability" recordname="reference.universalmonsterrules.lowlightvision@*">Low-light vision</link>
+						<link class="referenceclassability" recordname="reference.universalmonsterrules.scent@*">Scent</link>
+					</linklist>
+					<h>Feats**</h>
+					<linklist>
+						<link class="referencefeat" recordname="reference.feats.skillfocus@*">Skill Focus (Perception).</link>
+					</linklist>
+					<p>Wandering alone or in packs, wolves sit at the top of the food chain. Ferociously territorial and exceptionally wideranging in their hunting, wolf packs cover broad areas. A wolf 's wide paws contain slight webbing between the toes that assists in moving over snow, and its fur is a thick, water-resistant coat ranging in color from gray to brown and even black in some species. Its paws contain scent glands that mark the ground as it travels, assisting in navigation as well as broadcasting its whereabouts to fellow pack members. Generally, a wolf stands from 2-1/2 to 3 feet tall at the shoulder and weighs between 45 and 150 pounds, with females being slightly smaller.</p>
+					<p><b><u>End Note: </u></b><b>** </b>- These links reference Fantasy Grounds library modules - <b><i>Other Abilities </i></b>are links to Universal Monster Rules in a Bestiary Module, and <b><i>Feats </i></b>are links to Core/Basic Rules modules. Relevant modules must be activated for these links to operate.</p>
+				</text>
+				<token type="token">tokens/Wolf.png@Pathfinder Bestiary</token>
+				<treasure type="string">none</treasure>
+				<type type="string">N Medium animal</type>
+				<willsave type="number">1</willsave>
+				<wisdom type="number">12</wisdom>
+				<xp type="number">400</xp>
+			</id-00010>
 			<id-00011>
 				<ac type="string">17, touch 14, flat-footed 14 (+2 armor, +3 Dex, +1 natural, +1 size)</ac>
 				<alignment type="string">LE</alignment>
@@ -1684,6 +2858,444 @@
 				<wisdom type="number">12</wisdom>
 				<xp type="number">600</xp>
 			</id-00013>
+			<id-00014>
+				<ac type="string">14, touch 13, flat-footed 11 (+3 Dex, +1 natural)</ac>
+				<alignment type="string">N</alignment>
+				<atk type="string">bite +2 (1d6 plus poison) Special Attack web (+5 ranged or DC 12 or hp 2)</atk>
+				<babgrp type="string">Base Atk +2; CMB +2; CMD 15 (27 vs. trip)</babgrp>
+				<charisma type="number">2</charisma>
+				<constitution type="number">12</constitution>
+				<cr type="number">1</cr>
+				<dexterity type="number">17</dexterity>
+				<environment type="string">any</environment>
+				<fortitudesave type="number">4</fortitudesave>
+				<fullatk type="string">bite +2 (1d6 plus poison) Special Attack web (+5 ranged and DC 12 and hp 2)</fullatk>
+				<hd type="string">3d8+3</hd>
+				<hp type="number">16</hp>
+				<init type="number">3</init>
+				<intelligence type="number">0</intelligence>
+				<librarylink type="windowreference">
+					<class>npc</class>
+					<recordname>..</recordname>
+				</librarylink>
+				<locked type="number">1</locked>
+				<name type="string">Spider, Giant</name>
+				<organization type="string">solitary, pair, or colony (3-8)</organization>
+				<reflexsave type="number">4</reflexsave>
+				<senses type="string">darkvision 60 ft., tremorsense 60 ft.; Perception +4</senses>
+				<skills type="string">Climb +16, Perception +4 (+8 in webs), Stealth +7 (+11 in webs); Racial Modifiers +4 Perception, +4 Stealth (+8 in webs), +16 Climb</skills>
+				<spacereach type="string">5ft./5ft.</spacereach>
+				<specialabilities>
+					<poison-ex>
+						<name type="string">Poison (Ex)</name>
+						<text type="formattedtext">
+							<p>Bite-injury; save Fort DC 14; frequency 1/round for 4 rounds; effect 1d2 Strength damage; cure 1 save.</p>
+						</text>
+					</poison-ex>
+				</specialabilities>
+				<specialqualities type="string">Immune mind-affecting effects</specialqualities>
+				<speed type="string">30 ft., climb 30 ft.</speed>
+				<spelldisplaymode type="string">action</spelldisplaymode>
+				<strength type="number">11</strength>
+				<text type="formattedtext">
+					<linklist>
+						<link class="imagewindow" recordname="image.spidergiant@Pathfinder Bestiary">Spider, Giant Image</link>
+					</linklist>
+					<frame>A spider the size of a man crawls silently from the depths of its funnel-shaped web.</frame>
+					<h>Special Abilities</h>
+					<linklist>
+						<link class="referenceclassability" recordname="..specialabilities.poison-ex">Poison (Ex)</link>
+					</linklist>
+					<h>Other Abilities**</h>
+					<linklist>
+						<link class="referenceclassability" recordname="reference.universalmonsterrules.darkvision@*">Darkvision 60 ft.</link>
+						<link class="referenceclassability" recordname="reference.universalmonsterrules.tremorsense@*">Tremorsense 60 ft.</link>
+						<link class="referenceclassability" recordname="reference.universalmonsterrules.immunity@*">Immunity mind-affecting effects</link>
+					</linklist>
+					<p>The statistics above are for a web-spinning spider. Hunting spiders lose the web ability but gain a +8 racial modif ier on Acrobatics checks. All giant spiders have a +2 racial bonus on poison save DCs.</p>
+					<p>Other species of giant spiders exist, as detailed below.</p>
+					<table>
+						<tr>
+							<td><b>Species</b></td>
+							<td><b>CR</b></td>
+							<td><b>Size</b></td>
+							<td><b>HD</b></td>
+						</tr>
+						<tr>
+							<td>Scarlet spider</td>
+							<td>1/4</td>
+							<td>Tiny</td>
+							<td>1d8</td>
+						</tr>
+						<tr>
+							<td>Giant crab spider</td>
+							<td>1/2</td>
+							<td>Small</td>
+							<td>2d8</td>
+						</tr>
+						<tr>
+							<td>Giant black widow</td>
+							<td>3</td>
+							<td>Large</td>
+							<td>5d8</td>
+						</tr>
+						<tr>
+							<td>Ogre spider</td>
+							<td>5</td>
+							<td>Huge</td>
+							<td>7d8</td>
+						</tr>
+						<tr>
+							<td>Giant tarantula</td>
+							<td>8</td>
+							<td>Gargantuan</td>
+							<td>10d8</td>
+						</tr>
+						<tr>
+							<td>Goliath spider</td>
+							<td>11</td>
+							<td>Colossal</td>
+							<td>14d8</td>
+						</tr>
+					</table>
+					<p><b><u>End Note: </u></b><b>** </b>- These links reference Fantasy Grounds library modules - <b><i>Other Abilities </i></b>are links to Universal Monster Rules in a Bestiary Module, and <b><i>Feats </i></b>are links to Core/Basic Rules modules. Relevant modules must be activated for these links to operate.</p>
+				</text>
+				<token type="token">tokens/Spider, Giant.png@Pathfinder Bestiary</token>
+				<treasure type="string">incidental</treasure>
+				<type type="string">N Medium vermin</type>
+				<willsave type="number">1</willsave>
+				<wisdom type="number">10</wisdom>
+				<xp type="number">400</xp>
+			</id-00014>
+			<id-00015>
+				<atk type="string">1d2 Con, DC12 Fortitude</atk>
+				<charisma type="number">10</charisma>
+				<constitution type="number">10</constitution>
+				<cr type="number">0</cr>
+				<dexterity type="number">10</dexterity>
+				<fortitudesave type="number">0</fortitudesave>
+				<fullatk type="string">1d2 Con</fullatk>
+				<hp type="number">0</hp>
+				<init type="number">0</init>
+				<intelligence type="number">10</intelligence>
+				<isidentified type="number">0</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Fungus Hazard</name>
+				<npctype type="string">Trap</npctype>
+				<reflexsave type="number">0</reflexsave>
+				<reset type="string">None</reset>
+				<spelldisplaymode type="string">action</spelldisplaymode>
+				<strength type="number">10</strength>
+				<text type="formattedtext">
+					<p></p>
+				</text>
+				<token type="token">tokens/Medium/h.png@Letter Tokens</token>
+				<trigger type="string">touch</trigger>
+				<type type="string">natural</type>
+				<willsave type="number">0</willsave>
+				<wisdom type="number">10</wisdom>
+			</id-00015>
+			<id-00016>
+				<ac type="string">15, touch 13, flat-footed 13 (+2 Dex, +2 natural, +1 size)</ac>
+				<alignment type="string">N</alignment>
+				<atk type="string">slam +3 (1d4+4 plus grab)</atk>
+				<babgrp type="string">Base Atk +2; CMB +1 (+5 grapple); CMD 13 (can't be tripped)</babgrp>
+				<charisma type="number">10</charisma>
+				<constitution type="number">14</constitution>
+				<cr type="number">1</cr>
+				<dexterity type="number">15</dexterity>
+				<environment type="string">any underground</environment>
+				<feats type="string">Improved Initiative</feats>
+				<fortitudesave type="number">5</fortitudesave>
+				<fullatk type="string">slam +3 (1d4+4 plus grab)</fullatk>
+				<hd type="string">2d10+4</hd>
+				<hp type="number">15</hp>
+				<init type="number">6</init>
+				<intelligence type="number">2</intelligence>
+				<librarylink type="windowreference">
+					<class>npc</class>
+					<recordname>..</recordname>
+				</librarylink>
+				<locked type="number">1</locked>
+				<name type="string">Darkmantle</name>
+				<organization type="string">solitary, pair, or clutch (3-12)</organization>
+				<reflexsave type="number">5</reflexsave>
+				<senses type="string">blindsight 90 ft., darkvision 60 ft., low-light vision; Perception +4</senses>
+				<skills type="string">Fly +5, Perception +4, Stealth +10; Racial Modifiers +4 Perception, +4 Stealth</skills>
+				<spacereach type="string">5ft./5ft.</spacereach>
+				<specialattacks type="string">constrict (1d4+4), grab (any size)</specialattacks>
+				<speed type="string">20 ft., fly 30 ft. (poor)</speed>
+				<spellmode type="string">preparation</spellmode>
+				<spellset>
+					<id-00001>
+						<availablelevel2 type="number">1</availablelevel2>
+						<cc>
+							<misc type="number">0</misc>
+						</cc>
+						<cl type="number">5</cl>
+						<dc>
+							<ability type="string">charisma</ability>
+						</dc>
+						<label type="string">Spell Like Abilities</label>
+						<levels>
+							<level0>
+								<level type="number">0</level>
+								<maxprepared type="number">0</maxprepared>
+								<spells>
+								</spells>
+								<totalcast type="number">0</totalcast>
+								<totalprepared type="number">0</totalprepared>
+							</level0>
+							<level1>
+								<level type="number">1</level>
+								<maxprepared type="number">0</maxprepared>
+								<spells>
+								</spells>
+								<totalcast type="number">0</totalcast>
+								<totalprepared type="number">0</totalprepared>
+							</level1>
+							<level2>
+								<level type="number">2</level>
+								<maxprepared type="number">0</maxprepared>
+								<spells>
+									<id-00001>
+										<cast type="number">0</cast>
+										<castingtime type="string">1 standard action</castingtime>
+										<components type="string">V, M/DF (bat fur and a piece of coal)</components>
+										<description type="string">This spell causes an object to radiate darkness out to a 20-foot radius. This darkness causes the illumination level in the area to drop one step, from bright light to normal light, from normal light to dim light, or from dim light to darkness. This spell has no effect in an area that is already dark. Creatures with light vulnerability or sensitivity take no penalties in normal light. All creatures gain concealment (20% miss chance) in dim light. All creatures gain total concealment (50% miss chance) in darkness. Creatures with darkvision can see in an area of dim light or darkness without penalty. Nonmagical sources of light, such as torches and lanterns, do not increase the light level in an area of darkness. Magical light sources only increase the light level in an area if they are of a higher spell level than darkness.\n\nIf darkness is cast on a small object that is then placed inside or under a lightproof covering, the spell's effect is blocked until the covering is removed.\n\nThis spell does not stack with itself. Darkness can be used to counter or dispel any light spell of equal or lower spell level.</description>
+										<duration type="string">1 min./level</duration>
+										<effect type="string">object touched</effect>
+										<level type="string">bard 2, cleric 2, sorcerer/wizard 2, inquisitor 2, antipaladin 2, magus 2</level>
+										<name type="string">Darkness (1/day)</name>
+										<parse type="number">1</parse>
+										<prepared type="number">1</prepared>
+										<range type="string">touch</range>
+										<save type="string">none</save>
+										<school type="string">evocation[darkness]</school>
+										<shortdescription type="string">20-ft. radius of supernatural shadow.</shortdescription>
+										<source type="string">PFRPG Core</source>
+										<sr type="string">no</sr>
+									</id-00001>
+								</spells>
+								<totalcast type="number">0</totalcast>
+								<totalprepared type="number">0</totalprepared>
+							</level2>
+							<level3>
+								<level type="number">3</level>
+								<maxprepared type="number">0</maxprepared>
+								<spells>
+								</spells>
+								<totalcast type="number">0</totalcast>
+								<totalprepared type="number">0</totalprepared>
+							</level3>
+							<level4>
+								<level type="number">4</level>
+								<maxprepared type="number">0</maxprepared>
+								<spells>
+								</spells>
+								<totalcast type="number">0</totalcast>
+								<totalprepared type="number">0</totalprepared>
+							</level4>
+							<level5>
+								<level type="number">5</level>
+								<maxprepared type="number">0</maxprepared>
+								<spells>
+								</spells>
+								<totalcast type="number">0</totalcast>
+								<totalprepared type="number">0</totalprepared>
+							</level5>
+							<level6>
+								<level type="number">6</level>
+								<maxprepared type="number">0</maxprepared>
+								<spells>
+								</spells>
+								<totalcast type="number">0</totalcast>
+								<totalprepared type="number">0</totalprepared>
+							</level6>
+							<level7>
+								<level type="number">7</level>
+								<maxprepared type="number">0</maxprepared>
+								<spells>
+								</spells>
+								<totalcast type="number">0</totalcast>
+								<totalprepared type="number">0</totalprepared>
+							</level7>
+							<level8>
+								<level type="number">8</level>
+								<maxprepared type="number">0</maxprepared>
+								<spells>
+								</spells>
+								<totalcast type="number">0</totalcast>
+								<totalprepared type="number">0</totalprepared>
+							</level8>
+							<level9>
+								<level type="number">9</level>
+								<maxprepared type="number">0</maxprepared>
+								<spells>
+								</spells>
+								<totalcast type="number">0</totalcast>
+								<totalprepared type="number">0</totalprepared>
+							</level9>
+						</levels>
+						<parse type="number">1</parse>
+						<points type="number">0</points>
+						<pointsused type="number">0</pointsused>
+						<sp type="number">0</sp>
+					</id-00001>
+				</spellset>
+				<strength type="number">11</strength>
+				<text type="formattedtext">
+					<linklist>
+						<link class="imagewindow" recordname="image.darkmantle@Pathfinder Bestiary">Darkmantle Image</link>
+					</linklist>
+					<frame>As this creature falls from the cavern roof, it opens like a hideous octopus, its thin, hook-lined tentacles connected by a fleshy web.</frame>
+					<p><b><u>Spell-Like Abilities </u></b>(CL 5th)</p>
+					<list>
+						<li><b>1/day- </b>darkness</li>
+					</list>
+					<h>Other Abilities**</h>
+					<linklist>
+						<link class="referenceclassability" recordname="reference.universalmonsterrules.blindsight@*">Blindsight 90 ft.</link>
+						<link class="referenceclassability" recordname="reference.universalmonsterrules.darkvision@*">Darkvision 60 ft.</link>
+						<link class="referenceclassability" recordname="reference.universalmonsterrules.lowlightvision@*">Low-light vision</link>
+						<link class="referenceclassability" recordname="reference.universalmonsterrules.constrict@*">Constrict (1d4+4)</link>
+						<link class="referenceclassability" recordname="reference.universalmonsterrules.grab@*">Grab (any size)</link>
+					</linklist>
+					<h>Feats**</h>
+					<linklist>
+						<link class="referencefeat" recordname="reference.feats.improvedinitiative@*">Improved Initiative.</link>
+					</linklist>
+					<p>A darkmantle's tentacle-span measures just under 5 feet-when attached to a cave roof and disguised as a stalactite, its length varies from 2 to 3 feet. A typical darkmantle weighs 40 pounds. The creatures' heads and bodies are usually the color of basalt or dark granite, but their webbed tentacles can change color to match their surroundings.</p>
+					<p>The darkmantle isn't a particularly good climber, but it can cling to a cave roof like a bat, hanging by the hooks at the ends of its tentacles so that its dangling body looks nearly indistinguishable from a stalactite. In this hidden position, the darkmantle waits for prey to pass beneath, at which point it drops and swoops down to attack its victim, slamming its body against the foe and attempting to wrap its webbed tentacles around the target. If the darkmantle misses its prey, it swoops back up and drops again until its prey is vanquished or the darkmantle is grievously injured (in which case the creature flutters back up to the roof to hide and hope its &#34;prey&#34; leaves it alone). The darkmantle's inborn ability to cloak the area around it in magical darkness gives it an additional advantage over foes that rely upon light to see.</p>
+					<p>Darkmantles prefer to dwell and hunt in the caves and passageways that are closest to the surface, as these tend to possess more traffic for the monsters to feed upon. Yet they do not confine themselves to these dark caverns, and can sometimes be found dwelling in ruined fortresses or even in the sewers of bustling cities. Anywhere food is plentiful and there's a ceiling to cling to is a possible den for a darkmantle.</p>
+					<p>A darkmantle's life cycle is swift-young grow to maturity in a matter of months, and most die of old age after only a few years. As a result, generations of darkmantles quickly accrue, and over the years the evolution of these creatures is similarly swift. In this manner, a cavern's ecosystem can have a significant effect on a group of darkmantles' appearance, abilities, and tactics. Aquatic caverns might develop darkmantles that can swim, while those beset with volcanism might generate darkmantles with a resistance to fire. Other darkmantle variants might develop much stonier hides, and instead of swooping down to crush prey might simply drop and pierce them through with their stalactite-like lengths. The deepest, darkest caverns are rumored to host darkmantles of incredible size, capable of smothering multiple human-sized foes at once in their leathery folds.</p>
+					<p><b><u>End Note: </u></b><b>** </b>- These links reference Fantasy Grounds library modules - <b><i>Other Abilities </i></b>are links to Universal Monster Rules in a Bestiary Module, and <b><i>Feats </i></b>are links to Core/Basic Rules modules. Relevant modules must be activated for these links to operate.</p>
+				</text>
+				<token type="token">tokens/Darkmantle.png@Pathfinder Bestiary</token>
+				<treasure type="string">none</treasure>
+				<type type="string">N Small magical beast</type>
+				<willsave type="number">0</willsave>
+				<wisdom type="number">11</wisdom>
+				<xp type="number">400</xp>
+			</id-00016>
+			<id-00017>
+				<ac type="string">16, touch 16, flat-footed 14 (+2 Dex, +4 size)</ac>
+				<alignment type="string">N</alignment>
+				<atk type="string">swarm (1d6)</atk>
+				<babgrp type="string">Base Atk +2; CMB -; CMD -</babgrp>
+				<charisma type="number">4</charisma>
+				<constitution type="number">11</constitution>
+				<cr type="number">2</cr>
+				<dexterity type="number">15</dexterity>
+				<environment type="string">any temperate or tropical</environment>
+				<feats type="string">Lightning Reflexes, Skill Focus (Perception)</feats>
+				<fortitudesave type="number">3</fortitudesave>
+				<fullatk type="string">swarm (1d6)</fullatk>
+				<hd type="string">3d8</hd>
+				<hp type="number">13</hp>
+				<init type="number">2</init>
+				<intelligence type="number">2</intelligence>
+				<librarylink type="windowreference">
+					<class>npc</class>
+					<recordname>..</recordname>
+				</librarylink>
+				<locked type="number">1</locked>
+				<name type="string">Bat Swarm</name>
+				<organization type="string">solitary, pair, flight (3-6 swarms), or colony (11-20 swarms)</organization>
+				<reflexsave type="number">7</reflexsave>
+				<senses type="string">blindsense 20 ft., low-light vision; Perception +15</senses>
+				<skills type="string">Fly +12, Perception +15; Racial Modifiers +4 Perception when using blindsense</skills>
+				<spacereach type="string">10ft./0ft.</spacereach>
+				<specialattacks type="string">distraction (DC 11), wounding</specialattacks>
+				<specialqualities type="string">swarm traits; Immune weapon damage; swarm traits</specialqualities>
+				<speed type="string">5 ft., fly 40 ft. (good)</speed>
+				<strength type="number">3</strength>
+				<text type="formattedtext">
+					<linklist>
+						<link class="imagewindow" recordname="image.batswarm@Pathfinder Bestiary">Bat Swarm Image</link>
+					</linklist>
+					<frame>Hundreds of high-pitched squeaks fill the air as a mass of small, carnivorous bats surges forth, all of them hungry for blood.</frame>
+					<h>Other Abilities**</h>
+					<linklist>
+						<link class="referenceclassability" recordname="reference.universalmonsterrules.blindsense@*">Blindsense 20 ft.</link>
+						<link class="referenceclassability" recordname="reference.universalmonsterrules.lowlightvision@*">Low-light vision</link>
+						<link class="referenceclassability" recordname="reference.universalmonsterrules.distraction@*">Distraction (DC 11)</link>
+						<link class="referenceclassability" recordname="reference.universalmonsterrules.immunity@*">Immunity weapon damage</link>
+					</linklist>
+					<h>Feats**</h>
+					<linklist>
+						<link class="referencefeat" recordname="reference.feats.lightningreflexes@*">Lightning Reflexes</link>
+						<link class="referencefeat" recordname="reference.feats.skillfocus@*">Skill Focus (Perception).</link>
+					</linklist>
+					<p>Bat swarms dwell in large caves, ruins, or even city sewers-anywhere they can find darkness to hide in during the day and a supply of food to feast upon at night. They are only encountered outside in a group at dawn or dusk, or when they have been startled and forced to flee their lairs.</p>
+					<p><b><u>End Note: </u></b><b>** </b>- These links reference Fantasy Grounds library modules - <b><i>Other Abilities </i></b>are links to Universal Monster Rules in a Bestiary Module, and <b><i>Feats </i></b>are links to Core/Basic Rules modules. Relevant modules must be activated for these links to operate.</p>
+				</text>
+				<token type="token">tokens/Bat Swarm.png@Pathfinder Bestiary</token>
+				<treasure type="string">none SPECIAL FEATURES Wounding (Ex) Any living creature damaged by a bat swarm continues to bleed, losing 1 hit point per round thereafter. Multiple wounds do not result in cumulative bleeding loss. The bleeding can be stopped by a DC 10 Heal check or the application of a cure spell or some other healing magic.</treasure>
+				<type type="string">N Diminutive animal (swarm)</type>
+				<willsave type="number">3</willsave>
+				<wisdom type="number">14</wisdom>
+				<xp type="number">600</xp>
+			</id-00017>
+			<id-00018>
+				<ac type="string">16, touch 12, flat-footed 14 (+2 armor, +2 Dex, +2 natural)</ac>
+				<alignment type="string">NE</alignment>
+				<atk type="string">broken scimitar +0 (1d6) or claw -3 (1d4+1) or claw +2 (1d4+2)</atk>
+				<babgrp type="string">Base Atk +0; CMB +2; CMD 14</babgrp>
+				<charisma type="number">10</charisma>
+				<constitution type="number">0</constitution>
+				<cr type="number">0.33</cr>
+				<dexterity type="number">14</dexterity>
+				<environment type="string">any</environment>
+				<feats type="string">Improved InitiativeB</feats>
+				<fortitudesave type="number">0</fortitudesave>
+				<fullatk type="string">broken scimitar +0 (1d6) and claw -3 (1d4+1) or 2 claws +2 (1d4+2)</fullatk>
+				<hd type="string">1d8</hd>
+				<hp type="number">4</hp>
+				<init type="number">6</init>
+				<intelligence type="number">0</intelligence>
+				<librarylink type="windowreference">
+					<class>npc</class>
+					<recordname>..</recordname>
+				</librarylink>
+				<locked type="number">1</locked>
+				<name type="string">Dwarven Skeleton</name>
+				<organization type="string">any</organization>
+				<reflexsave type="number">2</reflexsave>
+				<senses type="string">darkvision 60 ft.; Perception +0</senses>
+				<spacereach type="string">5ft./5ft.</spacereach>
+				<specialqualities type="string">DR 5/bludgeoning; Immune cold, undead traits</specialqualities>
+				<speed type="string">30 ft.</speed>
+				<spelldisplaymode type="string">action</spelldisplaymode>
+				<strength type="number">15</strength>
+				<text type="formattedtext">
+					<linklist>
+						<link class="imagewindow" recordname="image.skeleton@Pathfinder Bestiary">Skeleton Image</link>
+					</linklist>
+					<frame>The pile of bones suddenly stirs, rising up to take on a human shape. Its long, bony fingers reach out to claw at the living.</frame>
+					<h>Other Abilities**</h>
+					<linklist>
+						<link class="referenceclassability" recordname="reference.universalmonsterrules.darkvision@*">Darkvision 60 ft.</link>
+						<link class="referenceclassability" recordname="reference.universalmonsterrules.damagereduction@*">Damage Reduction (DR) 5/bludgeoning</link>
+						<link class="referenceclassability" recordname="reference.universalmonsterrules.immunity@*">Immunity cold, undead traits</link>
+						<link class="referenceclassability" recordname="reference.universalmonsterrules.undeadtraits@*">Undead traits</link>
+					</linklist>
+					<h>Feats**</h>
+					<linklist>
+						<link class="referencefeat" recordname="reference.feats.improvedinitiative@*">Improved Initiative</link>
+					</linklist>
+					<p>Skeletons are the animated bones of the dead, brought to unlife through foul magic. While most skeletons are mindless automatons, they still possess an evil cunning imparted to them by their animating force-a cunning that allows them to wield weapons and wear armor.</p>
+					<h>Creating a Skeleton</h>
+					<p>Refer to the &#34;Reference Manual&#34; section of this module.</p>
+					<p><b><u>End Note: </u></b><b>** </b>- These links reference Fantasy Grounds library modules - <b><i>Other Abilities </i></b>are links to Universal Monster Rules in a Bestiary Module, and <b><i>Feats </i></b>are links to Core/Basic Rules modules. Relevant modules must be activated for these links to operate.</p>
+				</text>
+				<token type="token">tokens/Skeleton.png@Pathfinder Bestiary</token>
+				<treasure type="string">none. Gear broken chain shirt, broken scimitar</treasure>
+				<type type="string">NE Medium undead</type>
+				<willsave type="number">2</willsave>
+				<wisdom type="number">10</wisdom>
+				<xp type="number">135</xp>
+			</id-00018>
 		</category>
 	</npc>
 	<options>
@@ -1720,10 +3332,10 @@
 						<fromrange type="number">1</fromrange>
 						<results>
 							<id-00001>
-								<result type="string">Foul Tracks</result>
+								<result type="string">02.00a ENC: Foul Tracks</result>
 								<resultlink type="windowreference">
-									<class></class>
-									<recordname></recordname>
+									<class>encounter</class>
+									<recordname>encounter.id-00041</recordname>
 								</resultlink>
 							</id-00001>
 						</results>
@@ -1733,10 +3345,10 @@
 						<fromrange type="number">2</fromrange>
 						<results>
 							<id-00001>
-								<result type="string">Dead Fey</result>
+								<result type="string">02.00b ENC: Dead Fey</result>
 								<resultlink type="windowreference">
-									<class></class>
-									<recordname></recordname>
+									<class>encounter</class>
+									<recordname>encounter.id-00042</recordname>
 								</resultlink>
 							</id-00001>
 						</results>
@@ -1746,10 +3358,10 @@
 						<fromrange type="number">3</fromrange>
 						<results>
 							<id-00001>
-								<result type="string">Woodsmen</result>
+								<result type="string">02.00c ENC: Woodsmen</result>
 								<resultlink type="windowreference">
-									<class></class>
-									<recordname></recordname>
+									<class>encounter</class>
+									<recordname>encounter.id-00043</recordname>
 								</resultlink>
 							</id-00001>
 						</results>
@@ -1759,10 +3371,10 @@
 						<fromrange type="number">5</fromrange>
 						<results>
 							<id-00001>
-								<result type="string">Wyvern Sighting</result>
+								<result type="string">02.00e ENC: Wyvern Sighting</result>
 								<resultlink type="windowreference">
-									<class></class>
-									<recordname></recordname>
+									<class>encounter</class>
+									<recordname>encounter.id-00045</recordname>
 								</resultlink>
 							</id-00001>
 						</results>
@@ -1772,10 +3384,10 @@
 						<fromrange type="number">6</fromrange>
 						<results>
 							<id-00001>
-								<result type="string">Kobold Shaman</result>
+								<result type="string">02.00f ENC: Koblod Shaman</result>
 								<resultlink type="windowreference">
-									<class></class>
-									<recordname></recordname>
+									<class>encounter</class>
+									<recordname>encounter.id-00046</recordname>
 								</resultlink>
 							</id-00001>
 						</results>
@@ -1785,10 +3397,10 @@
 						<fromrange type="number">7</fromrange>
 						<results>
 							<id-00001>
-								<result type="string">Giant Mosquito</result>
+								<result type="string">02.00g ENC: Giant mosquito</result>
 								<resultlink type="windowreference">
-									<class></class>
-									<recordname></recordname>
+									<class>encounter</class>
+									<recordname>encounter.id-00012</recordname>
 								</resultlink>
 							</id-00001>
 						</results>
@@ -1798,10 +3410,10 @@
 						<fromrange type="number">8</fromrange>
 						<results>
 							<id-00001>
-								<result type="string">Hunter's Snare</result>
+								<result type="string">02.00h ENC: Hunter's Snare</result>
 								<resultlink type="windowreference">
-									<class></class>
-									<recordname></recordname>
+									<class>encounter</class>
+									<recordname>encounter.id-00013</recordname>
 								</resultlink>
 							</id-00001>
 						</results>
@@ -1811,10 +3423,10 @@
 						<fromrange type="number">4</fromrange>
 						<results>
 							<id-00001>
-								<result type="string">Glowmold</result>
+								<result type="string">02.00d ENC: Glowmold</result>
 								<resultlink type="windowreference">
-									<class></class>
-									<recordname></recordname>
+									<class>encounter</class>
+									<recordname>encounter.id-00044</recordname>
 								</resultlink>
 							</id-00001>
 						</results>
@@ -1824,10 +3436,10 @@
 						<fromrange type="number">9</fromrange>
 						<results>
 							<id-00001>
-								<result type="string">Giant Moorsnake</result>
+								<result type="string">02.00i ENC: Giant Moorsnake</result>
 								<resultlink type="windowreference">
-									<class></class>
-									<recordname></recordname>
+									<class>encounter</class>
+									<recordname>encounter.id-00047</recordname>
 								</resultlink>
 							</id-00001>
 						</results>
@@ -1837,10 +3449,10 @@
 						<fromrange type="number">10</fromrange>
 						<results>
 							<id-00001>
-								<result type="string">Wolves</result>
+								<result type="string">02.00j ENC: Wolves</result>
 								<resultlink type="windowreference">
-									<class></class>
-									<recordname></recordname>
+									<class>encounter</class>
+									<recordname>encounter.id-00048</recordname>
 								</resultlink>
 							</id-00001>
 						</results>
@@ -1850,48 +3462,856 @@
 			</id-00001>
 		</category>
 	</tables>
+	<temp>
+	</temp>
 	<treasureparcels>
+		<id-00001>
+			<coinlist>
+				<id-00001>
+					<amount type="number">0</amount>
+					<description type="string">PP</description>
+				</id-00001>
+				<id-00002>
+					<amount type="number">9</amount>
+					<description type="string">GP</description>
+				</id-00002>
+				<id-00003>
+					<amount type="number">12</amount>
+					<description type="string">SP</description>
+				</id-00003>
+				<id-00004>
+					<amount type="number">0</amount>
+					<description type="string">CP</description>
+				</id-00004>
+			</coinlist>
+			<itemlist>
+				<id-00001>
+					<ac type="number">0</ac>
+					<bonus type="number">0</bonus>
+					<checkpenalty type="number">0</checkpenalty>
+					<cl type="number">0</cl>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p>A small patch of elderwood moss</p>
+					</description>
+					<locked type="number">1</locked>
+					<maxstatbonus type="number">0</maxstatbonus>
+					<name type="string">Elderwood moss</name>
+					<nonid_name type="string">Elderwood moss</nonid_name>
+					<range type="number">0</range>
+					<speed20 type="number">0</speed20>
+					<speed30 type="number">0</speed30>
+					<spellfailure type="number">0</spellfailure>
+					<weight type="number">0.5</weight>
+				</id-00001>
+				<id-00002>
+					<ac type="number">4</ac>
+					<bonus type="number">0</bonus>
+					<checkpenalty type="number">-3</checkpenalty>
+					<cl type="number">0</cl>
+					<cost type="string">15 gp</cost>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p>Hide armor is made up of the tanned and preserved skin of any thick-hided beast.</p>
+					</description>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<maxstatbonus type="number">4</maxstatbonus>
+					<name type="string">Hide</name>
+					<pfslegal type="string">True</pfslegal>
+					<properties type="string">-</properties>
+					<slot type="string">Armor</slot>
+					<speed20 type="number">15</speed20>
+					<speed30 type="number">20</speed30>
+					<spellfailure type="number">20</spellfailure>
+					<subtype type="string">Medium</subtype>
+					<type type="string">Armor</type>
+					<weight type="number">25</weight>
+				</id-00002>
+				<id-00003>
+					<bonus type="number">0</bonus>
+					<cl type="number">0</cl>
+					<cost type="string">30 gp</cost>
+					<count type="number">1</count>
+					<critical type="string">x3</critical>
+					<damage type="string">1d6</damage>
+					<damagetype type="string">Piercing</damagetype>
+					<description type="formattedtext">
+						<p>A shortbow is made up of one piece of wood, about 3 feet in length. You need two hands to use a bow, regardless of its size. You can use a shortbow while mounted. If you have a penalty for low Strength, apply it to damage rolls when you use a shortbow. If you have a bonus for high Strength, you can apply it to damage rolls when you use a composite shortbow (see below), but not a regular shortbow.</p>
+					</description>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Shortbow</name>
+					<pfslegal type="string">True</pfslegal>
+					<properties type="string">-</properties>
+					<range type="number">60</range>
+					<slot type="string">Armor</slot>
+					<subtype type="string">Martial Ranged</subtype>
+					<type type="string">Weapon</type>
+					<weight type="number">2</weight>
+				</id-00003>
+				<id-00004>
+					<ac type="number">0</ac>
+					<bonus type="number">0</bonus>
+					<checkpenalty type="number">0</checkpenalty>
+					<cl type="number">0</cl>
+					<cost type="string">5 GP</cost>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p></p>
+					</description>
+					<locked type="number">1</locked>
+					<maxstatbonus type="number">0</maxstatbonus>
+					<name type="string">Signet ring</name>
+					<nonidentified type="string">signet ring with the image of a flaming\nhawk</nonidentified>
+					<range type="number">0</range>
+					<speed20 type="number">0</speed20>
+					<speed30 type="number">0</speed30>
+					<spellfailure type="number">0</spellfailure>
+					<weight type="number">0</weight>
+				</id-00004>
+				<id-00005>
+					<cost type="string">5 sp</cost>
+					<count type="number">8</count>
+					<description type="formattedtext">
+						<p>-</p>
+					</description>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Trail rations</name>
+					<pfslegal type="string">True</pfslegal>
+					<subtype type="string">Food Drink</subtype>
+					<type type="string">Goods and Services</type>
+					<weight type="number">1</weight>
+				</id-00005>
+			</itemlist>
+			<locked type="number">1</locked>
+			<name type="string">02.03 The Forest Elder</name>
+			<temp>
+			</temp>
+		</id-00001>
+		<id-00002>
+			<coinlist>
+				<id-00001>
+					<amount type="number">0</amount>
+					<description type="string">PP</description>
+				</id-00001>
+				<id-00002>
+					<amount type="number">30</amount>
+					<description type="string">GP</description>
+				</id-00002>
+				<id-00003>
+					<amount type="number">0</amount>
+					<description type="string">SP</description>
+				</id-00003>
+				<id-00004>
+					<amount type="number">0</amount>
+					<description type="string">CP</description>
+				</id-00004>
+			</coinlist>
+			<itemlist>
+				<id-00001>
+					<ac type="number">0</ac>
+					<aura type="string">Faint illusion</aura>
+					<bonus type="number">0</bonus>
+					<checkpenalty type="number">0</checkpenalty>
+					<cl type="number">3</cl>
+					<cost type="string">2400 gp</cost>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<linklist>
+							<link class="imagewindow" recordname="image.id-00009">SoulSpeaker</link>
+						</linklist>
+						<p>This grotesque, amulet-like shrunken head is said to contain the enslaved soul of its former owner. Forced to obey whomever carries it, once per day a soulspeaker can repeat a message as if the spell magic mouth were cast upon it. The owner must merely hold the 6-inch-in-diameter head and speak his message and the conditions under which the soulspeaker should repeat it. While it carries a message, the eyes of the stitched head stretch open, closing as soon as its message has been delivered.</p>
+					</description>
+					<isidentified type="number">0</isidentified>
+					<locked type="number">1</locked>
+					<maxstatbonus type="number">0</maxstatbonus>
+					<name type="string">Soulspeaker</name>
+					<nonid_name type="string">grotesque amulet like shrunken</nonid_name>
+					<prerequisites type="string">Craft Wondrous Item, magic mouth</prerequisites>
+					<range type="number">0</range>
+					<speed20 type="number">0</speed20>
+					<speed30 type="number">0</speed30>
+					<spellfailure type="number">0</spellfailure>
+					<type type="string">amulet</type>
+					<weight type="number">0</weight>
+				</id-00001>
+				<id-00002>
+					<ac type="number">0</ac>
+					<bonus type="number">0</bonus>
+					<checkpenalty type="number">0</checkpenalty>
+					<cl type="number">0</cl>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p>A pickled rats tail</p>
+					</description>
+					<locked type="number">1</locked>
+					<maxstatbonus type="number">0</maxstatbonus>
+					<name type="string">Pickled Rat's tail</name>
+					<nonid_name type="string">Pickled rat's tail</nonid_name>
+					<range type="number">0</range>
+					<speed20 type="number">0</speed20>
+					<speed30 type="number">0</speed30>
+					<spellfailure type="number">0</spellfailure>
+					<weight type="number">0.5</weight>
+				</id-00002>
+			</itemlist>
+			<locked type="number">1</locked>
+			<name type="string">02.04 The Hag-haunted Hollow</name>
+			<temp>
+			</temp>
+		</id-00002>
+		<id-00003>
+			<coinlist>
+				<id-00001>
+					<amount type="number">0</amount>
+					<description type="string">PP</description>
+				</id-00001>
+				<id-00002>
+					<amount type="number">42</amount>
+					<description type="string">GP</description>
+				</id-00002>
+				<id-00003>
+					<amount type="number">0</amount>
+					<description type="string">SP</description>
+				</id-00003>
+				<id-00004>
+					<amount type="number">0</amount>
+					<description type="string">CP</description>
+				</id-00004>
+			</coinlist>
+			<itemlist>
+				<id-00001>
+					<cost type="string">30 gp</cost>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p>This kit contains lockpicks and other tools you need to use the Disable Device skill. Without these tools, you must use improvised tools, and you take a -2 circumstance penalty on Disable Device checks.</p>
+					</description>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Thieves' tools (common)</name>
+					<pfslegal type="string">True</pfslegal>
+					<subtype type="string">Tools</subtype>
+					<type type="string">Goods and Services</type>
+					<weight type="number">1</weight>
+				</id-00001>
+				<id-00002>
+					<ac type="number">0</ac>
+					<aura type="string">faint blue</aura>
+					<bonus type="number">0</bonus>
+					<checkpenalty type="number">0</checkpenalty>
+					<cl type="number">4</cl>
+					<cost type="string">300 Gp</cost>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p></p>
+					</description>
+					<isidentified type="number">0</isidentified>
+					<locked type="number">1</locked>
+					<maxstatbonus type="number">0</maxstatbonus>
+					<name type="string">Potion of cure light wounds</name>
+					<nonid_name type="string">A small blue vial</nonid_name>
+					<prerequisites type="string">Brew Potion</prerequisites>
+					<range type="number">0</range>
+					<speed20 type="number">0</speed20>
+					<speed30 type="number">0</speed30>
+					<spellfailure type="number">0</spellfailure>
+					<type type="string">potion</type>
+					<weight type="number">0</weight>
+				</id-00002>
+				<id-00003>
+					<ac type="number">0</ac>
+					<bonus type="number">0</bonus>
+					<checkpenalty type="number">0</checkpenalty>
+					<cl type="number">0</cl>
+					<cost type="string">5 sp</cost>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p>-</p>
+					</description>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<maxstatbonus type="number">0</maxstatbonus>
+					<name type="string">Trail rations</name>
+					<pfslegal type="string">True</pfslegal>
+					<range type="number">0</range>
+					<speed20 type="number">0</speed20>
+					<speed30 type="number">0</speed30>
+					<spellfailure type="number">0</spellfailure>
+					<subtype type="string">Food Drink</subtype>
+					<type type="string">Goods and Services</type>
+					<weight type="number">1</weight>
+				</id-00003>
+			</itemlist>
+			<locked type="number">1</locked>
+			<name type="string">03.02 The Yard</name>
+			<temp>
+			</temp>
+		</id-00003>
+		<id-00004>
+			<coinlist>
+				<id-00001>
+					<amount type="number">0</amount>
+					<description type="string">PP</description>
+				</id-00001>
+				<id-00002>
+					<amount type="number">0</amount>
+					<description type="string">GP</description>
+				</id-00002>
+				<id-00003>
+					<amount type="number">0</amount>
+					<description type="string">SP</description>
+				</id-00003>
+				<id-00004>
+					<amount type="number">0</amount>
+					<description type="string">CP</description>
+				</id-00004>
+			</coinlist>
+			<itemlist>
+				<id-00001>
+					<ac type="number">0</ac>
+					<bonus type="number">1</bonus>
+					<checkpenalty type="number">0</checkpenalty>
+					<cl type="number">0</cl>
+					<cost type="string">10 gp</cost>
+					<count type="number">1</count>
+					<critical type="string">19-20/x2</critical>
+					<damage type="string">1d6</damage>
+					<damagetype type="string">Piercing</damagetype>
+					<description type="formattedtext">
+						<p>This sword is about 2 feet in length.</p>
+					</description>
+					<isidentified type="number">0</isidentified>
+					<locked type="number">1</locked>
+					<maxstatbonus type="number">0</maxstatbonus>
+					<name type="string">Masterwork Short sword</name>
+					<nonid_name type="string">Fine Short sword</nonid_name>
+					<pfslegal type="string">True</pfslegal>
+					<range type="number">0</range>
+					<slot type="string">Armor</slot>
+					<speed20 type="number">0</speed20>
+					<speed30 type="number">0</speed30>
+					<spellfailure type="number">0</spellfailure>
+					<subtype type="string">Martial Light Melee</subtype>
+					<type type="string">Weapon</type>
+					<weight type="number">2</weight>
+				</id-00001>
+			</itemlist>
+			<locked type="number">1</locked>
+			<name type="string">03.03 Watchtower</name>
+			<temp>
+			</temp>
+		</id-00004>
+		<id-00005>
+			<coinlist>
+				<id-00001>
+					<amount type="number">0</amount>
+					<description type="string">PP</description>
+				</id-00001>
+				<id-00002>
+					<amount type="number">0</amount>
+					<description type="string">GP</description>
+				</id-00002>
+				<id-00003>
+					<amount type="number">0</amount>
+					<description type="string">SP</description>
+				</id-00003>
+				<id-00004>
+					<amount type="number">0</amount>
+					<description type="string">CP</description>
+				</id-00004>
+			</coinlist>
+			<itemlist>
+				<id-00001>
+					<ac type="number">0</ac>
+					<bonus type="number">0</bonus>
+					<checkpenalty type="number">0</checkpenalty>
+					<cl type="number">0</cl>
+					<cost type="string">21 gp</cost>
+					<count type="number">1</count>
+					<critical type="string">x2</critical>
+					<damage type="string">1d4</damage>
+					<damagetype type="string">Bludgeoning</damagetype>
+					<description type="formattedtext">
+						<p>silver light hammer with a religious symbol carved into the head.</p>
+					</description>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<maxstatbonus type="number">0</maxstatbonus>
+					<name type="string">Silver Light hammer</name>
+					<nonidentified type="string">Symbol of Droskar, dwarven god of toil and\nsuffering</nonidentified>
+					<pfslegal type="string">True</pfslegal>
+					<properties type="string">-</properties>
+					<range type="number">20</range>
+					<slot type="string">Armor</slot>
+					<speed20 type="number">0</speed20>
+					<speed30 type="number">0</speed30>
+					<spellfailure type="number">0</spellfailure>
+					<subtype type="string">Martial Light Melee</subtype>
+					<type type="string">Weapon</type>
+					<weight type="number">2</weight>
+				</id-00001>
+			</itemlist>
+			<locked type="number">1</locked>
+			<name type="string">03.05 Waiting Room</name>
+			<temp>
+			</temp>
+		</id-00005>
+		<id-00006>
+			<coinlist>
+				<id-00001>
+					<amount type="number">0</amount>
+					<description type="string">PP</description>
+				</id-00001>
+				<id-00002>
+					<amount type="number">0</amount>
+					<description type="string">GP</description>
+				</id-00002>
+				<id-00003>
+					<amount type="number">0</amount>
+					<description type="string">SP</description>
+				</id-00003>
+				<id-00004>
+					<amount type="number">0</amount>
+					<description type="string">CP</description>
+				</id-00004>
+			</coinlist>
+			<itemlist>
+			</itemlist>
+		</id-00006>
+		<id-00007>
+			<coinlist>
+				<id-00001>
+					<amount type="number">2</amount>
+					<description type="string">PP</description>
+				</id-00001>
+				<id-00002>
+					<amount type="number">40</amount>
+					<description type="string">GP</description>
+				</id-00002>
+				<id-00003>
+					<amount type="number">20</amount>
+					<description type="string">SP</description>
+				</id-00003>
+				<id-00004>
+					<amount type="number">0</amount>
+					<description type="string">CP</description>
+				</id-00004>
+			</coinlist>
+			<itemlist>
+				<id-00001>
+					<cost type="string">55 gp</cost>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p>These tools serve the same purpose as artisan's tools, but masterwork artisan's tools are the perfect tools for the job, so you get a +2 circumstance bonus on Craft checks made with them.</p>
+					</description>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<name type="string">Artisan's tools (masterwork)</name>
+					<pfslegal type="string">True</pfslegal>
+					<subtype type="string">Tools</subtype>
+					<type type="string">Goods and Services</type>
+					<weight type="number">5</weight>
+				</id-00001>
+				<id-00002>
+					<ac type="number">0</ac>
+					<aura type="string">faint conjuration</aura>
+					<bonus type="number">0</bonus>
+					<checkpenalty type="number">0</checkpenalty>
+					<cl type="number">0</cl>
+					<cost type="string">300 gp</cost>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p></p>
+					</description>
+					<locked type="number">1</locked>
+					<maxstatbonus type="number">0</maxstatbonus>
+					<name type="string">Ruby</name>
+					<nonid_name type="string">Ruby</nonid_name>
+					<range type="number">0</range>
+					<speed20 type="number">0</speed20>
+					<speed30 type="number">0</speed30>
+					<spellfailure type="number">0</spellfailure>
+					<type type="string">Gem</type>
+					<weight type="number">0</weight>
+				</id-00002>
+			</itemlist>
+			<locked type="number">1</locked>
+			<name type="string">03.08 Gurtlekep's Room</name>
+			<temp>
+			</temp>
+		</id-00007>
+		<id-00008>
+			<coinlist>
+				<id-00001>
+					<amount type="number">0</amount>
+					<description type="string">PP</description>
+				</id-00001>
+				<id-00002>
+					<amount type="number">0</amount>
+					<description type="string">GP</description>
+				</id-00002>
+				<id-00003>
+					<amount type="number">0</amount>
+					<description type="string">SP</description>
+				</id-00003>
+				<id-00004>
+					<amount type="number">0</amount>
+					<description type="string">CP</description>
+				</id-00004>
+			</coinlist>
+			<itemlist>
+				<id-00001>
+					<ac type="number">0</ac>
+					<bonus type="number">0</bonus>
+					<checkpenalty type="number">0</checkpenalty>
+					<cl type="number">0</cl>
+					<cost type="string">100 GP</cost>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p></p>
+					</description>
+					<locked type="number">1</locked>
+					<maxstatbonus type="number">0</maxstatbonus>
+					<name type="string">Hymns of Torag</name>
+					<nonidentified type="string">This book is written in Dwarven. Worth more to a collector</nonidentified>
+					<range type="number">0</range>
+					<speed20 type="number">0</speed20>
+					<speed30 type="number">0</speed30>
+					<spellfailure type="number">0</spellfailure>
+					<type type="string">Book</type>
+					<weight type="number">0</weight>
+				</id-00001>
+			</itemlist>
+			<locked type="number">1</locked>
+			<name type="string">03.09 Ruined Library</name>
+			<temp>
+			</temp>
+		</id-00008>
+		<id-00009>
+			<coinlist>
+				<id-00001>
+					<amount type="number">0</amount>
+					<description type="string">PP</description>
+				</id-00001>
+				<id-00002>
+					<amount type="number">0</amount>
+					<description type="string">GP</description>
+				</id-00002>
+				<id-00003>
+					<amount type="number">0</amount>
+					<description type="string">SP</description>
+				</id-00003>
+				<id-00004>
+					<amount type="number">0</amount>
+					<description type="string">CP</description>
+				</id-00004>
+			</coinlist>
+			<itemlist>
+				<id-00001>
+					<ac type="number">0</ac>
+					<aura type="string">faint evocation</aura>
+					<bonus type="number">0</bonus>
+					<checkpenalty type="number">0</checkpenalty>
+					<cl type="number">3</cl>
+					<cost type="string">1 gp</cost>
+					<count type="number">4</count>
+					<critical type="string">20</critical>
+					<damage type="string">-</damage>
+					<damagetype type="string">Piercing</damagetype>
+					<description type="formattedtext">
+						<p>1d6 fire damage on successfull hit.</p>
+						<p>A crossbow bolt used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (crit &#215;2). Bolts come in a case or quiver that holds 10 bolts (or 5, for a repeating crossbow).</p>
+					</description>
+					<isidentified type="number">0</isidentified>
+					<locked type="number">1</locked>
+					<maxstatbonus type="number">0</maxstatbonus>
+					<name type="string">Flaming Bolt</name>
+					<nonid_name type="string">Crossbow bolt</nonid_name>
+					<pfslegal type="string">True</pfslegal>
+					<prerequisites type="string">Craft Magic Arms and Armor, flame shield, flame strike, or fireball</prerequisites>
+					<properties type="string">-</properties>
+					<range type="number">0</range>
+					<slot type="string">Armor</slot>
+					<speed20 type="number">0</speed20>
+					<speed30 type="number">0</speed30>
+					<spellfailure type="number">0</spellfailure>
+					<type type="string">Ammo</type>
+					<weight type="number">0</weight>
+				</id-00001>
+			</itemlist>
+			<locked type="number">1</locked>
+			<name type="string">03.13 Armory</name>
+			<temp>
+			</temp>
+		</id-00009>
+		<id-00010>
+			<coinlist>
+				<id-00001>
+					<amount type="number">0</amount>
+					<description type="string">PP</description>
+				</id-00001>
+				<id-00002>
+					<amount type="number">0</amount>
+					<description type="string">GP</description>
+				</id-00002>
+				<id-00003>
+					<amount type="number">0</amount>
+					<description type="string">SP</description>
+				</id-00003>
+				<id-00004>
+					<amount type="number">0</amount>
+					<description type="string">CP</description>
+				</id-00004>
+			</coinlist>
+			<itemlist>
+				<id-00001>
+					<ac type="number">0</ac>
+					<bonus type="number">0</bonus>
+					<checkpenalty type="number">0</checkpenalty>
+					<cl type="number">0</cl>
+					<count type="number">2</count>
+					<description type="formattedtext">
+						<p>Ironwood Mushroom</p>
+					</description>
+					<locked type="number">1</locked>
+					<maxstatbonus type="number">0</maxstatbonus>
+					<name type="string">Ironbloom Mushroom</name>
+					<nonid_name type="string">Ironbloom Mushroom</nonid_name>
+					<range type="number">0</range>
+					<speed20 type="number">0</speed20>
+					<speed30 type="number">0</speed30>
+					<spellfailure type="number">0</spellfailure>
+					<weight type="number">0.25</weight>
+				</id-00001>
+				<id-00002>
+					<ac type="number">0</ac>
+					<aura type="string">Faint abjuration</aura>
+					<bonus type="number">0</bonus>
+					<checkpenalty type="number">0</checkpenalty>
+					<cl type="number">3</cl>
+					<cost type="string">1200 gp</cost>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<linklist>
+							<link class="imagewindow" recordname="image.id-00008">Ring Of Torag</link>
+						</linklist>
+						<p>This simple golden ring has a large red gemstone set into it that sparkles with an inner fire. The wearer of the ring gains fire resistance 10 against the first fire attack that hits him that day. This protection renews itself every morning at dawn. In addition, the wearer receives a +1 resistance bonus on saves made against fire spells and effects. The ring must be worn for 24 hours to have any effect.</p>
+					</description>
+					<locked type="number">1</locked>
+					<maxstatbonus type="number">0</maxstatbonus>
+					<name type="string">Ring of Torag</name>
+					<nonid_name type="string">Golden Ring</nonid_name>
+					<prerequisites type="string">Forge Ring, resist energy</prerequisites>
+					<range type="number">0</range>
+					<speed20 type="number">0</speed20>
+					<speed30 type="number">0</speed30>
+					<spellfailure type="number">0</spellfailure>
+					<type type="string">ring</type>
+					<weight type="number">0</weight>
+				</id-00002>
+			</itemlist>
+			<locked type="number">1</locked>
+			<name type="string">03.13 Secret Prison</name>
+			<temp>
+			</temp>
+		</id-00010>
+		<id-00011>
+			<coinlist>
+				<id-00001>
+					<amount type="number">0</amount>
+					<description type="string">PP</description>
+				</id-00001>
+				<id-00002>
+					<amount type="number">354</amount>
+					<description type="string">GP</description>
+				</id-00002>
+				<id-00003>
+					<amount type="number">0</amount>
+					<description type="string">SP</description>
+				</id-00003>
+				<id-00004>
+					<amount type="number">0</amount>
+					<description type="string">CP</description>
+				</id-00004>
+			</coinlist>
+			<itemlist>
+				<id-00001>
+					<ac type="number">0</ac>
+					<bonus type="number">1</bonus>
+					<checkpenalty type="number">0</checkpenalty>
+					<cl type="number">0</cl>
+					<cost type="string">35 gp</cost>
+					<count type="number">1</count>
+					<critical type="string">19-20/x2</critical>
+					<damage type="string">1d8</damage>
+					<damagetype type="string">Piercing</damagetype>
+					<description type="formattedtext">
+						<p>Masterwork +1 attack</p>
+						<p>You draw a light crossbow back by pulling a lever. Loading a light crossbow is a move action that provokes attacks of opportunity.</p>
+						<p>Normally, operating a light crossbow requires two hands. However, you can shoot, but not load, a light crossbow with one hand at a -2 penalty on attack rolls. You can shoot a light crossbow with each hand, but you take a penalty on attack rolls as if attacking with two light weapons. This penalty is cumulative with the penalty for one-handed firing.</p>
+					</description>
+					<isidentified type="number">1</isidentified>
+					<locked type="number">1</locked>
+					<maxstatbonus type="number">0</maxstatbonus>
+					<name type="string">Masterwork Light crossbow</name>
+					<nonid_name type="string">Fine crossbow</nonid_name>
+					<pfslegal type="string">True</pfslegal>
+					<properties type="string">-</properties>
+					<range type="number">80</range>
+					<slot type="string">Armor</slot>
+					<speed20 type="number">0</speed20>
+					<speed30 type="number">0</speed30>
+					<spellfailure type="number">0</spellfailure>
+					<subtype type="string">Simple Ranged</subtype>
+					<type type="string">Weapon</type>
+					<weight type="number">4</weight>
+				</id-00001>
+				<id-00002>
+					<ac type="number">0</ac>
+					<aura type="string">Faint Evocation</aura>
+					<bonus type="number">0</bonus>
+					<checkpenalty type="number">0</checkpenalty>
+					<cl type="number">1</cl>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p>28 charges 10 minutes/level</p>
+					</description>
+					<isidentified type="number">0</isidentified>
+					<locked type="number">1</locked>
+					<maxstatbonus type="number">0</maxstatbonus>
+					<name type="string">Wand of Light</name>
+					<nonid_name type="string">Unknown Wand</nonid_name>
+					<nonidentified type="string">Has a faded inscription in Dwarven</nonidentified>
+					<prerequisites type="string">Craft Wand, Light</prerequisites>
+					<range type="number">0</range>
+					<speed20 type="number">0</speed20>
+					<speed30 type="number">0</speed30>
+					<spellfailure type="number">0</spellfailure>
+					<weight type="number">0</weight>
+				</id-00002>
+				<id-00003>
+					<ac type="number">0</ac>
+					<aura type="string">faint transmutation</aura>
+					<bonus type="number">0</bonus>
+					<checkpenalty type="number">0</checkpenalty>
+					<cl type="number">3</cl>
+					<cost type="string">300gp</cost>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p>+4 to str 3/min</p>
+					</description>
+					<isidentified type="number">0</isidentified>
+					<locked type="number">1</locked>
+					<maxstatbonus type="number">0</maxstatbonus>
+					<name type="string">Potion of Bull Strength</name>
+					<nonid_name type="string">Light brown vial</nonid_name>
+					<prerequisites type="string">Brew Potion, bull strength</prerequisites>
+					<range type="number">0</range>
+					<speed20 type="number">0</speed20>
+					<speed30 type="number">0</speed30>
+					<spellfailure type="number">0</spellfailure>
+					<type type="string">potion</type>
+					<weight type="number">0</weight>
+				</id-00003>
+				<id-00004>
+					<ac type="number">0</ac>
+					<bonus type="number">0</bonus>
+					<checkpenalty type="number">0</checkpenalty>
+					<cl type="number">0</cl>
+					<count type="number">6</count>
+					<description type="formattedtext">
+						<p>Ironwood Mushroom</p>
+					</description>
+					<locked type="number">1</locked>
+					<maxstatbonus type="number">0</maxstatbonus>
+					<name type="string">Ironbloom Mushroom</name>
+					<nonid_name type="string">Ironbloom Mushroom</nonid_name>
+					<range type="number">0</range>
+					<speed20 type="number">0</speed20>
+					<speed30 type="number">0</speed30>
+					<spellfailure type="number">0</spellfailure>
+					<weight type="number">0.25</weight>
+				</id-00004>
+			</itemlist>
+			<locked type="number">1</locked>
+			<name type="string">03.16 Greypelt's Chamber</name>
+			<temp>
+			</temp>
+		</id-00011>
+		<id-00012>
+			<coinlist>
+				<id-00001>
+					<amount type="number">0</amount>
+					<description type="string">PP</description>
+				</id-00001>
+				<id-00002>
+					<amount type="number">0</amount>
+					<description type="string">GP</description>
+				</id-00002>
+				<id-00003>
+					<amount type="number">0</amount>
+					<description type="string">SP</description>
+				</id-00003>
+				<id-00004>
+					<amount type="number">0</amount>
+					<description type="string">CP</description>
+				</id-00004>
+			</coinlist>
+			<itemlist>
+				<id-00001>
+					<ac type="number">0</ac>
+					<bonus type="number">0</bonus>
+					<checkpenalty type="number">0</checkpenalty>
+					<cl type="number">0</cl>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p>Glowing mold glows for 3 days after remove from rocks</p>
+					</description>
+					<locked type="number">1</locked>
+					<maxstatbonus type="number">0</maxstatbonus>
+					<name type="string">Glowmold</name>
+					<nonid_name type="string">Glowing mold</nonid_name>
+					<range type="number">0</range>
+					<speed20 type="number">0</speed20>
+					<speed30 type="number">0</speed30>
+					<spellfailure type="number">0</spellfailure>
+					<type type="string">mold</type>
+					<weight type="number">0</weight>
+				</id-00001>
+			</itemlist>
+			<locked type="number">1</locked>
+			<name type="string">02.00d GlowMold</name>
+			<temp>
+			</temp>
+		</id-00012>
 	</treasureparcels>
 	<windowsaver>
 		<id-00007>
 			<masterindex type="string">encounter</masterindex>
 		</id-00007>
-		<id-00012>
-			<masterindex type="string">tables</masterindex>
-		</id-00012>
-		<id-00017>
-			<masterindex type="string">encounter</masterindex>
-		</id-00017>
 		<id-00018>
 			<masterindex type="string">storytemplate</masterindex>
 		</id-00018>
 		<id-00021>
 			<masterindex type="string">quest</masterindex>
 		</id-00021>
-		<id-00067>
-			<masterindex type="string">feat</masterindex>
-		</id-00067>
-		<id-00077>
-			<encounter type="string">encounter.id-00007</encounter>
-		</id-00077>
-		<id-00100>
-			<table type="string">tables.id-00001</table>
-		</id-00100>
-		<id-00101>
-			<masterindex type="string">battle</masterindex>
-		</id-00101>
-		<id-00113>
-			<encounter type="string">encounter.id-00046</encounter>
-		</id-00113>
+		<id-00023>
+			<masterindex type="string">npc</masterindex>
+		</id-00023>
+		<id-00029>
+			<masterindex type="string">image</masterindex>
+		</id-00029>
+		<id-00046>
+			<masterindex type="string">item</masterindex>
+		</id-00046>
+		<id-00064>
+			<encounter type="string">encounter.id-00018</encounter>
+		</id-00064>
 		<id-00114>
 			<masterindex type="string">npc</masterindex>
 		</id-00114>
-		<id-00119>
-			<npc type="string">npc.id-00003</npc>
-		</id-00119>
-		<id-00120>
-			<npc type="string">npc.id-00012</npc>
-		</id-00120>
 	</windowsaver>
 	<windowsaverdesktop>
 	</windowsaverdesktop>
