@@ -1,557 +1,587 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <root version="3.3" release="1|3.5E:17|CoreRPG:4">
 	<battle>
-		<id-00001>
-			<exp type="number">400</exp>
-			<level type="number">1</level>
-			<locked type="number">1</locked>
-			<name type="string">02.00h Hunter's Snare</name>
-			<npclist>
-				<id-00001>
-					<count type="number">1</count>
-					<isidentified type="number">1</isidentified>
-					<link type="windowreference">
-						<class>npc</class>
-						<recordname>npc.id-00001</recordname>
-					</link>
-					<maplink>
-						<id-00001>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00001>
-					</maplink>
-					<name type="string">Pit trap</name>
-					<token type="token">tokens/Medium/t.png@Letter Tokens</token>
-				</id-00001>
-			</npclist>
-		</id-00001>
-		<id-00002>
-			<exp type="number">600</exp>
-			<level type="number">2</level>
-			<locked type="number">1</locked>
-			<name type="string">02.00i Giant Moorsnake</name>
-			<npclist>
-				<id-00001>
-					<count type="number">1</count>
-					<link type="windowreference">
-						<class>npc</class>
-						<recordname>npc.id-00004</recordname>
-					</link>
-					<maplink>
-						<id-00001>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00001>
-					</maplink>
-					<name type="string">Snake, Giant Moor</name>
-					<token type="token">campaign/tokens/giant_moorsnake.png</token>
-				</id-00001>
-			</npclist>
-		</id-00002>
-		<id-00003>
-			<exp type="number">800</exp>
-			<level type="number">3</level>
-			<locked type="number">1</locked>
-			<name type="string">03.01 Wolves</name>
-			<npclist>
-				<id-00001>
-					<count type="number">2</count>
-					<faction type="string">foe</faction>
-					<link type="windowreference">
-						<class>npc</class>
-						<recordname>npc.id-00010</recordname>
-					</link>
-					<maplink>
-						<id-00001>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00001>
-						<id-00002>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00002>
-					</maplink>
-					<name type="string">Wolf</name>
-					<token type="token">tokens/Wolf.png@Pathfinder Bestiary</token>
-				</id-00001>
-			</npclist>
-		</id-00003>
-		<id-00004>
-			<exp type="number">200</exp>
-			<level type="number">0.5</level>
-			<locked type="number">1</locked>
-			<name type="string">02.02 Bait</name>
-			<npclist>
-				<id-00001>
-					<count type="number">1</count>
-					<faction type="string">foe</faction>
-					<isidentified type="number">0</isidentified>
-					<link type="windowreference">
-						<class>npc</class>
-						<recordname>npc.id-00005</recordname>
-					</link>
-					<maplink>
-						<id-00001>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00001>
-					</maplink>
-					<name type="string">Grung Knifetongue</name>
-					<token type="token">tokens/Hobgoblin.png@Pathfinder Bestiary</token>
-				</id-00001>
-			</npclist>
-		</id-00004>
-		<id-00005>
-			<exp type="number">600</exp>
-			<level type="number">2</level>
-			<locked type="number">1</locked>
-			<name type="string">02.03 The Forest Elder</name>
-			<npclist>
-				<id-00001>
-					<count type="number">1</count>
-					<link type="windowreference">
-						<class>npc</class>
-						<recordname>npc.id-00007</recordname>
-					</link>
-					<maplink>
-						<id-00001>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00001>
-					</maplink>
-					<name type="string">Tatzlwyrm</name>
-					<token type="token">campaign/tokens/tatzlwyrm.png</token>
-				</id-00001>
-			</npclist>
-		</id-00005>
-		<id-00006>
-			<exp type="number">600</exp>
-			<level type="number">2</level>
-			<locked type="number">1</locked>
-			<name type="string">02.04 The Hag-Haunted Hollow</name>
-			<npclist>
-				<id-00001>
-					<count type="number">1</count>
-					<link type="windowreference">
-						<class>npc</class>
-						<recordname>npc.id-00008</recordname>
-					</link>
-					<maplink>
-						<id-00001>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00001>
-					</maplink>
-					<name type="string">Ulizmila's Cauldron</name>
-					<token type="token">tokens/Medium/c.png@Letter Tokens</token>
-				</id-00001>
-			</npclist>
-		</id-00006>
-		<id-00007>
-			<exp type="number">400</exp>
-			<level type="number">1</level>
-			<locked type="number">1</locked>
-			<name type="string">03.03 Watchtower</name>
-			<npclist>
-				<id-00001>
-					<count type="number">1</count>
-					<link type="windowreference">
-						<class>npc</class>
-						<recordname>npc.id-00014</recordname>
-					</link>
-					<maplink>
-						<id-00001>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00001>
-					</maplink>
-					<name type="string">Spider, Giant</name>
-					<token type="token">tokens/Spider, Giant.png@Pathfinder Bestiary</token>
-				</id-00001>
-			</npclist>
-		</id-00007>
-		<id-00008>
-			<exp type="number">400</exp>
-			<level type="number">1</level>
-			<locked type="number">1</locked>
-			<name type="string">03.07 Pit Trap</name>
-			<npclist>
-				<id-00001>
-					<count type="number">1</count>
-					<isidentified type="number">1</isidentified>
-					<link type="windowreference">
-						<class>npc</class>
-						<recordname>npc.id-00001</recordname>
-					</link>
-					<maplink>
-						<id-00001>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00001>
-					</maplink>
-					<name type="string">Pit trap</name>
-					<token type="token">tokens/Medium/t.png@Letter Tokens</token>
-				</id-00001>
-			</npclist>
-		</id-00008>
-		<id-00009>
-			<exp type="number">600</exp>
-			<level type="number">2</level>
-			<locked type="number">1</locked>
-			<name type="string">03.08 Gurtlekep's Room</name>
-			<npclist>
-				<id-00001>
-					<count type="number">1</count>
-					<faction type="string">foe</faction>
-					<link type="windowreference">
-						<class>npc</class>
-						<recordname>npc.id-00011</recordname>
-					</link>
-					<maplink>
-						<id-00001>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00001>
-					</maplink>
-					<name type="string">Gurtlekep</name>
-					<token type="token">tokens/Kobold.png@Pathfinder Bestiary</token>
-				</id-00001>
-			</npclist>
-		</id-00009>
-		<id-00010>
-			<exp type="number">0</exp>
-			<level type="number">0</level>
-			<locked type="number">1</locked>
-			<name type="string">03.09 Ruined Library</name>
-			<npclist>
-				<id-00001>
-					<count type="number">1</count>
-					<isidentified type="number">0</isidentified>
-					<link type="windowreference">
-						<class>npc</class>
-						<recordname>npc.id-00015</recordname>
-					</link>
-					<maplink>
-						<id-00001>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00001>
-					</maplink>
-					<name type="string">Fungus Hazard</name>
-					<token type="token">tokens/Medium/h.png@Letter Tokens</token>
-				</id-00001>
-			</npclist>
-		</id-00010>
-		<id-00011>
-			<exp type="number">800</exp>
-			<level type="number">3</level>
-			<locked type="number">1</locked>
-			<name type="string">03.10 Desecrated Shrine</name>
-			<npclist>
-				<id-00001>
-					<count type="number">2</count>
-					<faction type="string">foe</faction>
-					<link type="windowreference">
-						<class>npc</class>
-						<recordname>npc.id-00016</recordname>
-					</link>
-					<maplink>
-						<id-00001>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00001>
-						<id-00002>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00002>
-					</maplink>
-					<name type="string">Darkmantle</name>
-					<token type="token">tokens/Darkmantle.png@Pathfinder Bestiary</token>
-				</id-00001>
-			</npclist>
-		</id-00011>
-		<id-00012>
-			<exp type="number">600</exp>
-			<level type="number">2</level>
-			<locked type="number">1</locked>
-			<name type="string">03.12 Infested Ruins</name>
-			<npclist>
-				<id-00001>
-					<count type="number">1</count>
-					<link type="windowreference">
-						<class>npc</class>
-						<recordname>npc.id-00017</recordname>
-					</link>
-					<maplink>
-						<id-00001>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00001>
-					</maplink>
-					<name type="string">Bat Swarm</name>
-					<token type="token">tokens/Bat Swarm.png@Pathfinder Bestiary</token>
-				</id-00001>
-			</npclist>
-		</id-00012>
-		<id-00013>
-			<exp type="number">405</exp>
-			<level type="number">2</level>
-			<locked type="number">1</locked>
-			<name type="string">03.13 Secret Prison</name>
-			<npclist>
-				<id-00001>
-					<count type="number">3</count>
-					<faction type="string">foe</faction>
-					<link type="windowreference">
-						<class>npc</class>
-						<recordname>npc.id-00018</recordname>
-					</link>
-					<maplink>
-						<id-00001>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00001>
-						<id-00002>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00002>
-						<id-00003>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00003>
-					</maplink>
-					<name type="string">Dwarven Skeleton</name>
-					<token type="token">tokens/Skeleton.png@Pathfinder Bestiary</token>
-				</id-00001>
-			</npclist>
-		</id-00013>
-		<id-00014>
-			<exp type="number">800</exp>
-			<level type="number">3</level>
-			<locked type="number">1</locked>
-			<name type="string">03.15 Wolves</name>
-			<npclist>
-				<id-00001>
-					<count type="number">2</count>
-					<faction type="string">foe</faction>
-					<link type="windowreference">
-						<class>npc</class>
-						<recordname>npc.id-00010</recordname>
-					</link>
-					<maplink>
-						<id-00001>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00001>
-						<id-00002>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00002>
-					</maplink>
-					<name type="string">Wolf</name>
-					<token type="token">tokens/Wolf.png@Pathfinder Bestiary</token>
-				</id-00001>
-			</npclist>
-		</id-00014>
-		<id-00015>
-			<exp type="number">800</exp>
-			<level type="number">3</level>
-			<locked type="number">1</locked>
-			<name type="string">03.16 Greypelt's Chamber</name>
-			<npclist>
-				<id-00001>
-					<count type="number">1</count>
-					<faction type="string">foe</faction>
-					<isidentified type="number">0</isidentified>
-					<link type="windowreference">
-						<class>npc</class>
-						<recordname>npc.id-00013</recordname>
-					</link>
-					<maplink>
-						<id-00001>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00001>
-					</maplink>
-					<name type="string">Greypelt</name>
-					<token type="token">campaign/tokens/greypelt.png</token>
-				</id-00001>
-			</npclist>
-		</id-00015>
-		<id-00016>
-			<exp type="number">200</exp>
-			<level type="number">0.5</level>
-			<locked type="number">1</locked>
-			<name type="string">02.00f Kobold Shaman</name>
-			<npclist>
-				<id-00001>
-					<count type="number">1</count>
-					<faction type="string">neutral</faction>
-					<isidentified type="number">0</isidentified>
-					<link type="windowreference">
-						<class>npc</class>
-						<recordname>npc.id-00003</recordname>
-					</link>
-					<maplink>
-						<id-00001>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00001>
-					</maplink>
-					<name type="string">Kolmokmurk</name>
-					<token type="token">tokens/Kobold.png@Pathfinder Bestiary</token>
-				</id-00001>
-			</npclist>
-		</id-00016>
-		<id-00017>
-			<exp type="number">200</exp>
-			<level type="number">0.5</level>
-			<locked type="number">1</locked>
-			<name type="string">02.00g Giant Mosquito</name>
-			<npclist>
-				<id-00001>
-					<count type="number">1</count>
-					<faction type="string">foe</faction>
-					<isidentified type="number">1</isidentified>
-					<link type="windowreference">
-						<class>npc</class>
-						<recordname>npc.id-00002</recordname>
-					</link>
-					<maplink>
-						<id-00001>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00001>
-					</maplink>
-					<name type="string">Giant Mosquito</name>
-					<token type="token">campaign/tokens/giantmosquito.png</token>
-				</id-00001>
-			</npclist>
-		</id-00017>
-		<id-00018>
-			<exp type="number">800</exp>
-			<level type="number">3</level>
-			<locked type="number">1</locked>
-			<name type="string">02.00j Wolves</name>
-			<npclist>
-				<id-00001>
-					<count type="number">2</count>
-					<faction type="string">foe</faction>
-					<link type="windowreference">
-						<class>npc</class>
-						<recordname>npc.id-00010</recordname>
-					</link>
-					<maplink>
-						<id-00001>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00001>
-						<id-00002>
-							<imageref type="windowreference">
-								<class></class>
-								<recordname></recordname>
-							</imageref>
-							<imagex type="number">0</imagex>
-							<imagey type="number">0</imagey>
-						</id-00002>
-					</maplink>
-					<name type="string">Wolf</name>
-					<token type="token">tokens/Wolf.png@Pathfinder Bestiary</token>
-				</id-00001>
-			</npclist>
-		</id-00018>
+		<category name="Hollow's Last Hope" baseicon="0" decalicon="0">
+			<id-00001>
+				<exp type="number">400</exp>
+				<level type="number">1</level>
+				<locked type="number">1</locked>
+				<name type="string">02.00h Hunter's Snare</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<isidentified type="number">1</isidentified>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00001</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Pit trap</name>
+						<token type="token">tokens/Medium/t.png@Letter Tokens</token>
+					</id-00001>
+				</npclist>
+			</id-00001>
+			<id-00002>
+				<exp type="number">600</exp>
+				<level type="number">2</level>
+				<locked type="number">1</locked>
+				<name type="string">02.00i Giant Moorsnake</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00004</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Snake, Giant Moor</name>
+						<token type="token">campaign/tokens/giant_moorsnake.png</token>
+					</id-00001>
+				</npclist>
+			</id-00002>
+			<id-00003>
+				<exp type="number">800</exp>
+				<level type="number">3</level>
+				<locked type="number">1</locked>
+				<name type="string">03.01 Wolves</name>
+				<npclist>
+					<id-00001>
+						<count type="number">2</count>
+						<faction type="string">foe</faction>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00010</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.id-00013.image</recordname>
+								</imageref>
+								<imagex type="number">630</imagex>
+								<imagey type="number">577</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.id-00013.image</recordname>
+								</imageref>
+								<imagex type="number">698</imagex>
+								<imagey type="number">594</imagey>
+							</id-00002>
+						</maplink>
+						<name type="string">Wolf</name>
+						<token type="token">tokens/Wolf.png@Pathfinder Bestiary</token>
+					</id-00001>
+				</npclist>
+			</id-00003>
+			<id-00004>
+				<exp type="number">200</exp>
+				<level type="number">0.5</level>
+				<locked type="number">1</locked>
+				<name type="string">02.02 Bait</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<faction type="string">foe</faction>
+						<isidentified type="number">0</isidentified>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00005</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Grung Knifetongue</name>
+						<token type="token">tokens/Hobgoblin.png@Pathfinder Bestiary</token>
+					</id-00001>
+				</npclist>
+			</id-00004>
+			<id-00005>
+				<exp type="number">600</exp>
+				<level type="number">2</level>
+				<locked type="number">1</locked>
+				<name type="string">02.03 The Forest Elder</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00007</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Tatzlwyrm</name>
+						<token type="token">campaign/tokens/tatzlwyrm.png</token>
+					</id-00001>
+				</npclist>
+			</id-00005>
+			<id-00006>
+				<exp type="number">600</exp>
+				<level type="number">2</level>
+				<locked type="number">1</locked>
+				<name type="string">02.04 The Hag-Haunted Hollow</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00008</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Ulizmila's Cauldron</name>
+						<token type="token">tokens/Medium/c.png@Letter Tokens</token>
+					</id-00001>
+				</npclist>
+			</id-00006>
+			<id-00007>
+				<exp type="number">400</exp>
+				<level type="number">1</level>
+				<locked type="number">1</locked>
+				<name type="string">03.03 Watchtower</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<faction type="string">foe</faction>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00014</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.id-00013.image</recordname>
+								</imageref>
+								<imagex type="number">834</imagex>
+								<imagey type="number">458</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Spider, Giant</name>
+						<token type="token">tokens/Spider, Giant.png@Pathfinder Bestiary</token>
+					</id-00001>
+				</npclist>
+			</id-00007>
+			<id-00008>
+				<exp type="number">400</exp>
+				<level type="number">1</level>
+				<locked type="number">1</locked>
+				<name type="string">03.07 Pit Trap</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<faction type="string">neutral</faction>
+						<isidentified type="number">1</isidentified>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00001</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.id-00013.image</recordname>
+								</imageref>
+								<imagex type="number">460</imagex>
+								<imagey type="number">492</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Pit trap</name>
+						<token type="token">tokens/Medium/t.png@Letter Tokens</token>
+					</id-00001>
+				</npclist>
+			</id-00008>
+			<id-00009>
+				<exp type="number">600</exp>
+				<level type="number">2</level>
+				<locked type="number">1</locked>
+				<name type="string">03.08 Gurtlekep's Room</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<faction type="string">foe</faction>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00011</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.id-00013.image</recordname>
+								</imageref>
+								<imagex type="number">494</imagex>
+								<imagey type="number">560</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Gurtlekep</name>
+						<token type="token">tokens/Kobold.png@Pathfinder Bestiary</token>
+					</id-00001>
+				</npclist>
+			</id-00009>
+			<id-00010>
+				<exp type="number">0</exp>
+				<level type="number">0</level>
+				<locked type="number">1</locked>
+				<name type="string">03.09 Ruined Library</name>
+				<npclist>
+					<id-00001>
+						<count type="number">4</count>
+						<faction type="string">neutral</faction>
+						<isidentified type="number">0</isidentified>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00015</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.id-00013.image</recordname>
+								</imageref>
+								<imagex type="number">358</imagex>
+								<imagey type="number">458</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.id-00013.image</recordname>
+								</imageref>
+								<imagex type="number">324</imagex>
+								<imagey type="number">458</imagey>
+							</id-00002>
+							<id-00003>
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.id-00013.image</recordname>
+								</imageref>
+								<imagex type="number">358</imagex>
+								<imagey type="number">560</imagey>
+							</id-00003>
+							<id-00004>
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.id-00013.image</recordname>
+								</imageref>
+								<imagex type="number">324</imagex>
+								<imagey type="number">560</imagey>
+							</id-00004>
+						</maplink>
+						<name type="string">Fungus Hazard</name>
+						<token type="token">tokens/Medium/h.png@Letter Tokens</token>
+					</id-00001>
+				</npclist>
+			</id-00010>
+			<id-00011>
+				<exp type="number">800</exp>
+				<level type="number">3</level>
+				<locked type="number">1</locked>
+				<name type="string">03.10 Desecrated Shrine</name>
+				<npclist>
+					<id-00001>
+						<count type="number">2</count>
+						<faction type="string">foe</faction>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00016</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.id-00013.image</recordname>
+								</imageref>
+								<imagex type="number">324</imagex>
+								<imagey type="number">356</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.id-00013.image</recordname>
+								</imageref>
+								<imagex type="number">358</imagex>
+								<imagey type="number">322</imagey>
+							</id-00002>
+						</maplink>
+						<name type="string">Darkmantle</name>
+						<token type="token">tokens/Darkmantle.png@Pathfinder Bestiary</token>
+					</id-00001>
+				</npclist>
+			</id-00011>
+			<id-00012>
+				<exp type="number">600</exp>
+				<level type="number">2</level>
+				<locked type="number">1</locked>
+				<name type="string">03.12 Infested Ruins</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<faction type="string">foe</faction>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00017</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.id-00013.image</recordname>
+								</imageref>
+								<imagex type="number">800</imagex>
+								<imagey type="number">152</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Bat Swarm</name>
+						<token type="token">tokens/Bat Swarm.png@Pathfinder Bestiary</token>
+					</id-00001>
+				</npclist>
+			</id-00012>
+			<id-00013>
+				<exp type="number">405</exp>
+				<level type="number">2</level>
+				<locked type="number">1</locked>
+				<name type="string">03.13 Secret Prison</name>
+				<npclist>
+					<id-00001>
+						<count type="number">3</count>
+						<faction type="string">foe</faction>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00018</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.id-00013.image</recordname>
+								</imageref>
+								<imagex type="number">630</imagex>
+								<imagey type="number">152</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.id-00013.image</recordname>
+								</imageref>
+								<imagex type="number">664</imagex>
+								<imagey type="number">186</imagey>
+							</id-00002>
+							<id-00003>
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.id-00013.image</recordname>
+								</imageref>
+								<imagex type="number">732</imagex>
+								<imagey type="number">152</imagey>
+							</id-00003>
+						</maplink>
+						<name type="string">Dwarven Skeleton</name>
+						<token type="token">tokens/Skeleton.png@Pathfinder Bestiary</token>
+					</id-00001>
+				</npclist>
+			</id-00013>
+			<id-00014>
+				<exp type="number">800</exp>
+				<level type="number">3</level>
+				<locked type="number">1</locked>
+				<name type="string">03.15 Wolves</name>
+				<npclist>
+					<id-00001>
+						<count type="number">2</count>
+						<faction type="string">foe</faction>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00010</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.id-00013.image</recordname>
+								</imageref>
+								<imagex type="number">494</imagex>
+								<imagey type="number">152</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.id-00013.image</recordname>
+								</imageref>
+								<imagex type="number">443</imagex>
+								<imagey type="number">186</imagey>
+							</id-00002>
+						</maplink>
+						<name type="string">Wolf</name>
+						<token type="token">tokens/Wolf.png@Pathfinder Bestiary</token>
+					</id-00001>
+				</npclist>
+			</id-00014>
+			<id-00015>
+				<exp type="number">800</exp>
+				<level type="number">3</level>
+				<locked type="number">1</locked>
+				<name type="string">03.16 Greypelt's Chamber</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<faction type="string">foe</faction>
+						<isidentified type="number">0</isidentified>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00013</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.id-00013.image</recordname>
+								</imageref>
+								<imagex type="number">358</imagex>
+								<imagey type="number">186</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Greypelt</name>
+						<token type="token">campaign/tokens/greypelt.png</token>
+					</id-00001>
+				</npclist>
+			</id-00015>
+			<id-00016>
+				<exp type="number">200</exp>
+				<level type="number">0.5</level>
+				<locked type="number">1</locked>
+				<name type="string">02.00f Kobold Shaman</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<faction type="string">neutral</faction>
+						<isidentified type="number">0</isidentified>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00003</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Kolmokmurk</name>
+						<token type="token">tokens/Kobold.png@Pathfinder Bestiary</token>
+					</id-00001>
+				</npclist>
+			</id-00016>
+			<id-00017>
+				<exp type="number">200</exp>
+				<level type="number">0.5</level>
+				<locked type="number">1</locked>
+				<name type="string">02.00g Giant Mosquito</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<faction type="string">foe</faction>
+						<isidentified type="number">1</isidentified>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00002</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Giant Mosquito</name>
+						<token type="token">campaign/tokens/giantmosquito.png</token>
+					</id-00001>
+				</npclist>
+			</id-00017>
+			<id-00018>
+				<exp type="number">800</exp>
+				<level type="number">3</level>
+				<locked type="number">1</locked>
+				<name type="string">02.00j Wolves</name>
+				<npclist>
+					<id-00001>
+						<count type="number">2</count>
+						<faction type="string">foe</faction>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.id-00010</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+						</maplink>
+						<name type="string">Wolf</name>
+						<token type="token">tokens/Wolf.png@Pathfinder Bestiary</token>
+					</id-00001>
+				</npclist>
+			</id-00018>
+		</category>
 	</battle>
 	<calendar>
 		<public />
@@ -724,7 +754,7 @@
 					<p>This module is a combination of wilderness exploration through the Darkmoon Vale and dungeon delving in the surface ruins of an ancient dwarven monastery. Since time is a factor, Game Masters (GMs) should familiarize themselves with the rules for overland travel before beginning this module.</p>
 					<linklist>
 						<link class="imagewindow" recordname="image.id-00001">Dark Moon Vale Map(DM)</link>
-						<link class="imagewindow" recordname="image.id-00002">Droskars Crucible</link>
+						<link class="imagewindow" recordname="image.id-00002">Droskars Crucible(DM)</link>
 					</linklist>
 				</text>
 			</id-00001>
@@ -800,6 +830,7 @@
 				</text>
 			</id-00008>
 			<id-00009>
+				<locked type="number">1</locked>
 				<name type="string">01.00 An Elusive Antidote</name>
 				<text type="formattedtext">
 					<p>Falcon&#146;s Hollow has few clerics, and only Lady Cirthana (LG female cleric 2 of Iomedae) shows any interest in stopping the illness and she lacks the ability to cure diseases. Since few townsfolk trust her, most lay their medical concerns at the feet of the local herbalist, a tough woman named Laurel (NG female human expert 3), whose income stems as much from her sale of snake oils and aphrodisiacs as from questionable cure-alls and bitter teas. As quick to suggest expensive remedies as she is to remind angry buyers that she is not, in fact, a physician, Laurel does her best to help those who come to her in need, but her tight income, need to survive, and pride prevent her from admitting failure.</p>
@@ -808,11 +839,12 @@
 				</text>
 			</id-00009>
 			<id-00010>
+				<locked type="number">1</locked>
 				<name type="string">01.01 Roots and Remedies</name>
 				<text type="formattedtext">
 					<frame>Creeping ivy and full window boxes cover the fa&#231;ade of the rugged-looking, two-story shop bearing the faded sign &#147;Roots and Remedies.&#148; A line of twenty-some somber townsfolk&#151;some with pale, wheezing children, others seeming to be precipitously near tears&#151;stretches from the open door.</frame>
 					<linklist>
-						<link class="imagewindow" recordname="image.id-00012">Laurel</link>
+						<link class="imagewindow" recordname="image.id-00012">IMG: Laurel</link>
 					</linklist>
 					<p>Laurel&#146;s shop has been besieged since the outbreak of blackscour taint, both by the afflicted and their families and by hypochondriacs of all stripes. While she tries to help those with legitimate concerns as best she can, she has no qualms in selling the deluded her most expensive balms.</p>
 					<p>Unless the PCs attempt to bypass the line&#151;an act that might touch off a small, hacking riot&#151;it takes nearly an hour to reach the door of Roots and Remedies. Once inside, the clutter and disrepair of the shop shows the recent traffic, and Laurel visibly overworks herself at the store&#146;s rear, brewing remedies for the ill.</p>
@@ -827,6 +859,7 @@
 				</text>
 			</id-00010>
 			<id-00011>
+				<locked type="number">1</locked>
 				<name type="string">01.02 Laurel Q&#38;A</name>
 				<text type="formattedtext">
 					<p><b>What is blackscour</b></p>
@@ -855,9 +888,6 @@
 				<locked type="number">1</locked>
 				<name type="string">02.00g ENC: Giant mosquito</name>
 				<text type="formattedtext">
-					<linklist>
-						<link class="npc" recordname="npc.id-00002">Giant Mosquito</link>
-					</linklist>
 					<p>A giant mosquito (with the same stats as a stirge) crosses the path of the PCs and attempts to soundlessly attach itself to the character walking in the rear. The disgusting insect flees if it takes any damage.</p>
 					<linklist>
 						<link class="battle" recordname="battle.id-00017">ENC: 02.00g Giant Mosquito</link>
@@ -891,6 +921,7 @@
 				</text>
 			</id-00014>
 			<id-00015>
+				<locked type="number">1</locked>
 				<name type="string">01.05 Mapping the vale</name>
 				<text type="formattedtext">
 					<p>At some point, the PCs are going to need to determine where in Darkmoon Vale to search for the ingredients to create Laurel&#146;s cure. Of greatest interest are: Ulizmila&#146;s hut, the oldest tree in the vale, and the dwarven ruins. PCs familiar with the area might be able to make the following Knowledge checks to know where these sites lie. If they lack these skills, the PCs can question <b>Milon Rhoddam </b>at the Consortium Lumber Camp.</p>
@@ -916,6 +947,7 @@
 				</text>
 			</id-00015>
 			<id-00016>
+				<locked type="number">1</locked>
 				<name type="string">02.00 Darkmoon Vale</name>
 				<text type="formattedtext">
 					<p>The PCs should be compelled to plot their own journey to and through Darkmoon Vale, choosing their path as they see fit. Unless a PC rolls high on a Knowledge (geography) or Knowledge (local) check, it&#146;s likely they&#146;ll need to make a stop at the Lumber Consortium&#146;s main camp (see the Mapping the Vale sidebar).</p>
@@ -927,11 +959,12 @@
 				</text>
 			</id-00016>
 			<id-00017>
+				<locked type="number">1</locked>
 				<name type="string">02.01 Lumber Constortium Camp</name>
 				<text type="formattedtext">
 					<frame>The Lumber Consortium Camp cuts an ugly scar of stumps into a dense stand of proud darkwood trees. Five sturdy-looking log buildings&#151; seemingly a bunkhouse, meal hall, office, barn, and smithy&#151;stand with numerous wide carts and sleds amid the sawdust-covered clearing.</frame>
 					<p>Owned and operated by the local Lumber Consortium, the camp appears as callous and unrelenting as the men who work it. Visitors without direct business with the camp foreman are typically sent packing by the first band of surly loggers (CN male human warrior 1/expert 1) they encounter. If the PCs come inquiring after woodsman Milon Rhoddam, their requests are ignored by the workers unless they succeed at a DC 16 Diplomacy or Intimidate check. PCs who inquire after the camp foreman, Jarlben Trookshavits, are taken to his filthy office, thickly decorated with taxidermies of fierce forest animals. The impatient foreman sends for Rhoddam if the PCs succeed at a DC 14 Diplomacy check or pay the man 5 gp.</p>
-					<p>Milon Rhoddam (N male human expert 2/ranger 2), a blunt, quiet man, is one of the most experienced wanderers and woodsmen in the region. His nephew has taken ill with blackscour taint and, if the PCs explain they&#146;re trying to find reagents to brew a cure, he gladly sketches them a rough map of the forest, marking the location of where he believes Ulizmila&#146;s hut, the oldest tree in the forest, and the dwarven ruins stand. Should more than thirty townsfolk die before the PCs return, Rhoddam&#146;s young nephew is among the dead, and the canny tracker holds them responsible, possibly seeking revenge at a future date.</p>
+					<p><b>Milon Rhoddam</b> (N male human expert 2/ranger 2), a blunt, quiet man, is one of the most experienced wanderers and woodsmen in the region. His nephew has taken ill with blackscour taint and, if the PCs explain they&#146;re trying to find reagents to brew a cure, he gladly sketches them a rough map of the forest, marking the location of where he believes Ulizmila&#146;s hut, the oldest tree in the forest, and the dwarven ruins stand. Should more than thirty townsfolk die before the PCs return, Rhoddam&#146;s young nephew is among the dead, and the canny tracker holds them responsible, possibly seeking revenge at a future date.</p>
 				</text>
 			</id-00017>
 			<id-00018>
@@ -1061,7 +1094,7 @@
 					<p>This room is used by Gurtlekep, the kobold scout stationed up here on the surface, as a place to rest and take meals. Gurtlekep has prepared a relatively simple trap for anyone entering his room, as he is quite paranoid about the worg and his minions. The crow was the kobold&#146;s most recent meal and he is quite distressed if anyone disturbs his leftovers.</p>
 					<p><b>Trap: </b>A net strung up near the ceiling holds a number of stones and a small metal anvil, rigged to fall on anyone walking through the door without noticing the trip rope (the door opens out). Each character entering the room must make a DC 10 Reflex save or set off the trap. Those who make it do not necessarily notice the trap. If set off this trap not only harms intruders, but the noise also warns Gurtlekep (area 8) of their presence.</p>
 					<linklist>
-						<link class="battle" recordname="battle.id-00008">03.07 Pit Trap</link>
+						<link class="battle" recordname="battle.id-00008">ENC: 03.07 Pit Trap</link>
 					</linklist>
 				</text>
 			</id-00027>
@@ -1173,6 +1206,7 @@
 				</text>
 			</id-00035>
 			<id-00036>
+				<locked type="number">1</locked>
 				<name type="string">03.16 Graypelt's Chamber</name>
 				<text type="formattedtext">
 					<frame>Gaping holes in the roof allow faint light to enter this ruined chamber. One of the stone columns that once supported the ceiling is toppled, its broken pieces littering the floor. A thick patch of black mushrooms hides in a nearby corner, giving the room an earthy scent that is barely noticeable above the stench of wet fur.</frame>
@@ -1181,7 +1215,7 @@
 					<linklist>
 						<link class="battle" recordname="battle.id-00015">ENC: 03.16 Greypelt's Chamber</link>
 					</linklist>
-					<p><b>Treasure:</b> Tucked behind the pillar are a few things of value hidden by Graypelt, including a bag with 354 gp, a masterwork light crossbow, a potion of bull&#146;s strength, and a wand of light (CL 1st, 28 charges). In the dark corner of the room grows a small patch of ironbloom mushrooms, six in all</p>
+					<p><b>Treasure: </b>Tucked behind the pillar are a few things of value hidden by Graypelt, including a bag with 354 gp, a masterwork light crossbow, a potion of bull&#146;s strength, and a wand of light (CL 1st, 28 charges). In the dark corner of the room grows a small patch of ironbloom mushrooms, six in all</p>
 					<linklist>
 						<link class="treasureparcel" recordname="treasureparcels.id-00011">Parcel: 03.16 Greypelt's Chamber</link>
 					</linklist>
@@ -1191,11 +1225,12 @@
 				<locked type="number">1</locked>
 				<name type="string">04.00 Conculsion</name>
 				<text type="formattedtext">
-					<p>After retrieving all the ingredients needed, the PCs can rush back to Falcon&#146;s Hollow without much delay. Laurel is glad to see them and immediately sets out to brew the remedy. By that same evening, many of the locals are well on their way to recovery. Laurel pays the characters their due and offers them a discount on any future services. Others in the town take notice of their heroics as well, including Boss Teedum. </p>
-					<p>  If this adventure was used as an introduction to D1: Crown of the Kobold King, the characters are free to explore deeper into the ruins beneath the monastery after dealing with Graypelt.</p>
+					<p>After retrieving all the ingredients needed, the PCs can rush back to Falcon&#146;s Hollow without much delay. Laurel is glad to see them and immediately sets out to brew the remedy. By that same evening, many of the locals are well on their way to recovery. Laurel pays the characters their due and offers them a discount on any future services. Others in the town take notice of their heroics as well, including Boss Teedum.</p>
+					<p>If this adventure was used as an introduction to D1: Crown of the Kobold King, the characters are free to explore deeper into the ruins beneath the monastery after dealing with Graypelt.</p>
 				</text>
 			</id-00037>
 			<id-00038>
+				<locked type="number">1</locked>
 				<name type="string">05.00 Appendix</name>
 				<text type="formattedtext">
 					<p>This module presents a brand new monster, the tatzlwyrm, a smaller wingless cousin of true dragons.</p>
@@ -1252,11 +1287,10 @@
 				<locked type="number">1</locked>
 				<name type="string">02.00d ENC: Glowmold</name>
 				<text type="formattedtext">
-					<p>The undersides of several large rocks deep in the forest are covered in rare, glowing mold. A character who makes a <b>DC 16 Surviva</b>l check can harvest enough of the mold without destroying it to serve as a light source. Once removed from the rock, the mold continues to glow with the brightness of a torch for 3 days.</p>
+					<p>The undersides of several large rocks deep in the forest are covered in rare, glowing mold. A character who makes a <b>DC 16 Surviva </b>l check can harvest enough of the mold without destroying it to serve as a light source. Once removed from the rock, the mold continues to glow with the brightness of a torch for 3 days.</p>
 					<linklist>
 						<link class="treasureparcel" recordname="treasureparcels.id-00012">Parcel: 02.00d GlowMold</link>
 					</linklist>
-					<p></p>
 				</text>
 			</id-00044>
 			<id-00045>
@@ -1306,6 +1340,15 @@
 			</id-00057>
 		</category>
 	</encounter>
+	<export>
+		<author type="string">Jason Bulmahn and F. Wesley Schneider</author>
+		<category type="string">Adventure</category>
+		<file type="string">Hollows Last Hope.mod</file>
+		<name type="string">Hollows's Last Hope</name>
+		<playervisible type="number">1</playervisible>
+		<readonly type="number">1</readonly>
+		<thumbnail type="string">D:\\Fantasy Grounds\\Fantasy Grounds Data\\campaigns\\Hollow's Last Hope D0 (Dev)\\images\\Hollows Last Hope.jpg</thumbnail>
+	</export>
 	<feat>
 		<category name="Hollow's Last Hope" baseicon="0" decalicon="0">
 			<id-00001>
@@ -1347,14 +1390,171 @@
 			<id-00001>
 				<image type="image">
 					<bitmap>images/Dark Moon Vale Map(DM).jpg</bitmap>
+					<shortcuts>
+						<shortcut>
+							<x>886</x>
+							<y>289</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00016</recordname>
+						</shortcut>
+						<shortcut>
+							<x>867</x>
+							<y>461</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00017</recordname>
+						</shortcut>
+						<shortcut>
+							<x>996</x>
+							<y>373</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00017</recordname>
+						</shortcut>
+						<shortcut>
+							<x>483</x>
+							<y>527</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00017</recordname>
+						</shortcut>
+						<shortcut>
+							<x>848</x>
+							<y>392</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00018</recordname>
+						</shortcut>
+						<shortcut>
+							<x>784</x>
+							<y>259</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00019</recordname>
+						</shortcut>
+						<shortcut>
+							<x>694</x>
+							<y>298</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00020</recordname>
+						</shortcut>
+						<shortcut>
+							<x>739</x>
+							<y>619</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00006</recordname>
+						</shortcut>
+						<shortcut>
+							<x>584</x>
+							<y>268</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00022</recordname>
+						</shortcut>
+					</shortcuts>
 				</image>
+				<locked type="number">1</locked>
 				<name type="string">Dark Moon Vale Map(DM)</name>
 			</id-00001>
 			<id-00002>
 				<image type="image">
 					<bitmap>images/Droskars Crucible.jpg</bitmap>
+					<shortcuts>
+						<shortcut>
+							<x>676</x>
+							<y>625</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00023</recordname>
+						</shortcut>
+						<shortcut>
+							<x>706</x>
+							<y>354</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00021</recordname>
+						</shortcut>
+						<shortcut>
+							<x>814</x>
+							<y>448</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00014</recordname>
+						</shortcut>
+						<shortcut>
+							<x>504</x>
+							<y>324</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00024</recordname>
+						</shortcut>
+						<shortcut>
+							<x>501</x>
+							<y>261</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00025</recordname>
+						</shortcut>
+						<shortcut>
+							<x>482</x>
+							<y>403</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00026</recordname>
+						</shortcut>
+						<shortcut>
+							<x>482</x>
+							<y>470</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00027</recordname>
+						</shortcut>
+						<shortcut>
+							<x>484</x>
+							<y>523</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00028</recordname>
+						</shortcut>
+						<shortcut>
+							<x>376</x>
+							<y>488</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00029</recordname>
+						</shortcut>
+						<shortcut>
+							<x>374</x>
+							<y>321</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00030</recordname>
+						</shortcut>
+						<shortcut>
+							<x>649</x>
+							<y>218</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00031</recordname>
+						</shortcut>
+						<shortcut>
+							<x>784</x>
+							<y>157</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00032</recordname>
+						</shortcut>
+						<shortcut>
+							<x>575</x>
+							<y>153</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00033</recordname>
+						</shortcut>
+						<shortcut>
+							<x>672</x>
+							<y>117</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00034</recordname>
+						</shortcut>
+						<shortcut>
+							<x>469</x>
+							<y>188</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00035</recordname>
+						</shortcut>
+						<shortcut>
+							<x>375</x>
+							<y>194</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00036</recordname>
+						</shortcut>
+					</shortcuts>
 				</image>
+				<locked type="number">1</locked>
 				<name type="string">Droskars Crucible</name>
+				<nonid_name type="string">Droskar's Curbile(DM)</nonid_name>
 			</id-00002>
 			<id-00003>
 				<image type="image">
@@ -1373,13 +1573,72 @@
 				<image type="image">
 					<bitmap>images/Hollows Last Hope.jpg</bitmap>
 				</image>
+				<locked type="number">1</locked>
 				<name type="string">Hollows Last Hope</name>
+				<nonid_name type="string">Hollow's Last Hope</nonid_name>
 			</id-00005>
 			<id-00006>
 				<image type="image">
 					<bitmap>images/Dark Moon Vale Map(PC).jpg</bitmap>
+					<shortcuts>
+						<shortcut>
+							<x>891</x>
+							<y>285</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00016</recordname>
+						</shortcut>
+						<shortcut>
+							<x>740</x>
+							<y>616</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00006</recordname>
+						</shortcut>
+						<shortcut>
+							<x>592</x>
+							<y>281</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00022</recordname>
+						</shortcut>
+						<shortcut>
+							<x>477</x>
+							<y>518</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00017</recordname>
+						</shortcut>
+						<shortcut>
+							<x>868</x>
+							<y>450</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00017</recordname>
+						</shortcut>
+						<shortcut>
+							<x>995</x>
+							<y>366</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00017</recordname>
+						</shortcut>
+						<shortcut>
+							<x>850</x>
+							<y>379</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00018</recordname>
+						</shortcut>
+						<shortcut>
+							<x>817</x>
+							<y>258</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00019</recordname>
+						</shortcut>
+						<shortcut>
+							<x>725</x>
+							<y>283</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00020</recordname>
+						</shortcut>
+					</shortcuts>
 				</image>
 				<isidentified type="number">1</isidentified>
+				<locked type="number">1</locked>
 				<name type="string">Dark Moon Vale Map(PC)</name>
 				<nonid_name type="string">Falcons Hollow Environs</nonid_name>
 			</id-00006>
@@ -1421,13 +1680,117 @@
 				<image type="image">
 					<bitmap>images/Laurel.jpg</bitmap>
 				</image>
+				<locked type="number">1</locked>
 				<name type="string">Laurel</name>
+				<nonid_name type="string">Laurel</nonid_name>
 			</id-00012>
 			<id-00013>
 				<image type="image">
 					<bitmap>images/Droskars Crucible(PC).jpg</bitmap>
+					<gridsize>34</gridsize>
+					<gridoffset>0,32</gridoffset>
+					<gridsnap>on</gridsnap>
+					<shortcuts>
+						<shortcut>
+							<x>643</x>
+							<y>620</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00023</recordname>
+						</shortcut>
+						<shortcut>
+							<x>673</x>
+							<y>361</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00021</recordname>
+						</shortcut>
+						<shortcut>
+							<x>795</x>
+							<y>447</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00014</recordname>
+						</shortcut>
+						<shortcut>
+							<x>479</x>
+							<y>334</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00024</recordname>
+						</shortcut>
+						<shortcut>
+							<x>476</x>
+							<y>270</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00025</recordname>
+						</shortcut>
+						<shortcut>
+							<x>481</x>
+							<y>401</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00026</recordname>
+						</shortcut>
+						<shortcut>
+							<x>476</x>
+							<y>468</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00027</recordname>
+						</shortcut>
+						<shortcut>
+							<x>475</x>
+							<y>530</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00028</recordname>
+						</shortcut>
+						<shortcut>
+							<x>346</x>
+							<y>493</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00029</recordname>
+						</shortcut>
+						<shortcut>
+							<x>335</x>
+							<y>321</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00030</recordname>
+						</shortcut>
+						<shortcut>
+							<x>623</x>
+							<y>223</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00031</recordname>
+						</shortcut>
+						<shortcut>
+							<x>788</x>
+							<y>150</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00032</recordname>
+						</shortcut>
+						<shortcut>
+							<x>662</x>
+							<y>124</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00034</recordname>
+						</shortcut>
+						<shortcut>
+							<x>461</x>
+							<y>144</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00035</recordname>
+						</shortcut>
+						<shortcut>
+							<x>339</x>
+							<y>158</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00036</recordname>
+						</shortcut>
+					</shortcuts>
+					<tokens>
+						<idcounter>18</idcounter>
+						<scalelock>3.67647</scalelock>
+					</tokens>
 				</image>
+				<isidentified type="number">0</isidentified>
+				<locked type="number">0</locked>
 				<name type="string">Droskars Crucible(PC)</name>
+				<nonid_name type="string">Droskars's Crucible</nonid_name>
 			</id-00013>
 			<id-00014>
 				<image type="image">
@@ -3309,6 +3672,10 @@
 	</partysheet>
 	<quest>
 	</quest>
+	<reference>
+		<weapon>
+		</weapon>
+	</reference>
 	<specialability>
 	</specialability>
 	<storytemplate>
@@ -3465,850 +3832,827 @@
 	<temp>
 	</temp>
 	<treasureparcels>
-		<id-00001>
-			<coinlist>
-				<id-00001>
-					<amount type="number">0</amount>
-					<description type="string">PP</description>
-				</id-00001>
-				<id-00002>
-					<amount type="number">9</amount>
-					<description type="string">GP</description>
-				</id-00002>
-				<id-00003>
-					<amount type="number">12</amount>
-					<description type="string">SP</description>
-				</id-00003>
-				<id-00004>
-					<amount type="number">0</amount>
-					<description type="string">CP</description>
-				</id-00004>
-			</coinlist>
-			<itemlist>
-				<id-00001>
-					<ac type="number">0</ac>
-					<bonus type="number">0</bonus>
-					<checkpenalty type="number">0</checkpenalty>
-					<cl type="number">0</cl>
-					<count type="number">1</count>
-					<description type="formattedtext">
-						<p>A small patch of elderwood moss</p>
-					</description>
-					<locked type="number">1</locked>
-					<maxstatbonus type="number">0</maxstatbonus>
-					<name type="string">Elderwood moss</name>
-					<nonid_name type="string">Elderwood moss</nonid_name>
-					<range type="number">0</range>
-					<speed20 type="number">0</speed20>
-					<speed30 type="number">0</speed30>
-					<spellfailure type="number">0</spellfailure>
-					<weight type="number">0.5</weight>
-				</id-00001>
-				<id-00002>
-					<ac type="number">4</ac>
-					<bonus type="number">0</bonus>
-					<checkpenalty type="number">-3</checkpenalty>
-					<cl type="number">0</cl>
-					<cost type="string">15 gp</cost>
-					<count type="number">1</count>
-					<description type="formattedtext">
-						<p>Hide armor is made up of the tanned and preserved skin of any thick-hided beast.</p>
-					</description>
-					<isidentified type="number">1</isidentified>
-					<locked type="number">1</locked>
-					<maxstatbonus type="number">4</maxstatbonus>
-					<name type="string">Hide</name>
-					<pfslegal type="string">True</pfslegal>
-					<properties type="string">-</properties>
-					<slot type="string">Armor</slot>
-					<speed20 type="number">15</speed20>
-					<speed30 type="number">20</speed30>
-					<spellfailure type="number">20</spellfailure>
-					<subtype type="string">Medium</subtype>
-					<type type="string">Armor</type>
-					<weight type="number">25</weight>
-				</id-00002>
-				<id-00003>
-					<bonus type="number">0</bonus>
-					<cl type="number">0</cl>
-					<cost type="string">30 gp</cost>
-					<count type="number">1</count>
-					<critical type="string">x3</critical>
-					<damage type="string">1d6</damage>
-					<damagetype type="string">Piercing</damagetype>
-					<description type="formattedtext">
-						<p>A shortbow is made up of one piece of wood, about 3 feet in length. You need two hands to use a bow, regardless of its size. You can use a shortbow while mounted. If you have a penalty for low Strength, apply it to damage rolls when you use a shortbow. If you have a bonus for high Strength, you can apply it to damage rolls when you use a composite shortbow (see below), but not a regular shortbow.</p>
-					</description>
-					<isidentified type="number">1</isidentified>
-					<locked type="number">1</locked>
-					<name type="string">Shortbow</name>
-					<pfslegal type="string">True</pfslegal>
-					<properties type="string">-</properties>
-					<range type="number">60</range>
-					<slot type="string">Armor</slot>
-					<subtype type="string">Martial Ranged</subtype>
-					<type type="string">Weapon</type>
-					<weight type="number">2</weight>
-				</id-00003>
-				<id-00004>
-					<ac type="number">0</ac>
-					<bonus type="number">0</bonus>
-					<checkpenalty type="number">0</checkpenalty>
-					<cl type="number">0</cl>
-					<cost type="string">5 GP</cost>
-					<count type="number">1</count>
-					<description type="formattedtext">
-						<p></p>
-					</description>
-					<locked type="number">1</locked>
-					<maxstatbonus type="number">0</maxstatbonus>
-					<name type="string">Signet ring</name>
-					<nonidentified type="string">signet ring with the image of a flaming\nhawk</nonidentified>
-					<range type="number">0</range>
-					<speed20 type="number">0</speed20>
-					<speed30 type="number">0</speed30>
-					<spellfailure type="number">0</spellfailure>
-					<weight type="number">0</weight>
-				</id-00004>
-				<id-00005>
-					<cost type="string">5 sp</cost>
-					<count type="number">8</count>
-					<description type="formattedtext">
-						<p>-</p>
-					</description>
-					<isidentified type="number">1</isidentified>
-					<locked type="number">1</locked>
-					<name type="string">Trail rations</name>
-					<pfslegal type="string">True</pfslegal>
-					<subtype type="string">Food Drink</subtype>
-					<type type="string">Goods and Services</type>
-					<weight type="number">1</weight>
-				</id-00005>
-			</itemlist>
-			<locked type="number">1</locked>
-			<name type="string">02.03 The Forest Elder</name>
-			<temp>
-			</temp>
-		</id-00001>
-		<id-00002>
-			<coinlist>
-				<id-00001>
-					<amount type="number">0</amount>
-					<description type="string">PP</description>
-				</id-00001>
-				<id-00002>
-					<amount type="number">30</amount>
-					<description type="string">GP</description>
-				</id-00002>
-				<id-00003>
-					<amount type="number">0</amount>
-					<description type="string">SP</description>
-				</id-00003>
-				<id-00004>
-					<amount type="number">0</amount>
-					<description type="string">CP</description>
-				</id-00004>
-			</coinlist>
-			<itemlist>
-				<id-00001>
-					<ac type="number">0</ac>
-					<aura type="string">Faint illusion</aura>
-					<bonus type="number">0</bonus>
-					<checkpenalty type="number">0</checkpenalty>
-					<cl type="number">3</cl>
-					<cost type="string">2400 gp</cost>
-					<count type="number">1</count>
-					<description type="formattedtext">
-						<linklist>
-							<link class="imagewindow" recordname="image.id-00009">SoulSpeaker</link>
-						</linklist>
-						<p>This grotesque, amulet-like shrunken head is said to contain the enslaved soul of its former owner. Forced to obey whomever carries it, once per day a soulspeaker can repeat a message as if the spell magic mouth were cast upon it. The owner must merely hold the 6-inch-in-diameter head and speak his message and the conditions under which the soulspeaker should repeat it. While it carries a message, the eyes of the stitched head stretch open, closing as soon as its message has been delivered.</p>
-					</description>
-					<isidentified type="number">0</isidentified>
-					<locked type="number">1</locked>
-					<maxstatbonus type="number">0</maxstatbonus>
-					<name type="string">Soulspeaker</name>
-					<nonid_name type="string">grotesque amulet like shrunken</nonid_name>
-					<prerequisites type="string">Craft Wondrous Item, magic mouth</prerequisites>
-					<range type="number">0</range>
-					<speed20 type="number">0</speed20>
-					<speed30 type="number">0</speed30>
-					<spellfailure type="number">0</spellfailure>
-					<type type="string">amulet</type>
-					<weight type="number">0</weight>
-				</id-00001>
-				<id-00002>
-					<ac type="number">0</ac>
-					<bonus type="number">0</bonus>
-					<checkpenalty type="number">0</checkpenalty>
-					<cl type="number">0</cl>
-					<count type="number">1</count>
-					<description type="formattedtext">
-						<p>A pickled rats tail</p>
-					</description>
-					<locked type="number">1</locked>
-					<maxstatbonus type="number">0</maxstatbonus>
-					<name type="string">Pickled Rat's tail</name>
-					<nonid_name type="string">Pickled rat's tail</nonid_name>
-					<range type="number">0</range>
-					<speed20 type="number">0</speed20>
-					<speed30 type="number">0</speed30>
-					<spellfailure type="number">0</spellfailure>
-					<weight type="number">0.5</weight>
-				</id-00002>
-			</itemlist>
-			<locked type="number">1</locked>
-			<name type="string">02.04 The Hag-haunted Hollow</name>
-			<temp>
-			</temp>
-		</id-00002>
-		<id-00003>
-			<coinlist>
-				<id-00001>
-					<amount type="number">0</amount>
-					<description type="string">PP</description>
-				</id-00001>
-				<id-00002>
-					<amount type="number">42</amount>
-					<description type="string">GP</description>
-				</id-00002>
-				<id-00003>
-					<amount type="number">0</amount>
-					<description type="string">SP</description>
-				</id-00003>
-				<id-00004>
-					<amount type="number">0</amount>
-					<description type="string">CP</description>
-				</id-00004>
-			</coinlist>
-			<itemlist>
-				<id-00001>
-					<cost type="string">30 gp</cost>
-					<count type="number">1</count>
-					<description type="formattedtext">
-						<p>This kit contains lockpicks and other tools you need to use the Disable Device skill. Without these tools, you must use improvised tools, and you take a -2 circumstance penalty on Disable Device checks.</p>
-					</description>
-					<isidentified type="number">1</isidentified>
-					<locked type="number">1</locked>
-					<name type="string">Thieves' tools (common)</name>
-					<pfslegal type="string">True</pfslegal>
-					<subtype type="string">Tools</subtype>
-					<type type="string">Goods and Services</type>
-					<weight type="number">1</weight>
-				</id-00001>
-				<id-00002>
-					<ac type="number">0</ac>
-					<aura type="string">faint blue</aura>
-					<bonus type="number">0</bonus>
-					<checkpenalty type="number">0</checkpenalty>
-					<cl type="number">4</cl>
-					<cost type="string">300 Gp</cost>
-					<count type="number">1</count>
-					<description type="formattedtext">
-						<p></p>
-					</description>
-					<isidentified type="number">0</isidentified>
-					<locked type="number">1</locked>
-					<maxstatbonus type="number">0</maxstatbonus>
-					<name type="string">Potion of cure light wounds</name>
-					<nonid_name type="string">A small blue vial</nonid_name>
-					<prerequisites type="string">Brew Potion</prerequisites>
-					<range type="number">0</range>
-					<speed20 type="number">0</speed20>
-					<speed30 type="number">0</speed30>
-					<spellfailure type="number">0</spellfailure>
-					<type type="string">potion</type>
-					<weight type="number">0</weight>
-				</id-00002>
-				<id-00003>
-					<ac type="number">0</ac>
-					<bonus type="number">0</bonus>
-					<checkpenalty type="number">0</checkpenalty>
-					<cl type="number">0</cl>
-					<cost type="string">5 sp</cost>
-					<count type="number">1</count>
-					<description type="formattedtext">
-						<p>-</p>
-					</description>
-					<isidentified type="number">1</isidentified>
-					<locked type="number">1</locked>
-					<maxstatbonus type="number">0</maxstatbonus>
-					<name type="string">Trail rations</name>
-					<pfslegal type="string">True</pfslegal>
-					<range type="number">0</range>
-					<speed20 type="number">0</speed20>
-					<speed30 type="number">0</speed30>
-					<spellfailure type="number">0</spellfailure>
-					<subtype type="string">Food Drink</subtype>
-					<type type="string">Goods and Services</type>
-					<weight type="number">1</weight>
-				</id-00003>
-			</itemlist>
-			<locked type="number">1</locked>
-			<name type="string">03.02 The Yard</name>
-			<temp>
-			</temp>
-		</id-00003>
-		<id-00004>
-			<coinlist>
-				<id-00001>
-					<amount type="number">0</amount>
-					<description type="string">PP</description>
-				</id-00001>
-				<id-00002>
-					<amount type="number">0</amount>
-					<description type="string">GP</description>
-				</id-00002>
-				<id-00003>
-					<amount type="number">0</amount>
-					<description type="string">SP</description>
-				</id-00003>
-				<id-00004>
-					<amount type="number">0</amount>
-					<description type="string">CP</description>
-				</id-00004>
-			</coinlist>
-			<itemlist>
-				<id-00001>
-					<ac type="number">0</ac>
-					<bonus type="number">1</bonus>
-					<checkpenalty type="number">0</checkpenalty>
-					<cl type="number">0</cl>
-					<cost type="string">10 gp</cost>
-					<count type="number">1</count>
-					<critical type="string">19-20/x2</critical>
-					<damage type="string">1d6</damage>
-					<damagetype type="string">Piercing</damagetype>
-					<description type="formattedtext">
-						<p>This sword is about 2 feet in length.</p>
-					</description>
-					<isidentified type="number">0</isidentified>
-					<locked type="number">1</locked>
-					<maxstatbonus type="number">0</maxstatbonus>
-					<name type="string">Masterwork Short sword</name>
-					<nonid_name type="string">Fine Short sword</nonid_name>
-					<pfslegal type="string">True</pfslegal>
-					<range type="number">0</range>
-					<slot type="string">Armor</slot>
-					<speed20 type="number">0</speed20>
-					<speed30 type="number">0</speed30>
-					<spellfailure type="number">0</spellfailure>
-					<subtype type="string">Martial Light Melee</subtype>
-					<type type="string">Weapon</type>
-					<weight type="number">2</weight>
-				</id-00001>
-			</itemlist>
-			<locked type="number">1</locked>
-			<name type="string">03.03 Watchtower</name>
-			<temp>
-			</temp>
-		</id-00004>
-		<id-00005>
-			<coinlist>
-				<id-00001>
-					<amount type="number">0</amount>
-					<description type="string">PP</description>
-				</id-00001>
-				<id-00002>
-					<amount type="number">0</amount>
-					<description type="string">GP</description>
-				</id-00002>
-				<id-00003>
-					<amount type="number">0</amount>
-					<description type="string">SP</description>
-				</id-00003>
-				<id-00004>
-					<amount type="number">0</amount>
-					<description type="string">CP</description>
-				</id-00004>
-			</coinlist>
-			<itemlist>
-				<id-00001>
-					<ac type="number">0</ac>
-					<bonus type="number">0</bonus>
-					<checkpenalty type="number">0</checkpenalty>
-					<cl type="number">0</cl>
-					<cost type="string">21 gp</cost>
-					<count type="number">1</count>
-					<critical type="string">x2</critical>
-					<damage type="string">1d4</damage>
-					<damagetype type="string">Bludgeoning</damagetype>
-					<description type="formattedtext">
-						<p>silver light hammer with a religious symbol carved into the head.</p>
-					</description>
-					<isidentified type="number">1</isidentified>
-					<locked type="number">1</locked>
-					<maxstatbonus type="number">0</maxstatbonus>
-					<name type="string">Silver Light hammer</name>
-					<nonidentified type="string">Symbol of Droskar, dwarven god of toil and\nsuffering</nonidentified>
-					<pfslegal type="string">True</pfslegal>
-					<properties type="string">-</properties>
-					<range type="number">20</range>
-					<slot type="string">Armor</slot>
-					<speed20 type="number">0</speed20>
-					<speed30 type="number">0</speed30>
-					<spellfailure type="number">0</spellfailure>
-					<subtype type="string">Martial Light Melee</subtype>
-					<type type="string">Weapon</type>
-					<weight type="number">2</weight>
-				</id-00001>
-			</itemlist>
-			<locked type="number">1</locked>
-			<name type="string">03.05 Waiting Room</name>
-			<temp>
-			</temp>
-		</id-00005>
-		<id-00006>
-			<coinlist>
-				<id-00001>
-					<amount type="number">0</amount>
-					<description type="string">PP</description>
-				</id-00001>
-				<id-00002>
-					<amount type="number">0</amount>
-					<description type="string">GP</description>
-				</id-00002>
-				<id-00003>
-					<amount type="number">0</amount>
-					<description type="string">SP</description>
-				</id-00003>
-				<id-00004>
-					<amount type="number">0</amount>
-					<description type="string">CP</description>
-				</id-00004>
-			</coinlist>
-			<itemlist>
-			</itemlist>
-		</id-00006>
-		<id-00007>
-			<coinlist>
-				<id-00001>
-					<amount type="number">2</amount>
-					<description type="string">PP</description>
-				</id-00001>
-				<id-00002>
-					<amount type="number">40</amount>
-					<description type="string">GP</description>
-				</id-00002>
-				<id-00003>
-					<amount type="number">20</amount>
-					<description type="string">SP</description>
-				</id-00003>
-				<id-00004>
-					<amount type="number">0</amount>
-					<description type="string">CP</description>
-				</id-00004>
-			</coinlist>
-			<itemlist>
-				<id-00001>
-					<cost type="string">55 gp</cost>
-					<count type="number">1</count>
-					<description type="formattedtext">
-						<p>These tools serve the same purpose as artisan's tools, but masterwork artisan's tools are the perfect tools for the job, so you get a +2 circumstance bonus on Craft checks made with them.</p>
-					</description>
-					<isidentified type="number">1</isidentified>
-					<locked type="number">1</locked>
-					<name type="string">Artisan's tools (masterwork)</name>
-					<pfslegal type="string">True</pfslegal>
-					<subtype type="string">Tools</subtype>
-					<type type="string">Goods and Services</type>
-					<weight type="number">5</weight>
-				</id-00001>
-				<id-00002>
-					<ac type="number">0</ac>
-					<aura type="string">faint conjuration</aura>
-					<bonus type="number">0</bonus>
-					<checkpenalty type="number">0</checkpenalty>
-					<cl type="number">0</cl>
-					<cost type="string">300 gp</cost>
-					<count type="number">1</count>
-					<description type="formattedtext">
-						<p></p>
-					</description>
-					<locked type="number">1</locked>
-					<maxstatbonus type="number">0</maxstatbonus>
-					<name type="string">Ruby</name>
-					<nonid_name type="string">Ruby</nonid_name>
-					<range type="number">0</range>
-					<speed20 type="number">0</speed20>
-					<speed30 type="number">0</speed30>
-					<spellfailure type="number">0</spellfailure>
-					<type type="string">Gem</type>
-					<weight type="number">0</weight>
-				</id-00002>
-			</itemlist>
-			<locked type="number">1</locked>
-			<name type="string">03.08 Gurtlekep's Room</name>
-			<temp>
-			</temp>
-		</id-00007>
-		<id-00008>
-			<coinlist>
-				<id-00001>
-					<amount type="number">0</amount>
-					<description type="string">PP</description>
-				</id-00001>
-				<id-00002>
-					<amount type="number">0</amount>
-					<description type="string">GP</description>
-				</id-00002>
-				<id-00003>
-					<amount type="number">0</amount>
-					<description type="string">SP</description>
-				</id-00003>
-				<id-00004>
-					<amount type="number">0</amount>
-					<description type="string">CP</description>
-				</id-00004>
-			</coinlist>
-			<itemlist>
-				<id-00001>
-					<ac type="number">0</ac>
-					<bonus type="number">0</bonus>
-					<checkpenalty type="number">0</checkpenalty>
-					<cl type="number">0</cl>
-					<cost type="string">100 GP</cost>
-					<count type="number">1</count>
-					<description type="formattedtext">
-						<p></p>
-					</description>
-					<locked type="number">1</locked>
-					<maxstatbonus type="number">0</maxstatbonus>
-					<name type="string">Hymns of Torag</name>
-					<nonidentified type="string">This book is written in Dwarven. Worth more to a collector</nonidentified>
-					<range type="number">0</range>
-					<speed20 type="number">0</speed20>
-					<speed30 type="number">0</speed30>
-					<spellfailure type="number">0</spellfailure>
-					<type type="string">Book</type>
-					<weight type="number">0</weight>
-				</id-00001>
-			</itemlist>
-			<locked type="number">1</locked>
-			<name type="string">03.09 Ruined Library</name>
-			<temp>
-			</temp>
-		</id-00008>
-		<id-00009>
-			<coinlist>
-				<id-00001>
-					<amount type="number">0</amount>
-					<description type="string">PP</description>
-				</id-00001>
-				<id-00002>
-					<amount type="number">0</amount>
-					<description type="string">GP</description>
-				</id-00002>
-				<id-00003>
-					<amount type="number">0</amount>
-					<description type="string">SP</description>
-				</id-00003>
-				<id-00004>
-					<amount type="number">0</amount>
-					<description type="string">CP</description>
-				</id-00004>
-			</coinlist>
-			<itemlist>
-				<id-00001>
-					<ac type="number">0</ac>
-					<aura type="string">faint evocation</aura>
-					<bonus type="number">0</bonus>
-					<checkpenalty type="number">0</checkpenalty>
-					<cl type="number">3</cl>
-					<cost type="string">1 gp</cost>
-					<count type="number">4</count>
-					<critical type="string">20</critical>
-					<damage type="string">-</damage>
-					<damagetype type="string">Piercing</damagetype>
-					<description type="formattedtext">
-						<p>1d6 fire damage on successfull hit.</p>
-						<p>A crossbow bolt used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (crit &#215;2). Bolts come in a case or quiver that holds 10 bolts (or 5, for a repeating crossbow).</p>
-					</description>
-					<isidentified type="number">0</isidentified>
-					<locked type="number">1</locked>
-					<maxstatbonus type="number">0</maxstatbonus>
-					<name type="string">Flaming Bolt</name>
-					<nonid_name type="string">Crossbow bolt</nonid_name>
-					<pfslegal type="string">True</pfslegal>
-					<prerequisites type="string">Craft Magic Arms and Armor, flame shield, flame strike, or fireball</prerequisites>
-					<properties type="string">-</properties>
-					<range type="number">0</range>
-					<slot type="string">Armor</slot>
-					<speed20 type="number">0</speed20>
-					<speed30 type="number">0</speed30>
-					<spellfailure type="number">0</spellfailure>
-					<type type="string">Ammo</type>
-					<weight type="number">0</weight>
-				</id-00001>
-			</itemlist>
-			<locked type="number">1</locked>
-			<name type="string">03.13 Armory</name>
-			<temp>
-			</temp>
-		</id-00009>
-		<id-00010>
-			<coinlist>
-				<id-00001>
-					<amount type="number">0</amount>
-					<description type="string">PP</description>
-				</id-00001>
-				<id-00002>
-					<amount type="number">0</amount>
-					<description type="string">GP</description>
-				</id-00002>
-				<id-00003>
-					<amount type="number">0</amount>
-					<description type="string">SP</description>
-				</id-00003>
-				<id-00004>
-					<amount type="number">0</amount>
-					<description type="string">CP</description>
-				</id-00004>
-			</coinlist>
-			<itemlist>
-				<id-00001>
-					<ac type="number">0</ac>
-					<bonus type="number">0</bonus>
-					<checkpenalty type="number">0</checkpenalty>
-					<cl type="number">0</cl>
-					<count type="number">2</count>
-					<description type="formattedtext">
-						<p>Ironwood Mushroom</p>
-					</description>
-					<locked type="number">1</locked>
-					<maxstatbonus type="number">0</maxstatbonus>
-					<name type="string">Ironbloom Mushroom</name>
-					<nonid_name type="string">Ironbloom Mushroom</nonid_name>
-					<range type="number">0</range>
-					<speed20 type="number">0</speed20>
-					<speed30 type="number">0</speed30>
-					<spellfailure type="number">0</spellfailure>
-					<weight type="number">0.25</weight>
-				</id-00001>
-				<id-00002>
-					<ac type="number">0</ac>
-					<aura type="string">Faint abjuration</aura>
-					<bonus type="number">0</bonus>
-					<checkpenalty type="number">0</checkpenalty>
-					<cl type="number">3</cl>
-					<cost type="string">1200 gp</cost>
-					<count type="number">1</count>
-					<description type="formattedtext">
-						<linklist>
-							<link class="imagewindow" recordname="image.id-00008">Ring Of Torag</link>
-						</linklist>
-						<p>This simple golden ring has a large red gemstone set into it that sparkles with an inner fire. The wearer of the ring gains fire resistance 10 against the first fire attack that hits him that day. This protection renews itself every morning at dawn. In addition, the wearer receives a +1 resistance bonus on saves made against fire spells and effects. The ring must be worn for 24 hours to have any effect.</p>
-					</description>
-					<locked type="number">1</locked>
-					<maxstatbonus type="number">0</maxstatbonus>
-					<name type="string">Ring of Torag</name>
-					<nonid_name type="string">Golden Ring</nonid_name>
-					<prerequisites type="string">Forge Ring, resist energy</prerequisites>
-					<range type="number">0</range>
-					<speed20 type="number">0</speed20>
-					<speed30 type="number">0</speed30>
-					<spellfailure type="number">0</spellfailure>
-					<type type="string">ring</type>
-					<weight type="number">0</weight>
-				</id-00002>
-			</itemlist>
-			<locked type="number">1</locked>
-			<name type="string">03.13 Secret Prison</name>
-			<temp>
-			</temp>
-		</id-00010>
-		<id-00011>
-			<coinlist>
-				<id-00001>
-					<amount type="number">0</amount>
-					<description type="string">PP</description>
-				</id-00001>
-				<id-00002>
-					<amount type="number">354</amount>
-					<description type="string">GP</description>
-				</id-00002>
-				<id-00003>
-					<amount type="number">0</amount>
-					<description type="string">SP</description>
-				</id-00003>
-				<id-00004>
-					<amount type="number">0</amount>
-					<description type="string">CP</description>
-				</id-00004>
-			</coinlist>
-			<itemlist>
-				<id-00001>
-					<ac type="number">0</ac>
-					<bonus type="number">1</bonus>
-					<checkpenalty type="number">0</checkpenalty>
-					<cl type="number">0</cl>
-					<cost type="string">35 gp</cost>
-					<count type="number">1</count>
-					<critical type="string">19-20/x2</critical>
-					<damage type="string">1d8</damage>
-					<damagetype type="string">Piercing</damagetype>
-					<description type="formattedtext">
-						<p>Masterwork +1 attack</p>
-						<p>You draw a light crossbow back by pulling a lever. Loading a light crossbow is a move action that provokes attacks of opportunity.</p>
-						<p>Normally, operating a light crossbow requires two hands. However, you can shoot, but not load, a light crossbow with one hand at a -2 penalty on attack rolls. You can shoot a light crossbow with each hand, but you take a penalty on attack rolls as if attacking with two light weapons. This penalty is cumulative with the penalty for one-handed firing.</p>
-					</description>
-					<isidentified type="number">1</isidentified>
-					<locked type="number">1</locked>
-					<maxstatbonus type="number">0</maxstatbonus>
-					<name type="string">Masterwork Light crossbow</name>
-					<nonid_name type="string">Fine crossbow</nonid_name>
-					<pfslegal type="string">True</pfslegal>
-					<properties type="string">-</properties>
-					<range type="number">80</range>
-					<slot type="string">Armor</slot>
-					<speed20 type="number">0</speed20>
-					<speed30 type="number">0</speed30>
-					<spellfailure type="number">0</spellfailure>
-					<subtype type="string">Simple Ranged</subtype>
-					<type type="string">Weapon</type>
-					<weight type="number">4</weight>
-				</id-00001>
-				<id-00002>
-					<ac type="number">0</ac>
-					<aura type="string">Faint Evocation</aura>
-					<bonus type="number">0</bonus>
-					<checkpenalty type="number">0</checkpenalty>
-					<cl type="number">1</cl>
-					<count type="number">1</count>
-					<description type="formattedtext">
-						<p>28 charges 10 minutes/level</p>
-					</description>
-					<isidentified type="number">0</isidentified>
-					<locked type="number">1</locked>
-					<maxstatbonus type="number">0</maxstatbonus>
-					<name type="string">Wand of Light</name>
-					<nonid_name type="string">Unknown Wand</nonid_name>
-					<nonidentified type="string">Has a faded inscription in Dwarven</nonidentified>
-					<prerequisites type="string">Craft Wand, Light</prerequisites>
-					<range type="number">0</range>
-					<speed20 type="number">0</speed20>
-					<speed30 type="number">0</speed30>
-					<spellfailure type="number">0</spellfailure>
-					<weight type="number">0</weight>
-				</id-00002>
-				<id-00003>
-					<ac type="number">0</ac>
-					<aura type="string">faint transmutation</aura>
-					<bonus type="number">0</bonus>
-					<checkpenalty type="number">0</checkpenalty>
-					<cl type="number">3</cl>
-					<cost type="string">300gp</cost>
-					<count type="number">1</count>
-					<description type="formattedtext">
-						<p>+4 to str 3/min</p>
-					</description>
-					<isidentified type="number">0</isidentified>
-					<locked type="number">1</locked>
-					<maxstatbonus type="number">0</maxstatbonus>
-					<name type="string">Potion of Bull Strength</name>
-					<nonid_name type="string">Light brown vial</nonid_name>
-					<prerequisites type="string">Brew Potion, bull strength</prerequisites>
-					<range type="number">0</range>
-					<speed20 type="number">0</speed20>
-					<speed30 type="number">0</speed30>
-					<spellfailure type="number">0</spellfailure>
-					<type type="string">potion</type>
-					<weight type="number">0</weight>
-				</id-00003>
-				<id-00004>
-					<ac type="number">0</ac>
-					<bonus type="number">0</bonus>
-					<checkpenalty type="number">0</checkpenalty>
-					<cl type="number">0</cl>
-					<count type="number">6</count>
-					<description type="formattedtext">
-						<p>Ironwood Mushroom</p>
-					</description>
-					<locked type="number">1</locked>
-					<maxstatbonus type="number">0</maxstatbonus>
-					<name type="string">Ironbloom Mushroom</name>
-					<nonid_name type="string">Ironbloom Mushroom</nonid_name>
-					<range type="number">0</range>
-					<speed20 type="number">0</speed20>
-					<speed30 type="number">0</speed30>
-					<spellfailure type="number">0</spellfailure>
-					<weight type="number">0.25</weight>
-				</id-00004>
-			</itemlist>
-			<locked type="number">1</locked>
-			<name type="string">03.16 Greypelt's Chamber</name>
-			<temp>
-			</temp>
-		</id-00011>
-		<id-00012>
-			<coinlist>
-				<id-00001>
-					<amount type="number">0</amount>
-					<description type="string">PP</description>
-				</id-00001>
-				<id-00002>
-					<amount type="number">0</amount>
-					<description type="string">GP</description>
-				</id-00002>
-				<id-00003>
-					<amount type="number">0</amount>
-					<description type="string">SP</description>
-				</id-00003>
-				<id-00004>
-					<amount type="number">0</amount>
-					<description type="string">CP</description>
-				</id-00004>
-			</coinlist>
-			<itemlist>
-				<id-00001>
-					<ac type="number">0</ac>
-					<bonus type="number">0</bonus>
-					<checkpenalty type="number">0</checkpenalty>
-					<cl type="number">0</cl>
-					<count type="number">1</count>
-					<description type="formattedtext">
-						<p>Glowing mold glows for 3 days after remove from rocks</p>
-					</description>
-					<locked type="number">1</locked>
-					<maxstatbonus type="number">0</maxstatbonus>
-					<name type="string">Glowmold</name>
-					<nonid_name type="string">Glowing mold</nonid_name>
-					<range type="number">0</range>
-					<speed20 type="number">0</speed20>
-					<speed30 type="number">0</speed30>
-					<spellfailure type="number">0</spellfailure>
-					<type type="string">mold</type>
-					<weight type="number">0</weight>
-				</id-00001>
-			</itemlist>
-			<locked type="number">1</locked>
-			<name type="string">02.00d GlowMold</name>
-			<temp>
-			</temp>
-		</id-00012>
+		<category name="Hollow's Last Hope" baseicon="0" decalicon="0">
+			<id-00001>
+				<coinlist>
+					<id-00001>
+						<amount type="number">0</amount>
+						<description type="string">PP</description>
+					</id-00001>
+					<id-00002>
+						<amount type="number">9</amount>
+						<description type="string">GP</description>
+					</id-00002>
+					<id-00003>
+						<amount type="number">12</amount>
+						<description type="string">SP</description>
+					</id-00003>
+					<id-00004>
+						<amount type="number">0</amount>
+						<description type="string">CP</description>
+					</id-00004>
+				</coinlist>
+				<itemlist>
+					<id-00001>
+						<ac type="number">0</ac>
+						<bonus type="number">0</bonus>
+						<checkpenalty type="number">0</checkpenalty>
+						<cl type="number">0</cl>
+						<count type="number">1</count>
+						<description type="formattedtext">
+							<p>A small patch of elderwood moss</p>
+						</description>
+						<locked type="number">1</locked>
+						<maxstatbonus type="number">0</maxstatbonus>
+						<name type="string">Elderwood moss</name>
+						<nonid_name type="string">Elderwood moss</nonid_name>
+						<range type="number">0</range>
+						<speed20 type="number">0</speed20>
+						<speed30 type="number">0</speed30>
+						<spellfailure type="number">0</spellfailure>
+						<weight type="number">0.5</weight>
+					</id-00001>
+					<id-00002>
+						<ac type="number">4</ac>
+						<bonus type="number">0</bonus>
+						<checkpenalty type="number">-3</checkpenalty>
+						<cl type="number">0</cl>
+						<cost type="string">15 gp</cost>
+						<count type="number">1</count>
+						<description type="formattedtext">
+							<p>Hide armor is made up of the tanned and preserved skin of any thick-hided beast.</p>
+						</description>
+						<isidentified type="number">1</isidentified>
+						<locked type="number">1</locked>
+						<maxstatbonus type="number">4</maxstatbonus>
+						<name type="string">Hide</name>
+						<pfslegal type="string">True</pfslegal>
+						<properties type="string">-</properties>
+						<slot type="string">Armor</slot>
+						<speed20 type="number">15</speed20>
+						<speed30 type="number">20</speed30>
+						<spellfailure type="number">20</spellfailure>
+						<subtype type="string">Medium</subtype>
+						<type type="string">Armor</type>
+						<weight type="number">25</weight>
+					</id-00002>
+					<id-00003>
+						<bonus type="number">0</bonus>
+						<cl type="number">0</cl>
+						<cost type="string">30 gp</cost>
+						<count type="number">1</count>
+						<critical type="string">x3</critical>
+						<damage type="string">1d6</damage>
+						<damagetype type="string">Piercing</damagetype>
+						<description type="formattedtext">
+							<p>A shortbow is made up of one piece of wood, about 3 feet in length. You need two hands to use a bow, regardless of its size. You can use a shortbow while mounted. If you have a penalty for low Strength, apply it to damage rolls when you use a shortbow. If you have a bonus for high Strength, you can apply it to damage rolls when you use a composite shortbow (see below), but not a regular shortbow.</p>
+						</description>
+						<isidentified type="number">1</isidentified>
+						<locked type="number">1</locked>
+						<name type="string">Shortbow</name>
+						<pfslegal type="string">True</pfslegal>
+						<properties type="string">-</properties>
+						<range type="number">60</range>
+						<slot type="string">Armor</slot>
+						<subtype type="string">Martial Ranged</subtype>
+						<type type="string">Weapon</type>
+						<weight type="number">2</weight>
+					</id-00003>
+					<id-00004>
+						<ac type="number">0</ac>
+						<bonus type="number">0</bonus>
+						<checkpenalty type="number">0</checkpenalty>
+						<cl type="number">0</cl>
+						<cost type="string">5 GP</cost>
+						<count type="number">1</count>
+						<description type="formattedtext">
+							<p></p>
+						</description>
+						<locked type="number">1</locked>
+						<maxstatbonus type="number">0</maxstatbonus>
+						<name type="string">Signet ring</name>
+						<nonidentified type="string">signet ring with the image of a flaming\nhawk</nonidentified>
+						<range type="number">0</range>
+						<speed20 type="number">0</speed20>
+						<speed30 type="number">0</speed30>
+						<spellfailure type="number">0</spellfailure>
+						<weight type="number">0</weight>
+					</id-00004>
+					<id-00005>
+						<cost type="string">5 sp</cost>
+						<count type="number">8</count>
+						<description type="formattedtext">
+							<p>-</p>
+						</description>
+						<isidentified type="number">1</isidentified>
+						<locked type="number">1</locked>
+						<name type="string">Trail rations</name>
+						<pfslegal type="string">True</pfslegal>
+						<subtype type="string">Food Drink</subtype>
+						<type type="string">Goods and Services</type>
+						<weight type="number">1</weight>
+					</id-00005>
+				</itemlist>
+				<locked type="number">1</locked>
+				<name type="string">02.03 The Forest Elder</name>
+				<temp>
+				</temp>
+			</id-00001>
+			<id-00002>
+				<coinlist>
+					<id-00001>
+						<amount type="number">0</amount>
+						<description type="string">PP</description>
+					</id-00001>
+					<id-00002>
+						<amount type="number">30</amount>
+						<description type="string">GP</description>
+					</id-00002>
+					<id-00003>
+						<amount type="number">0</amount>
+						<description type="string">SP</description>
+					</id-00003>
+					<id-00004>
+						<amount type="number">0</amount>
+						<description type="string">CP</description>
+					</id-00004>
+				</coinlist>
+				<itemlist>
+					<id-00001>
+						<ac type="number">0</ac>
+						<aura type="string">Faint illusion</aura>
+						<bonus type="number">0</bonus>
+						<checkpenalty type="number">0</checkpenalty>
+						<cl type="number">3</cl>
+						<cost type="string">2400 gp</cost>
+						<count type="number">1</count>
+						<description type="formattedtext">
+							<linklist>
+								<link class="imagewindow" recordname="image.id-00009">SoulSpeaker</link>
+							</linklist>
+							<p>This grotesque, amulet-like shrunken head is said to contain the enslaved soul of its former owner. Forced to obey whomever carries it, once per day a soulspeaker can repeat a message as if the spell magic mouth were cast upon it. The owner must merely hold the 6-inch-in-diameter head and speak his message and the conditions under which the soulspeaker should repeat it. While it carries a message, the eyes of the stitched head stretch open, closing as soon as its message has been delivered.</p>
+						</description>
+						<isidentified type="number">0</isidentified>
+						<locked type="number">1</locked>
+						<maxstatbonus type="number">0</maxstatbonus>
+						<name type="string">Soulspeaker</name>
+						<nonid_name type="string">grotesque amulet like shrunken</nonid_name>
+						<prerequisites type="string">Craft Wondrous Item, magic mouth</prerequisites>
+						<range type="number">0</range>
+						<speed20 type="number">0</speed20>
+						<speed30 type="number">0</speed30>
+						<spellfailure type="number">0</spellfailure>
+						<type type="string">amulet</type>
+						<weight type="number">0</weight>
+					</id-00001>
+					<id-00002>
+						<ac type="number">0</ac>
+						<bonus type="number">0</bonus>
+						<checkpenalty type="number">0</checkpenalty>
+						<cl type="number">0</cl>
+						<count type="number">1</count>
+						<description type="formattedtext">
+							<p>A pickled rats tail</p>
+						</description>
+						<locked type="number">1</locked>
+						<maxstatbonus type="number">0</maxstatbonus>
+						<name type="string">Pickled Rat's tail</name>
+						<nonid_name type="string">Pickled rat's tail</nonid_name>
+						<range type="number">0</range>
+						<speed20 type="number">0</speed20>
+						<speed30 type="number">0</speed30>
+						<spellfailure type="number">0</spellfailure>
+						<weight type="number">0.5</weight>
+					</id-00002>
+				</itemlist>
+				<locked type="number">1</locked>
+				<name type="string">02.04 The Hag-haunted Hollow</name>
+				<temp>
+				</temp>
+			</id-00002>
+			<id-00003>
+				<coinlist>
+					<id-00001>
+						<amount type="number">0</amount>
+						<description type="string">PP</description>
+					</id-00001>
+					<id-00002>
+						<amount type="number">42</amount>
+						<description type="string">GP</description>
+					</id-00002>
+					<id-00003>
+						<amount type="number">0</amount>
+						<description type="string">SP</description>
+					</id-00003>
+					<id-00004>
+						<amount type="number">0</amount>
+						<description type="string">CP</description>
+					</id-00004>
+				</coinlist>
+				<itemlist>
+					<id-00001>
+						<cost type="string">30 gp</cost>
+						<count type="number">1</count>
+						<description type="formattedtext">
+							<p>This kit contains lockpicks and other tools you need to use the Disable Device skill. Without these tools, you must use improvised tools, and you take a -2 circumstance penalty on Disable Device checks.</p>
+						</description>
+						<isidentified type="number">1</isidentified>
+						<locked type="number">1</locked>
+						<name type="string">Thieves' tools (common)</name>
+						<pfslegal type="string">True</pfslegal>
+						<subtype type="string">Tools</subtype>
+						<type type="string">Goods and Services</type>
+						<weight type="number">1</weight>
+					</id-00001>
+					<id-00002>
+						<ac type="number">0</ac>
+						<aura type="string">faint blue</aura>
+						<bonus type="number">0</bonus>
+						<checkpenalty type="number">0</checkpenalty>
+						<cl type="number">4</cl>
+						<cost type="string">300 Gp</cost>
+						<count type="number">1</count>
+						<description type="formattedtext">
+							<p></p>
+						</description>
+						<isidentified type="number">0</isidentified>
+						<locked type="number">1</locked>
+						<maxstatbonus type="number">0</maxstatbonus>
+						<name type="string">Potion of cure light wounds</name>
+						<nonid_name type="string">A small blue vial</nonid_name>
+						<prerequisites type="string">Brew Potion</prerequisites>
+						<range type="number">0</range>
+						<speed20 type="number">0</speed20>
+						<speed30 type="number">0</speed30>
+						<spellfailure type="number">0</spellfailure>
+						<type type="string">potion</type>
+						<weight type="number">0</weight>
+					</id-00002>
+					<id-00003>
+						<ac type="number">0</ac>
+						<bonus type="number">0</bonus>
+						<checkpenalty type="number">0</checkpenalty>
+						<cl type="number">0</cl>
+						<cost type="string">5 sp</cost>
+						<count type="number">1</count>
+						<description type="formattedtext">
+							<p>-</p>
+						</description>
+						<isidentified type="number">1</isidentified>
+						<locked type="number">1</locked>
+						<maxstatbonus type="number">0</maxstatbonus>
+						<name type="string">Trail rations</name>
+						<pfslegal type="string">True</pfslegal>
+						<range type="number">0</range>
+						<speed20 type="number">0</speed20>
+						<speed30 type="number">0</speed30>
+						<spellfailure type="number">0</spellfailure>
+						<subtype type="string">Food Drink</subtype>
+						<type type="string">Goods and Services</type>
+						<weight type="number">1</weight>
+					</id-00003>
+				</itemlist>
+				<locked type="number">1</locked>
+				<name type="string">03.02 The Yard</name>
+				<temp>
+				</temp>
+			</id-00003>
+			<id-00004>
+				<coinlist>
+					<id-00001>
+						<amount type="number">0</amount>
+						<description type="string">PP</description>
+					</id-00001>
+					<id-00002>
+						<amount type="number">0</amount>
+						<description type="string">GP</description>
+					</id-00002>
+					<id-00003>
+						<amount type="number">0</amount>
+						<description type="string">SP</description>
+					</id-00003>
+					<id-00004>
+						<amount type="number">0</amount>
+						<description type="string">CP</description>
+					</id-00004>
+				</coinlist>
+				<itemlist>
+					<id-00001>
+						<ac type="number">0</ac>
+						<bonus type="number">1</bonus>
+						<checkpenalty type="number">0</checkpenalty>
+						<cl type="number">0</cl>
+						<cost type="string">10 gp</cost>
+						<count type="number">1</count>
+						<critical type="string">19-20/x2</critical>
+						<damage type="string">1d6</damage>
+						<damagetype type="string">Piercing</damagetype>
+						<description type="formattedtext">
+							<p>This sword is about 2 feet in length.</p>
+						</description>
+						<isidentified type="number">0</isidentified>
+						<locked type="number">1</locked>
+						<maxstatbonus type="number">0</maxstatbonus>
+						<name type="string">Masterwork Short sword</name>
+						<nonid_name type="string">Fine Short sword</nonid_name>
+						<pfslegal type="string">True</pfslegal>
+						<range type="number">0</range>
+						<slot type="string">Armor</slot>
+						<speed20 type="number">0</speed20>
+						<speed30 type="number">0</speed30>
+						<spellfailure type="number">0</spellfailure>
+						<subtype type="string">Martial Light Melee</subtype>
+						<type type="string">Weapon</type>
+						<weight type="number">2</weight>
+					</id-00001>
+				</itemlist>
+				<locked type="number">1</locked>
+				<name type="string">03.03 Watchtower</name>
+				<temp>
+				</temp>
+			</id-00004>
+			<id-00005>
+				<coinlist>
+					<id-00001>
+						<amount type="number">0</amount>
+						<description type="string">PP</description>
+					</id-00001>
+					<id-00002>
+						<amount type="number">0</amount>
+						<description type="string">GP</description>
+					</id-00002>
+					<id-00003>
+						<amount type="number">0</amount>
+						<description type="string">SP</description>
+					</id-00003>
+					<id-00004>
+						<amount type="number">0</amount>
+						<description type="string">CP</description>
+					</id-00004>
+				</coinlist>
+				<itemlist>
+					<id-00001>
+						<ac type="number">0</ac>
+						<bonus type="number">0</bonus>
+						<checkpenalty type="number">0</checkpenalty>
+						<cl type="number">0</cl>
+						<cost type="string">21 gp</cost>
+						<count type="number">1</count>
+						<critical type="string">x2</critical>
+						<damage type="string">1d4</damage>
+						<damagetype type="string">Bludgeoning</damagetype>
+						<description type="formattedtext">
+							<p>silver light hammer with a religious symbol carved into the head.</p>
+						</description>
+						<isidentified type="number">1</isidentified>
+						<locked type="number">1</locked>
+						<maxstatbonus type="number">0</maxstatbonus>
+						<name type="string">Silver Light hammer</name>
+						<nonidentified type="string">Symbol of Droskar, dwarven god of toil and\nsuffering</nonidentified>
+						<pfslegal type="string">True</pfslegal>
+						<properties type="string">-</properties>
+						<range type="number">20</range>
+						<slot type="string">Armor</slot>
+						<speed20 type="number">0</speed20>
+						<speed30 type="number">0</speed30>
+						<spellfailure type="number">0</spellfailure>
+						<subtype type="string">Martial Light Melee</subtype>
+						<type type="string">Weapon</type>
+						<weight type="number">2</weight>
+					</id-00001>
+				</itemlist>
+				<locked type="number">1</locked>
+				<name type="string">03.05 Waiting Room</name>
+				<temp>
+				</temp>
+			</id-00005>
+			<id-00007>
+				<coinlist>
+					<id-00001>
+						<amount type="number">2</amount>
+						<description type="string">PP</description>
+					</id-00001>
+					<id-00002>
+						<amount type="number">40</amount>
+						<description type="string">GP</description>
+					</id-00002>
+					<id-00003>
+						<amount type="number">20</amount>
+						<description type="string">SP</description>
+					</id-00003>
+					<id-00004>
+						<amount type="number">0</amount>
+						<description type="string">CP</description>
+					</id-00004>
+				</coinlist>
+				<itemlist>
+					<id-00001>
+						<cost type="string">55 gp</cost>
+						<count type="number">1</count>
+						<description type="formattedtext">
+							<p>These tools serve the same purpose as artisan's tools, but masterwork artisan's tools are the perfect tools for the job, so you get a +2 circumstance bonus on Craft checks made with them.</p>
+						</description>
+						<isidentified type="number">1</isidentified>
+						<locked type="number">1</locked>
+						<name type="string">Artisan's tools (masterwork)</name>
+						<pfslegal type="string">True</pfslegal>
+						<subtype type="string">Tools</subtype>
+						<type type="string">Goods and Services</type>
+						<weight type="number">5</weight>
+					</id-00001>
+					<id-00002>
+						<ac type="number">0</ac>
+						<aura type="string">faint conjuration</aura>
+						<bonus type="number">0</bonus>
+						<checkpenalty type="number">0</checkpenalty>
+						<cl type="number">0</cl>
+						<cost type="string">300 gp</cost>
+						<count type="number">1</count>
+						<description type="formattedtext">
+							<p></p>
+						</description>
+						<locked type="number">1</locked>
+						<maxstatbonus type="number">0</maxstatbonus>
+						<name type="string">Ruby</name>
+						<nonid_name type="string">Ruby</nonid_name>
+						<range type="number">0</range>
+						<speed20 type="number">0</speed20>
+						<speed30 type="number">0</speed30>
+						<spellfailure type="number">0</spellfailure>
+						<type type="string">Gem</type>
+						<weight type="number">0</weight>
+					</id-00002>
+				</itemlist>
+				<locked type="number">1</locked>
+				<name type="string">03.08 Gurtlekep's Room</name>
+				<temp>
+				</temp>
+			</id-00007>
+			<id-00008>
+				<coinlist>
+					<id-00001>
+						<amount type="number">0</amount>
+						<description type="string">PP</description>
+					</id-00001>
+					<id-00002>
+						<amount type="number">0</amount>
+						<description type="string">GP</description>
+					</id-00002>
+					<id-00003>
+						<amount type="number">0</amount>
+						<description type="string">SP</description>
+					</id-00003>
+					<id-00004>
+						<amount type="number">0</amount>
+						<description type="string">CP</description>
+					</id-00004>
+				</coinlist>
+				<itemlist>
+					<id-00001>
+						<ac type="number">0</ac>
+						<bonus type="number">0</bonus>
+						<checkpenalty type="number">0</checkpenalty>
+						<cl type="number">0</cl>
+						<cost type="string">100 GP</cost>
+						<count type="number">1</count>
+						<description type="formattedtext">
+							<p></p>
+						</description>
+						<locked type="number">1</locked>
+						<maxstatbonus type="number">0</maxstatbonus>
+						<name type="string">Hymns of Torag</name>
+						<nonidentified type="string">This book is written in Dwarven. Worth more to a collector</nonidentified>
+						<range type="number">0</range>
+						<speed20 type="number">0</speed20>
+						<speed30 type="number">0</speed30>
+						<spellfailure type="number">0</spellfailure>
+						<type type="string">Book</type>
+						<weight type="number">0</weight>
+					</id-00001>
+				</itemlist>
+				<locked type="number">1</locked>
+				<name type="string">03.09 Ruined Library</name>
+				<temp>
+				</temp>
+			</id-00008>
+			<id-00009>
+				<coinlist>
+					<id-00001>
+						<amount type="number">0</amount>
+						<description type="string">PP</description>
+					</id-00001>
+					<id-00002>
+						<amount type="number">0</amount>
+						<description type="string">GP</description>
+					</id-00002>
+					<id-00003>
+						<amount type="number">0</amount>
+						<description type="string">SP</description>
+					</id-00003>
+					<id-00004>
+						<amount type="number">0</amount>
+						<description type="string">CP</description>
+					</id-00004>
+				</coinlist>
+				<itemlist>
+					<id-00001>
+						<ac type="number">0</ac>
+						<aura type="string">faint evocation</aura>
+						<bonus type="number">0</bonus>
+						<checkpenalty type="number">0</checkpenalty>
+						<cl type="number">3</cl>
+						<cost type="string">1 gp</cost>
+						<count type="number">4</count>
+						<critical type="string">20</critical>
+						<damage type="string">-</damage>
+						<damagetype type="string">Piercing</damagetype>
+						<description type="formattedtext">
+							<p>1d6 fire damage on successfull hit.</p>
+							<p>A crossbow bolt used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (crit &#215;2). Bolts come in a case or quiver that holds 10 bolts (or 5, for a repeating crossbow).</p>
+						</description>
+						<isidentified type="number">0</isidentified>
+						<locked type="number">1</locked>
+						<maxstatbonus type="number">0</maxstatbonus>
+						<name type="string">Flaming Bolt</name>
+						<nonid_name type="string">Crossbow bolt</nonid_name>
+						<pfslegal type="string">True</pfslegal>
+						<prerequisites type="string">Craft Magic Arms and Armor, flame shield, flame strike, or fireball</prerequisites>
+						<properties type="string">-</properties>
+						<range type="number">0</range>
+						<slot type="string">Armor</slot>
+						<speed20 type="number">0</speed20>
+						<speed30 type="number">0</speed30>
+						<spellfailure type="number">0</spellfailure>
+						<type type="string">Ammo</type>
+						<weight type="number">0</weight>
+					</id-00001>
+				</itemlist>
+				<locked type="number">1</locked>
+				<name type="string">03.13 Armory</name>
+				<temp>
+				</temp>
+			</id-00009>
+			<id-00010>
+				<coinlist>
+					<id-00001>
+						<amount type="number">0</amount>
+						<description type="string">PP</description>
+					</id-00001>
+					<id-00002>
+						<amount type="number">0</amount>
+						<description type="string">GP</description>
+					</id-00002>
+					<id-00003>
+						<amount type="number">0</amount>
+						<description type="string">SP</description>
+					</id-00003>
+					<id-00004>
+						<amount type="number">0</amount>
+						<description type="string">CP</description>
+					</id-00004>
+				</coinlist>
+				<itemlist>
+					<id-00001>
+						<ac type="number">0</ac>
+						<bonus type="number">0</bonus>
+						<checkpenalty type="number">0</checkpenalty>
+						<cl type="number">0</cl>
+						<count type="number">2</count>
+						<description type="formattedtext">
+							<p>Ironwood Mushroom</p>
+						</description>
+						<locked type="number">1</locked>
+						<maxstatbonus type="number">0</maxstatbonus>
+						<name type="string">Ironbloom Mushroom</name>
+						<nonid_name type="string">Ironbloom Mushroom</nonid_name>
+						<range type="number">0</range>
+						<speed20 type="number">0</speed20>
+						<speed30 type="number">0</speed30>
+						<spellfailure type="number">0</spellfailure>
+						<weight type="number">0.25</weight>
+					</id-00001>
+					<id-00002>
+						<ac type="number">0</ac>
+						<aura type="string">Faint abjuration</aura>
+						<bonus type="number">0</bonus>
+						<checkpenalty type="number">0</checkpenalty>
+						<cl type="number">3</cl>
+						<cost type="string">1200 gp</cost>
+						<count type="number">1</count>
+						<description type="formattedtext">
+							<linklist>
+								<link class="imagewindow" recordname="image.id-00008">Ring Of Torag</link>
+							</linklist>
+							<p>This simple golden ring has a large red gemstone set into it that sparkles with an inner fire. The wearer of the ring gains fire resistance 10 against the first fire attack that hits him that day. This protection renews itself every morning at dawn. In addition, the wearer receives a +1 resistance bonus on saves made against fire spells and effects. The ring must be worn for 24 hours to have any effect.</p>
+						</description>
+						<locked type="number">1</locked>
+						<maxstatbonus type="number">0</maxstatbonus>
+						<name type="string">Ring of Torag</name>
+						<nonid_name type="string">Golden Ring</nonid_name>
+						<prerequisites type="string">Forge Ring, resist energy</prerequisites>
+						<range type="number">0</range>
+						<speed20 type="number">0</speed20>
+						<speed30 type="number">0</speed30>
+						<spellfailure type="number">0</spellfailure>
+						<type type="string">ring</type>
+						<weight type="number">0</weight>
+					</id-00002>
+				</itemlist>
+				<locked type="number">1</locked>
+				<name type="string">03.13 Secret Prison</name>
+				<temp>
+				</temp>
+			</id-00010>
+			<id-00011>
+				<coinlist>
+					<id-00001>
+						<amount type="number">0</amount>
+						<description type="string">PP</description>
+					</id-00001>
+					<id-00002>
+						<amount type="number">354</amount>
+						<description type="string">GP</description>
+					</id-00002>
+					<id-00003>
+						<amount type="number">0</amount>
+						<description type="string">SP</description>
+					</id-00003>
+					<id-00004>
+						<amount type="number">0</amount>
+						<description type="string">CP</description>
+					</id-00004>
+				</coinlist>
+				<itemlist>
+					<id-00001>
+						<ac type="number">0</ac>
+						<bonus type="number">1</bonus>
+						<checkpenalty type="number">0</checkpenalty>
+						<cl type="number">0</cl>
+						<cost type="string">35 gp</cost>
+						<count type="number">1</count>
+						<critical type="string">19-20/x2</critical>
+						<damage type="string">1d8</damage>
+						<damagetype type="string">Piercing</damagetype>
+						<description type="formattedtext">
+							<p>Masterwork +1 attack</p>
+							<p>You draw a light crossbow back by pulling a lever. Loading a light crossbow is a move action that provokes attacks of opportunity.</p>
+							<p>Normally, operating a light crossbow requires two hands. However, you can shoot, but not load, a light crossbow with one hand at a -2 penalty on attack rolls. You can shoot a light crossbow with each hand, but you take a penalty on attack rolls as if attacking with two light weapons. This penalty is cumulative with the penalty for one-handed firing.</p>
+						</description>
+						<isidentified type="number">1</isidentified>
+						<locked type="number">1</locked>
+						<maxstatbonus type="number">0</maxstatbonus>
+						<name type="string">Masterwork Light crossbow</name>
+						<nonid_name type="string">Fine crossbow</nonid_name>
+						<pfslegal type="string">True</pfslegal>
+						<properties type="string">-</properties>
+						<range type="number">80</range>
+						<slot type="string">Armor</slot>
+						<speed20 type="number">0</speed20>
+						<speed30 type="number">0</speed30>
+						<spellfailure type="number">0</spellfailure>
+						<subtype type="string">Simple Ranged</subtype>
+						<type type="string">Weapon</type>
+						<weight type="number">4</weight>
+					</id-00001>
+					<id-00002>
+						<ac type="number">0</ac>
+						<aura type="string">Faint Evocation</aura>
+						<bonus type="number">0</bonus>
+						<checkpenalty type="number">0</checkpenalty>
+						<cl type="number">1</cl>
+						<count type="number">1</count>
+						<description type="formattedtext">
+							<p>28 charges 10 minutes/level</p>
+						</description>
+						<isidentified type="number">0</isidentified>
+						<locked type="number">1</locked>
+						<maxstatbonus type="number">0</maxstatbonus>
+						<name type="string">Wand of Light</name>
+						<nonid_name type="string">Unknown Wand</nonid_name>
+						<nonidentified type="string">Has a faded inscription in Dwarven</nonidentified>
+						<prerequisites type="string">Craft Wand, Light</prerequisites>
+						<range type="number">0</range>
+						<speed20 type="number">0</speed20>
+						<speed30 type="number">0</speed30>
+						<spellfailure type="number">0</spellfailure>
+						<weight type="number">0</weight>
+					</id-00002>
+					<id-00003>
+						<ac type="number">0</ac>
+						<aura type="string">faint transmutation</aura>
+						<bonus type="number">0</bonus>
+						<checkpenalty type="number">0</checkpenalty>
+						<cl type="number">3</cl>
+						<cost type="string">300gp</cost>
+						<count type="number">1</count>
+						<description type="formattedtext">
+							<p>+4 to str 3/min</p>
+						</description>
+						<isidentified type="number">0</isidentified>
+						<locked type="number">1</locked>
+						<maxstatbonus type="number">0</maxstatbonus>
+						<name type="string">Potion of Bull Strength</name>
+						<nonid_name type="string">Light brown vial</nonid_name>
+						<prerequisites type="string">Brew Potion, bull strength</prerequisites>
+						<range type="number">0</range>
+						<speed20 type="number">0</speed20>
+						<speed30 type="number">0</speed30>
+						<spellfailure type="number">0</spellfailure>
+						<type type="string">potion</type>
+						<weight type="number">0</weight>
+					</id-00003>
+					<id-00004>
+						<ac type="number">0</ac>
+						<bonus type="number">0</bonus>
+						<checkpenalty type="number">0</checkpenalty>
+						<cl type="number">0</cl>
+						<count type="number">6</count>
+						<description type="formattedtext">
+							<p>Ironwood Mushroom</p>
+						</description>
+						<locked type="number">1</locked>
+						<maxstatbonus type="number">0</maxstatbonus>
+						<name type="string">Ironbloom Mushroom</name>
+						<nonid_name type="string">Ironbloom Mushroom</nonid_name>
+						<range type="number">0</range>
+						<speed20 type="number">0</speed20>
+						<speed30 type="number">0</speed30>
+						<spellfailure type="number">0</spellfailure>
+						<weight type="number">0.25</weight>
+					</id-00004>
+				</itemlist>
+				<locked type="number">1</locked>
+				<name type="string">03.16 Greypelt's Chamber</name>
+				<temp>
+				</temp>
+			</id-00011>
+			<id-00012>
+				<coinlist>
+					<id-00001>
+						<amount type="number">0</amount>
+						<description type="string">PP</description>
+					</id-00001>
+					<id-00002>
+						<amount type="number">0</amount>
+						<description type="string">GP</description>
+					</id-00002>
+					<id-00003>
+						<amount type="number">0</amount>
+						<description type="string">SP</description>
+					</id-00003>
+					<id-00004>
+						<amount type="number">0</amount>
+						<description type="string">CP</description>
+					</id-00004>
+				</coinlist>
+				<itemlist>
+					<id-00001>
+						<ac type="number">0</ac>
+						<bonus type="number">0</bonus>
+						<checkpenalty type="number">0</checkpenalty>
+						<cl type="number">0</cl>
+						<count type="number">1</count>
+						<description type="formattedtext">
+							<p>Glowing mold glows for 3 days after remove from rocks</p>
+						</description>
+						<locked type="number">1</locked>
+						<maxstatbonus type="number">0</maxstatbonus>
+						<name type="string">Glowmold</name>
+						<nonid_name type="string">Glowing mold</nonid_name>
+						<range type="number">0</range>
+						<speed20 type="number">0</speed20>
+						<speed30 type="number">0</speed30>
+						<spellfailure type="number">0</spellfailure>
+						<type type="string">mold</type>
+						<weight type="number">0</weight>
+					</id-00001>
+				</itemlist>
+				<locked type="number">1</locked>
+				<name type="string">02.00d GlowMold</name>
+				<temp>
+				</temp>
+			</id-00012>
+		</category>
 	</treasureparcels>
 	<windowsaver>
+		<id-00002>
+			<masterindex type="string">battle</masterindex>
+		</id-00002>
+		<id-00003>
+			<masterindex type="string">treasureparcels</masterindex>
+		</id-00003>
 		<id-00007>
 			<masterindex type="string">encounter</masterindex>
 		</id-00007>
 		<id-00018>
 			<masterindex type="string">storytemplate</masterindex>
 		</id-00018>
-		<id-00021>
-			<masterindex type="string">quest</masterindex>
-		</id-00021>
-		<id-00023>
-			<masterindex type="string">npc</masterindex>
-		</id-00023>
-		<id-00029>
-			<masterindex type="string">image</masterindex>
-		</id-00029>
-		<id-00046>
-			<masterindex type="string">item</masterindex>
-		</id-00046>
-		<id-00064>
-			<encounter type="string">encounter.id-00018</encounter>
-		</id-00064>
+		<id-00041>
+			<export type="string">export</export>
+		</id-00041>
+		<id-00051>
+			<masterindex type="string">encounter</masterindex>
+		</id-00051>
 		<id-00114>
 			<masterindex type="string">npc</masterindex>
 		</id-00114>

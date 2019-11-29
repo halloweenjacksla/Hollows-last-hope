@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <windowstate version="3.3">
 	<window data="" class="WS" pos="1271,667,1471,817" />
-	<window data="" class="chat" pos="15,592,676,942" />
-	<window data="" class="library" pos="340,543,1040,1093" />
+	<window data="" class="chat" pos="9,1011,670,1361" />
+	<window data="" class="library" pos="815,425,1515,975" />
 	<window data="" class="lightingselection" pos="1288,512,1453,972" />
 	<window data="" class="moduleselection" pos="1021,477,1721,1007" />
 	<window data="" class="tokenbag" pos="1684,864,2184,1364" />
-	<window data="battle" class="masterindex" pos="2182,475,2632,925" />
+	<window data="battle" class="masterindex" pos="2197,471,2647,921" />
 	<window data="battle.id-00001" class="battle" pos="1517,250,1867,650" />
 	<window data="battle.id-00002" class="battle" pos="1196,542,1546,942" />
-	<window data="battle.id-00003" class="battle" pos="1196,542,1546,942" />
+	<window data="battle.id-00003" class="battle" pos="1120,138,1470,538" />
 	<window data="battle.id-00004" class="battle" pos="1196,542,1546,942" />
 	<window data="battle.id-00005" class="battle" pos="1573,461,1923,861" />
 	<window data="battle.id-00006" class="battle" pos="1196,542,1546,942" />
@@ -30,7 +30,7 @@
 	<window data="class" class="masterindex" pos="1146,517,1596,967" />
 	<window data="currencies" class="currencylist" pos="1196,567,1546,917" />
 	<window data="effects" class="effectlist" pos="1196,567,1736,1107" />
-	<window data="encounter" class="masterindex" pos="459,291,1100,1258" />
+	<window data="encounter" class="masterindex" pos="1554,130,2195,1097" />
 	<window data="encounter.id-00001" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00002" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00003" class="encounter" pos="1171,417,1571,1067" />
@@ -88,10 +88,11 @@
 	<window data="image" class="masterindex" pos="118,60,708,597" />
 	<window data="image.hawk@Pathfinder Bestiary" class="imagewindow" pos="1116,546,1625,939" />
 	<window data="image.hobgoblin@Pathfinder Bestiary" class="imagewindow" pos="1161,402,1581,1082" />
-	<window data="image.id-00001" class="imagewindow" pos="777,314,1965,1207" />
+	<window data="image.id-00001" class="imagewindow" pos="29,575,1217,1432" />
+	<window data="image.id-00002" class="imagewindow" pos="15,4,1203,897" />
 	<window data="image.id-00003" class="imagewindow" pos="270,486,1385,1368" />
 	<window data="image.id-00005" class="imagewindow" pos="720,0,2021,1485" />
-	<window data="image.id-00006" class="imagewindow" pos="777,314,1965,1207" />
+	<window data="image.id-00006" class="imagewindow" pos="166,19,1354,876" />
 	<window data="image.id-00007" class="imagewindow" pos="717,292,2024,1193" />
 	<window data="image.id-00008" class="imagewindow" pos="1168,455,1574,1030" />
 	<window data="image.id-00008@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
@@ -100,6 +101,7 @@
 	<window data="image.id-00010" class="imagewindow" pos="1110,499,1632,1022" />
 	<window data="image.id-00010@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
 	<window data="image.id-00012@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
+	<window data="image.id-00013" class="imagewindow" pos="58,521,1246,1414" />
 	<window data="image.id-00013@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
 	<window data="image.id-00014" class="imagewindow" pos="1187,449,1554,1071" />
 	<window data="image.id-00014@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
@@ -187,7 +189,6 @@
 	<window data="treasureparcels.id-00003.itemlist.id-00003" class="item" pos="1196,542,1546,942" />
 	<window data="treasureparcels.id-00004" class="treasureparcel" pos="1121,567,1621,917" />
 	<window data="treasureparcels.id-00005" class="treasureparcel" pos="1121,567,1621,917" />
-	<window data="treasureparcels.id-00006" class="treasureparcel" pos="1121,567,1621,917" />
 	<window data="treasureparcels.id-00007" class="treasureparcel" pos="1567,270,2067,620" />
 	<window data="treasureparcels.id-00008" class="treasureparcel" pos="1121,567,1621,917" />
 	<window data="treasureparcels.id-00009" class="treasureparcel" pos="1121,567,1621,917" />
@@ -196,4 +197,6 @@
 	<window data="treasureparcels.id-00011" class="treasureparcel" pos="1516,267,2016,617" />
 	<window data="treasureparcels.id-00012" class="treasureparcel" pos="994,896,1494,1246" />
 
+	<image data="image.id-00001" class="imagewindow" control="image" view="-46,-49" zoom="1.1" />
+	<image data="image.id-00013" class="imagewindow" control="image" view="-246,0" zoom="1.5" />
 </windowstate>
