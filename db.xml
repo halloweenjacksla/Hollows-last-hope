@@ -208,27 +208,26 @@
 				<exp type="number">400</exp>
 				<level type="number">1</level>
 				<locked type="number">1</locked>
-				<name type="string">03.07 Pit Trap</name>
+				<name type="string">03.07 Falling Debris Trap</name>
 				<npclist>
 					<id-00001>
 						<count type="number">1</count>
 						<faction type="string">neutral</faction>
-						<isidentified type="number">1</isidentified>
 						<link type="windowreference">
 							<class>npc</class>
-							<recordname>npc.id-00001</recordname>
+							<recordname>npc.id-00009</recordname>
 						</link>
 						<maplink>
 							<id-00001>
 								<imageref type="windowreference">
-									<class>imagewindow</class>
-									<recordname>image.id-00013.image</recordname>
+									<class></class>
+									<recordname></recordname>
 								</imageref>
-								<imagex type="number">460</imagex>
-								<imagey type="number">492</imagey>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
 							</id-00001>
 						</maplink>
-						<name type="string">Pit trap</name>
+						<name type="string">Falling Debris Trap</name>
 						<token type="token">tokens/Medium/t.png@Letter Tokens</token>
 					</id-00001>
 				</npclist>
@@ -718,6 +717,10 @@
 	</class>
 	<combattracker>
 		<public />
+		<list>
+			<public />
+		</list>
+		<round type="number">1</round>
 	</combattracker>
 	<currencies>
 		<public />
@@ -964,7 +967,7 @@
 				<text type="formattedtext">
 					<frame>The Lumber Consortium Camp cuts an ugly scar of stumps into a dense stand of proud darkwood trees. Five sturdy-looking log buildings&#151; seemingly a bunkhouse, meal hall, office, barn, and smithy&#151;stand with numerous wide carts and sleds amid the sawdust-covered clearing.</frame>
 					<p>Owned and operated by the local Lumber Consortium, the camp appears as callous and unrelenting as the men who work it. Visitors without direct business with the camp foreman are typically sent packing by the first band of surly loggers (CN male human warrior 1/expert 1) they encounter. If the PCs come inquiring after woodsman Milon Rhoddam, their requests are ignored by the workers unless they succeed at a DC 16 Diplomacy or Intimidate check. PCs who inquire after the camp foreman, Jarlben Trookshavits, are taken to his filthy office, thickly decorated with taxidermies of fierce forest animals. The impatient foreman sends for Rhoddam if the PCs succeed at a DC 14 Diplomacy check or pay the man 5 gp.</p>
-					<p><b>Milon Rhoddam</b> (N male human expert 2/ranger 2), a blunt, quiet man, is one of the most experienced wanderers and woodsmen in the region. His nephew has taken ill with blackscour taint and, if the PCs explain they&#146;re trying to find reagents to brew a cure, he gladly sketches them a rough map of the forest, marking the location of where he believes Ulizmila&#146;s hut, the oldest tree in the forest, and the dwarven ruins stand. Should more than thirty townsfolk die before the PCs return, Rhoddam&#146;s young nephew is among the dead, and the canny tracker holds them responsible, possibly seeking revenge at a future date.</p>
+					<p><b>Milon Rhoddam </b>(N male human expert 2/ranger 2), a blunt, quiet man, is one of the most experienced wanderers and woodsmen in the region. His nephew has taken ill with blackscour taint and, if the PCs explain they&#146;re trying to find reagents to brew a cure, he gladly sketches them a rough map of the forest, marking the location of where he believes Ulizmila&#146;s hut, the oldest tree in the forest, and the dwarven ruins stand. Should more than thirty townsfolk die before the PCs return, Rhoddam&#146;s young nephew is among the dead, and the canny tracker holds them responsible, possibly seeking revenge at a future date.</p>
 				</text>
 			</id-00017>
 			<id-00018>
@@ -1094,7 +1097,7 @@
 					<p>This room is used by Gurtlekep, the kobold scout stationed up here on the surface, as a place to rest and take meals. Gurtlekep has prepared a relatively simple trap for anyone entering his room, as he is quite paranoid about the worg and his minions. The crow was the kobold&#146;s most recent meal and he is quite distressed if anyone disturbs his leftovers.</p>
 					<p><b>Trap: </b>A net strung up near the ceiling holds a number of stones and a small metal anvil, rigged to fall on anyone walking through the door without noticing the trip rope (the door opens out). Each character entering the room must make a DC 10 Reflex save or set off the trap. Those who make it do not necessarily notice the trap. If set off this trap not only harms intruders, but the noise also warns Gurtlekep (area 8) of their presence.</p>
 					<linklist>
-						<link class="battle" recordname="battle.id-00008">ENC: 03.07 Pit Trap</link>
+						<link class="battle" recordname="battle.id-00008">03.07 Falling Debris Trap</link>
 					</linklist>
 				</text>
 			</id-00027>
@@ -1345,7 +1348,7 @@
 		<category type="string">Adventure</category>
 		<file type="string">Hollows Last Hope.mod</file>
 		<name type="string">Hollows's Last Hope</name>
-		<playervisible type="number">1</playervisible>
+		<playervisible type="number">0</playervisible>
 		<readonly type="number">1</readonly>
 		<thumbnail type="string">D:\\Fantasy Grounds\\Fantasy Grounds Data\\campaigns\\Hollow's Last Hope D0 (Dev)\\images\\Hollows Last Hope.jpg</thumbnail>
 	</export>
@@ -1452,122 +1455,20 @@
 			</id-00001>
 			<id-00002>
 				<image type="image">
-					<bitmap>images/Droskars Crucible.jpg</bitmap>
-					<shortcuts>
-						<shortcut>
-							<x>676</x>
-							<y>625</y>
-							<class>encounter</class>
-							<recordname>encounter.id-00023</recordname>
-						</shortcut>
-						<shortcut>
-							<x>706</x>
-							<y>354</y>
-							<class>encounter</class>
-							<recordname>encounter.id-00021</recordname>
-						</shortcut>
-						<shortcut>
-							<x>814</x>
-							<y>448</y>
-							<class>encounter</class>
-							<recordname>encounter.id-00014</recordname>
-						</shortcut>
-						<shortcut>
-							<x>504</x>
-							<y>324</y>
-							<class>encounter</class>
-							<recordname>encounter.id-00024</recordname>
-						</shortcut>
-						<shortcut>
-							<x>501</x>
-							<y>261</y>
-							<class>encounter</class>
-							<recordname>encounter.id-00025</recordname>
-						</shortcut>
-						<shortcut>
-							<x>482</x>
-							<y>403</y>
-							<class>encounter</class>
-							<recordname>encounter.id-00026</recordname>
-						</shortcut>
-						<shortcut>
-							<x>482</x>
-							<y>470</y>
-							<class>encounter</class>
-							<recordname>encounter.id-00027</recordname>
-						</shortcut>
-						<shortcut>
-							<x>484</x>
-							<y>523</y>
-							<class>encounter</class>
-							<recordname>encounter.id-00028</recordname>
-						</shortcut>
-						<shortcut>
-							<x>376</x>
-							<y>488</y>
-							<class>encounter</class>
-							<recordname>encounter.id-00029</recordname>
-						</shortcut>
-						<shortcut>
-							<x>374</x>
-							<y>321</y>
-							<class>encounter</class>
-							<recordname>encounter.id-00030</recordname>
-						</shortcut>
-						<shortcut>
-							<x>649</x>
-							<y>218</y>
-							<class>encounter</class>
-							<recordname>encounter.id-00031</recordname>
-						</shortcut>
-						<shortcut>
-							<x>784</x>
-							<y>157</y>
-							<class>encounter</class>
-							<recordname>encounter.id-00032</recordname>
-						</shortcut>
-						<shortcut>
-							<x>575</x>
-							<y>153</y>
-							<class>encounter</class>
-							<recordname>encounter.id-00033</recordname>
-						</shortcut>
-						<shortcut>
-							<x>672</x>
-							<y>117</y>
-							<class>encounter</class>
-							<recordname>encounter.id-00034</recordname>
-						</shortcut>
-						<shortcut>
-							<x>469</x>
-							<y>188</y>
-							<class>encounter</class>
-							<recordname>encounter.id-00035</recordname>
-						</shortcut>
-						<shortcut>
-							<x>375</x>
-							<y>194</y>
-							<class>encounter</class>
-							<recordname>encounter.id-00036</recordname>
-						</shortcut>
-					</shortcuts>
+					<bitmap>images/Droskars Crucible(DM).jpg</bitmap>
+					<gridsize>35</gridsize>
+					<gridoffset>32,22</gridoffset>
+					<gridsnap>on</gridsnap>
 				</image>
-				<locked type="number">1</locked>
-				<name type="string">Droskars Crucible</name>
-				<nonid_name type="string">Droskar's Curbile(DM)</nonid_name>
+				<name type="string">Droskars Crucible(DM)</name>
 			</id-00002>
-			<id-00003>
-				<image type="image">
-					<bitmap>images/Falcons Hollow.jpg</bitmap>
-				</image>
-				<name type="string">Falcons Hollow</name>
-				<nonid_name type="string">FAlcons Hollow Locations</nonid_name>
-			</id-00003>
 			<id-00004>
 				<image type="image">
 					<bitmap>images/Graypelt.jpg</bitmap>
 				</image>
+				<locked type="number">1</locked>
 				<name type="string">Graypelt</name>
+				<nonid_name type="string">Graypelt</nonid_name>
 			</id-00004>
 			<id-00005>
 				<image type="image">
@@ -1668,14 +1569,10 @@
 				<image type="image">
 					<bitmap>images/tatzlwyrm.jpg</bitmap>
 				</image>
+				<locked type="number">1</locked>
 				<name type="string">tatzlwyrm</name>
+				<nonid_name type="string">Tatzlwyrm</nonid_name>
 			</id-00010>
-			<id-00011>
-				<image type="image">
-					<bitmap>images/Lady Cirthana.jpg</bitmap>
-				</image>
-				<name type="string">Lady Cirthana</name>
-			</id-00011>
 			<id-00012>
 				<image type="image">
 					<bitmap>images/Laurel.jpg</bitmap>
@@ -1687,108 +1584,108 @@
 			<id-00013>
 				<image type="image">
 					<bitmap>images/Droskars Crucible(PC).jpg</bitmap>
-					<gridsize>34</gridsize>
-					<gridoffset>0,32</gridoffset>
+					<gridsize>50</gridsize>
+					<gridoffset>1,2</gridoffset>
 					<gridsnap>on</gridsnap>
 					<shortcuts>
 						<shortcut>
-							<x>643</x>
-							<y>620</y>
+							<x>1044</x>
+							<y>839</y>
 							<class>encounter</class>
 							<recordname>encounter.id-00023</recordname>
 						</shortcut>
 						<shortcut>
-							<x>673</x>
-							<y>361</y>
+							<x>1055</x>
+							<y>526</y>
 							<class>encounter</class>
 							<recordname>encounter.id-00021</recordname>
 						</shortcut>
 						<shortcut>
-							<x>795</x>
-							<y>447</y>
+							<x>1226</x>
+							<y>677</y>
 							<class>encounter</class>
 							<recordname>encounter.id-00014</recordname>
 						</shortcut>
 						<shortcut>
-							<x>479</x>
-							<y>334</y>
+							<x>746</x>
+							<y>501</y>
 							<class>encounter</class>
 							<recordname>encounter.id-00024</recordname>
 						</shortcut>
 						<shortcut>
-							<x>476</x>
-							<y>270</y>
+							<x>755</x>
+							<y>402</y>
 							<class>encounter</class>
 							<recordname>encounter.id-00025</recordname>
 						</shortcut>
 						<shortcut>
-							<x>481</x>
-							<y>401</y>
+							<x>740</x>
+							<y>604</y>
 							<class>encounter</class>
 							<recordname>encounter.id-00026</recordname>
 						</shortcut>
 						<shortcut>
-							<x>476</x>
-							<y>468</y>
+							<x>761</x>
+							<y>699</y>
 							<class>encounter</class>
 							<recordname>encounter.id-00027</recordname>
 						</shortcut>
 						<shortcut>
-							<x>475</x>
-							<y>530</y>
+							<x>765</x>
+							<y>783</y>
 							<class>encounter</class>
 							<recordname>encounter.id-00028</recordname>
 						</shortcut>
 						<shortcut>
-							<x>346</x>
-							<y>493</y>
+							<x>568</x>
+							<y>743</y>
 							<class>encounter</class>
 							<recordname>encounter.id-00029</recordname>
 						</shortcut>
 						<shortcut>
-							<x>335</x>
-							<y>321</y>
+							<x>462</x>
+							<y>506</y>
 							<class>encounter</class>
 							<recordname>encounter.id-00030</recordname>
 						</shortcut>
 						<shortcut>
-							<x>623</x>
-							<y>223</y>
+							<x>736</x>
+							<y>335</y>
 							<class>encounter</class>
 							<recordname>encounter.id-00031</recordname>
 						</shortcut>
 						<shortcut>
-							<x>788</x>
-							<y>150</y>
+							<x>1209</x>
+							<y>239</y>
 							<class>encounter</class>
 							<recordname>encounter.id-00032</recordname>
 						</shortcut>
 						<shortcut>
-							<x>662</x>
-							<y>124</y>
+							<x>1063</x>
+							<y>178</y>
 							<class>encounter</class>
 							<recordname>encounter.id-00034</recordname>
 						</shortcut>
 						<shortcut>
-							<x>461</x>
-							<y>144</y>
+							<x>729</x>
+							<y>243</y>
 							<class>encounter</class>
 							<recordname>encounter.id-00035</recordname>
 						</shortcut>
 						<shortcut>
-							<x>339</x>
-							<y>158</y>
+							<x>533</x>
+							<y>225</y>
 							<class>encounter</class>
 							<recordname>encounter.id-00036</recordname>
 						</shortcut>
 					</shortcuts>
 					<tokens>
-						<idcounter>18</idcounter>
+						<idcounter>37</idcounter>
 						<scalelock>3.67647</scalelock>
 					</tokens>
 				</image>
 				<isidentified type="number">0</isidentified>
-				<locked type="number">0</locked>
+				<locked type="number">1</locked>
 				<name type="string">Droskars Crucible(PC)</name>
 				<nonid_name type="string">Droskars's Crucible</nonid_name>
 			</id-00013>
@@ -1796,6 +1693,7 @@
 				<image type="image">
 					<bitmap>images/giantmoorsnake.jpg</bitmap>
 				</image>
+				<locked type="number">1</locked>
 				<name type="string">giantmoorsnake</name>
 			</id-00014>
 			<id-00015>
@@ -4635,24 +4533,42 @@
 		</category>
 	</treasureparcels>
 	<windowsaver>
-		<id-00002>
-			<masterindex type="string">battle</masterindex>
-		</id-00002>
 		<id-00003>
 			<masterindex type="string">treasureparcels</masterindex>
 		</id-00003>
 		<id-00007>
 			<masterindex type="string">encounter</masterindex>
 		</id-00007>
+		<id-00013>
+			<encounter type="string">encounter.id-00014</encounter>
+		</id-00013>
 		<id-00018>
 			<masterindex type="string">storytemplate</masterindex>
 		</id-00018>
+		<id-00021>
+			<encounter type="string">encounter.id-00028</encounter>
+		</id-00021>
+		<id-00031>
+			<encounter type="string">encounter.id-00026</encounter>
+		</id-00031>
+		<id-00032>
+			<encounter type="string">encounter.id-00030</encounter>
+		</id-00032>
+		<id-00034>
+			<encounter type="string">encounter.id-00025</encounter>
+		</id-00034>
+		<id-00035>
+			<encounter type="string">encounter.id-00032</encounter>
+		</id-00035>
+		<id-00036>
+			<encounter type="string">encounter.id-00034</encounter>
+		</id-00036>
+		<id-00037>
+			<encounter type="string">encounter.id-00035</encounter>
+		</id-00037>
 		<id-00041>
 			<export type="string">export</export>
 		</id-00041>
-		<id-00051>
-			<masterindex type="string">encounter</masterindex>
-		</id-00051>
 		<id-00114>
 			<masterindex type="string">npc</masterindex>
 		</id-00114>

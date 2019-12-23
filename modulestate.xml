@@ -12,6 +12,9 @@
 	<module name="FG Battle Maps">
 		<loaded />
 	</module>
+	<module name="Hollows's Last Hope">
+		<allow />
+	</module>
 	<module name="Letter Tokens">
 		<loaded />
 	</module>
@@ -21,11 +24,17 @@
 	<module name="PFRPG Spells">
 		<allow />
 	</module>
+	<module name="Pathfinder Advanced Race Guide">
+		<allow />
+	</module>
 	<module name="Pathfinder Bestiary">
 		<loaded />
 	</module>
 	<module name="Pathfinder Core Rules">
 		<loaded />
+		<allow />
+	</module>
+	<module name="Pathfinder RPG - Advanced Class">
 		<allow />
 	</module>
 	<module name="Pathfinder RPG - Ultimate Magic">

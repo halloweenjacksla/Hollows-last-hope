@@ -13,8 +13,8 @@
 	<window data="battle.id-00004" class="battle" pos="1196,542,1546,942" />
 	<window data="battle.id-00005" class="battle" pos="1573,461,1923,861" />
 	<window data="battle.id-00006" class="battle" pos="1196,542,1546,942" />
-	<window data="battle.id-00007" class="battle" pos="1196,542,1546,942" />
-	<window data="battle.id-00008" class="battle" pos="1196,542,1546,942" />
+	<window data="battle.id-00007" class="battle" pos="729,504,1079,904" />
+	<window data="battle.id-00008" class="battle" pos="646,440,996,840" />
 	<window data="battle.id-00009" class="battle" pos="1196,542,1546,942" />
 	<window data="battle.id-00010" class="battle" pos="1196,542,1546,942" />
 	<window data="battle.id-00011" class="battle" pos="956,84,1306,484" />
@@ -28,9 +28,10 @@
 	<window data="calendar" class="calendar" pos="1444,524,2099,1024" />
 	<window data="charsheet.id-00001" class="charsheet" pos="1108,458,1633,1026" />
 	<window data="class" class="masterindex" pos="1146,517,1596,967" />
+	<window data="combattracker" class="combattracker_host" pos="63,331,663,831" />
 	<window data="currencies" class="currencylist" pos="1196,567,1546,917" />
 	<window data="effects" class="effectlist" pos="1196,567,1736,1107" />
-	<window data="encounter" class="masterindex" pos="1554,130,2195,1097" />
+	<window data="encounter" class="masterindex" pos="1789,78,2430,1045" />
 	<window data="encounter.id-00001" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00002" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00003" class="encounter" pos="1171,417,1571,1067" />
@@ -44,7 +45,7 @@
 	<window data="encounter.id-00011" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00012" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00013" class="encounter" pos="1171,417,1571,1067" />
-	<window data="encounter.id-00014" class="encounter" pos="1171,417,1571,1067" />
+	<window data="encounter.id-00014" class="encounter" pos="414,467,814,1117" />
 	<window data="encounter.id-00015" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00016" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00017" class="encounter" pos="1171,417,1571,1067" />
@@ -53,14 +54,14 @@
 	<window data="encounter.id-00020" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00021" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00022" class="encounter" pos="1171,417,1571,1067" />
-	<window data="encounter.id-00023" class="encounter" pos="1171,417,1571,1067" />
+	<window data="encounter.id-00023" class="encounter" pos="1964,195,2364,845" />
 	<window data="encounter.id-00024" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00025" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00026" class="encounter" pos="1171,417,1571,1067" />
-	<window data="encounter.id-00027" class="encounter" pos="1171,417,1571,1067" />
+	<window data="encounter.id-00027" class="encounter" pos="1766,345,2166,995" />
 	<window data="encounter.id-00028" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00029" class="encounter" pos="1171,417,1571,1067" />
-	<window data="encounter.id-00030" class="encounter" pos="1171,417,1571,1067" />
+	<window data="encounter.id-00030" class="encounter" pos="2207,66,2607,716" />
 	<window data="encounter.id-00031" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00032" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00033" class="encounter" pos="1171,417,1571,1067" />
@@ -89,8 +90,8 @@
 	<window data="image.hawk@Pathfinder Bestiary" class="imagewindow" pos="1116,546,1625,939" />
 	<window data="image.hobgoblin@Pathfinder Bestiary" class="imagewindow" pos="1161,402,1581,1082" />
 	<window data="image.id-00001" class="imagewindow" pos="29,575,1217,1432" />
-	<window data="image.id-00002" class="imagewindow" pos="15,4,1203,897" />
-	<window data="image.id-00003" class="imagewindow" pos="270,486,1385,1368" />
+	<window data="image.id-00002" class="imagewindow" pos="-10,153,1178,1046" />
+	<window data="image.id-00004" class="imagewindow" pos="936,187,1806,1297" />
 	<window data="image.id-00005" class="imagewindow" pos="720,0,2021,1485" />
 	<window data="image.id-00006" class="imagewindow" pos="166,19,1354,876" />
 	<window data="image.id-00007" class="imagewindow" pos="717,292,2024,1193" />
@@ -98,12 +99,13 @@
 	<window data="image.id-00008@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
 	<window data="image.id-00009" class="imagewindow" pos="1151,196,1591,1289" />
 	<window data="image.id-00009@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
-	<window data="image.id-00010" class="imagewindow" pos="1110,499,1632,1022" />
+	<window data="image.id-00010" class="imagewindow" pos="1110,499,1632,986" />
 	<window data="image.id-00010@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
+	<window data="image.id-00012" class="imagewindow" pos="1044,349,1697,1136" />
 	<window data="image.id-00012@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
-	<window data="image.id-00013" class="imagewindow" pos="58,521,1246,1414" />
+	<window data="image.id-00013" class="imagewindow" pos="385,21,2157,1318" />
 	<window data="image.id-00013@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
-	<window data="image.id-00014" class="imagewindow" pos="1187,449,1554,1071" />
+	<window data="image.id-00014" class="imagewindow" pos="1187,449,1554,1035" />
 	<window data="image.id-00014@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
 	<window data="image.id-00015" class="imagewindow" pos="1133,526,1608,958" />
 	<window data="image.id-00015@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
@@ -136,8 +138,8 @@
 	<window data="notes.id-00004" class="note" pos="1127,465,1477,815" />
 	<window data="notes.id-00005" class="note" pos="1657,483,2007,833" />
 	<window data="notes.id-00006" class="note" pos="1196,567,1840,1286" />
-	<window data="npc" class="masterindex" pos="1747,471,2197,921" />
-	<window data="npc.id-00001" class="npc" pos="570,361,1020,911" />
+	<window data="npc" class="masterindex" pos="1399,321,1849,771" />
+	<window data="npc.id-00001" class="npc" pos="904,359,1354,909" />
 	<window data="npc.id-00002" class="npc" pos="1060,797,1510,1347" />
 	<window data="npc.id-00002.specialabilities.attach-ex" class="referenceclassability" pos="1171,567,1660,985" />
 	<window data="npc.id-00002.specialabilities.blooddrain-ex" class="referenceclassability" pos="1171,567,1571,917" />
@@ -155,6 +157,7 @@
 	<window data="npc.id-00014" class="npc" pos="1146,467,1596,1017" />
 	<window data="npc.id-00015" class="npc" pos="1146,467,1596,1017" />
 	<window data="npc.id-00018" class="npc" pos="1146,467,1596,1017" />
+	<window data="npc.id-00019" class="npc" pos="392,371,842,921" />
 	<window data="npclists.images@Pathfinder Bestiary" class="referenceindex" pos="1196,517,1546,967" />
 	<window data="npclists.npc-a-z@Pathfinder Bestiary" class="reference_colindex" pos="1146,517,1596,967" />
 	<window data="npclists.npcs@Pathfinder Bestiary" class="referenceindex" pos="1009,776,1359,1226" />
@@ -178,7 +181,7 @@
 	<window data="reference.weapon.slayingarrowgreater@Pathfinder Core Rules" class="referenceweapon" pos="1171,567,1571,917" />
 	<window data="reference.weapon.sleeparrow@Pathfinder Core Rules" class="referenceweapon" pos="1171,567,1571,917" />
 	<window data="specialability" class="masterindex" pos="1146,517,1596,967" />
-	<window data="storytemplate" class="masterindex" pos="797,171,1247,621" />
+	<window data="storytemplate" class="masterindex" pos="556,126,1006,576" />
 	<window data="storytemplate.id-00003" class="storytemplate" pos="1589,63,1989,713" />
 	<window data="tables" class="masterindex" pos="2194,26,2644,476" />
 	<window data="tables.id-00001" class="table" pos="805,453,1240,1081" />
@@ -198,5 +201,5 @@
 	<window data="treasureparcels.id-00012" class="treasureparcel" pos="994,896,1494,1246" />
 
 	<image data="image.id-00001" class="imagewindow" control="image" view="-46,-49" zoom="1.1" />
-	<image data="image.id-00013" class="imagewindow" control="image" view="-246,0" zoom="1.5" />
+	<image data="image.id-00013" class="imagewindow" control="image" view="-115,-24" zoom="1.15" />
 </windowstate>
