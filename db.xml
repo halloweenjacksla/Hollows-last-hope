@@ -1389,6 +1389,13 @@
 		</category>
 	</feat>
 	<image>
+		<category name="Forest Map Pack" baseicon="0" decalicon="0">
+			<id-00003>
+				<image type="image">
+				</image>
+				<locked type="number">0</locked>
+			</id-00003>
+		</category>
 		<category name="Hollow's Last Hope" baseicon="0" decalicon="0">
 			<id-00001>
 				<image type="image">
@@ -4533,45 +4540,15 @@
 		</category>
 	</treasureparcels>
 	<windowsaver>
-		<id-00003>
-			<masterindex type="string">treasureparcels</masterindex>
-		</id-00003>
 		<id-00007>
-			<masterindex type="string">encounter</masterindex>
+			<masterindex type="string">image</masterindex>
 		</id-00007>
-		<id-00013>
-			<encounter type="string">encounter.id-00014</encounter>
-		</id-00013>
-		<id-00018>
-			<masterindex type="string">storytemplate</masterindex>
-		</id-00018>
-		<id-00021>
-			<encounter type="string">encounter.id-00028</encounter>
-		</id-00021>
-		<id-00031>
-			<encounter type="string">encounter.id-00026</encounter>
-		</id-00031>
-		<id-00032>
-			<encounter type="string">encounter.id-00030</encounter>
-		</id-00032>
-		<id-00034>
-			<encounter type="string">encounter.id-00025</encounter>
-		</id-00034>
-		<id-00035>
-			<encounter type="string">encounter.id-00032</encounter>
-		</id-00035>
-		<id-00036>
-			<encounter type="string">encounter.id-00034</encounter>
-		</id-00036>
-		<id-00037>
-			<encounter type="string">encounter.id-00035</encounter>
-		</id-00037>
-		<id-00041>
-			<export type="string">export</export>
-		</id-00041>
-		<id-00114>
-			<masterindex type="string">npc</masterindex>
-		</id-00114>
+		<id-00008>
+			<masterindex type="string">encounter</masterindex>
+		</id-00008>
+		<id-00009>
+			<encounter type="string">encounter.id-00020</encounter>
+		</id-00009>
 	</windowsaver>
 	<windowsaverdesktop>
 	</windowsaverdesktop>

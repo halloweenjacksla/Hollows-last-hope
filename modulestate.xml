@@ -12,6 +12,12 @@
 	<module name="FG Battle Maps">
 		<loaded />
 	</module>
+	<module name="Forest Map Pack">
+		<loaded />
+	</module>
+	<module name="Fundamental Fantasy Map Pack II by Joshua Watmough">
+		<loaded />
+	</module>
 	<module name="Hollows's Last Hope">
 		<allow />
 	</module>
@@ -22,6 +28,9 @@
 		<allow />
 	</module>
 	<module name="PFRPG Spells">
+		<allow />
+	</module>
+	<module name="Pathfinder Advanced Players Guide">
 		<allow />
 	</module>
 	<module name="Pathfinder Advanced Race Guide">

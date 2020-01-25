@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <windowstate version="3.3">
 	<window data="" class="WS" pos="1271,667,1471,817" />
-	<window data="" class="chat" pos="9,1011,670,1361" />
+	<window data="" class="chat" pos="0,765,661,1115" />
 	<window data="" class="library" pos="815,425,1515,975" />
 	<window data="" class="lightingselection" pos="1288,512,1453,972" />
 	<window data="" class="moduleselection" pos="1021,477,1721,1007" />
@@ -31,7 +31,7 @@
 	<window data="combattracker" class="combattracker_host" pos="63,331,663,831" />
 	<window data="currencies" class="currencylist" pos="1196,567,1546,917" />
 	<window data="effects" class="effectlist" pos="1196,567,1736,1107" />
-	<window data="encounter" class="masterindex" pos="1789,78,2430,1045" />
+	<window data="encounter" class="masterindex" pos="1027,88,1668,1055" />
 	<window data="encounter.id-00001" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00002" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00003" class="encounter" pos="1171,417,1571,1067" />
@@ -61,7 +61,7 @@
 	<window data="encounter.id-00027" class="encounter" pos="1766,345,2166,995" />
 	<window data="encounter.id-00028" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00029" class="encounter" pos="1171,417,1571,1067" />
-	<window data="encounter.id-00030" class="encounter" pos="2207,66,2607,716" />
+	<window data="encounter.id-00030" class="encounter" pos="700,67,1100,717" />
 	<window data="encounter.id-00031" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00032" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00033" class="encounter" pos="1171,417,1571,1067" />
@@ -86,31 +86,40 @@
 	<window data="feat" class="masterindex" pos="1874,94,2324,544" />
 	<window data="feat.id-00001" class="referencefeat" pos="1420,519,1820,869" />
 	<window data="feat.id-00002" class="referencefeat" pos="1171,567,1571,917" />
-	<window data="image" class="masterindex" pos="118,60,708,597" />
+	<window data="image" class="masterindex" pos="268,99,858,636" />
 	<window data="image.hawk@Pathfinder Bestiary" class="imagewindow" pos="1116,546,1625,939" />
 	<window data="image.hobgoblin@Pathfinder Bestiary" class="imagewindow" pos="1161,402,1581,1082" />
 	<window data="image.id-00001" class="imagewindow" pos="29,575,1217,1432" />
 	<window data="image.id-00002" class="imagewindow" pos="-10,153,1178,1046" />
+	<window data="image.id-00003" class="imagewindow" pos="1097,161,1645,783" />
 	<window data="image.id-00004" class="imagewindow" pos="936,187,1806,1297" />
 	<window data="image.id-00005" class="imagewindow" pos="720,0,2021,1485" />
 	<window data="image.id-00006" class="imagewindow" pos="166,19,1354,876" />
 	<window data="image.id-00007" class="imagewindow" pos="717,292,2024,1193" />
+	<window data="image.id-00007@Forest Map Pack" class="imagewindow" pos="0,0,1954,1245" />
 	<window data="image.id-00008" class="imagewindow" pos="1168,455,1574,1030" />
-	<window data="image.id-00008@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
+	<window data="image.id-00008@FG Battle Maps" class="imagewindow" pos="607,94,1855,1380" />
 	<window data="image.id-00009" class="imagewindow" pos="1151,196,1591,1289" />
-	<window data="image.id-00009@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
+	<window data="image.id-00009@FG Battle Maps" class="imagewindow" pos="707,93,1955,1379" />
+	<window data="image.id-00009@Forest Map Pack" class="imagewindow" pos="0,0,1954,1245" />
 	<window data="image.id-00010" class="imagewindow" pos="1110,499,1632,986" />
-	<window data="image.id-00010@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
+	<window data="image.id-00010@FG Battle Maps" class="imagewindow" pos="601,82,1849,1368" />
+	<window data="image.id-00010@Forest Map Pack" class="imagewindow" pos="0,0,1954,1245" />
+	<window data="image.id-00011@Forest Map Pack" class="imagewindow" pos="0,0,1954,1245" />
 	<window data="image.id-00012" class="imagewindow" pos="1044,349,1697,1136" />
 	<window data="image.id-00012@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
 	<window data="image.id-00013" class="imagewindow" pos="385,21,2157,1318" />
 	<window data="image.id-00013@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
+	<window data="image.id-00013@Forest Map Pack" class="imagewindow" pos="0,0,1954,1245" />
 	<window data="image.id-00014" class="imagewindow" pos="1187,449,1554,1035" />
 	<window data="image.id-00014@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
 	<window data="image.id-00015" class="imagewindow" pos="1133,526,1608,958" />
 	<window data="image.id-00015@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
 	<window data="image.id-00016@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
+	<window data="image.id-00016@Forest Map Pack" class="imagewindow" pos="0,0,1954,1245" />
 	<window data="image.id-00017@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
+	<window data="image.id-00039@Fundamental Fantasy Map Pack II by Joshua Watmough" class="imagewindow" pos="0,0,1954,1245" />
+	<window data="image.id-00040@Fundamental Fantasy Map Pack II by Joshua Watmough" class="imagewindow" pos="0,0,1954,1245" />
 	<window data="image.stirge@Pathfinder Bestiary" class="imagewindow" pos="632,683,1211,1344" />
 	<window data="item" class="masterindex" pos="1748,910,2198,1360" />
 	<window data="item.id-00001" class="item" pos="1196,542,1546,942" />
@@ -185,7 +194,7 @@
 	<window data="storytemplate.id-00003" class="storytemplate" pos="1589,63,1989,713" />
 	<window data="tables" class="masterindex" pos="2194,26,2644,476" />
 	<window data="tables.id-00001" class="table" pos="805,453,1240,1081" />
-	<window data="treasureparcels" class="masterindex" pos="2186,910,2636,1360" />
+	<window data="treasureparcels" class="masterindex" pos="1222,489,1672,939" />
 	<window data="treasureparcels.id-00001" class="treasureparcel" pos="1121,567,1621,917" />
 	<window data="treasureparcels.id-00002" class="treasureparcel" pos="1121,567,1621,917" />
 	<window data="treasureparcels.id-00003" class="treasureparcel" pos="1121,567,1621,917" />
@@ -202,4 +211,5 @@
 
 	<image data="image.id-00001" class="imagewindow" control="image" view="-46,-49" zoom="1.1" />
 	<image data="image.id-00013" class="imagewindow" control="image" view="-115,-24" zoom="1.15" />
+	<image data="image.id-00039@Fundamental Fantasy Map Pack II by Joshua Watmough" class="imagewindow" control="image" view="0,0" zoom="0.8" />
 </windowstate>

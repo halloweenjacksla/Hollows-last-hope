@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <extensionstate version="3.3">
-	<extension name="Advanced Pathfinder with AoO">
+	<extension name="BigFonts">
 		<loaded />
 	</extension>
-	<extension name="BigFonts">
+	<extension name="Drop-Lowest">
 		<loaded />
 	</extension>
 	<extension name="PFRPG_Theme_Pathfinder_Official">
 		<loaded />
 	</extension>
 	<extension name="WindowSaver">
+		<loaded />
+	</extension>
+	<extension name="Decal_APG">
 		<loaded />
 	</extension>
 	<extension name="PFRPG_B1_Decals">
