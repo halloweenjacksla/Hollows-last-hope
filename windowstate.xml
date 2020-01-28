@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <windowstate version="3.3">
 	<window data="" class="WS" pos="1271,667,1471,817" />
-	<window data="" class="chat" pos="0,765,661,1115" />
-	<window data="" class="library" pos="815,425,1515,975" />
+	<window data="" class="chat" pos="-4,1003,657,1353" />
+	<window data="" class="library" pos="157,489,857,1039" />
 	<window data="" class="lightingselection" pos="1288,512,1453,972" />
 	<window data="" class="moduleselection" pos="1021,477,1721,1007" />
 	<window data="" class="tokenbag" pos="1684,864,2184,1364" />
@@ -51,7 +51,7 @@
 	<window data="encounter.id-00017" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00018" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00019" class="encounter" pos="1171,417,1571,1067" />
-	<window data="encounter.id-00020" class="encounter" pos="1171,417,1571,1067" />
+	<window data="encounter.id-00020" class="encounter" pos="1739,273,2139,923" />
 	<window data="encounter.id-00021" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00022" class="encounter" pos="1171,417,1571,1067" />
 	<window data="encounter.id-00023" class="encounter" pos="1964,195,2364,845" />
@@ -86,7 +86,7 @@
 	<window data="feat" class="masterindex" pos="1874,94,2324,544" />
 	<window data="feat.id-00001" class="referencefeat" pos="1420,519,1820,869" />
 	<window data="feat.id-00002" class="referencefeat" pos="1171,567,1571,917" />
-	<window data="image" class="masterindex" pos="268,99,858,636" />
+	<window data="image" class="masterindex" pos="438,87,1028,624" />
 	<window data="image.hawk@Pathfinder Bestiary" class="imagewindow" pos="1116,546,1625,939" />
 	<window data="image.hobgoblin@Pathfinder Bestiary" class="imagewindow" pos="1161,402,1581,1082" />
 	<window data="image.id-00001" class="imagewindow" pos="29,575,1217,1432" />
@@ -118,6 +118,8 @@
 	<window data="image.id-00016@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
 	<window data="image.id-00016@Forest Map Pack" class="imagewindow" pos="0,0,1954,1245" />
 	<window data="image.id-00017@FG Battle Maps" class="imagewindow" pos="747,99,1995,1385" />
+	<window data="image.id-00019@Forest Map Pack" class="imagewindow" pos="28,36,1064,1033" />
+	<window data="image.id-00020@Forest Map Pack" class="imagewindow" pos="759,11,1820,1097" />
 	<window data="image.id-00039@Fundamental Fantasy Map Pack II by Joshua Watmough" class="imagewindow" pos="0,0,1954,1245" />
 	<window data="image.id-00040@Fundamental Fantasy Map Pack II by Joshua Watmough" class="imagewindow" pos="0,0,1954,1245" />
 	<window data="image.stirge@Pathfinder Bestiary" class="imagewindow" pos="632,683,1211,1344" />
@@ -139,6 +141,7 @@
 	<window data="item.id-00021" class="item" pos="1196,542,1729,1017" />
 	<window data="item.id-00022" class="item" pos="1196,542,1546,942" />
 	<window data="languages" class="languagelist" pos="1196,567,1546,917" />
+	<window data="lists.imagewindow@Forest Map Pack" class="referenceindexsorted" pos="1966,567,2316,1017" />
 	<window data="lists.monsterfeats@Pathfinder Bestiary" class="referenceindexsorted" pos="914,92,1264,542" />
 	<window data="lists.universalmonsterrules@Pathfinder Bestiary" class="referenceindexsorted" pos="440,130,790,580" />
 	<window data="notes" class="masterindex" pos="1077,759,1527,1209" />
@@ -211,5 +214,7 @@
 
 	<image data="image.id-00001" class="imagewindow" control="image" view="-46,-49" zoom="1.1" />
 	<image data="image.id-00013" class="imagewindow" control="image" view="-115,-24" zoom="1.15" />
+	<image data="image.id-00019@Forest Map Pack" class="imagewindow" control="image" view="0,0" zoom="0.329333" />
+	<image data="image.id-00020@Forest Map Pack" class="imagewindow" control="image" view="0,-12" zoom="0.337667" />
 	<image data="image.id-00039@Fundamental Fantasy Map Pack II by Joshua Watmough" class="imagewindow" control="image" view="0,0" zoom="0.8" />
 </windowstate>

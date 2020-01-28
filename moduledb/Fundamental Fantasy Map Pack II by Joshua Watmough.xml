@@ -3,6 +3,18 @@
 	<image>
 		<category name="Fundamental Fantasy Map Pack II by Joshua Watmough" baseicon="0" decalicon="0">
 			<id-00040>
+				<image type="image">
+					<bitmap>WitchesLairInteriorGrid.jpg</bitmap>
+					<gridsize>100</gridsize>
+					<gridoffset>1,0</gridoffset>
+					<gridsnap>on</gridsnap>
+					<tokens>
+						<idcounter>1</idcounter>
+						<scalelock>0.875</scalelock>
+					</tokens>
+				</image>
+				<locked type="number">1</locked>
+				<nonid_name type="string">Hags Haunted Hollow</nonid_name>
 			</id-00040>
 		</category>
 	</image>

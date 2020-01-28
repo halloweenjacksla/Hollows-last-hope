@@ -998,11 +998,12 @@
 					<linklist>
 						<link class="battle" recordname="battle.id-00005">ENC: 02.03 The Forest Elder</link>
 						<link class="treasureparcel" recordname="treasureparcels.id-00001">Parcel: 02.03 The Forest Elder</link>
+						<link class="imagewindow" recordname="image.id-00020@Forest Map Pack">Map: 02.03 Forest Elder</link>
 					</linklist>
 				</text>
 			</id-00019>
 			<id-00020>
-				<locked type="number">1</locked>
+				<locked type="number">0</locked>
 				<name type="string">02.04 The Hag-Haunted Hollow</name>
 				<text type="formattedtext">
 					<frame>The sounds of the forest become suddenly distant as the trees part, opening into a small, almost perfectly circular glade. The nearest stands of pine, eyln, and darkwood&#151;all typically sturdy woods&#151;twist away from the clearing, as if bent by some impossibly strong wind or seemingly in an attempt to flee despite their paralyzed roots. At the glade&#146;s center squats an ugly cottage, little more than a pile of twigs, shoots, and ivy stacked upon mud walls. From the thatched roof dangle bundles of gnarled roots, old dried beast carcasses, and knucklebone bangles, all clattering together like gruesome wind chimes. A dozen small thatched fetishes&#151;each shaped like a tiny man, imp, or rearing serpent&#151;stand propped in the yard, keeping guard before a rickety plank door.</frame>
@@ -1012,6 +1013,7 @@
 					<p>Inside, the cottage is dank, reeking, and filled with shadows. Haphazardly hung shelves line the walls, covered in all manner of clay jugs, clouded bottles, strangely cut rocks, rotted bunches of herbs, and a museum of other crude curios and remnants of a bone grinder&#146;s artifice. A rusted iron cauldron, with a mouth nearly 5 feet wide and a depth of at least 3 feet, dominates the hut&#146;s single room, its ash-covered surface shaped with a relief of capering fiends and leering devils. Across from the door, against the far walls, stands a highbacked chair made of wicker, the gigantic curved tusks of some monstrous beast, and thousands of human teeth. In the chair sits what looks like a corpse wrapped in filthy burial linens, its form padded with pungent herbs and sprouting patches of thick white mold. This ominous shape is actually only a bundle of branches, mud, and linen, left by Ulizmila to distract trespassers from her home&#146;s actual guardian, her pet cauldron.</p>
 					<linklist>
 						<link class="battle" recordname="battle.id-00006">ENC: 02.04 The Hag-Haunted Hollow</link>
+						<link class="imagewindow" recordname="image.id-00040@Fundamental Fantasy Map Pack II by Joshua Watmough">Map: 02.04 Hags Haunted Hollow</link>
 					</linklist>
 					<p>Due to the volume and disorganization of the cottage&#146;s contents, it takes 10 minutes and a DC 14 Search check to locate the rat&#146;s tail. Those who attempt to Search without touching any of the shelves&#146; contents&#151;thus avoiding activating the guardian cauldron&#151;can do so, but the Search then takes 20 minutes to perform. Besides the rat&#146;s tail, there are several other items of hidden value in the hut. Any character who spends a minute and succeeds at a DC 14 Appraise check uncovers statuettes and rare stones worth 30 gp. A character who makes a DC 14 Knowledge (arcana) check also uncovers a pouch containing essential salts useful in summoning a familiar. If burnt in such a summoning ritual, these minerals decrease the rite&#146;s required gp by half. Detect magic reveals a few traces of previously present magical auras, but the only magic item that remains here is a disgusting, shrunken head known as a soulspeaker.</p>
 					<linklist>
@@ -4540,6 +4542,9 @@
 		</category>
 	</treasureparcels>
 	<windowsaver>
+		<id-00001>
+			<encounter type="string">encounter.id-00019</encounter>
+		</id-00001>
 		<id-00007>
 			<masterindex type="string">image</masterindex>
 		</id-00007>
@@ -4549,6 +4554,18 @@
 		<id-00009>
 			<encounter type="string">encounter.id-00020</encounter>
 		</id-00009>
+		<id-00010>
+			<masterindex type="string">battle</masterindex>
+		</id-00010>
+		<id-00011>
+			<referenceindexsorted type="string">lists.imagewindow@Forest Map Pack</referenceindexsorted>
+		</id-00011>
+		<id-00012>
+			<combattracker_host type="string">combattracker</combattracker_host>
+		</id-00012>
+		<id-00014>
+			<export type="string">export</export>
+		</id-00014>
 	</windowsaver>
 	<windowsaverdesktop>
 	</windowsaverdesktop>

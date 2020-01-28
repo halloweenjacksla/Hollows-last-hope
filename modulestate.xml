@@ -46,6 +46,9 @@
 	<module name="Pathfinder RPG - Advanced Class">
 		<allow />
 	</module>
+	<module name="Pathfinder RPG - Ultimate Campaign">
+		<allow />
+	</module>
 	<module name="Pathfinder RPG - Ultimate Magic">
 		<allow />
 	</module>

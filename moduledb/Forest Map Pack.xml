@@ -4,6 +4,28 @@
 		<category name="Forest Map Pack" baseicon="0" decalicon="0">
 			<id-00010>
 			</id-00010>
+			<id-00019>
+				<image type="image">
+					<bitmap>GreatStump.jpg</bitmap>
+					<gridsize>118</gridsize>
+					<gridoffset>24,37</gridoffset>
+					<gridsnap>on</gridsnap>
+				</image>
+			</id-00019>
+			<id-00020>
+				<image type="image">
+					<bitmap>GreatStumpGrid.jpg</bitmap>
+					<gridsize>100</gridsize>
+					<gridoffset>99,98</gridoffset>
+					<gridsnap>on</gridsnap>
+					<tokens>
+						<idcounter>4</idcounter>
+						<scalelock>1.14679</scalelock>
+					</tokens>
+				</image>
+				<locked type="number">1</locked>
+				<nonid_name type="string">Forest Elder</nonid_name>
+			</id-00020>
 		</category>
 	</image>
 </root>
