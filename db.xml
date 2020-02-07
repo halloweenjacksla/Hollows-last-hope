@@ -4575,9 +4575,6 @@
 		<id-00007>
 			<masterindex type="string">image</masterindex>
 		</id-00007>
-		<id-00008>
-			<masterindex type="string">encounter</masterindex>
-		</id-00008>
 		<id-00009>
 			<encounter type="string">encounter.id-00020</encounter>
 		</id-00009>
@@ -4590,6 +4587,9 @@
 		<id-00013>
 			<export type="string">export</export>
 		</id-00013>
+		<id-00014>
+			<effectlist type="string">effects</effectlist>
+		</id-00014>
 	</windowsaver>
 	<windowsaverdesktop>
 	</windowsaverdesktop>
